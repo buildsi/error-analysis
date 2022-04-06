@@ -1,0 +1,18 @@
+[
+    "member kmp_base_info_t kmp_infoth constructor allowed union",
+    "member kmp_base_info_t kmp_infoth destructor allowed union",
+    "member kmp_base_info_t kmp_infoth constructor allowed union",
+    "member kmp_base_info_t kmp_infoth destructor allowed union",
+    "member kmp_base_info_t kmp_infoth constructor allowed union",
+    "member kmp_base_info_t kmp_infoth destructor allowed union",
+    "member kmp_base_info_t kmp_infoth constructor allowed union",
+    "member kmp_base_info_t kmp_infoth destructor allowed union",
+    "member kmp_base_info_t kmp_infoth constructor allowed union",
+    "member kmp_base_info_t kmp_infoth destructor allowed union",
+    "member kmp_base_info_t kmp_infoth constructor allowed union",
+    "member kmp_base_info_t kmp_infoth destructor allowed union",
+    "member kmp_base_info_t kmp_infoth constructor allowed union",
+    "member kmp_base_info_t kmp_infoth destructor allowed union",
+    "member kmp_base_info_t kmp_infoth constructor allowed union",
+    "member kmp_base_info_t kmp_infoth destructor allowed union"
+]

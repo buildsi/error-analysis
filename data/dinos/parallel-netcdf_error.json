@@ -1,0 +1,226 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 19    configure: error: The installed version of autoconf does not work.",
+            "pre_context": "     13    checking for perl... /usr/bin/perl\n     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... no",
+            "post_context": "     20        Please check config.log for error messages before this one.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-7hdhb4uxr6gssluuv33662pub4vm4vbm/spack-build-out.txt\n\nTraceback (most recent call last):"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 19    configure: error: The installed version of autoconf does not work.",
+            "pre_context": "     13    checking for perl... /usr/bin/perl\n     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... no",
+            "post_context": "     20        Please check config.log for error messages before this one.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-opqu5rypvlp4xvhqsbxkttfacufsidpm/spack-build-out.txt\n\nTraceback (most recent call last):"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 19    configure: error: The installed version of autoconf does not work.",
+            "pre_context": "     13    checking for perl... /usr/bin/perl\n     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... no",
+            "post_context": "     20        Please check config.log for error messages before this one.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-c6cy6yypsbbhbmxbie2rywlzlc2v3sao/spack-build-out.txt\n\nTraceback (most recent call last):"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 272,
+            "repeat_count": 0,
+            "start": 266,
+            "end": 279,
+            "text": ">> 809    configure: error: 'mxm/api/mxm_api.h or libmxm library not found. D",
+            "pre_context": "     803    checking for knem_io.h... no\n     804    configure: RUNNING CONFIGURE FOR ch3:nemesis:mxm\n     805    checking mxm/api/mxm_api.h usability... no\n     806    checking mxm/api/mxm_api.h presence... no\n     807    checking for mxm/api/mxm_api.h... no\n     808    checking for mxm_get_version in -lmxm... no",
+            "post_context": "            id you specify --with-mxm= or --with-mxm-include= or --with-mxm-lib\n            =?'\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.1.4-hhpzie7xda5zkaehetum3jkpglwqqya2/spack-build-out.txt\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 19    configure: error: The installed version of autoconf does not work.",
+            "pre_context": "     13    checking for perl... /usr/bin/perl\n     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... no",
+            "post_context": "     20        Please check config.log for error messages before this one.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-icgn7gtqgqnfjv7aoqowgzdhh7al7qsm/spack-build-out.txt\n\nTraceback (most recent call last):"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 19    configure: error: The installed version of autoconf does not work.",
+            "pre_context": "     13    checking for perl... /usr/bin/perl\n     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... no",
+            "post_context": "     20        Please check config.log for error messages before this one.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-7hdhb4uxr6gssluuv33662pub4vm4vbm/spack-build-out.txt\n\nTraceback (most recent call last):"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 19    configure: error: The installed version of autoconf does not work.",
+            "pre_context": "     13    checking for perl... /usr/bin/perl\n     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... no",
+            "post_context": "     20        Please check config.log for error messages before this one.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-c6cy6yypsbbhbmxbie2rywlzlc2v3sao/spack-build-out.txt\n\nTraceback (most recent call last):"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 19    configure: error: The installed version of autoconf does not work.",
+            "pre_context": "     13    checking for perl... /usr/bin/perl\n     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... no",
+            "post_context": "     20        Please check config.log for error messages before this one.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-7hdhb4uxr6gssluuv33662pub4vm4vbm/spack-build-out.txt\n\nTraceback (most recent call last):"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 519,
+            "repeat_count": 0,
+            "start": 513,
+            "end": 526,
+            "text": ">> 840    collect2: error: ld returned 1 exit status",
+            "pre_context": "  >> 838    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: ../../../src/libs/.libs/libpnetcdf.so: undefined r\n            eference to `_gfortran_string_trim'\n  >> 839    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: ../../../src/libs/.libs/libpnetcdf.so: undefined r\n            eference to `_gfortran_string_len_trim'",
+            "post_context": "  >> 841    make[3]: *** [ncmpigen] Error 1\n     842    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p\n            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src\n            /utils/ncmpigen'\n  >> 843    make[2]: *** [all-recursive] Error 1\n     844    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 520,
+            "repeat_count": 0,
+            "start": 514,
+            "end": 527,
+            "text": ">> 841    make[3]: *** [ncmpigen] Error 1",
+            "pre_context": "            dhat-linux/9/ld: ../../../src/libs/.libs/libpnetcdf.so: undefined r\n            eference to `_gfortran_string_trim'\n  >> 839    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: ../../../src/libs/.libs/libpnetcdf.so: undefined r\n            eference to `_gfortran_string_len_trim'\n  >> 840    collect2: error: ld returned 1 exit status",
+            "post_context": "     842    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p\n            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src\n            /utils/ncmpigen'\n  >> 843    make[2]: *** [all-recursive] Error 1\n     844    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p\n            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 524,
+            "repeat_count": 0,
+            "start": 518,
+            "end": 531,
+            "text": ">> 843    make[2]: *** [all-recursive] Error 1",
+            "pre_context": "            eference to `_gfortran_string_len_trim'\n  >> 840    collect2: error: ld returned 1 exit status\n  >> 841    make[3]: *** [ncmpigen] Error 1\n     842    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p\n            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src\n            /utils/ncmpigen'",
+            "post_context": "     844    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p\n            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src\n            /utils'\n  >> 845    make[1]: *** [all-recursive] Error 1\n     846    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p\n            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 528,
+            "repeat_count": 0,
+            "start": 522,
+            "end": 535,
+            "text": ">> 845    make[1]: *** [all-recursive] Error 1",
+            "pre_context": "            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src\n            /utils/ncmpigen'\n  >> 843    make[2]: *** [all-recursive] Error 1\n     844    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p\n            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src\n            /utils'",
+            "post_context": "     846    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p\n            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src\n            '\n  >> 847    make: *** [all-recursive] Error 1\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 532,
+            "repeat_count": 0,
+            "start": 526,
+            "end": 539,
+            "text": ">> 847    make: *** [all-recursive] Error 1",
+            "pre_context": "            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src\n            /utils'\n  >> 845    make[1]: *** [all-recursive] Error 1\n     846    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-p\n            arallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-src/src\n            '",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-parallel-netcdf-1.9.0-epwt7mfzpl5ua5jhem55iku6tahzkznu/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 19    configure: error: The installed version of autoconf does not work.",
+            "pre_context": "     13    checking for perl... /usr/bin/perl\n     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... no",
+            "post_context": "     20        Please check config.log for error messages before this one.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-icgn7gtqgqnfjv7aoqowgzdhh7al7qsm/spack-build-out.txt\n\nTraceback (most recent call last):"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 273,
+            "repeat_count": 0,
+            "start": 267,
+            "end": 280,
+            "text": ">> 809    configure: error: 'mxm/api/mxm_api.h or libmxm library not found. D",
+            "pre_context": "     803    checking for knem_io.h... no\n     804    configure: RUNNING CONFIGURE FOR ch3:nemesis:mxm\n     805    checking mxm/api/mxm_api.h usability... no\n     806    checking mxm/api/mxm_api.h presence... no\n     807    checking for mxm/api/mxm_api.h... no\n     808    checking for mxm_get_version in -lmxm... no",
+            "post_context": "            id you specify --with-mxm= or --with-mxm-include= or --with-mxm-lib\n            =?'\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.1.4-i3wlze7nmprsxlgsc3qwkhlih23qffep/spack-build-out.txt\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 19    configure: error: The installed version of autoconf does not work.",
+            "pre_context": "     13    checking for perl... /usr/bin/perl\n     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... no",
+            "post_context": "     20        Please check config.log for error messages before this one.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-icgn7gtqgqnfjv7aoqowgzdhh7al7qsm/spack-build-out.txt\n\nTraceback (most recent call last):"
+      }
+]

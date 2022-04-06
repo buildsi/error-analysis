@@ -1,0 +1,2216 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 494,
+            "repeat_count": 0,
+            "start": 488,
+            "end": 501,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            M/Power9.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 506,
+            "repeat_count": 0,
+            "start": 500,
+            "end": 513,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n     110    [  5%] Building C object variorum/IBM/CMakeFiles/variorum_ibm.dir/i\n            bm_sensors.c.o\n     111    cd /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojz"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 589,
+            "repeat_count": 0,
+            "start": 583,
+            "end": 596,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            3aw2o/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 364,
+            "repeat_count": 0,
+            "start": 358,
+            "end": 371,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            ljf6k2t3w/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg\n            zhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 381,
+            "repeat_count": 0,
+            "start": 375,
+            "end": 388,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            f6k2t3w/spack-build-pyakh4p/CMakeFiles 43\n     106    [  8%] In file included from /tmp/koparasy/spack-stage/spack-stage-\n            variorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/vario\n            rum/Nvidia/power_features.c:10:\n  >> 107    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg\n            zhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     108       12 | #include <nvml.h>\n     109          |          ^~~~~~~~\n     110    compilation terminated.\n     111    Building C object variorum/Intel/CMakeFiles/variorum_intel.dir/coun\n            ters_features.c.o\n     112    cd /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2te"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 460,
+            "repeat_count": 0,
+            "start": 454,
+            "end": 467,
+            "text": ">> 167    make: *** [all] Error 2",
+            "pre_context": "            sy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofgzhmc5y7q2lj\n            f6k2t3w/spack-build-pyakh4p/CMakeFiles  42 43 44 45 46 47 48 49 50\n            51 52 53 54\n     165    [ 30%] Built target variorum_intel\n     166    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 534,
+            "repeat_count": 0,
+            "start": 528,
+            "end": 541,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            degft/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-qw5z3ktkhrlggu35p7gf3x6rmuddegft/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-qw5z3ktkhrlggu\n            35p7gf3x6rmuddegft/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 546,
+            "repeat_count": 0,
+            "start": 540,
+            "end": 553,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-qw5z3ktkhrlggu35p7gf3x6rmuddegft/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-qw5z3ktkhrlggu\n            35p7gf3x6rmuddegft/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 621,
+            "repeat_count": 0,
+            "start": 615,
+            "end": 628,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            egft/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-qw5z3ktkhrlggu35p7gf3x6rmuddegft/spack-build-qw5z3kt'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-qw5z3ktkhrlggu35p7gf3x6rmuddegft/spack-build-qw5z3kt'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-qw5z3ktkhrlggu35p7gf3x6rmuddegft/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            k2hlav/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 512,
+            "repeat_count": 0,
+            "start": 506,
+            "end": 519,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 593,
+            "repeat_count": 0,
+            "start": 587,
+            "end": 600,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            2hlav/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 509,
+            "repeat_count": 0,
+            "start": 503,
+            "end": 516,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            pack-src/src/variorum/Intel/clocks_features.c\n     101    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 102    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg\n            zhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     103       12 | #include <nvml.h>\n     104          |          ^~~~~~~~\n     105    compilation terminated.\n  >> 106    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     107    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 521,
+            "repeat_count": 0,
+            "start": 515,
+            "end": 528,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     107    make[2]: *** Waiting for unfinished jobs....\n     108    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 109    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg\n            zhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     110       12 | #include <nvml.h>\n     111          |          ^~~~~~~~\n     112    compilation terminated.\n     113    [  5%] Building C object variorum/Intel/CMakeFiles/variorum_intel.d\n            ir/counters_features.c.o\n     114    cd /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2te"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 622,
+            "repeat_count": 0,
+            "start": 616,
+            "end": 629,
+            "text": ">> 155    make: *** [all] Error 2",
+            "pre_context": "            k-src/src/variorum/Intel/variorum_cpuid.c\n     152    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'\n     153    [ 19%] Built target variorum_intel\n     154    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 546,
+            "repeat_count": 0,
+            "start": 540,
+            "end": 553,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            asyuwc3y/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-42yxsiircayguz\n            u2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 574,
+            "repeat_count": 0,
+            "start": 568,
+            "end": 581,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            orum/IBM/ibm_sensors.c\n     107    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 108    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-42yxsiircayguz\n            u2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     109       12 | #include <nvml.h>\n     110          |          ^~~~~~~~\n     111    compilation terminated.\n  >> 112    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     113    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 650,
+            "repeat_count": 0,
+            "start": 644,
+            "end": 657,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            y/spack-src/src/variorum/Intel/msr_core.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-build-42yxsii'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-build-42yxsii'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 548,
+            "repeat_count": 0,
+            "start": 542,
+            "end": 555,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            nrf7n5ny/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-tjy4h77ism6aa6xkq66d3w6vnrf7n5ny/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-tjy4h77ism6aa6\n            xkq66d3w6vnrf7n5ny/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-tjy4h77ism6aa6xkq66d3w6vnrf7n5ny/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-tjy4h77ism6aa6"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 556,
+            "repeat_count": 0,
+            "start": 550,
+            "end": 563,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-tjy4h77ism6aa6xkq66d3w6vnrf7n5ny/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-tjy4h77ism6aa6\n            xkq66d3w6vnrf7n5ny/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 638,
+            "repeat_count": 0,
+            "start": 632,
+            "end": 645,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            rf7n5ny/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-tjy4h77ism6aa6xkq66d3w6vnrf7n5ny/spack-build-tjy4h77'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-tjy4h77ism6aa6xkq66d3w6vnrf7n5ny/spack-build-tjy4h77'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-tjy4h77ism6aa6xkq66d3w6vnrf7n5ny/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 495,
+            "repeat_count": 0,
+            "start": 489,
+            "end": 502,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            M/Power9.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 572,
+            "repeat_count": 0,
+            "start": 566,
+            "end": 579,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            l62dc/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            ml62dc/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 512,
+            "repeat_count": 0,
+            "start": 506,
+            "end": 519,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 594,
+            "repeat_count": 0,
+            "start": 588,
+            "end": 601,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            l62dc/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 565,
+            "repeat_count": 0,
+            "start": 559,
+            "end": 572,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            h4zcvn6/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 574,
+            "repeat_count": 0,
+            "start": 568,
+            "end": 581,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 104    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     105       12 | #include <nvml.h>\n     106          |          ^~~~~~~~\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     109    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 652,
+            "repeat_count": 0,
+            "start": 646,
+            "end": 659,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            4zcvn6/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 364,
+            "repeat_count": 0,
+            "start": 358,
+            "end": 371,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            oml62dc/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 376,
+            "repeat_count": 0,
+            "start": 370,
+            "end": 383,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 454,
+            "repeat_count": 0,
+            "start": 448,
+            "end": 461,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            ml62dc/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            2ts2dx/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 513,
+            "repeat_count": 0,
+            "start": 507,
+            "end": 520,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 104    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     105       12 | #include <nvml.h>\n     106          |          ^~~~~~~~\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     109    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 594,
+            "repeat_count": 0,
+            "start": 588,
+            "end": 601,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            ts2dx/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            m3aw2o/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 516,
+            "repeat_count": 0,
+            "start": 510,
+            "end": 523,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 594,
+            "repeat_count": 0,
+            "start": 588,
+            "end": 601,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            3aw2o/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            k2hlav/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 571,
+            "repeat_count": 0,
+            "start": 565,
+            "end": 578,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            2hlav/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            jf6k2t3w/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg\n            zhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 512,
+            "repeat_count": 0,
+            "start": 506,
+            "end": 519,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg\n            zhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 591,
+            "repeat_count": 0,
+            "start": 585,
+            "end": 598,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            f6k2t3w/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            jf6k2t3w/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg\n            zhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 562,
+            "repeat_count": 0,
+            "start": 556,
+            "end": 569,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            f6k2t3w/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 515,
+            "repeat_count": 0,
+            "start": 509,
+            "end": 522,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |         ^~~~~~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/IBM/ibm_sensors.c:163:13:\n             warning: implicit declaration of function 'strcmp' [-Wimplicit-fun"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 596,
+            "repeat_count": 0,
+            "start": 590,
+            "end": 603,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            h4zcvn6/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 546,
+            "repeat_count": 0,
+            "start": 540,
+            "end": 553,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            asyuwc3y/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-42yxsiircayguz\n            u2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 613,
+            "repeat_count": 0,
+            "start": 607,
+            "end": 620,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            syuwc3y/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-build-42yxsii'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-build-42yxsii'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            3jur4i/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 516,
+            "repeat_count": 0,
+            "start": 510,
+            "end": 523,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 591,
+            "repeat_count": 0,
+            "start": 585,
+            "end": 598,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            jur4i/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 491,
+            "repeat_count": 0,
+            "start": 485,
+            "end": 498,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            c/spack-src/src/variorum/Intel/clocks_features.c\n     96     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 97     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     98        12 | #include <nvml.h>\n     99           |          ^~~~~~~~\n     100    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 101    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 499,
+            "repeat_count": 0,
+            "start": 493,
+            "end": 506,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     99           |          ^~~~~~~~\n     100    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 101    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     102       12 | #include <nvml.h>\n     103          |          ^~~~~~~~\n     104    compilation terminated.\n     105    compilation terminated.\n  >> 106    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 580,
+            "repeat_count": 0,
+            "start": 574,
+            "end": 587,
+            "text": ">> 150    make: *** [all] Error 2",
+            "pre_context": "            /spack-src/src/variorum/Intel/variorum_cpuid.c\n     147    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'\n     148    [ 19%] Built target variorum_intel\n     149    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 364,
+            "repeat_count": 0,
+            "start": 358,
+            "end": 371,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            h3jur4i/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 373,
+            "repeat_count": 0,
+            "start": 367,
+            "end": 380,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 104    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     105       12 | #include <nvml.h>\n     106          |          ^~~~~~~~\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     109    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 453,
+            "repeat_count": 0,
+            "start": 447,
+            "end": 460,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            3jur4i/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            i/spack-src/src/variorum/Intel/clocks_features.c\n     104    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 105    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     106       12 | #include <nvml.h>\n     107          |          ^~~~~~~~\n     108    compilation terminated.\n     109    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 513,
+            "repeat_count": 0,
+            "start": 507,
+            "end": 520,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     108    compilation terminated.\n     109    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 110    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     111       12 | #include <nvml.h>\n     112          |          ^~~~~~~~\n     113    compilation terminated.\n  >> 114    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     115    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 593,
+            "repeat_count": 0,
+            "start": 587,
+            "end": 600,
+            "text": ">> 158    make: *** [all] Error 2",
+            "pre_context": "            /spack-src/src/variorum/Intel/variorum_cpuid.c\n     155    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'\n     156    [ 19%] Built target variorum_intel\n     157    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 560,
+            "repeat_count": 0,
+            "start": 554,
+            "end": 567,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            3nc5iysi/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-wzplg4udc64akkndgcfc7h4g3nc5iysi/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-wzplg4udc64akk\n            ndgcfc7h4g3nc5iysi/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-wzplg4udc64akkndgcfc7h4g3nc5iysi/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-wzplg4udc64akk"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 568,
+            "repeat_count": 0,
+            "start": 562,
+            "end": 575,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-wzplg4udc64akkndgcfc7h4g3nc5iysi/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-wzplg4udc64akk\n            ndgcfc7h4g3nc5iysi/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 650,
+            "repeat_count": 0,
+            "start": 644,
+            "end": 657,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            nc5iysi/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-wzplg4udc64akkndgcfc7h4g3nc5iysi/spack-build-wzplg4u'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-wzplg4udc64akkndgcfc7h4g3nc5iysi/spack-build-wzplg4u'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-wzplg4udc64akkndgcfc7h4g3nc5iysi/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 561,
+            "repeat_count": 0,
+            "start": 555,
+            "end": 568,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            hcwjehgkq/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfz\n            i2l74cczehcwjehgkq/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 578,
+            "repeat_count": 0,
+            "start": 572,
+            "end": 585,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            wjehgkq/spack-build-ascscxa/CMakeFiles 43\n     106    [  8%] In file included from /tmp/koparasy/spack-stage/spack-stage-\n            variorum-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-src/src/vario\n            rum/Nvidia/power_features.c:10:\n  >> 107    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfz\n            i2l74cczehcwjehgkq/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     108       12 | #include <nvml.h>\n     109          |          ^~~~~~~~\n     110    compilation terminated.\n  >> 111    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     112    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 650,
+            "repeat_count": 0,
+            "start": 644,
+            "end": 657,
+            "text": ">> 167    make: *** [all] Error 2",
+            "pre_context": "            sy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfzi2l74cczehc\n            wjehgkq/spack-build-ascscxa/CMakeFiles  42 43 44 45 46 47 48 49 50\n            51 52 53 54\n     165    [ 30%] Built target variorum_intel\n     166    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-build-ascscxa'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            ml62dc/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 516,
+            "repeat_count": 0,
+            "start": 510,
+            "end": 523,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 591,
+            "repeat_count": 0,
+            "start": 585,
+            "end": 598,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            l62dc/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            v/spack-src/src/variorum/Intel/clocks_features.c\n     104    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 105    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     106       12 | #include <nvml.h>\n     107          |          ^~~~~~~~\n     108    compilation terminated.\n     109    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 513,
+            "repeat_count": 0,
+            "start": 507,
+            "end": 520,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     108    compilation terminated.\n     109    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 110    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     111       12 | #include <nvml.h>\n     112          |          ^~~~~~~~\n     113    compilation terminated.\n  >> 114    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     115    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 593,
+            "repeat_count": 0,
+            "start": 587,
+            "end": 600,
+            "text": ">> 158    make: *** [all] Error 2",
+            "pre_context": "            /spack-src/src/variorum/Intel/variorum_cpuid.c\n     155    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'\n     156    [ 19%] Built target variorum_intel\n     157    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 502,
+            "repeat_count": 0,
+            "start": 496,
+            "end": 509,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            m3aw2o/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 569,
+            "repeat_count": 0,
+            "start": 563,
+            "end": 576,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            3aw2o/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 505,
+            "repeat_count": 0,
+            "start": 499,
+            "end": 512,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            c/spack-src/src/variorum/Intel/clocks_features.c\n     104    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 105    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     106       12 | #include <nvml.h>\n     107          |          ^~~~~~~~\n     108    compilation terminated.\n  >> 109    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     110    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 519,
+            "repeat_count": 0,
+            "start": 513,
+            "end": 526,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            ir/counters_features.c.o\n     112    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 113    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     114       12 | #include <nvml.h>\n     115          |          ^~~~~~~~\n     116    compilation terminated.\n     117    cd /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxs\n            tp72ysaaohoe3foml62dc/spack-build-6ce6jm2/variorum/Intel && /p/vast\n            1/koparasy/BUILD/head/spack/lib/spack/env/gcc/gcc  -I/tmp/koparasy/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 608,
+            "repeat_count": 0,
+            "start": 602,
+            "end": 615,
+            "text": ">> 158    make: *** [all] Error 2",
+            "pre_context": "            /spack-src/src/variorum/Intel/variorum_cpuid.c\n     155    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'\n     156    [ 19%] Built target variorum_intel\n     157    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 353,
+            "repeat_count": 0,
+            "start": 347,
+            "end": 360,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            uk2hlav/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 365,
+            "repeat_count": 0,
+            "start": 359,
+            "end": 372,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 442,
+            "repeat_count": 0,
+            "start": 436,
+            "end": 449,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            k2hlav/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 506,
+            "repeat_count": 0,
+            "start": 500,
+            "end": 513,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            2ts2dx/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 514,
+            "repeat_count": 0,
+            "start": 508,
+            "end": 521,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 595,
+            "repeat_count": 0,
+            "start": 589,
+            "end": 602,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            ts2dx/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 502,
+            "repeat_count": 0,
+            "start": 496,
+            "end": 509,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            i/spack-src/src/variorum/Intel/clocks_features.c\n     104    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 105    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     106       12 | #include <nvml.h>\n     107          |          ^~~~~~~~\n     108    compilation terminated.\n  >> 109    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     110    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 569,
+            "repeat_count": 0,
+            "start": 563,
+            "end": 576,
+            "text": ">> 149    make: *** [all] Error 2",
+            "pre_context": "            /spack-src/src/variorum/Intel/variorum_cpuid.c\n     146    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'\n     147    [ 18%] Built target variorum_intel\n     148    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 491,
+            "repeat_count": 0,
+            "start": 485,
+            "end": 498,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            3jur4i/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 499,
+            "repeat_count": 0,
+            "start": 493,
+            "end": 506,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 580,
+            "repeat_count": 0,
+            "start": 574,
+            "end": 587,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            jur4i/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            2ts2dx/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n     103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/IBM/ibm_sensors.c: In fun\n            ction 'print_power_sensors':"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 578,
+            "repeat_count": 0,
+            "start": 572,
+            "end": 585,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            ts2dx/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 550,
+            "repeat_count": 0,
+            "start": 544,
+            "end": 557,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            ta4jcymu/spack-src/src/variorum/Intel/clocks_features.c\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-bxzdgmce4ova2lr27zcggiketa4jcymu/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-bxzdgmce4ova2l\n            r27zcggiketa4jcymu/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n  >> 107    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     108    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 567,
+            "repeat_count": 0,
+            "start": 561,
+            "end": 574,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            a4jcymu/spack-build-bxzdgmc/CMakeFiles 43\n     110    [  8%] In file included from /tmp/koparasy/spack-stage/spack-stage-\n            variorum-0.2.0-bxzdgmce4ova2lr27zcggiketa4jcymu/spack-src/src/vario\n            rum/Nvidia/power_features.c:10:\n  >> 111    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-bxzdgmce4ova2l\n            r27zcggiketa4jcymu/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     112       12 | #include <nvml.h>\n     113          |          ^~~~~~~~\n     114    compilation terminated.\n  >> 115    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     116    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 641,
+            "repeat_count": 0,
+            "start": 635,
+            "end": 648,
+            "text": ">> 171    make: *** [all] Error 2",
+            "pre_context": "            sy/spack-stage/spack-stage-variorum-0.2.0-bxzdgmce4ova2lr27zcggiket\n            a4jcymu/spack-build-bxzdgmc/CMakeFiles  42 43 44 45 46 47 48 49 50\n            51 52 53 54\n     169    [ 30%] Built target variorum_intel\n     170    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-bxzdgmce4ova2lr27zcggiketa4jcymu/spack-build-bxzdgmc'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-bxzdgmce4ova2lr27zcggiketa4jcymu/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 560,
+            "repeat_count": 0,
+            "start": 554,
+            "end": 567,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            hcwjehgkq/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfz\n            i2l74cczehcwjehgkq/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 569,
+            "repeat_count": 0,
+            "start": 563,
+            "end": 576,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 104    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfz\n            i2l74cczehcwjehgkq/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     105       12 | #include <nvml.h>\n     106          |          ^~~~~~~~\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     109    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 647,
+            "repeat_count": 0,
+            "start": 641,
+            "end": 654,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            cwjehgkq/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-build-ascscxa'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-build-ascscxa'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 491,
+            "repeat_count": 0,
+            "start": 485,
+            "end": 498,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            ml62dc/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 502,
+            "repeat_count": 0,
+            "start": 496,
+            "end": 509,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            c.o] Error 1\n     104    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 105    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     106       12 | #include <nvml.h>\n     107          |          ^~~~~~~~\n     108    compilation terminated.\n     109    make[2]: *** Waiting for unfinished jobs....\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 578,
+            "repeat_count": 0,
+            "start": 572,
+            "end": 585,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            l62dc/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 365,
+            "repeat_count": 0,
+            "start": 359,
+            "end": 372,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            h3jur4i/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 374,
+            "repeat_count": 0,
+            "start": 368,
+            "end": 381,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 104    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     105       12 | #include <nvml.h>\n     106          |          ^~~~~~~~\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     109    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 455,
+            "repeat_count": 0,
+            "start": 449,
+            "end": 462,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            3jur4i/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 505,
+            "repeat_count": 0,
+            "start": 499,
+            "end": 512,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            2ts2dx/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 514,
+            "repeat_count": 0,
+            "start": 508,
+            "end": 521,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 104    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     105       12 | #include <nvml.h>\n     106          |          ^~~~~~~~\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     109    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 595,
+            "repeat_count": 0,
+            "start": 589,
+            "end": 602,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            ts2dx/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            3jur4i/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 516,
+            "repeat_count": 0,
+            "start": 510,
+            "end": 523,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 593,
+            "repeat_count": 0,
+            "start": 587,
+            "end": 600,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            jur4i/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 466,
+            "repeat_count": 0,
+            "start": 460,
+            "end": 473,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104          |             ^~~~~~\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg\n            zhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 541,
+            "repeat_count": 0,
+            "start": 535,
+            "end": 548,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            f6k2t3w/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 339,
+            "repeat_count": 0,
+            "start": 333,
+            "end": 346,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            iw3aaye/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-vve7eund5vrvciqiqhiqpkthhiw3aaye/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-vve7eund5vrvci\n            qiqhiqpkthhiw3aaye/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-vve7eund5vrvciqiqhiqpkthhiw3aaye/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-vve7eund5vrvci"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 347,
+            "repeat_count": 0,
+            "start": 341,
+            "end": 354,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-vve7eund5vrvciqiqhiqpkthhiw3aaye/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-vve7eund5vrvci\n            qiqhiqpkthhiw3aaye/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 429,
+            "repeat_count": 0,
+            "start": 423,
+            "end": 436,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            w3aaye/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-vve7eund5vrvciqiqhiqpkthhiw3aaye/spack-build-vve7eun'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-vve7eund5vrvciqiqhiqpkthhiw3aaye/spack-build-vve7eun'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-vve7eund5vrvciqiqhiqpkthhiw3aaye/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 569,
+            "repeat_count": 0,
+            "start": 563,
+            "end": 576,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            ack-src/src/variorum/Intel/clocks_features.c\n     101    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 102    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     103       12 | #include <nvml.h>\n     104          |          ^~~~~~~~\n     105    compilation terminated.\n  >> 106    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     107    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 581,
+            "repeat_count": 0,
+            "start": 575,
+            "end": 588,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     107    make[2]: *** Waiting for unfinished jobs....\n     108    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 109    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     110       12 | #include <nvml.h>\n     111          |          ^~~~~~~~\n     112    compilation terminated.\n  >> 113    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     114    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 664,
+            "repeat_count": 0,
+            "start": 658,
+            "end": 671,
+            "text": ">> 155    make: *** [all] Error 2",
+            "pre_context": "            -src/src/variorum/Intel/variorum_cpuid.c\n     152    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'\n     153    [ 19%] Built target variorum_intel\n     154    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 546,
+            "repeat_count": 0,
+            "start": 540,
+            "end": 553,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            hcwjehgkq/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfz\n            i2l74cczehcwjehgkq/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 558,
+            "repeat_count": 0,
+            "start": 552,
+            "end": 565,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfz\n            i2l74cczehcwjehgkq/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 633,
+            "repeat_count": 0,
+            "start": 627,
+            "end": 640,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            cwjehgkq/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-build-ascscxa'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-build-ascscxa'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-ascscxazadhwfzi2l74cczehcwjehgkq/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 508,
+            "repeat_count": 0,
+            "start": 502,
+            "end": 515,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            w2o/spack-src/src/variorum/Nvidia/Volta.c\n     101    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 102    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     103       12 | #include <nvml.h>\n     104          |          ^~~~~~~~\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 516,
+            "repeat_count": 0,
+            "start": 510,
+            "end": 523,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104          |          ^~~~~~~~\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n     110    compilation terminated.\n  >> 111    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 603,
+            "repeat_count": 0,
+            "start": 597,
+            "end": 610,
+            "text": ">> 155    make: *** [all] Error 2",
+            "pre_context": "            src/src/variorum/Intel/variorum_cpuid.c\n     152    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'\n     153    [ 19%] Built target variorum_intel\n     154    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 491,
+            "repeat_count": 0,
+            "start": 485,
+            "end": 498,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            m3aw2o/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 503,
+            "repeat_count": 0,
+            "start": 497,
+            "end": 510,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 581,
+            "repeat_count": 0,
+            "start": 575,
+            "end": 588,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            3aw2o/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 527,
+            "repeat_count": 0,
+            "start": 521,
+            "end": 534,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104          |             ^~~~~~\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 602,
+            "repeat_count": 0,
+            "start": 596,
+            "end": 609,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            4zcvn6/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 516,
+            "repeat_count": 0,
+            "start": 510,
+            "end": 523,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            ml62dc/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp7\n            2ysaaohoe3foml62dc/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 574,
+            "repeat_count": 0,
+            "start": 568,
+            "end": 581,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            l62dc/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-6ce6jm2'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-6ce6jm2qmxstp72ysaaohoe3foml62dc/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 368,
+            "repeat_count": 0,
+            "start": 362,
+            "end": 375,
+            "text": "dhat-linux/9/ld: cannot find -lPUBLIC",
+            "pre_context": "            cluster_installer/quartz/variorum/spack_env_dir/linux-rhel7-broadwe\n            ll/gcc-9.3.1/hwloc-2.0.1-ylrry6astpwo34xtqfu5x67nxdvlzr2q/lib/libhw\n            loc.so -lm -Wl,-rpath,/p/vast1/koparasy/BUILD/spack_cluster_install\n            er/quartz/variorum/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/hw\n            loc-2.0.1-ylrry6astpwo34xtqfu5x67nxdvlzr2q/lib:::\n  >> 163    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re",
+            "post_context": "  >> 164    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: cannot find -lPUBLIC\n  >> 165    collect2: error: ld returned 1 exit status\n  >> 166    make[2]: *** [variorum/libvariorum.so] Error 1\n     167    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 370,
+            "repeat_count": 0,
+            "start": 364,
+            "end": 377,
+            "text": "dhat-linux/9/ld: cannot find -lPUBLIC",
+            "pre_context": "            loc.so -lm -Wl,-rpath,/p/vast1/koparasy/BUILD/spack_cluster_install\n            er/quartz/variorum/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/hw\n            loc-2.0.1-ylrry6astpwo34xtqfu5x67nxdvlzr2q/lib:::\n  >> 163    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: cannot find -lPUBLIC\n  >> 164    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re",
+            "post_context": "  >> 165    collect2: error: ld returned 1 exit status\n  >> 166    make[2]: *** [variorum/libvariorum.so] Error 1\n     167    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'\n  >> 168    make[1]: *** [variorum/CMakeFiles/variorum.dir/all] Error 2\n     169    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 371,
+            "repeat_count": 0,
+            "start": 365,
+            "end": 378,
+            "text": ">> 165    collect2: error: ld returned 1 exit status",
+            "pre_context": "            er/quartz/variorum/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/hw\n            loc-2.0.1-ylrry6astpwo34xtqfu5x67nxdvlzr2q/lib:::\n  >> 163    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: cannot find -lPUBLIC\n  >> 164    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: cannot find -lPUBLIC",
+            "post_context": "  >> 166    make[2]: *** [variorum/libvariorum.so] Error 1\n     167    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'\n  >> 168    make[1]: *** [variorum/CMakeFiles/variorum.dir/all] Error 2\n     169    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 372,
+            "repeat_count": 0,
+            "start": 366,
+            "end": 379,
+            "text": ">> 166    make[2]: *** [variorum/libvariorum.so] Error 1",
+            "pre_context": "            loc-2.0.1-ylrry6astpwo34xtqfu5x67nxdvlzr2q/lib:::\n  >> 163    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: cannot find -lPUBLIC\n  >> 164    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: cannot find -lPUBLIC\n  >> 165    collect2: error: ld returned 1 exit status",
+            "post_context": "     167    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'\n  >> 168    make[1]: *** [variorum/CMakeFiles/variorum.dir/all] Error 2\n     169    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'\n  >> 170    make: *** [all] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 375,
+            "repeat_count": 0,
+            "start": 369,
+            "end": 382,
+            "text": ">> 168    make[1]: *** [variorum/CMakeFiles/variorum.dir/all] Error 2",
+            "pre_context": "  >> 164    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-re\n            dhat-linux/9/ld: cannot find -lPUBLIC\n  >> 165    collect2: error: ld returned 1 exit status\n  >> 166    make[2]: *** [variorum/libvariorum.so] Error 1\n     167    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'",
+            "post_context": "     169    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'\n  >> 170    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 378,
+            "repeat_count": 0,
+            "start": 372,
+            "end": 385,
+            "text": ">> 170    make: *** [all] Error 2",
+            "pre_context": "  >> 166    make[2]: *** [variorum/libvariorum.so] Error 1\n     167    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'\n  >> 168    make[1]: *** [variorum/CMakeFiles/variorum.dir/all] Error 2\n     169    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-sjuj2f7'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.1.0-sjuj2f7n3lujszqsceayrpjm536pubrz/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            m3aw2o/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 513,
+            "repeat_count": 0,
+            "start": 507,
+            "end": 520,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 104    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     105       12 | #include <nvml.h>\n     106          |          ^~~~~~~~\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     109    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 593,
+            "repeat_count": 0,
+            "start": 587,
+            "end": 600,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            3aw2o/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            2ts2dx/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 516,
+            "repeat_count": 0,
+            "start": 510,
+            "end": 523,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 594,
+            "repeat_count": 0,
+            "start": 588,
+            "end": 601,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            ts2dx/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            2ts2dx/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 516,
+            "repeat_count": 0,
+            "start": 510,
+            "end": 523,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7\n            m37chjogaq2n2ts2dx/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 591,
+            "repeat_count": 0,
+            "start": 585,
+            "end": 598,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            ts2dx/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-e53x54a'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-e53x54auk53it7m37chjogaq2n2ts2dx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 493,
+            "repeat_count": 0,
+            "start": 487,
+            "end": 500,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            3jur4i/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 519,
+            "repeat_count": 0,
+            "start": 513,
+            "end": 526,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            7h3jur4i/spack-src/src/variorum/Intel/counters_features.c\n     107    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 108    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawx\n            a4dvwvwtuc7h3jur4i/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     109       12 | #include <nvml.h>\n     110          |          ^~~~~~~~\n     111    compilation terminated.\n  >> 112    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     113    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 596,
+            "repeat_count": 0,
+            "start": 590,
+            "end": 603,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            jur4i/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-xcwavxn'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-xcwavxna2cmawxa4dvwvwtuc7h3jur4i/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 125,
+            "repeat_count": 0,
+            "start": 119,
+            "end": 132,
+            "text": "ses-6.2-lzkvih6i6e7orod2mcjemp44xlsprkiv/lib/libtinfo.so.6: error",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/ccmake.dir/CursesDialog/ccmake.cxx.o:\n              undefined reference to symbol 'cbreak@@@@NCURSES6_TINFO_5.0.1999102\n             3'\n  >> 1892    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: /p/vast1/koparasy/BUILD/spack_cluster_installer/\n             quartz/variorum/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/ncur",
+            "post_context": "             adding symbols: DSO missing from command line\n  >> 1893    collect2: error: ld returned 1 exit status\n  >> 1894    make[2]: *** [bin/ccmake] Error 1\n  >> 1895    make[1]: *** [Source/CMakeFiles/ccmake.dir/all] Error 2\n     1896    make[1]: *** Waiting for unfinished jobs....\n     1897    [ 89%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 127,
+            "repeat_count": 0,
+            "start": 121,
+            "end": 134,
+            "text": ">> 1893    collect2: error: ld returned 1 exit status",
+            "pre_context": "             3'\n  >> 1892    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: /p/vast1/koparasy/BUILD/spack_cluster_installer/\n             quartz/variorum/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/ncur\n             ses-6.2-lzkvih6i6e7orod2mcjemp44xlsprkiv/lib/libtinfo.so.6: error\n             adding symbols: DSO missing from command line",
+            "post_context": "  >> 1894    make[2]: *** [bin/ccmake] Error 1\n  >> 1895    make[1]: *** [Source/CMakeFiles/ccmake.dir/all] Error 2\n     1896    make[1]: *** Waiting for unfinished jobs....\n     1897    [ 89%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm\n             CPackSTGZGenerator.cxx.o\n     1898    [ 89%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 128,
+            "repeat_count": 0,
+            "start": 122,
+            "end": 135,
+            "text": ">> 1894    make[2]: *** [bin/ccmake] Error 1",
+            "pre_context": "  >> 1892    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: /p/vast1/koparasy/BUILD/spack_cluster_installer/\n             quartz/variorum/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/ncur\n             ses-6.2-lzkvih6i6e7orod2mcjemp44xlsprkiv/lib/libtinfo.so.6: error\n             adding symbols: DSO missing from command line\n  >> 1893    collect2: error: ld returned 1 exit status",
+            "post_context": "  >> 1895    make[1]: *** [Source/CMakeFiles/ccmake.dir/all] Error 2\n     1896    make[1]: *** Waiting for unfinished jobs....\n     1897    [ 89%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm\n             CPackSTGZGenerator.cxx.o\n     1898    [ 89%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm\n             CPackTGZGenerator.cxx.o"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 129,
+            "repeat_count": 0,
+            "start": 123,
+            "end": 136,
+            "text": ">> 1895    make[1]: *** [Source/CMakeFiles/ccmake.dir/all] Error 2",
+            "pre_context": "             edhat-linux/9/ld: /p/vast1/koparasy/BUILD/spack_cluster_installer/\n             quartz/variorum/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/ncur\n             ses-6.2-lzkvih6i6e7orod2mcjemp44xlsprkiv/lib/libtinfo.so.6: error\n             adding symbols: DSO missing from command line\n  >> 1893    collect2: error: ld returned 1 exit status\n  >> 1894    make[2]: *** [bin/ccmake] Error 1",
+            "post_context": "     1896    make[1]: *** Waiting for unfinished jobs....\n     1897    [ 89%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm\n             CPackSTGZGenerator.cxx.o\n     1898    [ 89%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm\n             CPackTGZGenerator.cxx.o\n     1899    [ 89%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cm"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 154,
+            "repeat_count": 0,
+            "start": 148,
+            "end": 161,
+            "text": ">> 1961    make: *** [all] Error 2",
+            "pre_context": "     1957    [ 98%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cm\n             CTestGIT.cxx.o\n     1958    [ 98%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cm\n             CTestHG.cxx.o\n     1959    Linking CXX static library libCTestLib.a\n     1960    [ 98%] Built target CTestLib",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-cmake-2.8.10.2-nvmtypwdaxe3ci3vhmsdqq26ytvdqeqj/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            k2hlav/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 516,
+            "repeat_count": 0,
+            "start": 510,
+            "end": 523,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 591,
+            "repeat_count": 0,
+            "start": 585,
+            "end": 598,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            2hlav/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 565,
+            "repeat_count": 0,
+            "start": 559,
+            "end": 572,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            h4zcvn6/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 573,
+            "repeat_count": 0,
+            "start": 567,
+            "end": 580,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 654,
+            "repeat_count": 0,
+            "start": 648,
+            "end": 661,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            4zcvn6/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 565,
+            "repeat_count": 0,
+            "start": 559,
+            "end": 572,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            .c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 591,
+            "repeat_count": 0,
+            "start": 585,
+            "end": 598,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            5uh4zcvn6/spack-src/src/variorum/Intel/counters_features.c\n     107    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 108    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpy\n            w3tzjmgiz5uh4zcvn6/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     109       12 | #include <nvml.h>\n     110          |          ^~~~~~~~\n     111    compilation terminated.\n  >> 112    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     113    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 660,
+            "repeat_count": 0,
+            "start": 654,
+            "end": 667,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            4zcvn6/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-owmypmk'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-owmypmksbqntpyw3tzjmgiz5uh4zcvn6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            k2hlav/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 512,
+            "repeat_count": 0,
+            "start": 506,
+            "end": 519,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     101          |          ^~~~~~~~\n     102    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 103    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhsk\n            ve7sgqkidfeuk2hlav/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     104       12 | #include <nvml.h>\n     105          |          ^~~~~~~~\n     106    compilation terminated.\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 594,
+            "repeat_count": 0,
+            "start": 588,
+            "end": 601,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            2hlav/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-63zice6'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-63zice6yjmbhskve7sgqkidfeuk2hlav/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 548,
+            "repeat_count": 0,
+            "start": 542,
+            "end": 555,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            asyuwc3y/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-42yxsiircayguz\n            u2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 557,
+            "repeat_count": 0,
+            "start": 551,
+            "end": 564,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     102    compilation terminated.\n     103    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 104    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-42yxsiircayguz\n            u2n23bjlvvasyuwc3y/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     105       12 | #include <nvml.h>\n     106          |          ^~~~~~~~\n     107    compilation terminated.\n  >> 108    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     109    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 638,
+            "repeat_count": 0,
+            "start": 632,
+            "end": 645,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            syuwc3y/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-build-42yxsii'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-build-42yxsii'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-42yxsiircayguzu2n23bjlvvasyuwc3y/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 493,
+            "repeat_count": 0,
+            "start": 487,
+            "end": 500,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            m3aw2o/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: *** Waiting for unfinished jobs...."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 505,
+            "repeat_count": 0,
+            "start": 499,
+            "end": 512,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "     104    make[2]: *** Waiting for unfinished jobs....\n     105    In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvi\n            dia/power_features.c:10:\n  >> 106    /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6\n            e5wa2to252hcm3aw2o/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     107       12 | #include <nvml.h>\n     108          |          ^~~~~~~~\n     109    compilation terminated.\n  >> 110    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/power_\n            features.c.o] Error 1\n     111    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 583,
+            "repeat_count": 0,
+            "start": 577,
+            "end": 590,
+            "text": ">> 152    make: *** [all] Error 2",
+            "pre_context": "            3aw2o/spack-src/src/variorum/Intel/variorum_cpuid.c\n     149    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'\n     150    [ 19%] Built target variorum_intel\n     151    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-czns4qx'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-czns4qxkojzgo6e5wa2to252hcm3aw2o/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            2",
+            "source_line_no": "1",
+            "line_no": 504,
+            "repeat_count": 0,
+            "start": 498,
+            "end": 511,
+            "text": "2:10: fatal error: nvml.h: No such file or directory",
+            "pre_context": "            jf6k2t3w/spack-src/src/variorum/Intel/clocks_features.c\n     98     In file included from /tmp/koparasy/spack-stage/spack-stage-varioru\n            m-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvi\n            dia/Volta.c:12:\n  >> 99     /tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofg\n            zhmc5y7q2ljf6k2t3w/spack-src/src/variorum/Nvidia/power_features.h:1",
+            "post_context": "     100       12 | #include <nvml.h>\n     101          |          ^~~~~~~~\n     102    compilation terminated.\n  >> 103    make[2]: *** [variorum/Nvidia/CMakeFiles/variorum_nvidia.dir/Volta.\n            c.o] Error 1\n     104    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 571,
+            "repeat_count": 0,
+            "start": 565,
+            "end": 578,
+            "text": ">> 143    make: *** [all] Error 2",
+            "pre_context": "            f6k2t3w/spack-src/src/variorum/Intel/variorum_cpuid.c\n     140    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'\n     141    [ 18%] Built target variorum_intel\n     142    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-v\n            ariorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-pyakh4p'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-variorum-0.2.0-pyakh4pw2teofgzhmc5y7q2ljf6k2t3w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

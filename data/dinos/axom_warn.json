@@ -1,0 +1,14 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": "            y.hpp",
+            "source_line_no": "5",
+            "line_no": 1746,
+            "repeat_count": 0,
+            "start": 1740,
+            "end": 1753,
+            "text": "y.hpp:53:7: warning: '<anonymous>.axom::inlet::VariantKey::m_int' m",
+            "pre_context": "            p\n\n     ...\n\n     505    /tmp/koparasy/spack-stage/spack-stage-axom-develop-lpepxmztvap6fqgw\n            a5f3mgwxhpn4h36z/spack-src/src/axom/core/../../axom/inlet/VariantKe",
+            "post_context": "            ay be used uninitialized in this function [-Wmaybe-uninitialized]\n     506     class VariantKey\n     507           ^~~~~~~~~~\n     508    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            xom-develop-lpepxmztvap6fqgwa5f3mgwxhpn4h36z/spack-build-lpepxmz'\n     509    [ 25%] Built target inlet"
+      }
+]

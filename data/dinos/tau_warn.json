@@ -1,0 +1,38 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": "     4194    rx-dis.c",
+            "source_line_no": "1",
+            "line_no": 622,
+            "repeat_count": 0,
+            "start": 616,
+            "end": 629,
+            "text": "4194    rx-dis.c:103:3: warning: suspicious concatenation of string litera",
+            "pre_context": "             bfd -I/var/tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-ne\n             gfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/opcodes/../include -I/var\n             /tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-negfgdsjnwrl\n             v5hmycc4gj27qbbp27oj/spack-src/opcodes/../bfd -W -Wall -Wstrict-pr\n             ototypes -Wmissing-prototypes -Wshadow -g -O2 -c rx-dis.c  -fPIC -\n             DPIC -o .libs/rx-dis.o",
+            "post_context": "             ls in an array initialization; did you mean to separate the elemen\n             ts with a comma? [-Wstring-concatenation]\n\n     ...\n\n     4337    make[4]: Entering directory `/tmp/koparasy/spack-stage/spack-stage"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             h",
+            "source_line_no": "1",
+            "line_no": 327,
+            "repeat_count": 0,
+            "start": 321,
+            "end": 334,
+            "text": "h:170:7: warning: 'std::unique_ptr<_Tp, _Dp>::unique_ptr(std::uniq",
+            "pre_context": "             ..)); }\n     1875                                  ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n             ~~~\n     1876    [ 70%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmRST.cx\n             x.o\n     1877    /usr/tce/packages/gcc/gcc-6.1.0/include/c++/6.1.0/bits/unique_ptr.",
+            "post_context": "             ue_ptr<_Tp, _Dp>::pointer) noexcept [with _Tp = {anonymous}::cmQtA\n             utoMocUicT::JobCompileUicT; _Dp = std::default_delete<{anonymous}:\n             :cmQtAutoMocUicT::JobCompileUicT>]' used but never defined\n     1878           unique_ptr(pointer __p) noexcept\n     1879           ^~~~~~~~~~\n  >> 1880    make[2]: *** [Source/CMakeFiles/CMakeLib.dir/cmQtAutoMocUic.cxx.o]"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             xx45cfmix56ttnqqmb/spack-src/lib/cdefs.h",
+            "source_line_no": "4",
+            "line_no": 105,
+            "repeat_count": 0,
+            "start": 99,
+            "end": 112,
+            "text": "xx45cfmix56ttnqqmb/spack-src/lib/cdefs.h(447): warning #47: incomp",
+            "pre_context": "\n7 errors found in build log:\n     2190                     from /var/tmp/koparasy/spack-stage/spack-stage-m4\n             -1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/lib/canonicaliz\n             e.c(31):\n     2191    /var/tmp/koparasy/spack-stage/spack-stage-m4-1.4.19-qh3aruh4bd7rt2",
+            "post_context": "             atible redefinition of macro \"__glibc_likely\" (declared at line 38\n             6 of \"/usr/include/sys/cdefs.h\")\n     2192      # define __glibc_likely(cond)\t__builtin_expect ((cond), 1)\n     2193               ^\n     2194\n     2195    In file included from /var/tmp/koparasy/spack-stage/spack-stage-m4"
+      }
+]

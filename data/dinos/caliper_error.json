@@ -1,0 +1,142 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 455,
+            "repeat_count": 0,
+            "start": 449,
+            "end": 462,
+            "text": ">> 449    x86_64/Gtrace.c:238:3: error: 'for' loop initial declarations are o",
+            "pre_context": "            y6xx6vp6nctotfh/spack-src/include/tdep-x86_64 -I. -g -O2 -D_GNU_SOU\n            RCE -DNDEBUG -MT x86_64/getcontext.lo -MD -MP -MF x86_64/.deps/getc\n            ontext.Tpo -c x86_64/getcontext.S -o x86_64/getcontext.o >/dev/null\n             2>&1\n     447    In file included from x86_64/Ltrace.c:4:0:\n     448    x86_64/Gtrace.c: In function 'trace_init_addr':",
+            "post_context": "            nly allowed in C99 or C11 mode\n     450       for(int i = 0; i < DWARF_NUM_PRESERVED_REGS; i++) {\n     451       ^\n     452    x86_64/Gtrace.c:238:3: note: use option -std=c99, -std=gnu99, -std=\n            c11 or -std=gnu11 to compile your code\n  >> 453    make[2]: *** [x86_64/Ltrace.lo] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 461,
+            "repeat_count": 0,
+            "start": 455,
+            "end": 468,
+            "text": ">> 453    make[2]: *** [x86_64/Ltrace.lo] Error 1",
+            "pre_context": "  >> 449    x86_64/Gtrace.c:238:3: error: 'for' loop initial declarations are o\n            nly allowed in C99 or C11 mode\n     450       for(int i = 0; i < DWARF_NUM_PRESERVED_REGS; i++) {\n     451       ^\n     452    x86_64/Gtrace.c:238:3: note: use option -std=c99, -std=gnu99, -std=\n            c11 or -std=gnu11 to compile your code",
+            "post_context": "     454    make[2]: *** Waiting for unfinished jobs....\n     455    libtool: compile:  /p/vast1/koparasy/BUILD/head/spack/lib/spack/env\n            /gcc/gcc -DHAVE_CONFIG_H -I. -I/var/tmp/koparasy/spack-stage/spack-\n            stage-libunwind-master-fuv5cklbrp7xsrpray6xx6vp6nctotfh/spack-src/s\n            rc -I../include -I/var/tmp/koparasy/spack-stage/spack-stage-libunwi\n            nd-master-fuv5cklbrp7xsrpray6xx6vp6nctotfh/spack-src/include -I/var"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 475,
+            "repeat_count": 0,
+            "start": 469,
+            "end": 482,
+            "text": ">> 457    make[1]: *** [all] Error 2",
+            "pre_context": "            srpray6xx6vp6nctotfh/spack-src/include/tdep-x86_64 -I. -D_GNU_SOURC\n            E -DNDEBUG -g -O2 -fexceptions -Wall -Wsign-compare -D__EXTENSIONS_\n            _ -MT elf64.lo -MD -MP -MF .deps/elf64.Tpo -c elf64.c -o elf64.o >/\n            dev/null 2>&1\n     456    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-master-fuv5cklbrp7xsrpray6xx6vp6nctotfh/spack-src/src'",
+            "post_context": "     458    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-master-fuv5cklbrp7xsrpray6xx6vp6nctotfh/spack-src/src'\n  >> 459    make: *** [all-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libunwind-master-fuv5cklbrp7xsrpray6xx6vp6nctotfh/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 478,
+            "repeat_count": 0,
+            "start": 472,
+            "end": 485,
+            "text": ">> 459    make: *** [all-recursive] Error 1",
+            "pre_context": "            dev/null 2>&1\n     456    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-master-fuv5cklbrp7xsrpray6xx6vp6nctotfh/spack-src/src'\n  >> 457    make[1]: *** [all] Error 2\n     458    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-master-fuv5cklbrp7xsrpray6xx6vp6nctotfh/spack-src/src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libunwind-master-fuv5cklbrp7xsrpray6xx6vp6nctotfh/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1085,
+            "repeat_count": 0,
+            "start": 1079,
+            "end": 1092,
+            "text": ">> 29    collect2: error: ld returned 64 exit status",
+            "pre_context": "     26        /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/gcc/gcc -rdynam\n           ic CMakeFiles/cmTC_34077.dir/testCCompiler.c.o -o cmTC_34077\n     27        /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/caliper/s\n           pack_env_dir/linux-rhel7-broadwell/gcc-4.9.3/elfutils-0.163-dnuycxca\n           av3yhzfjrpb4d4ovku6gqpnr/bin/ld: invalid option -- 'p'\n     28        Try `ld --help' or `ld --usage' for more information.",
+            "post_context": "  >> 30        gmake[1]: *** [cmTC_34077] Error 1\n     31        gmake[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-sta\n           ge-caliper-master-qdjh67hr5emckebunduhkwhl6iret77p/spack-build-qdjh6\n           7h/CMakeFiles/CMakeTmp'\n  >> 32        gmake: *** [cmTC_34077/fast] Error 2\n     33"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1086,
+            "repeat_count": 0,
+            "start": 1080,
+            "end": 1093,
+            "text": ">> 30        gmake[1]: *** [cmTC_34077] Error 1",
+            "pre_context": "           ic CMakeFiles/cmTC_34077.dir/testCCompiler.c.o -o cmTC_34077\n     27        /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/caliper/s\n           pack_env_dir/linux-rhel7-broadwell/gcc-4.9.3/elfutils-0.163-dnuycxca\n           av3yhzfjrpb4d4ovku6gqpnr/bin/ld: invalid option -- 'p'\n     28        Try `ld --help' or `ld --usage' for more information.\n  >> 29    collect2: error: ld returned 64 exit status",
+            "post_context": "     31        gmake[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-sta\n           ge-caliper-master-qdjh67hr5emckebunduhkwhl6iret77p/spack-build-qdjh6\n           7h/CMakeFiles/CMakeTmp'\n  >> 32        gmake: *** [cmTC_34077/fast] Error 2\n     33\n     34"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1090,
+            "repeat_count": 0,
+            "start": 1084,
+            "end": 1097,
+            "text": ">> 32        gmake: *** [cmTC_34077/fast] Error 2",
+            "pre_context": "     28        Try `ld --help' or `ld --usage' for more information.\n  >> 29    collect2: error: ld returned 64 exit status\n  >> 30        gmake[1]: *** [cmTC_34077] Error 1\n     31        gmake[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-sta\n           ge-caliper-master-qdjh67hr5emckebunduhkwhl6iret77p/spack-build-qdjh6\n           7h/CMakeFiles/CMakeTmp'",
+            "post_context": "     33\n     34\n     35\n     36\n     37\n     38      CMake will not be able to correctly generate this project."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1066,
+            "repeat_count": 0,
+            "start": 1060,
+            "end": 1073,
+            "text": ">> 29    collect2: error: ld returned 64 exit status",
+            "pre_context": "     26        /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/gcc/gcc -rdynam\n           ic CMakeFiles/cmTC_54a0c.dir/testCCompiler.c.o -o cmTC_54a0c\n     27        /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/caliper/s\n           pack_env_dir/linux-rhel7-broadwell/gcc-4.9.3/elfutils-0.163-dnuycxca\n           av3yhzfjrpb4d4ovku6gqpnr/bin/ld: invalid option -- 'p'\n     28        Try `ld --help' or `ld --usage' for more information.",
+            "post_context": "  >> 30        gmake[1]: *** [cmTC_54a0c] Error 1\n     31        gmake[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-sta\n           ge-caliper-2.7.0-cx7n4vzdhvsy4vtsw7li45snwczoywum/spack-build-cx7n4v\n           z/CMakeFiles/CMakeTmp'\n  >> 32        gmake: *** [cmTC_54a0c/fast] Error 2\n     33"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1067,
+            "repeat_count": 0,
+            "start": 1061,
+            "end": 1074,
+            "text": ">> 30        gmake[1]: *** [cmTC_54a0c] Error 1",
+            "pre_context": "           ic CMakeFiles/cmTC_54a0c.dir/testCCompiler.c.o -o cmTC_54a0c\n     27        /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/caliper/s\n           pack_env_dir/linux-rhel7-broadwell/gcc-4.9.3/elfutils-0.163-dnuycxca\n           av3yhzfjrpb4d4ovku6gqpnr/bin/ld: invalid option -- 'p'\n     28        Try `ld --help' or `ld --usage' for more information.\n  >> 29    collect2: error: ld returned 64 exit status",
+            "post_context": "     31        gmake[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-sta\n           ge-caliper-2.7.0-cx7n4vzdhvsy4vtsw7li45snwczoywum/spack-build-cx7n4v\n           z/CMakeFiles/CMakeTmp'\n  >> 32        gmake: *** [cmTC_54a0c/fast] Error 2\n     33\n     34"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1071,
+            "repeat_count": 0,
+            "start": 1065,
+            "end": 1078,
+            "text": ">> 32        gmake: *** [cmTC_54a0c/fast] Error 2",
+            "pre_context": "     28        Try `ld --help' or `ld --usage' for more information.\n  >> 29    collect2: error: ld returned 64 exit status\n  >> 30        gmake[1]: *** [cmTC_54a0c] Error 1\n     31        gmake[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-sta\n           ge-caliper-2.7.0-cx7n4vzdhvsy4vtsw7li45snwczoywum/spack-build-cx7n4v\n           z/CMakeFiles/CMakeTmp'",
+            "post_context": "     33\n     34\n     35\n     36\n     37\n     38      CMake will not be able to correctly generate this project."
+      }
+]

@@ -1,0 +1,30 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 866,
+            "repeat_count": 0,
+            "start": 860,
+            "end": 873,
+            "text": ">> 8    ===> WARNING: Autotools are in different locations. In rare occasion,",
+            "pre_context": "     6    \tautomake is in /p/vast1/koparasy/BUILD/spack_cluster_installer/quart\n          z/upcxx/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/automake-1.16.3\n          -ifwn2jygalb6h5fiwdovirqir65t4gj2\n     7    \tlibtool  is in /p/vast1/koparasy/BUILD/spack_cluster_installer/quart\n          z/upcxx/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/libtool-2.4.6-x\n          wmagaircy74dxq3wfpo76z2rkbbbvas",
+            "post_context": "  >> 9    ===> WARNING: resulting configure or makefile may fail in some unexpe\n          cted ways.\n     10   Checking if autoreconf accepts -I /p/vast1/koparasy/BUILD/spack_clust\n          er_installer/quartz/upcxx/spack_env_dir/linux-rhel7-broadwell/gcc-9.3\n          .1/libtool-2.4.6-xwmagaircy74dxq3wfpo76z2rkbbbvas/share/aclocal... ye\n          s"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 867,
+            "repeat_count": 0,
+            "start": 861,
+            "end": 874,
+            "text": ">> 9    ===> WARNING: resulting configure or makefile may fail in some unexpe",
+            "pre_context": "          z/upcxx/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/automake-1.16.3\n          -ifwn2jygalb6h5fiwdovirqir65t4gj2\n     7    \tlibtool  is in /p/vast1/koparasy/BUILD/spack_cluster_installer/quart\n          z/upcxx/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/libtool-2.4.6-x\n          wmagaircy74dxq3wfpo76z2rkbbbvas\n  >> 8    ===> WARNING: Autotools are in different locations. In rare occasion,",
+            "post_context": "          cted ways.\n     10   Checking if autoreconf accepts -I /p/vast1/koparasy/BUILD/spack_clust\n          er_installer/quartz/upcxx/spack_env_dir/linux-rhel7-broadwell/gcc-9.3\n          .1/libtool-2.4.6-xwmagaircy74dxq3wfpo76z2rkbbbvas/share/aclocal... ye\n          s\n     11   Checking for autoconf version... >= 2.67"
+      }
+]

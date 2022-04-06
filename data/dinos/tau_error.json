@@ -1,0 +1,1586 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 560,
+            "repeat_count": 0,
+            "start": 554,
+            "end": 567,
+            "text": ">> 4262    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             ng)':\n  >> 4261    /tmp/koparasy/spack-stage/spack-stage-binutils-2.36.1-dkyptpbd7wvx\n             bq5b6w4tty7aqr6bvjxq/spack-src/gold/aarch64.cc:4046: undefined ref\n             erence to `gold::Sized_symbol<64>::Value_type gold::Symbol_table::\n             compute_final_value<64>(gold::Sized_symbol<64> const*, gold::Symbo\n             l_table::Compute_final_value_status*) const'",
+            "post_context": "             see invocation)\n  >> 4263    make[4]: *** [ld-new] Error 1\n     4264    make[4]: *** Waiting for unfinished jobs....\n     4265    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.36.1-dkyptpbd7wvxb"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 562,
+            "repeat_count": 0,
+            "start": 556,
+            "end": 569,
+            "text": ">> 4263    make[4]: *** [ld-new] Error 1",
+            "pre_context": "             bq5b6w4tty7aqr6bvjxq/spack-src/gold/aarch64.cc:4046: undefined ref\n             erence to `gold::Sized_symbol<64>::Value_type gold::Symbol_table::\n             compute_final_value<64>(gold::Sized_symbol<64> const*, gold::Symbo\n             l_table::Compute_final_value_status*) const'\n  >> 4262    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4264    make[4]: *** Waiting for unfinished jobs....\n     4265    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.36.1-dkyptpbd7wvxb\n             q5b6w4tty7aqr6bvjxq/spack-src/opcodes  -I. -I/var/tmp/koparasy/spa\n             ck-stage/spack-stage-binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bv"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 586,
+            "repeat_count": 0,
+            "start": 580,
+            "end": 593,
+            "text": ">> 4267    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             bfd -I/var/tmp/koparasy/spack-stage/spack-stage-binutils-2.36.1-dk\n             yptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/opcodes/../include -I/var\n             /tmp/koparasy/spack-stage/spack-stage-binutils-2.36.1-dkyptpbd7wvx\n             bq5b6w4tty7aqr6bvjxq/spack-src/opcodes/../bfd -W -Wall -Wstrict-pr\n             ototypes -Wmissing-prototypes -Wshadow -g -O2 -c tic54x-dis.c  -fP\n             IC -DPIC -o .libs/tic54x-dis.o",
+            "post_context": "             see invocation)\n  >> 4268    make[4]: *** [incremental-dump] Error 1\n     4269    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'\n  >> 4270    make[3]: *** [all-recursive] Error 1\n     4271    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 588,
+            "repeat_count": 0,
+            "start": 582,
+            "end": 595,
+            "text": ">> 4268    make[4]: *** [incremental-dump] Error 1",
+            "pre_context": "             /tmp/koparasy/spack-stage/spack-stage-binutils-2.36.1-dkyptpbd7wvx\n             bq5b6w4tty7aqr6bvjxq/spack-src/opcodes/../bfd -W -Wall -Wstrict-pr\n             ototypes -Wmissing-prototypes -Wshadow -g -O2 -c tic54x-dis.c  -fP\n             IC -DPIC -o .libs/tic54x-dis.o\n  >> 4267    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4269    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'\n  >> 4270    make[3]: *** [all-recursive] Error 1\n     4271    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'\n  >> 4272    make[2]: *** [all] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 591,
+            "repeat_count": 0,
+            "start": 585,
+            "end": 598,
+            "text": ">> 4270    make[3]: *** [all-recursive] Error 1",
+            "pre_context": "             IC -DPIC -o .libs/tic54x-dis.o\n  >> 4267    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)\n  >> 4268    make[4]: *** [incremental-dump] Error 1\n     4269    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'",
+            "post_context": "     4271    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'\n  >> 4272    make[2]: *** [all] Error 2\n     4273    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'\n  >> 4274    make[1]: *** [all-gold] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 594,
+            "repeat_count": 0,
+            "start": 588,
+            "end": 601,
+            "text": ">> 4272    make[2]: *** [all] Error 2",
+            "pre_context": "  >> 4268    make[4]: *** [incremental-dump] Error 1\n     4269    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'\n  >> 4270    make[3]: *** [all-recursive] Error 1\n     4271    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'",
+            "post_context": "     4273    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'\n  >> 4274    make[1]: *** [all-gold] Error 2\n     4275    make[1]: *** Waiting for unfinished jobs....\n     4276    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 597,
+            "repeat_count": 0,
+            "start": 591,
+            "end": 604,
+            "text": ">> 4274    make[1]: *** [all-gold] Error 2",
+            "pre_context": "  >> 4270    make[3]: *** [all-recursive] Error 1\n     4271    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'\n  >> 4272    make[2]: *** [all] Error 2\n     4273    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/gold'",
+            "post_context": "     4275    make[1]: *** Waiting for unfinished jobs....\n     4276    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.36.1-dkyptpbd7wvxb\n             q5b6w4tty7aqr6bvjxq/spack-src/opcodes  -I. -I/var/tmp/koparasy/spa\n             ck-stage/spack-stage-binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bv"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 672,
+            "repeat_count": 0,
+            "start": 666,
+            "end": 679,
+            "text": ">> 4384    make: *** [all] Error 2",
+            "pre_context": "             '\n     4382    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src/opcodes\n             '\n     4383    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-binutils-2.36.1-dkyptpbd7wvxbq5b6w4tty7aqr6bvjxq/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 288,
+            "repeat_count": 0,
+            "start": 282,
+            "end": 295,
+            "text": ">> 808    configure: error: 'mxm/api/mxm_api.h or libmxm library not found. D",
+            "pre_context": "     802    checking for knem_io.h... no\n     803    configure: RUNNING CONFIGURE FOR ch3:nemesis:mxm\n     804    checking mxm/api/mxm_api.h usability... no\n     805    checking mxm/api/mxm_api.h presence... no\n     806    checking for mxm/api/mxm_api.h... no\n     807    checking for mxm_get_version in -lmxm... no",
+            "post_context": "            id you specify --with-mxm= or --with-mxm-include= or --with-mxm-lib\n            =?'\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.1.4-tfw6az4lhxvkwubf7ecnifjxypordo5j/spack-build-out.txt\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 346,
+            "repeat_count": 0,
+            "start": 340,
+            "end": 353,
+            "text": ">> 38    configure: error: gcc with GNU99 support required",
+            "pre_context": "     32    checking whether yytext is a pointer... yes\n     33    checking for ar... ar\n     34    checking the archiver (ar) interface... ar\n     35    checking for readelf... readelf\n     36    checking for nm... nm\n     37    checking for gcc with GNU99 support... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-elfutils-0.185-c5wkis64ify2itakcgjizys6ss7md2cx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 805,
+            "repeat_count": 0,
+            "start": 799,
+            "end": 812,
+            "text": ">> 5016    collect2: error: ld returned 1 exit status",
+            "pre_context": "  >> 5014    /tmp/koparasy/spack-stage/spack-stage-binutils-2.20.1-6qwafbv6t7fm\n             aayaodtyvapubfvdoy2j/spack-src/opcodes/cgen-ops.h:426: multiple de\n             finition of `SUBWORDTFSI'\n  >> 5015    .libs/m32c-asm.o:/tmp/koparasy/spack-stage/spack-stage-binutils-2.\n             20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes/cgen-ops.h\n             :426: first defined here",
+            "post_context": "  >> 5017    make[4]: *** [libopcodes.la] Error 1\n     5018    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             '\n     5019    Making all in po\n     5020    make[4]: Entering directory `/tmp/koparasy/spack-stage/spack-stage"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 806,
+            "repeat_count": 0,
+            "start": 800,
+            "end": 813,
+            "text": ">> 5017    make[4]: *** [libopcodes.la] Error 1",
+            "pre_context": "             aayaodtyvapubfvdoy2j/spack-src/opcodes/cgen-ops.h:426: multiple de\n             finition of `SUBWORDTFSI'\n  >> 5015    .libs/m32c-asm.o:/tmp/koparasy/spack-stage/spack-stage-binutils-2.\n             20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes/cgen-ops.h\n             :426: first defined here\n  >> 5016    collect2: error: ld returned 1 exit status",
+            "post_context": "     5018    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             '\n     5019    Making all in po\n     5020    make[4]: Entering directory `/tmp/koparasy/spack-stage/spack-stage\n             -binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcode"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 818,
+            "repeat_count": 0,
+            "start": 812,
+            "end": 825,
+            "text": ">> 5023    make[3]: *** [all-recursive] Error 1",
+            "pre_context": "             -binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcode\n             s/po'\n     5021    make[4]: Nothing to be done for `all'.\n     5022    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             /po'",
+            "post_context": "     5024    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             '\n  >> 5025    make[2]: *** [all] Error 2\n     5026    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 822,
+            "repeat_count": 0,
+            "start": 816,
+            "end": 829,
+            "text": ">> 5025    make[2]: *** [all] Error 2",
+            "pre_context": "             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             /po'\n  >> 5023    make[3]: *** [all-recursive] Error 1\n     5024    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             '",
+            "post_context": "     5026    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             '\n  >> 5027    make[1]: *** [all-opcodes] Error 2\n     5028    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 826,
+            "repeat_count": 0,
+            "start": 820,
+            "end": 833,
+            "text": ">> 5027    make[1]: *** [all-opcodes] Error 2",
+            "pre_context": "             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             '\n  >> 5025    make[2]: *** [all] Error 2\n     5026    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             '",
+            "post_context": "     5028    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src'\n  >> 5029    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 829,
+            "repeat_count": 0,
+            "start": 823,
+            "end": 836,
+            "text": ">> 5029    make: *** [all] Error 2",
+            "pre_context": "     5026    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src/opcodes\n             '\n  >> 5027    make[1]: *** [all-opcodes] Error 2\n     5028    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-binutils-2.20.1-6qwafbv6t7fmaayaodtyvapubfvdoy2j/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 567,
+            "repeat_count": 0,
+            "start": 561,
+            "end": 574,
+            "text": ">> 4214    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             -I/var/tmp/koparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7\n             hqcuxdxuy6le3hd43tpncb6c/spack-src/opcodes/../include -I/var/tmp/k\n             oparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdxuy6le\n             3hd43tpncb6c/spack-src/opcodes/../bfd -W -Wall -Wstrict-prototypes\n              -Wmissing-prototypes -Wshadow -g -O2 -c tilegx-dis.c  -fPIC -DPIC\n              -o .libs/tilegx-dis.o",
+            "post_context": "             see invocation)\n  >> 4215    make[4]: *** [ld-new] Error 1\n     4216    make[4]: *** Waiting for unfinished jobs....\n     4217    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdx"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 569,
+            "repeat_count": 0,
+            "start": 563,
+            "end": 576,
+            "text": ">> 4215    make[4]: *** [ld-new] Error 1",
+            "pre_context": "             oparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdxuy6le\n             3hd43tpncb6c/spack-src/opcodes/../bfd -W -Wall -Wstrict-prototypes\n              -Wmissing-prototypes -Wshadow -g -O2 -c tilegx-dis.c  -fPIC -DPIC\n              -o .libs/tilegx-dis.o\n  >> 4214    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4216    make[4]: *** Waiting for unfinished jobs....\n     4217    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdx\n             uy6le3hd43tpncb6c/spack-src/opcodes  -I. -I/var/tmp/koparasy/spack\n             -stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 740,
+            "repeat_count": 0,
+            "start": 734,
+            "end": 747,
+            "text": ">> 4244    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             -I/var/tmp/koparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7\n             hqcuxdxuy6le3hd43tpncb6c/spack-src/opcodes/../include -I/var/tmp/k\n             oparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdxuy6le\n             3hd43tpncb6c/spack-src/opcodes/../bfd -W -Wall -Wstrict-prototypes\n              -Wmissing-prototypes -Wshadow -g -O2 -c tilepro-dis.c  -fPIC -DPI\n             C -o .libs/tilepro-dis.o",
+            "post_context": "             see invocation)\n  >> 4245    make[4]: *** [incremental-dump] Error 1\n     4246    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'\n  >> 4247    make[3]: *** [all-recursive] Error 1\n     4248    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 742,
+            "repeat_count": 0,
+            "start": 736,
+            "end": 749,
+            "text": ">> 4245    make[4]: *** [incremental-dump] Error 1",
+            "pre_context": "             oparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdxuy6le\n             3hd43tpncb6c/spack-src/opcodes/../bfd -W -Wall -Wstrict-prototypes\n              -Wmissing-prototypes -Wshadow -g -O2 -c tilepro-dis.c  -fPIC -DPI\n             C -o .libs/tilepro-dis.o\n  >> 4244    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4246    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'\n  >> 4247    make[3]: *** [all-recursive] Error 1\n     4248    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'\n  >> 4249    make[2]: *** [all] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 745,
+            "repeat_count": 0,
+            "start": 739,
+            "end": 752,
+            "text": ">> 4247    make[3]: *** [all-recursive] Error 1",
+            "pre_context": "             C -o .libs/tilepro-dis.o\n  >> 4244    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)\n  >> 4245    make[4]: *** [incremental-dump] Error 1\n     4246    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'",
+            "post_context": "     4248    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'\n  >> 4249    make[2]: *** [all] Error 2\n     4250    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'\n  >> 4251    make[1]: *** [all-gold] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 748,
+            "repeat_count": 0,
+            "start": 742,
+            "end": 755,
+            "text": ">> 4249    make[2]: *** [all] Error 2",
+            "pre_context": "  >> 4245    make[4]: *** [incremental-dump] Error 1\n     4246    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'\n  >> 4247    make[3]: *** [all-recursive] Error 1\n     4248    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'",
+            "post_context": "     4250    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'\n  >> 4251    make[1]: *** [all-gold] Error 2\n     4252    make[1]: *** Waiting for unfinished jobs....\n     4253    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 751,
+            "repeat_count": 0,
+            "start": 745,
+            "end": 758,
+            "text": ">> 4251    make[1]: *** [all-gold] Error 2",
+            "pre_context": "  >> 4247    make[3]: *** [all-recursive] Error 1\n     4248    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'\n  >> 4249    make[2]: *** [all] Error 2\n     4250    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/gold'",
+            "post_context": "     4252    make[1]: *** Waiting for unfinished jobs....\n     4253    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdx\n             uy6le3hd43tpncb6c/spack-src/opcodes  -I. -I/var/tmp/koparasy/spack\n             -stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 824,
+            "repeat_count": 0,
+            "start": 818,
+            "end": 831,
+            "text": ">> 4345    make: *** [all] Error 2",
+            "pre_context": "     4342    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/opcodes'\n     4343    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src/opcodes'\n     4344    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-binutils-2.34-eqjge2q7hqcuxdxuy6le3hd43tpncb6c/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 341,
+            "repeat_count": 0,
+            "start": 335,
+            "end": 348,
+            "text": ">> 39    configure: error: gcc with GNU99 support required",
+            "pre_context": "     33    checking whether yytext is a pointer... yes\n     34    checking for ar... ar\n     35    checking the archiver (ar) interface... ar\n     36    checking for readelf... readelf\n     37    checking for nm... nm\n     38    checking for gcc with GNU99 support... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-elfutils-0.175-prnoomel6dfh3t3fab5wsfgbppvcrfzt/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 339,
+            "repeat_count": 0,
+            "start": 333,
+            "end": 346,
+            "text": ">> 38    configure: error: gcc with GNU99 support required",
+            "pre_context": "     32    checking whether yytext is a pointer... yes\n     33    checking for ar... ar\n     34    checking the archiver (ar) interface... ar\n     35    checking for readelf... readelf\n     36    checking for nm... nm\n     37    checking for gcc with GNU99 support... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-elfutils-0.174-hlgpucplauvmrwwmvat2xajynx5ndvza/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 425,
+            "repeat_count": 0,
+            "start": 419,
+            "end": 432,
+            "text": ">> 4154    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             ng)':\n  >> 4153    /tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-negfgdsjnwrl\n             v5hmycc4gj27qbbp27oj/spack-src/gold/aarch64.cc:4046: undefined ref\n             erence to `gold::Sized_symbol<64>::Value_type gold::Symbol_table::\n             compute_final_value<64>(gold::Sized_symbol<64> const*, gold::Symbo\n             l_table::Compute_final_value_status*) const'",
+            "post_context": "             see invocation)\n  >> 4155    make[4]: *** [ld-new] Error 1\n     4156    make[4]: *** Waiting for unfinished jobs....\n     4157    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-negfgdsjnwrlv"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 427,
+            "repeat_count": 0,
+            "start": 421,
+            "end": 434,
+            "text": ">> 4155    make[4]: *** [ld-new] Error 1",
+            "pre_context": "             v5hmycc4gj27qbbp27oj/spack-src/gold/aarch64.cc:4046: undefined ref\n             erence to `gold::Sized_symbol<64>::Value_type gold::Symbol_table::\n             compute_final_value<64>(gold::Sized_symbol<64> const*, gold::Symbo\n             l_table::Compute_final_value_status*) const'\n  >> 4154    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4156    make[4]: *** Waiting for unfinished jobs....\n     4157    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-negfgdsjnwrlv\n             5hmycc4gj27qbbp27oj/spack-src/opcodes  -I. -I/var/tmp/koparasy/spa\n             ck-stage/spack-stage-binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 565,
+            "repeat_count": 0,
+            "start": 559,
+            "end": 572,
+            "text": ">> 4181    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             bfd -I/var/tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-ne\n             gfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/opcodes/../include -I/var\n             /tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-negfgdsjnwrl\n             v5hmycc4gj27qbbp27oj/spack-src/opcodes/../bfd -W -Wall -Wstrict-pr\n             ototypes -Wmissing-prototypes -Wshadow -g -O2 -c rl78-dis.c -o rl7\n             8-dis.o >/dev/null 2>&1",
+            "post_context": "             see invocation)\n  >> 4182    make[4]: *** [incremental-dump] Error 1\n     4183    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'\n  >> 4184    make[3]: *** [all-recursive] Error 1\n     4185    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 567,
+            "repeat_count": 0,
+            "start": 561,
+            "end": 574,
+            "text": ">> 4182    make[4]: *** [incremental-dump] Error 1",
+            "pre_context": "             /tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-negfgdsjnwrl\n             v5hmycc4gj27qbbp27oj/spack-src/opcodes/../bfd -W -Wall -Wstrict-pr\n             ototypes -Wmissing-prototypes -Wshadow -g -O2 -c rl78-dis.c -o rl7\n             8-dis.o >/dev/null 2>&1\n  >> 4181    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4183    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'\n  >> 4184    make[3]: *** [all-recursive] Error 1\n     4185    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'\n  >> 4186    make[2]: *** [all] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 570,
+            "repeat_count": 0,
+            "start": 564,
+            "end": 577,
+            "text": ">> 4184    make[3]: *** [all-recursive] Error 1",
+            "pre_context": "             8-dis.o >/dev/null 2>&1\n  >> 4181    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)\n  >> 4182    make[4]: *** [incremental-dump] Error 1\n     4183    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'",
+            "post_context": "     4185    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'\n  >> 4186    make[2]: *** [all] Error 2\n     4187    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'\n  >> 4188    make[1]: *** [all-gold] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 573,
+            "repeat_count": 0,
+            "start": 567,
+            "end": 580,
+            "text": ">> 4186    make[2]: *** [all] Error 2",
+            "pre_context": "  >> 4182    make[4]: *** [incremental-dump] Error 1\n     4183    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'\n  >> 4184    make[3]: *** [all-recursive] Error 1\n     4185    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'",
+            "post_context": "     4187    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'\n  >> 4188    make[1]: *** [all-gold] Error 2\n     4189    make[1]: *** Waiting for unfinished jobs....\n     4190    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 576,
+            "repeat_count": 0,
+            "start": 570,
+            "end": 583,
+            "text": ">> 4188    make[1]: *** [all-gold] Error 2",
+            "pre_context": "  >> 4184    make[3]: *** [all-recursive] Error 1\n     4185    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'\n  >> 4186    make[2]: *** [all] Error 2\n     4187    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/gold'",
+            "post_context": "     4189    make[1]: *** Waiting for unfinished jobs....\n     4190    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-negfgdsjnwrlv\n             5hmycc4gj27qbbp27oj/spack-src/opcodes  -I. -I/var/tmp/koparasy/spa\n             ck-stage/spack-stage-binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 643,
+            "repeat_count": 0,
+            "start": 637,
+            "end": 650,
+            "text": ">> 4343    make: *** [all] Error 2",
+            "pre_context": "             '\n     4341    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src/opcodes\n             '\n     4342    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-binutils-2.35.1-negfgdsjnwrlv5hmycc4gj27qbbp27oj/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c",
+            "source_line_no": "6",
+            "line_no": 94,
+            "repeat_count": 0,
+            "start": 88,
+            "end": 101,
+            "text": "axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c(692): error:",
+            "pre_context": "             b -I../..     -g -O2 -MT opendirat.o -MD -MP -MF $depbase.Tpo -c -\n             o opendirat.o /var/tmp/koparasy/spack-stage/spack-stage-findutils-\n             4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/opendirat.\n             c &&\\\n     2396    mv -f $depbase.Tpo $depbase.Po\n  >> 2397    /var/tmp/koparasy/spack-stage/spack-stage-findutils-4.8.0-7ez3zufy",
+            "post_context": "              argument is incompatible with formal parameter\n     2398                    if (INT_MULTIPLY_WRAPV (width, 10, &width)\n     2399                        ^\n     2400\n  >> 2401    /var/tmp/koparasy/spack-stage/spack-stage-findutils-4.8.0-7ez3zufy\n             axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c(692): error:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c",
+            "source_line_no": "6",
+            "line_no": 100,
+            "repeat_count": 0,
+            "start": 94,
+            "end": 107,
+            "text": "axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c(692): error:",
+            "pre_context": "             axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c(692): error:\n              argument is incompatible with formal parameter\n     2398                    if (INT_MULTIPLY_WRAPV (width, 10, &width)\n     2399                        ^\n     2400\n  >> 2401    /var/tmp/koparasy/spack-stage/spack-stage-findutils-4.8.0-7ez3zufy",
+            "post_context": "              argument is incompatible with formal parameter\n     2402                    if (INT_MULTIPLY_WRAPV (width, 10, &width)\n     2403                        ^\n     2404\n  >> 2405    /var/tmp/koparasy/spack-stage/spack-stage-findutils-4.8.0-7ez3zufy\n             axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c(693): error:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c",
+            "source_line_no": "6",
+            "line_no": 106,
+            "repeat_count": 0,
+            "start": 100,
+            "end": 113,
+            "text": "axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c(693): error:",
+            "pre_context": "             axtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/nstrftime.c(692): error:\n              argument is incompatible with formal parameter\n     2402                    if (INT_MULTIPLY_WRAPV (width, 10, &width)\n     2403                        ^\n     2404\n  >> 2405    /var/tmp/koparasy/spack-stage/spack-stage-findutils-4.8.0-7ez3zufy",
+            "post_context": "              argument is incompatible with formal parameter\n     2406                        || INT_ADD_WRAPV (width, *f - L_('0'), &width)\n             )\n     2407                           ^\n     2408\n     2409    compilation aborted for /var/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 115,
+            "repeat_count": 0,
+            "start": 109,
+            "end": 122,
+            "text": ">> 2410    make[5]: *** [nstrftime.o] Error 2",
+            "pre_context": "             )\n     2407                           ^\n     2408\n     2409    compilation aborted for /var/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/gl/lib/\n             nstrftime.c (code 2)",
+            "post_context": "     2411    make[5]: *** Waiting for unfinished jobs....\n     2412    make[5]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl/lib'\n  >> 2413    make[4]: *** [all-recursive] Error 1\n     2414    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 120,
+            "repeat_count": 0,
+            "start": 114,
+            "end": 127,
+            "text": ">> 2413    make[4]: *** [all-recursive] Error 1",
+            "pre_context": "             nstrftime.c (code 2)\n  >> 2410    make[5]: *** [nstrftime.o] Error 2\n     2411    make[5]: *** Waiting for unfinished jobs....\n     2412    make[5]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl/lib'",
+            "post_context": "     2414    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl/lib'\n  >> 2415    make[3]: *** [all] Error 2\n     2416    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 124,
+            "repeat_count": 0,
+            "start": 118,
+            "end": 131,
+            "text": ">> 2415    make[3]: *** [all] Error 2",
+            "pre_context": "             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl/lib'\n  >> 2413    make[4]: *** [all-recursive] Error 1\n     2414    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl/lib'",
+            "post_context": "     2416    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl/lib'\n  >> 2417    make[2]: *** [all-recursive] Error 1\n     2418    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 128,
+            "repeat_count": 0,
+            "start": 122,
+            "end": 135,
+            "text": ">> 2417    make[2]: *** [all-recursive] Error 1",
+            "pre_context": "             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl/lib'\n  >> 2415    make[3]: *** [all] Error 2\n     2416    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl/lib'",
+            "post_context": "     2418    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl'\n  >> 2419    make[1]: *** [all-recursive] Error 1\n     2420    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 132,
+            "repeat_count": 0,
+            "start": 126,
+            "end": 139,
+            "text": ">> 2419    make[1]: *** [all-recursive] Error 1",
+            "pre_context": "             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl/lib'\n  >> 2417    make[2]: *** [all-recursive] Error 1\n     2418    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl'",
+            "post_context": "     2420    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild'\n  >> 2421    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 136,
+            "repeat_count": 0,
+            "start": 130,
+            "end": 143,
+            "text": ">> 2421    make: *** [all] Error 2",
+            "pre_context": "             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild/gl'\n  >> 2419    make[1]: *** [all-recursive] Error 1\n     2420    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-src/spack-b\n             uild'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-findutils-4.8.0-7ez3zufyaxtnwguonpwiy4nj2np3wdm5/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 113,
+            "repeat_count": 0,
+            "start": 107,
+            "end": 120,
+            "text": ">> 2013    nstrftime.c(692): error: argument is incompatible with formal para",
+            "pre_context": "             I/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/tau/spack_\n             env_dir/linux-rhel7-broadwell/intel-2021.5.0/libiconv-1.16-xhr7rgf\n             24t6appi3h3473uplvdbvjovb/include  -g -O2 -MT gettime.o -MD -MP -M\n             F $depbase.Tpo -c -o gettime.o gettime.c &&\\\n     2011    mv -f $depbase.Tpo $depbase.Po\n     2012    In file included from fprintftime.c(2):",
+            "post_context": "             meter\n     2014                    if (INT_MULTIPLY_WRAPV (width, 10, &width)\n     2015                        ^\n     2016\n     2017    In file included from fprintftime.c(2):\n  >> 2018    nstrftime.c(692): error: argument is incompatible with formal para"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 119,
+            "repeat_count": 0,
+            "start": 113,
+            "end": 126,
+            "text": ">> 2018    nstrftime.c(692): error: argument is incompatible with formal para",
+            "pre_context": "  >> 2013    nstrftime.c(692): error: argument is incompatible with formal para\n             meter\n     2014                    if (INT_MULTIPLY_WRAPV (width, 10, &width)\n     2015                        ^\n     2016\n     2017    In file included from fprintftime.c(2):",
+            "post_context": "             meter\n     2019                    if (INT_MULTIPLY_WRAPV (width, 10, &width)\n     2020                        ^\n     2021\n     2022    In file included from fprintftime.c(2):\n  >> 2023    nstrftime.c(693): error: argument is incompatible with formal para"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 125,
+            "repeat_count": 0,
+            "start": 119,
+            "end": 132,
+            "text": ">> 2023    nstrftime.c(693): error: argument is incompatible with formal para",
+            "pre_context": "  >> 2018    nstrftime.c(692): error: argument is incompatible with formal para\n             meter\n     2019                    if (INT_MULTIPLY_WRAPV (width, 10, &width)\n     2020                        ^\n     2021\n     2022    In file included from fprintftime.c(2):",
+            "post_context": "             meter\n     2024                        || INT_ADD_WRAPV (width, *f - L_('0'), &width)\n             )\n     2025                           ^\n     2026\n     2027    compilation aborted for fprintftime.c (code 2)"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 132,
+            "repeat_count": 0,
+            "start": 126,
+            "end": 139,
+            "text": ">> 2028    make[4]: *** [fprintftime.o] Error 2",
+            "pre_context": "             meter\n     2024                        || INT_ADD_WRAPV (width, *f - L_('0'), &width)\n             )\n     2025                           ^\n     2026\n     2027    compilation aborted for fprintftime.c (code 2)",
+            "post_context": "     2029    make[4]: *** Waiting for unfinished jobs....\n     2030    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'\n  >> 2031    make[3]: *** [all-recursive] Error 1\n     2032    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 136,
+            "repeat_count": 0,
+            "start": 130,
+            "end": 143,
+            "text": ">> 2031    make[3]: *** [all-recursive] Error 1",
+            "pre_context": "     2026\n     2027    compilation aborted for fprintftime.c (code 2)\n  >> 2028    make[4]: *** [fprintftime.o] Error 2\n     2029    make[4]: *** Waiting for unfinished jobs....\n     2030    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'",
+            "post_context": "     2032    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'\n  >> 2033    make[2]: *** [all] Error 2\n     2034    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'\n  >> 2035    make[1]: *** [all-recursive] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 139,
+            "repeat_count": 0,
+            "start": 133,
+            "end": 146,
+            "text": ">> 2033    make[2]: *** [all] Error 2",
+            "pre_context": "     2029    make[4]: *** Waiting for unfinished jobs....\n     2030    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'\n  >> 2031    make[3]: *** [all-recursive] Error 1\n     2032    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'",
+            "post_context": "     2034    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'\n  >> 2035    make[1]: *** [all-recursive] Error 1\n     2036    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src'\n  >> 2037    make: *** [all] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 142,
+            "repeat_count": 0,
+            "start": 136,
+            "end": 149,
+            "text": ">> 2035    make[1]: *** [all-recursive] Error 1",
+            "pre_context": "  >> 2031    make[3]: *** [all-recursive] Error 1\n     2032    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'\n  >> 2033    make[2]: *** [all] Error 2\n     2034    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'",
+            "post_context": "     2036    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src'\n  >> 2037    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 145,
+            "repeat_count": 0,
+            "start": 139,
+            "end": 152,
+            "text": ">> 2037    make: *** [all] Error 2",
+            "pre_context": "  >> 2033    make[2]: *** [all] Error 2\n     2034    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src/gnu'\n  >> 2035    make[1]: *** [all-recursive] Error 1\n     2036    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-tar-1.34-lqukf43yliyeyk3mrle42mfayvwou7fh/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 373,
+            "repeat_count": 0,
+            "start": 367,
+            "end": 380,
+            "text": ">> 247    print_die.cc:2134:58: error: no match for 'operator<<' (operand typ",
+            "pre_context": "            uster_installer/quartz/tau/spack_env_dir/linux-rhel7-broadwell/gcc-\n            7.3.0/libdwarf-20130729-gapn4vl4sidvhqrhop42yy4spr7b7jzk/lib    -c\n            -o print_die.o print_die.cc\n     246    print_die.cc: In function 'bool print_attribute(Dwarf_Debug, Dwarf_\n            Die, Dwarf_Half, Dwarf_Attribute, bool, int, DieVec&, SrcfilesHolde\n            r&)':",
+            "post_context": "            es are 'std::basic_ostream<char>' and 'std::ostream {aka std::basic\n            _ostream<char>}')\n     248                                     cout << \"Low = \" <<\n     249                                     ~~~~~~~~~~~~~~~~~~~\n     250                                         IToHex0N(lowAddr,10) <<\n     251                                         ~~~~~~~~~~~~~~~~~~~~~^~"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 435,
+            "repeat_count": 0,
+            "start": 429,
+            "end": 442,
+            "text": ">> 548    make: *** [print_die.o] Error 1",
+            "pre_context": "            .h:6272:5: note:   template argument deduction/substitution failed:\n     545    print_die.cc:2135:33: note:   'std::ostream {aka std::basic_ostream\n            <char>}' is not derived from 'const std::__cxx11::basic_string<_Cha\n            rT, _Traits, _Alloc>'\n     546                                     cout << \"High = \" <<\n     547                                     ^~~~",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libdwarf-20130729-juvmbfcvi7ikakxebsnzlvfm7ymvb2q3/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 436,
+            "repeat_count": 0,
+            "start": 430,
+            "end": 443,
+            "text": ">> 4145    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             bfd -I/var/tmp/koparasy/spack-stage/spack-stage-binutils-2.35.2-6e\n             whhdfslk6ajlx4vcf55hacbusxafj4/spack-src/opcodes/../include -I/var\n             /tmp/koparasy/spack-stage/spack-stage-binutils-2.35.2-6ewhhdfslk6a\n             jlx4vcf55hacbusxafj4/spack-src/opcodes/../bfd -W -Wall -Wstrict-pr\n             ototypes -Wmissing-prototypes -Wshadow -g -O2 -c pru-opc.c -o pru-\n             opc.o >/dev/null 2>&1",
+            "post_context": "             see invocation)\n  >> 4146    make[4]: *** [ld-new] Error 1\n     4147    make[4]: *** Waiting for unfinished jobs....\n     4148    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.35.2-6ewhhdfslk6aj"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 438,
+            "repeat_count": 0,
+            "start": 432,
+            "end": 445,
+            "text": ">> 4146    make[4]: *** [ld-new] Error 1",
+            "pre_context": "             /tmp/koparasy/spack-stage/spack-stage-binutils-2.35.2-6ewhhdfslk6a\n             jlx4vcf55hacbusxafj4/spack-src/opcodes/../bfd -W -Wall -Wstrict-pr\n             ototypes -Wmissing-prototypes -Wshadow -g -O2 -c pru-opc.c -o pru-\n             opc.o >/dev/null 2>&1\n  >> 4145    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4147    make[4]: *** Waiting for unfinished jobs....\n     4148    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.35.2-6ewhhdfslk6aj\n             lx4vcf55hacbusxafj4/spack-src/opcodes  -I. -I/var/tmp/koparasy/spa\n             ck-stage/spack-stage-binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxa"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 587,
+            "repeat_count": 0,
+            "start": 581,
+            "end": 594,
+            "text": ">> 4173    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             ng)':\n  >> 4172    /tmp/koparasy/spack-stage/spack-stage-binutils-2.35.2-6ewhhdfslk6a\n             jlx4vcf55hacbusxafj4/spack-src/gold/aarch64.cc:4046: undefined ref\n             erence to `gold::Sized_symbol<64>::Value_type gold::Symbol_table::\n             compute_final_value<64>(gold::Sized_symbol<64> const*, gold::Symbo\n             l_table::Compute_final_value_status*) const'",
+            "post_context": "             see invocation)\n  >> 4174    make[4]: *** [incremental-dump] Error 1\n     4175    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'\n  >> 4176    make[3]: *** [all-recursive] Error 1\n     4177    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 589,
+            "repeat_count": 0,
+            "start": 583,
+            "end": 596,
+            "text": ">> 4174    make[4]: *** [incremental-dump] Error 1",
+            "pre_context": "             jlx4vcf55hacbusxafj4/spack-src/gold/aarch64.cc:4046: undefined ref\n             erence to `gold::Sized_symbol<64>::Value_type gold::Symbol_table::\n             compute_final_value<64>(gold::Sized_symbol<64> const*, gold::Symbo\n             l_table::Compute_final_value_status*) const'\n  >> 4173    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4175    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'\n  >> 4176    make[3]: *** [all-recursive] Error 1\n     4177    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'\n  >> 4178    make[2]: *** [all] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 592,
+            "repeat_count": 0,
+            "start": 586,
+            "end": 599,
+            "text": ">> 4176    make[3]: *** [all-recursive] Error 1",
+            "pre_context": "             l_table::Compute_final_value_status*) const'\n  >> 4173    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)\n  >> 4174    make[4]: *** [incremental-dump] Error 1\n     4175    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'",
+            "post_context": "     4177    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'\n  >> 4178    make[2]: *** [all] Error 2\n     4179    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'\n  >> 4180    make[1]: *** [all-gold] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 595,
+            "repeat_count": 0,
+            "start": 589,
+            "end": 602,
+            "text": ">> 4178    make[2]: *** [all] Error 2",
+            "pre_context": "  >> 4174    make[4]: *** [incremental-dump] Error 1\n     4175    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'\n  >> 4176    make[3]: *** [all-recursive] Error 1\n     4177    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'",
+            "post_context": "     4179    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'\n  >> 4180    make[1]: *** [all-gold] Error 2\n     4181    make[1]: *** Waiting for unfinished jobs....\n     4182    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 598,
+            "repeat_count": 0,
+            "start": 592,
+            "end": 605,
+            "text": ">> 4180    make[1]: *** [all-gold] Error 2",
+            "pre_context": "  >> 4176    make[3]: *** [all-recursive] Error 1\n     4177    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'\n  >> 4178    make[2]: *** [all] Error 2\n     4179    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/gold'",
+            "post_context": "     4181    make[1]: *** Waiting for unfinished jobs....\n     4182    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.35.2-6ewhhdfslk6aj\n             lx4vcf55hacbusxafj4/spack-src/opcodes  -I. -I/var/tmp/koparasy/spa\n             ck-stage/spack-stage-binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxa"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 673,
+            "repeat_count": 0,
+            "start": 667,
+            "end": 680,
+            "text": ">> 4343    make: *** [all] Error 2",
+            "pre_context": "             '\n     4341    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src/opcodes\n             '\n     4342    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-binutils-2.35.2-6ewhhdfslk6ajlx4vcf55hacbusxafj4/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 341,
+            "repeat_count": 0,
+            "start": 335,
+            "end": 348,
+            "text": ">> 39    configure: error: gcc with GNU99 support required",
+            "pre_context": "     33    checking whether yytext is a pointer... yes\n     34    checking for ar... ar\n     35    checking the archiver (ar) interface... ar\n     36    checking for readelf... readelf\n     37    checking for nm... nm\n     38    checking for gcc with GNU99 support... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-elfutils-0.170-kjvonamltf5upnxlo7gcutpe7mfy2hta/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 345,
+            "repeat_count": 0,
+            "start": 339,
+            "end": 352,
+            "text": ">> 38    configure: error: gcc with GNU99 support required",
+            "pre_context": "     32    checking whether yytext is a pointer... yes\n     33    checking for ar... ar\n     34    checking the archiver (ar) interface... ar\n     35    checking for readelf... readelf\n     36    checking for nm... nm\n     37    checking for gcc with GNU99 support... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-elfutils-0.179-l4pcdrgzh4v3lj4xfv3vwjaec34o7svk/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 469,
+            "repeat_count": 0,
+            "start": 463,
+            "end": 476,
+            "text": ">> 4099    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             -I/var/tmp/koparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7\n             wd3bjqjxd72rtt5i5dxtiwke/spack-src/opcodes/../include -I/var/tmp/k\n             oparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqjxd72r\n             tt5i5dxtiwke/spack-src/opcodes/../bfd -W -Wall -Wstrict-prototypes\n              -Wmissing-prototypes -Wshadow -g -O2 -c nios2-dis.c  -fPIC -DPIC\n             -o .libs/nios2-dis.o",
+            "post_context": "             see invocation)\n  >> 4100    make[4]: *** [ld-new] Error 1\n     4101    make[4]: *** Waiting for unfinished jobs....\n     4102    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqj"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 471,
+            "repeat_count": 0,
+            "start": 465,
+            "end": 478,
+            "text": ">> 4100    make[4]: *** [ld-new] Error 1",
+            "pre_context": "             oparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqjxd72r\n             tt5i5dxtiwke/spack-src/opcodes/../bfd -W -Wall -Wstrict-prototypes\n              -Wmissing-prototypes -Wshadow -g -O2 -c nios2-dis.c  -fPIC -DPIC\n             -o .libs/nios2-dis.o\n  >> 4099    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4101    make[4]: *** Waiting for unfinished jobs....\n     4102    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqj\n             xd72rtt5i5dxtiwke/spack-src/opcodes  -I. -I/var/tmp/koparasy/spack\n             -stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 675,
+            "repeat_count": 0,
+            "start": 669,
+            "end": 682,
+            "text": ">> 4132    clang++: error: linker command failed with exit code 1 (use -v to",
+            "pre_context": "             -I/var/tmp/koparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7\n             wd3bjqjxd72rtt5i5dxtiwke/spack-src/opcodes/../include -I/var/tmp/k\n             oparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqjxd72r\n             tt5i5dxtiwke/spack-src/opcodes/../bfd -W -Wall -Wstrict-prototypes\n              -Wmissing-prototypes -Wshadow -g -O2 -c or1k-desc.c  -fPIC -DPIC\n             -o .libs/or1k-desc.o",
+            "post_context": "             see invocation)\n  >> 4133    make[4]: *** [incremental-dump] Error 1\n     4134    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'\n  >> 4135    make[3]: *** [all-recursive] Error 1\n     4136    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 677,
+            "repeat_count": 0,
+            "start": 671,
+            "end": 684,
+            "text": ">> 4133    make[4]: *** [incremental-dump] Error 1",
+            "pre_context": "             oparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqjxd72r\n             tt5i5dxtiwke/spack-src/opcodes/../bfd -W -Wall -Wstrict-prototypes\n              -Wmissing-prototypes -Wshadow -g -O2 -c or1k-desc.c  -fPIC -DPIC\n             -o .libs/or1k-desc.o\n  >> 4132    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)",
+            "post_context": "     4134    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'\n  >> 4135    make[3]: *** [all-recursive] Error 1\n     4136    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'\n  >> 4137    make[2]: *** [all] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 680,
+            "repeat_count": 0,
+            "start": 674,
+            "end": 687,
+            "text": ">> 4135    make[3]: *** [all-recursive] Error 1",
+            "pre_context": "             -o .libs/or1k-desc.o\n  >> 4132    clang++: error: linker command failed with exit code 1 (use -v to\n             see invocation)\n  >> 4133    make[4]: *** [incremental-dump] Error 1\n     4134    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'",
+            "post_context": "     4136    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'\n  >> 4137    make[2]: *** [all] Error 2\n     4138    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'\n  >> 4139    make[1]: *** [all-gold] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 683,
+            "repeat_count": 0,
+            "start": 677,
+            "end": 690,
+            "text": ">> 4137    make[2]: *** [all] Error 2",
+            "pre_context": "  >> 4133    make[4]: *** [incremental-dump] Error 1\n     4134    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'\n  >> 4135    make[3]: *** [all-recursive] Error 1\n     4136    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'",
+            "post_context": "     4138    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'\n  >> 4139    make[1]: *** [all-gold] Error 2\n     4140    make[1]: *** Waiting for unfinished jobs....\n     4141    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 686,
+            "repeat_count": 0,
+            "start": 680,
+            "end": 693,
+            "text": ">> 4139    make[1]: *** [all-gold] Error 2",
+            "pre_context": "  >> 4135    make[3]: *** [all-recursive] Error 1\n     4136    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'\n  >> 4137    make[2]: *** [all] Error 2\n     4138    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/gold'",
+            "post_context": "     4140    make[1]: *** Waiting for unfinished jobs....\n     4141    /bin/sh ./libtool  --tag=CC   --mode=compile /p/vast1/koparasy/BUI\n             LD/head/spack/lib/spack/env/oneapi/icx -DHAVE_CONFIG_H -I. -I/var/\n             tmp/koparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqj\n             xd72rtt5i5dxtiwke/spack-src/opcodes  -I. -I/var/tmp/koparasy/spack\n             -stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 759,
+            "repeat_count": 0,
+            "start": 753,
+            "end": 766,
+            "text": ">> 4342    make: *** [all] Error 2",
+            "pre_context": "     4339    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/opcodes'\n     4340    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src/opcodes'\n     4341    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-binutils-2.35-hoab3vp7wd3bjqjxd72rtt5i5dxtiwke/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 343,
+            "repeat_count": 0,
+            "start": 337,
+            "end": 350,
+            "text": ">> 38    configure: error: gcc with GNU99 support required",
+            "pre_context": "     32    checking whether yytext is a pointer... yes\n     33    checking for ar... ar\n     34    checking the archiver (ar) interface... ar\n     35    checking for readelf... readelf\n     36    checking for nm... nm\n     37    checking for gcc with GNU99 support... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-elfutils-0.183-si6jwq3uspwkjgjyx6wimeudqui5zr4h/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             rcoj6mnrftzzwwntuyj6zx/spack-src/lib/malloca.c",
+            "source_line_no": "5",
+            "line_no": 105,
+            "repeat_count": 0,
+            "start": 99,
+            "end": 112,
+            "text": "rcoj6mnrftzzwwntuyj6zx/spack-src/lib/malloca.c(52): error: argumen",
+            "pre_context": "             -nih4aakkdprcoj6mnrftzzwwntuyj6zx/spack-src/lib      -g -O2 -MT mb\n             scasecmp.o -MD -MP -MF $depbase.Tpo -c -o mbscasecmp.o /var/tmp/ko\n             parasy/spack-stage/spack-stage-diffutils-3.8-nih4aakkdprcoj6mnrftz\n             zwwntuyj6zx/spack-src/lib/mbscasecmp.c &&\\\n     1759    mv -f $depbase.Tpo $depbase.Po\n  >> 1760    /var/tmp/koparasy/spack-stage/spack-stage-diffutils-3.8-nih4aakkdp",
+            "post_context": "             t is incompatible with formal parameter\n     1761        if (!INT_ADD_WRAPV (n, plus, &nplus) && !xalloc_oversized (npl\n             us, 1))\n     1762             ^\n     1763\n     1764    compilation aborted for /var/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 114,
+            "repeat_count": 0,
+            "start": 108,
+            "end": 121,
+            "text": ">> 1765    make[2]: *** [malloca.o] Error 2",
+            "pre_context": "             us, 1))\n     1762             ^\n     1763\n     1764    compilation aborted for /var/tmp/koparasy/spack-stage/spack-stage-\n             diffutils-3.8-nih4aakkdprcoj6mnrftzzwwntuyj6zx/spack-src/lib/mallo\n             ca.c (code 2)",
+            "post_context": "     1766    make[2]: *** Waiting for unfinished jobs....\n     1767    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             diffutils-3.8-nih4aakkdprcoj6mnrftzzwwntuyj6zx/spack-src/spack-bui\n             ld/lib'\n  >> 1768    make[1]: *** [all] Error 2\n     1769    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 119,
+            "repeat_count": 0,
+            "start": 113,
+            "end": 126,
+            "text": ">> 1768    make[1]: *** [all] Error 2",
+            "pre_context": "             ca.c (code 2)\n  >> 1765    make[2]: *** [malloca.o] Error 2\n     1766    make[2]: *** Waiting for unfinished jobs....\n     1767    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             diffutils-3.8-nih4aakkdprcoj6mnrftzzwwntuyj6zx/spack-src/spack-bui\n             ld/lib'",
+            "post_context": "     1769    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             diffutils-3.8-nih4aakkdprcoj6mnrftzzwwntuyj6zx/spack-src/spack-bui\n             ld/lib'\n  >> 1770    make: *** [all-recursive] Error 1\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 123,
+            "repeat_count": 0,
+            "start": 117,
+            "end": 130,
+            "text": ">> 1770    make: *** [all-recursive] Error 1",
+            "pre_context": "             diffutils-3.8-nih4aakkdprcoj6mnrftzzwwntuyj6zx/spack-src/spack-bui\n             ld/lib'\n  >> 1768    make[1]: *** [all] Error 2\n     1769    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             diffutils-3.8-nih4aakkdprcoj6mnrftzzwwntuyj6zx/spack-src/spack-bui\n             ld/lib'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-diffutils-3.8-nih4aakkdprcoj6mnrftzzwwntuyj6zx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 336,
+            "repeat_count": 0,
+            "start": 330,
+            "end": 343,
+            "text": ">> 1882    make[1]: *** [Source/CMakeFiles/CMakeLib.dir/all] Error 2",
+            "pre_context": "             :cmQtAutoMocUicT::JobCompileUicT>]' used but never defined\n     1878           unique_ptr(pointer __p) noexcept\n     1879           ^~~~~~~~~~\n  >> 1880    make[2]: *** [Source/CMakeFiles/CMakeLib.dir/cmQtAutoMocUic.cxx.o]\n              Error 1\n     1881    make[2]: *** Waiting for unfinished jobs....",
+            "post_context": "  >> 1883    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-cmake-3.22.1-njyiq66gcjytsiprc7pf7drk26n5xdxd/spack-build-out.txt\n\nTraceback (most recent call last):"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 337,
+            "repeat_count": 0,
+            "start": 331,
+            "end": 344,
+            "text": ">> 1883    make: *** [all] Error 2",
+            "pre_context": "     1878           unique_ptr(pointer __p) noexcept\n     1879           ^~~~~~~~~~\n  >> 1880    make[2]: *** [Source/CMakeFiles/CMakeLib.dir/cmQtAutoMocUic.cxx.o]\n              Error 1\n     1881    make[2]: *** Waiting for unfinished jobs....\n  >> 1882    make[1]: *** [Source/CMakeFiles/CMakeLib.dir/all] Error 2",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-cmake-3.22.1-njyiq66gcjytsiprc7pf7drk26n5xdxd/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 343,
+            "repeat_count": 0,
+            "start": 337,
+            "end": 350,
+            "text": ">> 38    configure: error: gcc with GNU99 support required",
+            "pre_context": "     32    checking whether yytext is a pointer... yes\n     33    checking for ar... ar\n     34    checking the archiver (ar) interface... ar\n     35    checking for readelf... readelf\n     36    checking for nm... nm\n     37    checking for gcc with GNU99 support... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-elfutils-0.180-ynxcdfpfsi6d56kl4xwpzl5kwi7ewe7w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             xx45cfmix56ttnqqmb/spack-src/lib/xalloc.h",
+            "source_line_no": "1",
+            "line_no": 115,
+            "repeat_count": 0,
+            "start": 109,
+            "end": 122,
+            "text": "xx45cfmix56ttnqqmb/spack-src/lib/xalloc.h(199): error: argument is",
+            "pre_context": "     2193               ^\n     2194\n     2195    In file included from /var/tmp/koparasy/spack-stage/spack-stage-m4\n             -1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/lib/canonicaliz\n             e.c(36):\n  >> 2196    /var/tmp/koparasy/spack-stage/spack-stage-m4-1.4.19-qh3aruh4bd7rt2",
+            "post_context": "              incompatible with formal parameter\n     2197            if (INT_ADD_WRAPV (n, (n >> 1) + 1, &n))\n     2198                ^\n     2199\n     2200    compilation aborted for /var/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/lib/canonical"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 123,
+            "repeat_count": 0,
+            "start": 117,
+            "end": 130,
+            "text": ">> 2201    make[3]: *** [canonicalize.o] Error 2",
+            "pre_context": "     2197            if (INT_ADD_WRAPV (n, (n >> 1) + 1, &n))\n     2198                ^\n     2199\n     2200    compilation aborted for /var/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/lib/canonical\n             ize.c (code 2)",
+            "post_context": "     2202    make[3]: *** Waiting for unfinished jobs....\n     2203    In file included from /var/tmp/koparasy/spack-stage/spack-stage-m4\n             -1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/lib/clean-temp.\n             c(45):\n  >> 2204    /var/tmp/koparasy/spack-stage/spack-stage-m4-1.4.19-qh3aruh4bd7rt2\n             xx45cfmix56ttnqqmb/spack-src/lib/xalloc.h(199): error: argument is"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             xx45cfmix56ttnqqmb/spack-src/lib/xalloc.h",
+            "source_line_no": "1",
+            "line_no": 129,
+            "repeat_count": 0,
+            "start": 123,
+            "end": 136,
+            "text": "xx45cfmix56ttnqqmb/spack-src/lib/xalloc.h(199): error: argument is",
+            "pre_context": "  >> 2201    make[3]: *** [canonicalize.o] Error 2\n     2202    make[3]: *** Waiting for unfinished jobs....\n     2203    In file included from /var/tmp/koparasy/spack-stage/spack-stage-m4\n             -1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/lib/clean-temp.\n             c(45):\n  >> 2204    /var/tmp/koparasy/spack-stage/spack-stage-m4-1.4.19-qh3aruh4bd7rt2",
+            "post_context": "              incompatible with formal parameter\n     2205            if (INT_ADD_WRAPV (n, (n >> 1) + 1, &n))\n     2206                ^\n     2207\n     2208    compilation aborted for /var/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/lib/clean-tem"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 137,
+            "repeat_count": 0,
+            "start": 131,
+            "end": 144,
+            "text": ">> 2209    make[3]: *** [clean-temp.o] Error 2",
+            "pre_context": "     2205            if (INT_ADD_WRAPV (n, (n >> 1) + 1, &n))\n     2206                ^\n     2207\n     2208    compilation aborted for /var/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/lib/clean-tem\n             p.c (code 2)",
+            "post_context": "     2210    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build/l\n             ib'\n  >> 2211    make[2]: *** [all] Error 2\n     2212    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build/l"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 141,
+            "repeat_count": 0,
+            "start": 135,
+            "end": 148,
+            "text": ">> 2211    make[2]: *** [all] Error 2",
+            "pre_context": "             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/lib/clean-tem\n             p.c (code 2)\n  >> 2209    make[3]: *** [clean-temp.o] Error 2\n     2210    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build/l\n             ib'",
+            "post_context": "     2212    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build/l\n             ib'\n  >> 2213    make[1]: *** [all-recursive] Error 1\n     2214    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 145,
+            "repeat_count": 0,
+            "start": 139,
+            "end": 152,
+            "text": ">> 2213    make[1]: *** [all-recursive] Error 1",
+            "pre_context": "             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build/l\n             ib'\n  >> 2211    make[2]: *** [all] Error 2\n     2212    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build/l\n             ib'",
+            "post_context": "     2214    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build'\n  >> 2215    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 148,
+            "repeat_count": 0,
+            "start": 142,
+            "end": 155,
+            "text": ">> 2215    make: *** [all] Error 2",
+            "pre_context": "     2212    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build/l\n             ib'\n  >> 2213    make[1]: *** [all-recursive] Error 1\n     2214    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-src/spack-build'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-m4-1.4.19-qh3aruh4bd7rt2xx45cfmix56ttnqqmb/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 372,
+            "repeat_count": 0,
+            "start": 366,
+            "end": 379,
+            "text": ">> 247    print_die.cc:2134:58: error: no match for 'operator<<' (operand typ",
+            "pre_context": "            uster_installer/quartz/tau/spack_env_dir/linux-rhel7-broadwell/gcc-\n            7.3.0/libdwarf-20130207-pbpczst4fwygcbrnzru3j6icm4bglucn/lib    -c\n            -o print_die.o print_die.cc\n     246    print_die.cc: In function 'bool print_attribute(Dwarf_Debug, Dwarf_\n            Die, Dwarf_Half, Dwarf_Attribute, bool, int, DieVec&, SrcfilesHolde\n            r&)':",
+            "post_context": "            es are 'std::basic_ostream<char>' and 'std::ostream {aka std::basic\n            _ostream<char>}')\n     248                                     cout << \"Low = \" <<\n     249                                     ~~~~~~~~~~~~~~~~~~~\n     250                                         IToHex0N(lowAddr,10) <<\n     251                                         ~~~~~~~~~~~~~~~~~~~~~^~"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 434,
+            "repeat_count": 0,
+            "start": 428,
+            "end": 441,
+            "text": ">> 548    make: *** [print_die.o] Error 1",
+            "pre_context": "            .h:6272:5: note:   template argument deduction/substitution failed:\n     545    print_die.cc:2135:33: note:   'std::ostream {aka std::basic_ostream\n            <char>}' is not derived from 'const std::__cxx11::basic_string<_Cha\n            rT, _Traits, _Alloc>'\n     546                                     cout << \"High = \" <<\n     547                                     ^~~~",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libdwarf-20130207-wmdfvsvkbdvungqjc6lvgzexl3j6fjcp/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 135,
+            "repeat_count": 0,
+            "start": 129,
+            "end": 142,
+            "text": ">> 709    clang: error: linker command failed with exit code 1 (use -v to see",
+            "pre_context": "            --whole-archive ./.libs/libunwind-dwarf-local.a ./.libs/libunwind-e\n            lf64.a -Wl,--no-whole-archive  -lc -lgcc_s  -O2 -nostartfiles -nost\n            dlib   -Wl,-soname -Wl,libunwind.so.8 -o .libs/libunwind.so.8.0.1\n     707    x86_64/.libs/Linit.o:(.bss+0x66e8): multiple definition of `_U_dyn_\n            info_list'\n     708    mi/.libs/dyn-info-list.o:(.bss+0x0): first defined here",
+            "post_context": "             invocation)\n  >> 710    make[2]: *** [libunwind.la] Error 1\n     711    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-1.3.1-tvb3uu2o7srwflipztmcmvw6grkka332/spack-src/src'\n  >> 712    make[1]: *** [all] Error 2\n     713    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 137,
+            "repeat_count": 0,
+            "start": 131,
+            "end": 144,
+            "text": ">> 710    make[2]: *** [libunwind.la] Error 1",
+            "pre_context": "            dlib   -Wl,-soname -Wl,libunwind.so.8 -o .libs/libunwind.so.8.0.1\n     707    x86_64/.libs/Linit.o:(.bss+0x66e8): multiple definition of `_U_dyn_\n            info_list'\n     708    mi/.libs/dyn-info-list.o:(.bss+0x0): first defined here\n  >> 709    clang: error: linker command failed with exit code 1 (use -v to see\n             invocation)",
+            "post_context": "     711    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-1.3.1-tvb3uu2o7srwflipztmcmvw6grkka332/spack-src/src'\n  >> 712    make[1]: *** [all] Error 2\n     713    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-1.3.1-tvb3uu2o7srwflipztmcmvw6grkka332/spack-src/src'\n  >> 714    make: *** [all-recursive] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 140,
+            "repeat_count": 0,
+            "start": 134,
+            "end": 147,
+            "text": ">> 712    make[1]: *** [all] Error 2",
+            "pre_context": "     708    mi/.libs/dyn-info-list.o:(.bss+0x0): first defined here\n  >> 709    clang: error: linker command failed with exit code 1 (use -v to see\n             invocation)\n  >> 710    make[2]: *** [libunwind.la] Error 1\n     711    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-1.3.1-tvb3uu2o7srwflipztmcmvw6grkka332/spack-src/src'",
+            "post_context": "     713    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-1.3.1-tvb3uu2o7srwflipztmcmvw6grkka332/spack-src/src'\n  >> 714    make: *** [all-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libunwind-1.3.1-tvb3uu2o7srwflipztmcmvw6grkka332/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 143,
+            "repeat_count": 0,
+            "start": 137,
+            "end": 150,
+            "text": ">> 714    make: *** [all-recursive] Error 1",
+            "pre_context": "  >> 710    make[2]: *** [libunwind.la] Error 1\n     711    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-1.3.1-tvb3uu2o7srwflipztmcmvw6grkka332/spack-src/src'\n  >> 712    make[1]: *** [all] Error 2\n     713    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibunwind-1.3.1-tvb3uu2o7srwflipztmcmvw6grkka332/spack-src/src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libunwind-1.3.1-tvb3uu2o7srwflipztmcmvw6grkka332/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 279,
+            "repeat_count": 0,
+            "start": 273,
+            "end": 286,
+            "text": ">> 809    configure: error: 'mxm/api/mxm_api.h or libmxm library not found. D",
+            "pre_context": "     803    checking for knem_io.h... no\n     804    configure: RUNNING CONFIGURE FOR ch3:nemesis:mxm\n     805    checking mxm/api/mxm_api.h usability... no\n     806    checking mxm/api/mxm_api.h presence... no\n     807    checking for mxm/api/mxm_api.h... no\n     808    checking for mxm_get_version in -lmxm... no",
+            "post_context": "            id you specify --with-mxm= or --with-mxm-include= or --with-mxm-lib\n            =?'\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.1.4-qpejbackrh4ebaw6kugphnrmaazygaoz/spack-build-out.txt\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 373,
+            "repeat_count": 0,
+            "start": 367,
+            "end": 380,
+            "text": ">> 247    print_die.cc:2134:58: error: no match for 'operator<<' (operand typ",
+            "pre_context": "            uster_installer/quartz/tau/spack_env_dir/linux-rhel7-broadwell/gcc-\n            7.3.0/libdwarf-20130207-xjehf3upomewqwmnpmr7cyyuopvxtdvp/lib    -c\n            -o print_die.o print_die.cc\n     246    print_die.cc: In function 'bool print_attribute(Dwarf_Debug, Dwarf_\n            Die, Dwarf_Half, Dwarf_Attribute, bool, int, DieVec&, SrcfilesHolde\n            r&)':",
+            "post_context": "            es are 'std::basic_ostream<char>' and 'std::ostream {aka std::basic\n            _ostream<char>}')\n     248                                     cout << \"Low = \" <<\n     249                                     ~~~~~~~~~~~~~~~~~~~\n     250                                         IToHex0N(lowAddr,10) <<\n     251                                         ~~~~~~~~~~~~~~~~~~~~~^~"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 435,
+            "repeat_count": 0,
+            "start": 429,
+            "end": 442,
+            "text": ">> 548    make: *** [print_die.o] Error 1",
+            "pre_context": "            .h:6272:5: note:   template argument deduction/substitution failed:\n     545    print_die.cc:2135:33: note:   'std::ostream {aka std::basic_ostream\n            <char>}' is not derived from 'const std::__cxx11::basic_string<_Cha\n            rT, _Traits, _Alloc>'\n     546                                     cout << \"High = \" <<\n     547                                     ^~~~",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libdwarf-20130207-dcrs4buztqhg5h5z6zpe62b63vjellyn/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 388,
+            "repeat_count": 0,
+            "start": 382,
+            "end": 395,
+            "text": "40: undefined reference to `MPI_Init'",
+            "pre_context": "            ciaccess -lxml2 -Wl,-rpath -Wl,/p/vast1/koparasy/BUILD/spack_cluste\n            r_installer/quartz/tau/spack_env_dir/linux-rhel7-broadwell/gcc-7.3.\n            0/hwloc-2.2.0-ydilw7toz7wwjc3zsvya5n3qs4o37qm3/lib\n     767    netloc_mpi_find_hosts-netloc_mpi_find_hosts.o: In function `main':\n  >> 768    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 769    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            42: undefined reference to `MPI_Comm_rank'\n  >> 770    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            43: undefined reference to `MPI_Comm_size'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 391,
+            "repeat_count": 0,
+            "start": 385,
+            "end": 398,
+            "text": "42: undefined reference to `MPI_Comm_rank'",
+            "pre_context": "     767    netloc_mpi_find_hosts-netloc_mpi_find_hosts.o: In function `main':\n  >> 768    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            40: undefined reference to `MPI_Init'\n  >> 769    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 770    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            43: undefined reference to `MPI_Comm_size'\n  >> 771    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            48: undefined reference to `MPI_Abort'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 394,
+            "repeat_count": 0,
+            "start": 388,
+            "end": 401,
+            "text": "43: undefined reference to `MPI_Comm_size'",
+            "pre_context": "            40: undefined reference to `MPI_Init'\n  >> 769    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            42: undefined reference to `MPI_Comm_rank'\n  >> 770    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 771    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            48: undefined reference to `MPI_Abort'\n  >> 772    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            57: undefined reference to `MPI_Get_processor_name'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 397,
+            "repeat_count": 0,
+            "start": 391,
+            "end": 404,
+            "text": "48: undefined reference to `MPI_Abort'",
+            "pre_context": "            42: undefined reference to `MPI_Comm_rank'\n  >> 770    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            43: undefined reference to `MPI_Comm_size'\n  >> 771    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 772    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            57: undefined reference to `MPI_Get_processor_name'\n  >> 773    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            157: undefined reference to `MPI_Send'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 400,
+            "repeat_count": 0,
+            "start": 394,
+            "end": 407,
+            "text": "57: undefined reference to `MPI_Get_processor_name'",
+            "pre_context": "            43: undefined reference to `MPI_Comm_size'\n  >> 771    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            48: undefined reference to `MPI_Abort'\n  >> 772    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 773    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            157: undefined reference to `MPI_Send'\n  >> 774    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            159: undefined reference to `MPI_Send'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 403,
+            "repeat_count": 0,
+            "start": 397,
+            "end": 410,
+            "text": "157: undefined reference to `MPI_Send'",
+            "pre_context": "            48: undefined reference to `MPI_Abort'\n  >> 772    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            57: undefined reference to `MPI_Get_processor_name'\n  >> 773    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 774    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            159: undefined reference to `MPI_Send'\n  >> 775    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            162: undefined reference to `MPI_Recv'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 406,
+            "repeat_count": 0,
+            "start": 400,
+            "end": 413,
+            "text": "159: undefined reference to `MPI_Send'",
+            "pre_context": "            57: undefined reference to `MPI_Get_processor_name'\n  >> 773    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            157: undefined reference to `MPI_Send'\n  >> 774    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 775    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            162: undefined reference to `MPI_Recv'\n  >> 776    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            223: undefined reference to `MPI_Finalize'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 409,
+            "repeat_count": 0,
+            "start": 403,
+            "end": 416,
+            "text": "162: undefined reference to `MPI_Recv'",
+            "pre_context": "            157: undefined reference to `MPI_Send'\n  >> 774    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            159: undefined reference to `MPI_Send'\n  >> 775    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 776    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            223: undefined reference to `MPI_Finalize'\n  >> 777    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            93: undefined reference to `MPI_Recv'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 412,
+            "repeat_count": 0,
+            "start": 406,
+            "end": 419,
+            "text": "223: undefined reference to `MPI_Finalize'",
+            "pre_context": "            159: undefined reference to `MPI_Send'\n  >> 775    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            162: undefined reference to `MPI_Recv'\n  >> 776    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 777    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            93: undefined reference to `MPI_Recv'\n  >> 778    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            99: undefined reference to `MPI_Recv'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 415,
+            "repeat_count": 0,
+            "start": 409,
+            "end": 422,
+            "text": "93: undefined reference to `MPI_Recv'",
+            "pre_context": "            162: undefined reference to `MPI_Recv'\n  >> 776    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            223: undefined reference to `MPI_Finalize'\n  >> 777    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 778    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            99: undefined reference to `MPI_Recv'\n  >> 779    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            116: undefined reference to `MPI_Send'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 418,
+            "repeat_count": 0,
+            "start": 412,
+            "end": 425,
+            "text": "99: undefined reference to `MPI_Recv'",
+            "pre_context": "            223: undefined reference to `MPI_Finalize'\n  >> 777    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            93: undefined reference to `MPI_Recv'\n  >> 778    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 779    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            116: undefined reference to `MPI_Send'\n  >> 780    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            112: undefined reference to `MPI_Send'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 421,
+            "repeat_count": 0,
+            "start": 415,
+            "end": 428,
+            "text": "116: undefined reference to `MPI_Send'",
+            "pre_context": "            93: undefined reference to `MPI_Recv'\n  >> 778    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            99: undefined reference to `MPI_Recv'\n  >> 779    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 780    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            112: undefined reference to `MPI_Send'\n  >> 781    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            65: undefined reference to `MPI_Abort'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 424,
+            "repeat_count": 0,
+            "start": 418,
+            "end": 431,
+            "text": "112: undefined reference to `MPI_Send'",
+            "pre_context": "            99: undefined reference to `MPI_Recv'\n  >> 779    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            116: undefined reference to `MPI_Send'\n  >> 780    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 781    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            65: undefined reference to `MPI_Abort'\n  >> 782    collect2: error: ld returned 1 exit status\n  >> 783    make[2]: *** [netloc_mpi_find_hosts] Error 1\n     784    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 427,
+            "repeat_count": 0,
+            "start": 421,
+            "end": 434,
+            "text": "65: undefined reference to `MPI_Abort'",
+            "pre_context": "            116: undefined reference to `MPI_Send'\n  >> 780    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            112: undefined reference to `MPI_Send'\n  >> 781    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:",
+            "post_context": "  >> 782    collect2: error: ld returned 1 exit status\n  >> 783    make[2]: *** [netloc_mpi_find_hosts] Error 1\n     784    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h\n            wloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-src/utils/netloc/\n            mpi'\n  >> 785    make[1]: *** [all-recursive] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 428,
+            "repeat_count": 0,
+            "start": 422,
+            "end": 435,
+            "text": ">> 782    collect2: error: ld returned 1 exit status",
+            "pre_context": "  >> 780    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            112: undefined reference to `MPI_Send'\n  >> 781    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            65: undefined reference to `MPI_Abort'",
+            "post_context": "  >> 783    make[2]: *** [netloc_mpi_find_hosts] Error 1\n     784    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h\n            wloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-src/utils/netloc/\n            mpi'\n  >> 785    make[1]: *** [all-recursive] Error 1\n     786    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 429,
+            "repeat_count": 0,
+            "start": 423,
+            "end": 436,
+            "text": ">> 783    make[2]: *** [netloc_mpi_find_hosts] Error 1",
+            "pre_context": "            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            112: undefined reference to `MPI_Send'\n  >> 781    /tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo2\n            6xwr4uplbf67xoc/spack-src/utils/netloc/mpi/netloc_mpi_find_hosts.c:\n            65: undefined reference to `MPI_Abort'\n  >> 782    collect2: error: ld returned 1 exit status",
+            "post_context": "     784    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h\n            wloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-src/utils/netloc/\n            mpi'\n  >> 785    make[1]: *** [all-recursive] Error 1\n     786    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h\n            wloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-src/utils'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 433,
+            "repeat_count": 0,
+            "start": 427,
+            "end": 440,
+            "text": ">> 785    make[1]: *** [all-recursive] Error 1",
+            "pre_context": "            65: undefined reference to `MPI_Abort'\n  >> 782    collect2: error: ld returned 1 exit status\n  >> 783    make[2]: *** [netloc_mpi_find_hosts] Error 1\n     784    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h\n            wloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-src/utils/netloc/\n            mpi'",
+            "post_context": "     786    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h\n            wloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-src/utils'\n  >> 787    make: *** [all-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 436,
+            "repeat_count": 0,
+            "start": 430,
+            "end": 443,
+            "text": ">> 787    make: *** [all-recursive] Error 1",
+            "pre_context": "     784    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h\n            wloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-src/utils/netloc/\n            mpi'\n  >> 785    make[1]: *** [all-recursive] Error 1\n     786    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-h\n            wloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-src/utils'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-hwloc-2.2.0-u5dncnva57wdrijo26xwr4uplbf67xoc/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 345,
+            "repeat_count": 0,
+            "start": 339,
+            "end": 352,
+            "text": ">> 38    configure: error: gcc with GNU99 support required",
+            "pre_context": "     32    checking whether yytext is a pointer... yes\n     33    checking for ar... ar\n     34    checking the archiver (ar) interface... ar\n     35    checking for readelf... readelf\n     36    checking for nm... nm\n     37    checking for gcc with GNU99 support... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-elfutils-0.178-io53pzfqnsxdkf7zwmwbqqgmzhtstpxw/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

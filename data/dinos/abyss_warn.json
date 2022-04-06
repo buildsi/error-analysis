@@ -1,0 +1,14 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": "            bcyzvptyhrrxmyb4pap/spack-src/Common/SAM.h",
+            "source_line_no": "1",
+            "line_no": 863,
+            "repeat_count": 0,
+            "start": 857,
+            "end": 870,
+            "text": "bcyzvptyhrrxmyb4pap/spack-src/Common/SAM.h:184:5: warning: this sta",
+            "pre_context": "     654                                     ^~~~~~~~~~\n     655                                     make_nvp\n\n     ...\n\n     664    /var/tmp/koparasy/spack-stage/spack-stage-abyss-2.0.2-igdjhtgxq4xrl",
+            "post_context": "            tement may fall through [-Wimplicit-fallthrough=]\n     665         if ((unsigned)a.align_length < len) {\n     666         ^~\n     667    /var/tmp/koparasy/spack-stage/spack-stage-abyss-2.0.2-igdjhtgxq4xrl\n            bcyzvptyhrrxmyb4pap/spack-src/Common/SAM.h:191:6: note: here\n     668          case 'H': case 'S':"
+      }
+]

@@ -1,0 +1,16 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 272,
+            "repeat_count": 0,
+            "start": 266,
+            "end": 279,
+            "text": ">> 809    configure: error: 'mxm/api/mxm_api.h or libmxm library not found. D",
+            "pre_context": "     803    checking for knem_io.h... no\n     804    configure: RUNNING CONFIGURE FOR ch3:nemesis:mxm\n     805    checking mxm/api/mxm_api.h usability... no\n     806    checking mxm/api/mxm_api.h presence... no\n     807    checking for mxm/api/mxm_api.h... no\n     808    checking for mxm_get_version in -lmxm... no",
+            "post_context": "            id you specify --with-mxm= or --with-mxm-include= or --with-mxm-lib\n            =?'\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.1.4-hhpzie7xda5zkaehetum3jkpglwqqya2/spack-build-out.txt\n"
+      }
+]

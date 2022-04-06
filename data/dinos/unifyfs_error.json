@@ -1,0 +1,602 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 391,
+            "repeat_count": 0,
+            "start": 385,
+            "end": 398,
+            "text": "==> [2022-01-17-10:01:59.037783] Error: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists",
+            "pre_context": "==> [2022-01-17-10:01:55.134085] FailedDownloadError: Failed to fetch file from URL: https://mirror.spack.io/libtool/libtool-develop.tar.gz\n==> [2022-01-17-10:01:55.134352] Cloning git repository: https://git.savannah.gnu.org/git/libtool.git on branch master\n==> [2022-01-17-10:01:55.140523] '/usr/tce/bin/git' '--version'\n==> [2022-01-17-10:01:55.146740] '/usr/tce/bin/git' '-c' 'advice.detachedHead=false' '--version'\n==> [2022-01-17-10:01:55.151882] '/usr/tce/bin/git' '-c' 'advice.detachedHead=false' '--version'\n==> [2022-01-17-10:01:55.157057] '/usr/tce/bin/git' '-c' 'advice.detachedHead=false' 'clone' '--branch' 'master' '--single-branch' '--depth' '1' 'https://git.savannah.gnu.org/git/libtool.git'",
+            "post_context": "\n/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/package.py:1386, in do_fetch:\n       1383\n       1384        self.stage.create()\n       1385        err_msg = None if not self.manual_download else self.download_instr\n  >>   1386        start_time = time.time()"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 431,
+            "repeat_count": 0,
+            "start": 425,
+            "end": 435,
+            "text": "==> [2022-01-17-10:01:59.038189] Flagging libtool-develop-3deykznyuf24rbz3ewatf6kvweauhf5x as failed: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists",
+            "pre_context": "    self.clone(commit=self.commit, branch=self.branch, tag=self.tag)\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/fetch_strategy.py\", line 982, in clone\n    shutil.move(repo_name, dest)\n  File \"/usr/tce/packages/python/python-3.7.2/lib/python3.7/shutil.py\", line 561, in move\n    raise Error(\"Destination path '%s' already exists\" % real_dst)\nshutil.Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists",
+            "post_context": "==> [2022-01-17-10:01:59.598164] Skip view update, this environment does not maintain a view\n==> [2022-01-17-10:01:59.599888] ChildError: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 433,
+            "repeat_count": 0,
+            "start": 427,
+            "end": 435,
+            "text": "==> [2022-01-17-10:01:59.599888] ChildError: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists",
+            "pre_context": "    shutil.move(repo_name, dest)\n  File \"/usr/tce/packages/python/python-3.7.2/lib/python3.7/shutil.py\", line 561, in move\n    raise Error(\"Destination path '%s' already exists\" % real_dst)\nshutil.Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists\n==> [2022-01-17-10:01:59.038189] Flagging libtool-develop-3deykznyuf24rbz3ewatf6kvweauhf5x as failed: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists\n==> [2022-01-17-10:01:59.598164] Skip view update, this environment does not maintain a view",
+            "post_context": ""
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 420,
+            "repeat_count": 0,
+            "start": 414,
+            "end": 427,
+            "text": "fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c:1141:14: error: 'FI",
+            "pre_context": "            -c /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdr\n            t5yfjspeenbl7qqta434nhnw/spack-src/src/na/na_sm.c\n     167    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y\n            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c: In function 'na_of\n            i_errno_to_na':\n  >> 168    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y",
+            "post_context": "            _EPERM' undeclared (first use in this function); did you mean 'FI_E\n            P_RDM'?\n     169     1141 |         case FI_EPERM:\n     170          |              ^~~~~~~~\n     171          |              FI_EP_RDM\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 431,
+            "repeat_count": 0,
+            "start": 425,
+            "end": 438,
+            "text": "fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c:1147:14: error: 'FI",
+            "pre_context": "     171          |              FI_EP_RDM\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y\n            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c:1141:14: note: each\n             undeclared identifier is reported only once for each function it a\n            ppears in\n  >> 173    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y",
+            "post_context": "            _EINTR' undeclared (first use in this function); did you mean 'FI_U\n            INT8'?\n     174     1147 |         case FI_EINTR:\n     175          |              ^~~~~~~~\n     176          |              FI_UINT8\n  >> 177    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 438,
+            "repeat_count": 0,
+            "start": 432,
+            "end": 445,
+            "text": "fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c:1159:14: error: 'FI",
+            "pre_context": "            _EINTR' undeclared (first use in this function); did you mean 'FI_U\n            INT8'?\n     174     1147 |         case FI_EINTR:\n     175          |              ^~~~~~~~\n     176          |              FI_UINT8\n  >> 177    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y",
+            "post_context": "            _EFAULT' undeclared (first use in this function); did you mean 'FI_\n            ENABLE'?\n     178     1159 |         case FI_EFAULT:\n     179          |              ^~~~~~~~~\n     180          |              FI_ENABLE\n  >> 181    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 445,
+            "repeat_count": 0,
+            "start": 439,
+            "end": 452,
+            "text": "fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c:1171:14: error: 'FI",
+            "pre_context": "            _EFAULT' undeclared (first use in this function); did you mean 'FI_\n            ENABLE'?\n     178     1159 |         case FI_EFAULT:\n     179          |              ^~~~~~~~~\n     180          |              FI_ENABLE\n  >> 181    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y",
+            "post_context": "            _EOVERFLOW' undeclared (first use in this function); did you mean '\n            NA_OVERFLOW'?\n     182     1171 |         case FI_EOVERFLOW:\n     183          |              ^~~~~~~~~~~~\n     184          |              NA_OVERFLOW\n  >> 185    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 452,
+            "repeat_count": 0,
+            "start": 446,
+            "end": 459,
+            "text": "fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c:1194:14: error: 'FI",
+            "pre_context": "            _EOVERFLOW' undeclared (first use in this function); did you mean '\n            NA_OVERFLOW'?\n     182     1171 |         case FI_EOVERFLOW:\n     183          |              ^~~~~~~~~~~~\n     184          |              NA_OVERFLOW\n  >> 185    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y",
+            "post_context": "            _EHOSTDOWN' undeclared (first use in this function); did you mean '\n            FI_SHUTDOWN'?\n     186     1194 |         case FI_EHOSTDOWN:\n     187          |              ^~~~~~~~~~~~\n     188          |              FI_SHUTDOWN\n     189    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c",
+            "source_line_no": "5",
+            "line_no": 462,
+            "repeat_count": 0,
+            "start": 456,
+            "end": 469,
+            "text": "fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c:5435:28: error: 'FI",
+            "pre_context": "     187          |              ^~~~~~~~~~~~\n     188          |              FI_SHUTDOWN\n     189    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y\n            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c: In function 'na_of\n            i_progress':\n  >> 190    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5y",
+            "post_context": "            _EINTR' undeclared (first use in this function); did you mean 'FI_U\n            INT8'?\n     191     5435 |                 if (rc == -FI_EINTR) {\n     192          |                            ^~~~~~~~\n     193          |                            FI_UINT8\n  >> 194    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 468,
+            "repeat_count": 0,
+            "start": 462,
+            "end": 475,
+            "text": ">> 194    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1",
+            "pre_context": "            fjspeenbl7qqta434nhnw/spack-src/src/na/na_ofi.c:5435:28: error: 'FI\n            _EINTR' undeclared (first use in this function); did you mean 'FI_U\n            INT8'?\n     191     5435 |                 if (rc == -FI_EINTR) {\n     192          |                            ^~~~~~~~\n     193          |                            FI_UINT8",
+            "post_context": "     195    make[2]: *** Waiting for unfinished jobs....\n     196    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-qjukxtdrt5yfjspeenbl7qqta434nhnw/spack-build-qjukxtd'\n  >> 197    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     198    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-qjukxtdrt5yfjspeenbl7qqta434nhnw/spack-build-qjukxtd'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 472,
+            "repeat_count": 0,
+            "start": 466,
+            "end": 479,
+            "text": ">> 197    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2",
+            "pre_context": "     192          |                            ^~~~~~~~\n     193          |                            FI_UINT8\n  >> 194    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1\n     195    make[2]: *** Waiting for unfinished jobs....\n     196    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-qjukxtdrt5yfjspeenbl7qqta434nhnw/spack-build-qjukxtd'",
+            "post_context": "     198    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-qjukxtdrt5yfjspeenbl7qqta434nhnw/spack-build-qjukxtd'\n  >> 199    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5yfjspeenbl7qqta434nhnw/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 475,
+            "repeat_count": 0,
+            "start": 469,
+            "end": 482,
+            "text": ">> 199    make: *** [all] Error 2",
+            "pre_context": "     195    make[2]: *** Waiting for unfinished jobs....\n     196    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-qjukxtdrt5yfjspeenbl7qqta434nhnw/spack-build-qjukxtd'\n  >> 197    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     198    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-qjukxtdrt5yfjspeenbl7qqta434nhnw/spack-build-qjukxtd'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-qjukxtdrt5yfjspeenbl7qqta434nhnw/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 389,
+            "repeat_count": 0,
+            "start": 383,
+            "end": 396,
+            "text": "==> [2022-01-17-10:01:59.038423] Error: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists",
+            "pre_context": "==> [2022-01-17-10:01:55.134008] FailedDownloadError: Failed to fetch file from URL: https://mirror.spack.io/libtool/libtool-develop.tar.gz\n==> [2022-01-17-10:01:55.134245] Cloning git repository: https://git.savannah.gnu.org/git/libtool.git on branch master\n==> [2022-01-17-10:01:55.140500] '/usr/tce/bin/git' '--version'\n==> [2022-01-17-10:01:55.146502] '/usr/tce/bin/git' '-c' 'advice.detachedHead=false' '--version'\n==> [2022-01-17-10:01:55.151450] '/usr/tce/bin/git' '-c' 'advice.detachedHead=false' '--version'\n==> [2022-01-17-10:01:55.156270] '/usr/tce/bin/git' '-c' 'advice.detachedHead=false' 'clone' '--branch' 'master' '--single-branch' '--depth' '1' 'https://git.savannah.gnu.org/git/libtool.git'",
+            "post_context": "\n/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/package.py:1386, in do_fetch:\n       1383\n       1384        self.stage.create()\n       1385        err_msg = None if not self.manual_download else self.download_instr\n  >>   1386        start_time = time.time()"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 429,
+            "repeat_count": 0,
+            "start": 423,
+            "end": 433,
+            "text": "==> [2022-01-17-10:01:59.038841] Flagging libtool-develop-be7w4iiusomgs7lwuom7fntj6cpl3vwi as failed: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists",
+            "pre_context": "    self.clone(commit=self.commit, branch=self.branch, tag=self.tag)\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/fetch_strategy.py\", line 982, in clone\n    shutil.move(repo_name, dest)\n  File \"/usr/tce/packages/python/python-3.7.2/lib/python3.7/shutil.py\", line 561, in move\n    raise Error(\"Destination path '%s' already exists\" % real_dst)\nshutil.Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists",
+            "post_context": "==> [2022-01-17-10:01:59.327324] Skip view update, this environment does not maintain a view\n==> [2022-01-17-10:01:59.329133] ChildError: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 431,
+            "repeat_count": 0,
+            "start": 425,
+            "end": 433,
+            "text": "==> [2022-01-17-10:01:59.329133] ChildError: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists",
+            "pre_context": "    shutil.move(repo_name, dest)\n  File \"/usr/tce/packages/python/python-3.7.2/lib/python3.7/shutil.py\", line 561, in move\n    raise Error(\"Destination path '%s' already exists\" % real_dst)\nshutil.Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists\n==> [2022-01-17-10:01:59.038841] Flagging libtool-develop-be7w4iiusomgs7lwuom7fntj6cpl3vwi as failed: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-vkf6ysk7o4yb6mcox75hxl5ccwso2zkr/spack-src/libtool' already exists\n==> [2022-01-17-10:01:59.327324] Skip view update, this environment does not maintain a view",
+            "post_context": ""
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            x6ykacjvnysuq5jk34zgo/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 420,
+            "repeat_count": 0,
+            "start": 414,
+            "end": 427,
+            "text": "x6ykacjvnysuq5jk34zgo/spack-src/src/na/na_ofi.c:1171:14: error: 'FI",
+            "pre_context": "            .o -c /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-ykiiw\n            sbc4pox6ykacjvnysuq5jk34zgo/spack-src/src/na/na_ofi.c\n     167    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-ykiiwsbc4po\n            x6ykacjvnysuq5jk34zgo/spack-src/src/na/na_ofi.c: In function 'na_of\n            i_errno_to_na':\n  >> 168    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-ykiiwsbc4po",
+            "post_context": "            _EOVERFLOW' undeclared (first use in this function); did you mean '\n            NA_OVERFLOW'?\n     169     1171 |         case FI_EOVERFLOW:\n     170          |              ^~~~~~~~~~~~\n     171          |              NA_OVERFLOW\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-ykiiwsbc4po"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 430,
+            "repeat_count": 0,
+            "start": 424,
+            "end": 437,
+            "text": ">> 173    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1",
+            "pre_context": "     170          |              ^~~~~~~~~~~~\n     171          |              NA_OVERFLOW\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-ykiiwsbc4po\n            x6ykacjvnysuq5jk34zgo/spack-src/src/na/na_ofi.c:1171:14: note: each\n             undeclared identifier is reported only once for each function it a\n            ppears in",
+            "post_context": "     174    make[2]: *** Waiting for unfinished jobs....\n     175    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-ykiiwsbc4pox6ykacjvnysuq5jk34zgo/spack-build-ykiiwsb'\n  >> 176    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     177    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-ykiiwsbc4pox6ykacjvnysuq5jk34zgo/spack-build-ykiiwsb'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 434,
+            "repeat_count": 0,
+            "start": 428,
+            "end": 441,
+            "text": ">> 176    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2",
+            "pre_context": "             undeclared identifier is reported only once for each function it a\n            ppears in\n  >> 173    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1\n     174    make[2]: *** Waiting for unfinished jobs....\n     175    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-ykiiwsbc4pox6ykacjvnysuq5jk34zgo/spack-build-ykiiwsb'",
+            "post_context": "     177    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-ykiiwsbc4pox6ykacjvnysuq5jk34zgo/spack-build-ykiiwsb'\n  >> 178    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-ykiiwsbc4pox6ykacjvnysuq5jk34zgo/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 437,
+            "repeat_count": 0,
+            "start": 431,
+            "end": 444,
+            "text": ">> 178    make: *** [all] Error 2",
+            "pre_context": "     174    make[2]: *** Waiting for unfinished jobs....\n     175    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-ykiiwsbc4pox6ykacjvnysuq5jk34zgo/spack-build-ykiiwsb'\n  >> 176    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     177    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-ykiiwsbc4pox6ykacjvnysuq5jk34zgo/spack-build-ykiiwsb'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-ykiiwsbc4pox6ykacjvnysuq5jk34zgo/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 314,
+            "repeat_count": 0,
+            "start": 308,
+            "end": 321,
+            "text": ">> 107    make[1]: *** [tests/wrapper.in] Error 126",
+            "pre_context": "            and.|g' ${srcdir}bin/ifnames.in >bin/ifnames.tmp\n     104    chmod +x bin/autoscan.tmp\n     105    chmod a-w bin/autoscan.tmp\n  >> 106    /bin/sh: bin/autom4te: /p/vast1/koparasy/BUILD/spack_cluster_instal\n            ler/quartz/unifyfs/spack_env_dir/: bad interpreter: No such file or\n             directory",
+            "post_context": "     108    make[1]: *** Waiting for unfinished jobs....\n     109    mv bin/autoscan.tmp bin/autoscan\n     110    chmod +x bin/autoupdate.tmp\n     111    chmod a-w bin/autoupdate.tmp\n     112    mv bin/autoupdate.tmp bin/autoupdate\n     113    chmod +x bin/ifnames.tmp"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 326,
+            "repeat_count": 0,
+            "start": 320,
+            "end": 333,
+            "text": ">> 117    make: *** [all] Error 2",
+            "pre_context": "     113    chmod +x bin/ifnames.tmp\n     114    chmod a-w bin/ifnames.tmp\n     115    mv bin/ifnames.tmp bin/ifnames\n     116    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            utoconf-2.71-xbqmkj6v7lxfuunvdg6itgiyn4ihjawi/spack-src/spack-build\n            '",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-autoconf-2.71-xbqmkj6v7lxfuunvdg6itgiyn4ihjawi/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            7macgsknc7qbgvfkmoqxy/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 420,
+            "repeat_count": 0,
+            "start": 414,
+            "end": 427,
+            "text": "7macgsknc7qbgvfkmoqxy/spack-src/src/na/na_ofi.c:1171:14: error: 'FI",
+            "pre_context": "            mp/koparasy/spack-stage/spack-stage-mercury-2.0.1-cgkthuskzht7macgs\n            knc7qbgvfkmoqxy/spack-src/src/na/na.c\n     167    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-cgkthuskzht\n            7macgsknc7qbgvfkmoqxy/spack-src/src/na/na_ofi.c: In function 'na_of\n            i_errno_to_na':\n  >> 168    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-cgkthuskzht",
+            "post_context": "            _EOVERFLOW' undeclared (first use in this function); did you mean '\n            NA_OVERFLOW'?\n     169     1171 |         case FI_EOVERFLOW:\n     170          |              ^~~~~~~~~~~~\n     171          |              NA_OVERFLOW\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-cgkthuskzht"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 430,
+            "repeat_count": 0,
+            "start": 424,
+            "end": 437,
+            "text": ">> 173    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1",
+            "pre_context": "     170          |              ^~~~~~~~~~~~\n     171          |              NA_OVERFLOW\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-cgkthuskzht\n            7macgsknc7qbgvfkmoqxy/spack-src/src/na/na_ofi.c:1171:14: note: each\n             undeclared identifier is reported only once for each function it a\n            ppears in",
+            "post_context": "     174    make[2]: *** Waiting for unfinished jobs....\n     175    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-cgkthuskzht7macgsknc7qbgvfkmoqxy/spack-build-cgkthus'\n  >> 176    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     177    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-cgkthuskzht7macgsknc7qbgvfkmoqxy/spack-build-cgkthus'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 434,
+            "repeat_count": 0,
+            "start": 428,
+            "end": 441,
+            "text": ">> 176    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2",
+            "pre_context": "             undeclared identifier is reported only once for each function it a\n            ppears in\n  >> 173    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1\n     174    make[2]: *** Waiting for unfinished jobs....\n     175    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-cgkthuskzht7macgsknc7qbgvfkmoqxy/spack-build-cgkthus'",
+            "post_context": "     177    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-cgkthuskzht7macgsknc7qbgvfkmoqxy/spack-build-cgkthus'\n  >> 178    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-cgkthuskzht7macgsknc7qbgvfkmoqxy/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 437,
+            "repeat_count": 0,
+            "start": 431,
+            "end": 444,
+            "text": ">> 178    make: *** [all] Error 2",
+            "pre_context": "     174    make[2]: *** Waiting for unfinished jobs....\n     175    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-cgkthuskzht7macgsknc7qbgvfkmoqxy/spack-build-cgkthus'\n  >> 176    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     177    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-cgkthuskzht7macgsknc7qbgvfkmoqxy/spack-build-cgkthus'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-cgkthuskzht7macgsknc7qbgvfkmoqxy/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 420,
+            "repeat_count": 0,
+            "start": 414,
+            "end": 427,
+            "text": "56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c:1141:14: error: 'FI",
+            "pre_context": "            -c /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdj\n            nlc56tg7kijxa6dlf442a6zx/spack-src/src/na/na_sm.c\n     167    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc\n            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c: In function 'na_of\n            i_errno_to_na':\n  >> 168    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc",
+            "post_context": "            _EPERM' undeclared (first use in this function); did you mean 'FI_E\n            P_RDM'?\n     169     1141 |         case FI_EPERM:\n     170          |              ^~~~~~~~\n     171          |              FI_EP_RDM\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 431,
+            "repeat_count": 0,
+            "start": 425,
+            "end": 438,
+            "text": "56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c:1147:14: error: 'FI",
+            "pre_context": "     171          |              FI_EP_RDM\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc\n            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c:1141:14: note: each\n             undeclared identifier is reported only once for each function it a\n            ppears in\n  >> 173    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc",
+            "post_context": "            _EINTR' undeclared (first use in this function); did you mean 'FI_U\n            INT8'?\n     174     1147 |         case FI_EINTR:\n     175          |              ^~~~~~~~\n     176          |              FI_UINT8\n  >> 177    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 438,
+            "repeat_count": 0,
+            "start": 432,
+            "end": 445,
+            "text": "56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c:1159:14: error: 'FI",
+            "pre_context": "            _EINTR' undeclared (first use in this function); did you mean 'FI_U\n            INT8'?\n     174     1147 |         case FI_EINTR:\n     175          |              ^~~~~~~~\n     176          |              FI_UINT8\n  >> 177    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc",
+            "post_context": "            _EFAULT' undeclared (first use in this function); did you mean 'FI_\n            ENABLE'?\n     178     1159 |         case FI_EFAULT:\n     179          |              ^~~~~~~~~\n     180          |              FI_ENABLE\n  >> 181    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 445,
+            "repeat_count": 0,
+            "start": 439,
+            "end": 452,
+            "text": "56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c:1171:14: error: 'FI",
+            "pre_context": "            _EFAULT' undeclared (first use in this function); did you mean 'FI_\n            ENABLE'?\n     178     1159 |         case FI_EFAULT:\n     179          |              ^~~~~~~~~\n     180          |              FI_ENABLE\n  >> 181    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc",
+            "post_context": "            _EOVERFLOW' undeclared (first use in this function); did you mean '\n            NA_OVERFLOW'?\n     182     1171 |         case FI_EOVERFLOW:\n     183          |              ^~~~~~~~~~~~\n     184          |              NA_OVERFLOW\n  >> 185    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 452,
+            "repeat_count": 0,
+            "start": 446,
+            "end": 459,
+            "text": "56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c:1194:14: error: 'FI",
+            "pre_context": "            _EOVERFLOW' undeclared (first use in this function); did you mean '\n            NA_OVERFLOW'?\n     182     1171 |         case FI_EOVERFLOW:\n     183          |              ^~~~~~~~~~~~\n     184          |              NA_OVERFLOW\n  >> 185    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc",
+            "post_context": "            _EHOSTDOWN' undeclared (first use in this function); did you mean '\n            FI_SHUTDOWN'?\n     186     1194 |         case FI_EHOSTDOWN:\n     187          |              ^~~~~~~~~~~~\n     188          |              FI_SHUTDOWN\n     189    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c",
+            "source_line_no": "5",
+            "line_no": 462,
+            "repeat_count": 0,
+            "start": 456,
+            "end": 469,
+            "text": "56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c:5435:28: error: 'FI",
+            "pre_context": "     187          |              ^~~~~~~~~~~~\n     188          |              FI_SHUTDOWN\n     189    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc\n            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c: In function 'na_of\n            i_progress':\n  >> 190    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc",
+            "post_context": "            _EINTR' undeclared (first use in this function); did you mean 'FI_U\n            INT8'?\n     191     5435 |                 if (rc == -FI_EINTR) {\n     192          |                            ^~~~~~~~\n     193          |                            FI_UINT8\n  >> 194    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 468,
+            "repeat_count": 0,
+            "start": 462,
+            "end": 475,
+            "text": ">> 194    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1",
+            "pre_context": "            56tg7kijxa6dlf442a6zx/spack-src/src/na/na_ofi.c:5435:28: error: 'FI\n            _EINTR' undeclared (first use in this function); did you mean 'FI_U\n            INT8'?\n     191     5435 |                 if (rc == -FI_EINTR) {\n     192          |                            ^~~~~~~~\n     193          |                            FI_UINT8",
+            "post_context": "     195    make[2]: *** Waiting for unfinished jobs....\n     196    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-33td7hdjnlc56tg7kijxa6dlf442a6zx/spack-build-33td7hd'\n  >> 197    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     198    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-33td7hdjnlc56tg7kijxa6dlf442a6zx/spack-build-33td7hd'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 472,
+            "repeat_count": 0,
+            "start": 466,
+            "end": 479,
+            "text": ">> 197    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2",
+            "pre_context": "     192          |                            ^~~~~~~~\n     193          |                            FI_UINT8\n  >> 194    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1\n     195    make[2]: *** Waiting for unfinished jobs....\n     196    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-33td7hdjnlc56tg7kijxa6dlf442a6zx/spack-build-33td7hd'",
+            "post_context": "     198    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-33td7hdjnlc56tg7kijxa6dlf442a6zx/spack-build-33td7hd'\n  >> 199    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc56tg7kijxa6dlf442a6zx/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 475,
+            "repeat_count": 0,
+            "start": 469,
+            "end": 482,
+            "text": ">> 199    make: *** [all] Error 2",
+            "pre_context": "     195    make[2]: *** Waiting for unfinished jobs....\n     196    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-33td7hdjnlc56tg7kijxa6dlf442a6zx/spack-build-33td7hd'\n  >> 197    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     198    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-33td7hdjnlc56tg7kijxa6dlf442a6zx/spack-build-33td7hd'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-33td7hdjnlc56tg7kijxa6dlf442a6zx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 316,
+            "repeat_count": 0,
+            "start": 310,
+            "end": 323,
+            "text": ">> 107    make[1]: *** [tests/wrapper.in] Error 126",
+            "pre_context": "            and.|g' ${srcdir}bin/ifnames.in >bin/ifnames.tmp\n     104    chmod +x bin/autoscan.tmp\n     105    chmod a-w bin/autoscan.tmp\n  >> 106    /bin/sh: bin/autom4te: /p/vast1/koparasy/BUILD/spack_cluster_instal\n            ler/quartz/unifyfs/spack_env_dir/: bad interpreter: No such file or\n             directory",
+            "post_context": "     108    make[1]: *** Waiting for unfinished jobs....\n     109    mv bin/autoscan.tmp bin/autoscan\n     110    chmod +x bin/autoupdate.tmp\n     111    chmod a-w bin/autoupdate.tmp\n     112    mv bin/autoupdate.tmp bin/autoupdate\n     113    chmod +x bin/ifnames.tmp"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 328,
+            "repeat_count": 0,
+            "start": 322,
+            "end": 335,
+            "text": ">> 117    make: *** [all] Error 2",
+            "pre_context": "     113    chmod +x bin/ifnames.tmp\n     114    chmod a-w bin/ifnames.tmp\n     115    mv bin/ifnames.tmp bin/ifnames\n     116    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            utoconf-2.70-ysoncrip6szhqndykv7pxjdckjuietnf/spack-src/spack-build\n            '",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-autoconf-2.70-ysoncrip6szhqndykv7pxjdckjuietnf/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 733,
+            "repeat_count": 0,
+            "start": 727,
+            "end": 740,
+            "text": ">> 10076    src/mpid/ch4/netmod/ofi/ofi_init.c:1693:65: error: 'FI_MR_VIRT_AD",
+            "pre_context": "              mpid/ch4/netmod/ofi/lib_libmpi_la-ofi_datatype.lo -MD -MP -MF src\n              /mpid/ch4/netmod/ofi/.deps/lib_libmpi_la-ofi_datatype.Tpo -c src/\n              mpid/ch4/netmod/ofi/ofi_datatype.c  -fPIC -DPIC -o src/mpid/ch4/n\n              etmod/ofi/.libs/lib_libmpi_la-ofi_datatype.o\n     10075    src/mpid/ch4/netmod/ofi/ofi_init.c: In function 'update_global_se\n              ttings':",
+            "post_context": "              DR' undeclared (first use in this function)\n     10077     1693 |                                prov_use->domain_attr->mr_\n              mode & FI_MR_VIRT_ADDR);\n     10078          |\n                     ^~~~~~~~~~~~~~~\n     10079    src/mpid/ch4/netmod/ofi/ofi_init.c:1668:70: note: in definition o"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 757,
+            "repeat_count": 0,
+            "start": 751,
+            "end": 764,
+            "text": ">> 10088    src/mpid/ch4/netmod/ofi/ofi_init.c:1695:65: error: 'FI_MR_ALLOCAT",
+            "pre_context": "     10085    src/mpid/ch4/netmod/ofi/ofi_init.c:1668:70: note: in definition o\n              f macro 'UPDATE_SETTING_BY_INFO'\n     10086     1668 |     MPIDI_OFI_global.settings.cap = MPIDI_OFI_global.sett\n              ings.cap && info_cond\n     10087          |\n                          ^~~~~~~~~",
+            "post_context": "              ED' undeclared (first use in this function)\n     10089     1695 |                                prov_use->domain_attr->mr_\n              mode & FI_MR_ALLOCATED);\n     10090          |\n                     ^~~~~~~~~~~~~~~\n     10091    src/mpid/ch4/netmod/ofi/ofi_init.c:1668:70: note: in definition o"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 769,
+            "repeat_count": 0,
+            "start": 763,
+            "end": 776,
+            "text": ">> 10094    src/mpid/ch4/netmod/ofi/ofi_init.c:1696:85: error: 'FI_MR_PROV_KE",
+            "pre_context": "     10091    src/mpid/ch4/netmod/ofi/ofi_init.c:1668:70: note: in definition o\n              f macro 'UPDATE_SETTING_BY_INFO'\n     10092     1668 |     MPIDI_OFI_global.settings.cap = MPIDI_OFI_global.sett\n              ings.cap && info_cond\n     10093          |\n                          ^~~~~~~~~",
+            "post_context": "              Y' undeclared (first use in this function)\n     10095     1696 |         UPDATE_SETTING_BY_INFO(enable_mr_prov_key, prov_u\n              se->domain_attr->mr_mode & FI_MR_PROV_KEY);\n     10096          |\n                                         ^~~~~~~~~~~~~~\n     10097    src/mpid/ch4/netmod/ofi/ofi_init.c:1668:70: note: in definition o"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1168,
+            "repeat_count": 0,
+            "start": 1162,
+            "end": 1175,
+            "text": ">> 10110    make[1]: *** [all-recursive] Error 1",
+            "pre_context": "     10107    mv -f src/mpid/ch4/netmod/ofi/.deps/lib_libmpi_la-ofi_comm.Tpo sr\n              c/mpid/ch4/netmod/ofi/.deps/lib_libmpi_la-ofi_comm.Plo\n     10108    mv -f src/mpid/ch4/netmod/ofi/.deps/lib_libmpi_la-ofi_op.Tpo src/\n              mpid/ch4/netmod/ofi/.deps/lib_libmpi_la-ofi_op.Plo\n     10109    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -mpich-3.4.2-xvhlqepjejfhmbaxwye6xlf6546suqzr/spack-src'",
+            "post_context": "     10111    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -mpich-3.4.2-xvhlqepjejfhmbaxwye6xlf6546suqzr/spack-src'\n  >> 10112    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.4.2-xvhlqepjejfhmbaxwye6xlf6546suqzr/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1171,
+            "repeat_count": 0,
+            "start": 1165,
+            "end": 1178,
+            "text": ">> 10112    make: *** [all] Error 2",
+            "pre_context": "              mpid/ch4/netmod/ofi/.deps/lib_libmpi_la-ofi_op.Plo\n     10109    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -mpich-3.4.2-xvhlqepjejfhmbaxwye6xlf6546suqzr/spack-src'\n  >> 10110    make[1]: *** [all-recursive] Error 1\n     10111    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -mpich-3.4.2-xvhlqepjejfhmbaxwye6xlf6546suqzr/spack-src'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.4.2-xvhlqepjejfhmbaxwye6xlf6546suqzr/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "            nssktcvda523hyjkc73io/spack-src/src/na/na_ofi.c",
+            "source_line_no": "1",
+            "line_no": 420,
+            "repeat_count": 0,
+            "start": 414,
+            "end": 427,
+            "text": "nssktcvda523hyjkc73io/spack-src/src/na/na_ofi.c:1171:14: error: 'FI",
+            "pre_context": "            -c /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-tkztsmwe\n            ijrnssktcvda523hyjkc73io/spack-src/src/na/na_sm.c\n     167    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-tkztsmweijr\n            nssktcvda523hyjkc73io/spack-src/src/na/na_ofi.c: In function 'na_of\n            i_errno_to_na':\n  >> 168    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-tkztsmweijr",
+            "post_context": "            _EOVERFLOW' undeclared (first use in this function); did you mean '\n            NA_OVERFLOW'?\n     169     1171 |         case FI_EOVERFLOW:\n     170          |              ^~~~~~~~~~~~\n     171          |              NA_OVERFLOW\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-tkztsmweijr"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 430,
+            "repeat_count": 0,
+            "start": 424,
+            "end": 437,
+            "text": ">> 173    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1",
+            "pre_context": "     170          |              ^~~~~~~~~~~~\n     171          |              NA_OVERFLOW\n     172    /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-tkztsmweijr\n            nssktcvda523hyjkc73io/spack-src/src/na/na_ofi.c:1171:14: note: each\n             undeclared identifier is reported only once for each function it a\n            ppears in",
+            "post_context": "     174    make[2]: *** Waiting for unfinished jobs....\n     175    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-tkztsmweijrnssktcvda523hyjkc73io/spack-build-tkztsmw'\n  >> 176    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     177    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-tkztsmweijrnssktcvda523hyjkc73io/spack-build-tkztsmw'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 434,
+            "repeat_count": 0,
+            "start": 428,
+            "end": 441,
+            "text": ">> 176    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2",
+            "pre_context": "             undeclared identifier is reported only once for each function it a\n            ppears in\n  >> 173    make[2]: *** [src/na/CMakeFiles/na.dir/na_ofi.c.o] Error 1\n     174    make[2]: *** Waiting for unfinished jobs....\n     175    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-tkztsmweijrnssktcvda523hyjkc73io/spack-build-tkztsmw'",
+            "post_context": "     177    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-tkztsmweijrnssktcvda523hyjkc73io/spack-build-tkztsmw'\n  >> 178    make: *** [all] Error 2\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-tkztsmweijrnssktcvda523hyjkc73io/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 437,
+            "repeat_count": 0,
+            "start": 431,
+            "end": 444,
+            "text": ">> 178    make: *** [all] Error 2",
+            "pre_context": "     174    make[2]: *** Waiting for unfinished jobs....\n     175    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-tkztsmweijrnssktcvda523hyjkc73io/spack-build-tkztsmw'\n  >> 176    make[1]: *** [src/na/CMakeFiles/na.dir/all] Error 2\n     177    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-m\n            ercury-2.0.1-tkztsmweijrnssktcvda523hyjkc73io/spack-build-tkztsmw'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mercury-2.0.1-tkztsmweijrnssktcvda523hyjkc73io/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

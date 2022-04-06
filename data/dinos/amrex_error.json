@@ -1,0 +1,282 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 500,
+            "repeat_count": 0,
+            "start": 494,
+            "end": 507,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            hp3kbbcayvbpgwodl2/spack-build-422cqlg/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-422cqlgstoew7whp3kbbcayvbpgwodl2/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 610,
+            "repeat_count": 0,
+            "start": 604,
+            "end": 617,
+            "text": ">> 523    make: *** [install] Error 1",
+            "pre_context": "            slq4mmq7kxf2mxcicu/spack-build-gpoagge/mod_files\":\n     518      No such file or directory.\n     519    Call Stack (most recent call first):\n     520      cmake_install.cmake:42 (include)\n     521\n     522",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-gpoaggedmhnssdslq4mmq7kxf2mxcicu/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 500,
+            "repeat_count": 0,
+            "start": 494,
+            "end": 507,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            ewq676q34aaeqmh56w/spack-build-2yemjki/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-2yemjkinn6fdmmewq676q34aaeqmh56w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 610,
+            "repeat_count": 0,
+            "start": 604,
+            "end": 617,
+            "text": ">> 523    make: *** [install] Error 1",
+            "pre_context": "            slq4mmq7kxf2mxcicu/spack-build-gpoagge/mod_files\":\n     518      No such file or directory.\n     519    Call Stack (most recent call first):\n     520      cmake_install.cmake:42 (include)\n     521\n     522",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-gpoaggedmhnssdslq4mmq7kxf2mxcicu/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 865,
+            "repeat_count": 0,
+            "start": 859,
+            "end": 872,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            rt2vgcqucquxh5ob3g/spack-build-szqycm7/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-szqycm7mqtnjxfrt2vgcqucquxh5ob3g/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 684,
+            "repeat_count": 0,
+            "start": 678,
+            "end": 691,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            sg4k6hxcgko4zlirai/spack-build-4qxsrli/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-4qxsrli3yv4daasg4k6hxcgko4zlirai/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 499,
+            "repeat_count": 0,
+            "start": 493,
+            "end": 506,
+            "text": ">> 523    make: *** [install] Error 1",
+            "pre_context": "            nngvlp3mnd4hlbhpl6/spack-build-fwvdsla/mod_files\":\n     518      No such file or directory.\n     519    Call Stack (most recent call first):\n     520      cmake_install.cmake:42 (include)\n     521\n     522",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-fwvdslazqgyf7jnngvlp3mnd4hlbhpl6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 550,
+            "repeat_count": 0,
+            "start": 544,
+            "end": 557,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            3d6gr6zydejrx2jx63/spack-build-qmwm6n7/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-qmwm6n7i3d4sqq3d6gr6zydejrx2jx63/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 866,
+            "repeat_count": 0,
+            "start": 860,
+            "end": 873,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            rt2vgcqucquxh5ob3g/spack-build-szqycm7/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-szqycm7mqtnjxfrt2vgcqucquxh5ob3g/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 499,
+            "repeat_count": 0,
+            "start": 493,
+            "end": 506,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            iuuthsqivfyxf57efs/spack-build-xlzjux5/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-xlzjux5my35fzyiuuthsqivfyxf57efs/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 499,
+            "repeat_count": 0,
+            "start": 493,
+            "end": 506,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            iuuthsqivfyxf57efs/spack-build-xlzjux5/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-xlzjux5my35fzyiuuthsqivfyxf57efs/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 610,
+            "repeat_count": 0,
+            "start": 604,
+            "end": 617,
+            "text": ">> 523    make: *** [install] Error 1",
+            "pre_context": "            vvwhnujelinhiqhies/spack-build-i2xg43h/mod_files\":\n     518      No such file or directory.\n     519    Call Stack (most recent call first):\n     520      cmake_install.cmake:42 (include)\n     521\n     522",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-i2xg43hd3kngklvvwhnujelinhiqhies/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 609,
+            "repeat_count": 0,
+            "start": 603,
+            "end": 616,
+            "text": ">> 522    make: *** [install] Error 1",
+            "pre_context": "     517      \"/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-6acrxkb7igct2t\n            at7lighhxcmyaxgbtd/spack-build-6acrxkb/mod_files\".\n     518    Call Stack (most recent call first):\n     519      cmake_install.cmake:42 (include)\n     520\n     521",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-6acrxkb7igct2tat7lighhxcmyaxgbtd/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 610,
+            "repeat_count": 0,
+            "start": 604,
+            "end": 617,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            slq4mmq7kxf2mxcicu/spack-build-gpoagge/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-gpoaggedmhnssdslq4mmq7kxf2mxcicu/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 499,
+            "repeat_count": 0,
+            "start": 493,
+            "end": 506,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            ewq676q34aaeqmh56w/spack-build-2yemjki/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-2yemjkinn6fdmmewq676q34aaeqmh56w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 610,
+            "repeat_count": 0,
+            "start": 604,
+            "end": 617,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            vvwhnujelinhiqhies/spack-build-i2xg43h/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-i2xg43hd3kngklvvwhnujelinhiqhies/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 514,
+            "repeat_count": 0,
+            "start": 508,
+            "end": 521,
+            "text": ">> 523    make: *** [install] Error 1",
+            "pre_context": "            6szwhy5qoajzc476ql/spack-build-5wrp2gr/mod_files\":\n     518      No such file or directory.\n     519    Call Stack (most recent call first):\n     520      cmake_install.cmake:42 (include)\n     521\n     522",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-5wrp2grb4pghfd6szwhy5qoajzc476ql/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 275,
+            "repeat_count": 0,
+            "start": 269,
+            "end": 282,
+            "text": ">> 809    configure: error: 'mxm/api/mxm_api.h or libmxm library not found. D",
+            "pre_context": "     803    checking for knem_io.h... no\n     804    configure: RUNNING CONFIGURE FOR ch3:nemesis:mxm\n     805    checking mxm/api/mxm_api.h usability... no\n     806    checking mxm/api/mxm_api.h presence... no\n     807    checking for mxm/api/mxm_api.h... no\n     808    checking for mxm_get_version in -lmxm... no",
+            "post_context": "            id you specify --with-mxm= or --with-mxm-include= or --with-mxm-lib\n            =?'\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.1.4-gk6gmbcxazbicbe77xrozejtxv2cvpti/spack-build-out.txt\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 684,
+            "repeat_count": 0,
+            "start": 678,
+            "end": 691,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            sg4k6hxcgko4zlirai/spack-build-4qxsrli/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-4qxsrli3yv4daasg4k6hxcgko4zlirai/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 550,
+            "repeat_count": 0,
+            "start": 544,
+            "end": 557,
+            "text": ">> 521    make: *** [install] Error 1",
+            "pre_context": "            fokbhstrkuca25gge4/spack-build-yrjevpr/mod_files\":\n     516      No such file or directory.\n     517    Call Stack (most recent call first):\n     518      cmake_install.cmake:47 (include)\n     519\n     520",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-yrjevprbc755a2fokbhstrkuca25gge4/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

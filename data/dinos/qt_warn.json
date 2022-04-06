@@ -1,0 +1,30 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 751,
+            "repeat_count": 0,
+            "start": 745,
+            "end": 758,
+            "text": ">> 264    WARNING: 'gperf' is missing on your system.",
+            "pre_context": "            objshash.gperf > fcobjshash.h.tmp && \\\n     262    mv -f fcobjshash.h.tmp fcobjshash.h || ( rm -f fcobjshash.h.tmp &&\n            false )\n     263    /var/tmp/koparasy/spack-stage/spack-stage-fontconfig-2.12.1-2b5rm7r\n            weyjtke2r6lwxogy3ijlzfxcp/spack-src/missing: line 81: gperf: comman\n            d not found",
+            "post_context": "     265             You might have modified some files without having the prop\n            er\n     266             tools for further handling them.  Check the 'README' file,\n             it\n     267             often tells you about the needed prerequisites for install\n            ing"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 751,
+            "repeat_count": 0,
+            "start": 745,
+            "end": 758,
+            "text": ">> 256    WARNING: 'gperf' is missing on your system.",
+            "pre_context": "            objshash.gperf > fcobjshash.h.tmp && \\\n     254    mv -f fcobjshash.h.tmp fcobjshash.h || ( rm -f fcobjshash.h.tmp &&\n            false )\n     255    /var/tmp/koparasy/spack-stage/spack-stage-fontconfig-2.11.1-ovdjj4o\n            kwq3j3yhrde67buakd6b56zs2/spack-src/missing: line 81: gperf: comman\n            d not found",
+            "post_context": "     257             You might have modified some files without having the prop\n            er\n     258             tools for further handling them.  Check the 'README' file,\n             it\n     259             often tells you about the needed prerequisites for install\n            ing"
+      }
+]

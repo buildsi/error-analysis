@@ -1,0 +1,408 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 305,
+            "repeat_count": 0,
+            "start": 299,
+            "end": 312,
+            "text": ">> 21    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     15    checking for tex... tex\n     16    checking for yacc... yacc\n     17    checking for lex... lex\n     18    checking whether autoconf is installed... yes\n     19    checking whether autoconf works... yes\n     20    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.13.4-p4oyuxkpgewcezlwrzuhu2f4szmonndl/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 305,
+            "repeat_count": 0,
+            "start": 299,
+            "end": 312,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-jsrtbekqgbwoolsexgjkjovm4a6ctumi/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 362,
+            "repeat_count": 0,
+            "start": 356,
+            "end": 369,
+            "text": "error: could not lock config file .git/config: File exists",
+            "pre_context": "  Download failed: HTTP Error 404: Not Found\n==> [2022-01-10-11:16:12.407171] Creating the installation directory /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir/linux-rhel7-broadwell/gcc-4.9.3/libtool-develop-4xzdjktq7ag3y7vbjagpb752ek4ghfmb\n==> [2022-01-10-11:16:12.407387] Reading config file /p/vast1/koparasy/BUILD/head/spack/etc/spack/defaults/packages.yaml\n==> [2022-01-10-11:16:12.468633] Warning: Missing a source id for libtool@develop\n==> [2022-01-10-11:16:12.618038] '/usr/tce/bin/git' 'describe' '--tags' '--match' 'v*'\nCloning into 'libtool'...",
+            "post_context": "Submodule 'bootstrap' (https://github.com/gnulib-modules/bootstrap.git) registered for path 'gl-mod/bootstrap'\nerror: could not lock config file .git/config: File exists\nerror: could not lock config file .git/config: File exists\nfatal: Failed to register url for submodule path 'gnulib'\n==> [2022-01-10-11:16:13.112368] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir/spack.yaml\n==> [2022-01-10-11:16:13.219300] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 364,
+            "repeat_count": 0,
+            "start": 358,
+            "end": 371,
+            "text": "error: could not lock config file .git/config: File exists",
+            "pre_context": "==> [2022-01-10-11:16:12.407387] Reading config file /p/vast1/koparasy/BUILD/head/spack/etc/spack/defaults/packages.yaml\n==> [2022-01-10-11:16:12.468633] Warning: Missing a source id for libtool@develop\n==> [2022-01-10-11:16:12.618038] '/usr/tce/bin/git' 'describe' '--tags' '--match' 'v*'\nCloning into 'libtool'...\nerror: could not lock config file .git/config: File exists\nSubmodule 'bootstrap' (https://github.com/gnulib-modules/bootstrap.git) registered for path 'gl-mod/bootstrap'",
+            "post_context": "error: could not lock config file .git/config: File exists\nfatal: Failed to register url for submodule path 'gnulib'\n==> [2022-01-10-11:16:13.112368] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir/spack.yaml\n==> [2022-01-10-11:16:13.219300] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir'\n==> [2022-01-10-11:16:13.499294] [TOOLCHAIN] MATCH Gcc\n==> [2022-01-10-11:16:13.505559] Adding compiler bin/ paths: /p/vast1/koparasy/BUILD/head/spack/lib/spack/env /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/case-insensitive /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/gcc"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 365,
+            "repeat_count": 0,
+            "start": 359,
+            "end": 372,
+            "text": "error: could not lock config file .git/config: File exists",
+            "pre_context": "==> [2022-01-10-11:16:12.468633] Warning: Missing a source id for libtool@develop\n==> [2022-01-10-11:16:12.618038] '/usr/tce/bin/git' 'describe' '--tags' '--match' 'v*'\nCloning into 'libtool'...\nerror: could not lock config file .git/config: File exists\nSubmodule 'bootstrap' (https://github.com/gnulib-modules/bootstrap.git) registered for path 'gl-mod/bootstrap'\nerror: could not lock config file .git/config: File exists",
+            "post_context": "fatal: Failed to register url for submodule path 'gnulib'\n==> [2022-01-10-11:16:13.112368] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir/spack.yaml\n==> [2022-01-10-11:16:13.219300] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir'\n==> [2022-01-10-11:16:13.499294] [TOOLCHAIN] MATCH Gcc\n==> [2022-01-10-11:16:13.505559] Adding compiler bin/ paths: /p/vast1/koparasy/BUILD/head/spack/lib/spack/env /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/case-insensitive /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/gcc\n==> [2022-01-10-11:16:13.671998] A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 366,
+            "repeat_count": 0,
+            "start": 360,
+            "end": 373,
+            "text": "fatal: unable to open /tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/.git/modules/gnulib/objects/pack/tmp_pack_qjhucc: No such file or directory",
+            "pre_context": "==> [2022-01-10-11:16:11.480100] Warning: Missing a source id for libtool@develop\n==> [2022-01-10-11:16:11.610741] '/usr/tce/bin/git' 'describe' '--tags' '--match' 'v*'\nCloning into 'libtool'...\nSubmodule 'gnulib' (git://git.sv.gnu.org/gnulib.git) registered for path 'gnulib'\nCloning into '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gl-mod/bootstrap'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gnulib'...",
+            "post_context": "fatal: index-pack failed\nfatal: clone of 'git://git.sv.gnu.org/gnulib.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gnulib' failed\nFailed to clone 'gnulib'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'gnulib' a second time, aborting\n==> [2022-01-10-11:16:12.025327] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir/spack.yaml"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 370,
+            "repeat_count": 0,
+            "start": 364,
+            "end": 377,
+            "text": "fatal: Unable to read current working directory: No such file or directory",
+            "pre_context": "Cloning into '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gl-mod/bootstrap'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gnulib'...\nfatal: unable to open /tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/.git/modules/gnulib/objects/pack/tmp_pack_qjhucc: No such file or directory\nfatal: index-pack failed\nfatal: clone of 'git://git.sv.gnu.org/gnulib.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gnulib' failed\nFailed to clone 'gnulib'. Retry scheduled",
+            "post_context": "Failed to clone 'gnulib' a second time, aborting\n==> [2022-01-10-11:16:12.025327] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir/spack.yaml\n==> [2022-01-10-11:16:12.108848] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir'\n==> [2022-01-10-11:16:12.402208] [TOOLCHAIN] MATCH Gcc\n==> [2022-01-10-11:16:12.408010] Adding compiler bin/ paths: /p/vast1/koparasy/BUILD/head/spack/lib/spack/env /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/case-insensitive /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/gcc\n==> [2022-01-10-11:16:12.589451] A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 370,
+            "repeat_count": 0,
+            "start": 364,
+            "end": 377,
+            "text": "fatal: unable to open /tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/.git/modules/gnulib/objects/pack/tmp_pack_T9yt4E: No such file or directory",
+            "pre_context": "==> [2022-01-10-11:16:21.681940] '/usr/tce/bin/git' 'describe' '--tags' '--match' 'v*'\nCloning into 'libtool'...\nSubmodule 'bootstrap' (https://github.com/gnulib-modules/bootstrap.git) registered for path 'gl-mod/bootstrap'\nSubmodule 'gnulib' (git://git.sv.gnu.org/gnulib.git) registered for path 'gnulib'\nCloning into '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gl-mod/bootstrap'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gnulib'...",
+            "post_context": "fatal: index-pack failed\nfatal: clone of 'git://git.sv.gnu.org/gnulib.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gnulib' failed\nFailed to clone 'gnulib'. Retry scheduled\nCloning into '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gnulib'...\n==> [2022-01-10-11:16:22.524883] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir/spack.yaml\n==> [2022-01-10-11:16:22.608540] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 301,
+            "repeat_count": 0,
+            "start": 295,
+            "end": 308,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.3-jsrtbekqgbwoolsexgjkjovm4a6ctumi/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 308,
+            "repeat_count": 0,
+            "start": 302,
+            "end": 315,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.15-2jjqvry4n4wj63wuauuur5qarnh2l352/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 308,
+            "repeat_count": 0,
+            "start": 302,
+            "end": 315,
+            "text": ">> 21    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     15    checking for tex... tex\n     16    checking for yacc... yacc\n     17    checking for lex... lex\n     18    checking whether autoconf is installed... yes\n     19    checking whether autoconf works... yes\n     20    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.13.4-p4oyuxkpgewcezlwrzuhu2f4szmonndl/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 308,
+            "repeat_count": 0,
+            "start": 302,
+            "end": 315,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.15.1-fypmfwhpb62hqpz2e4dy24w7bwd4acqx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 308,
+            "repeat_count": 0,
+            "start": 302,
+            "end": 315,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.14.1-ys5e257sfigz7tfdf32efyt6hodipujm/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 284,
+            "repeat_count": 0,
+            "start": 278,
+            "end": 291,
+            "text": ">> 809    configure: error: 'mxm/api/mxm_api.h or libmxm library not found. D",
+            "pre_context": "     803    checking for knem_io.h... no\n     804    configure: RUNNING CONFIGURE FOR ch3:nemesis:mxm\n     805    checking mxm/api/mxm_api.h usability... no\n     806    checking mxm/api/mxm_api.h presence... no\n     807    checking for mxm/api/mxm_api.h... no\n     808    checking for mxm_get_version in -lmxm... no",
+            "post_context": "            id you specify --with-mxm= or --with-mxm-include= or --with-mxm-lib\n            =?'\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.1.4-z6j6lhqrvt7ztfyaegavn4gx64fnjyj2/spack-build-out.txt\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 308,
+            "repeat_count": 0,
+            "start": 302,
+            "end": 315,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.1-iqk7rslj2jggpt7kcvpensfppq6qfm5c/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 308,
+            "repeat_count": 0,
+            "start": 302,
+            "end": 315,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.1-iqk7rslj2jggpt7kcvpensfppq6qfm5c/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 318,
+            "repeat_count": 0,
+            "start": 312,
+            "end": 325,
+            "text": ">> 107    make[1]: *** [tests/wrapper.in] Error 126",
+            "pre_context": "            g' ${srcdir}bin/ifnames.in >bin/ifnames.tmp\n     104    chmod +x bin/autoscan.tmp\n     105    chmod a-w bin/autoscan.tmp\n  >> 106    /bin/sh: bin/autom4te: /p/vast1/koparasy/BUILD/spack_cluster_instal\n            ler/quartz/libnrm/spack_env_dir/l: bad interpreter: No such file or\n             directory",
+            "post_context": "     108    make[1]: *** Waiting for unfinished jobs....\n     109    mv bin/autoscan.tmp bin/autoscan\n     110    chmod +x bin/autoupdate.tmp\n     111    chmod a-w bin/autoupdate.tmp\n     112    mv bin/autoupdate.tmp bin/autoupdate\n     113    chmod +x bin/ifnames.tmp"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 330,
+            "repeat_count": 0,
+            "start": 324,
+            "end": 337,
+            "text": ">> 117    make: *** [all] Error 2",
+            "pre_context": "     113    chmod +x bin/ifnames.tmp\n     114    chmod a-w bin/ifnames.tmp\n     115    mv bin/ifnames.tmp bin/ifnames\n     116    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            utoconf-2.70-qejtxtie7wxn6hgxi4cimghtzwc6mepx/spack-src/spack-build\n            '",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-autoconf-2.70-qejtxtie7wxn6hgxi4cimghtzwc6mepx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 368,
+            "repeat_count": 0,
+            "start": 362,
+            "end": 375,
+            "text": "fatal: unable to open /tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/.git/modules/bootstrap/objects/pack/tmp_pack_dhZRc8: No such file or directory",
+            "pre_context": "==> [2022-01-10-11:16:11.762905] Warning: Missing a source id for libtool@develop\n==> [2022-01-10-11:16:11.863211] '/usr/tce/bin/git' 'describe' '--tags' '--match' 'v*'\nCloning into 'libtool'...\nSubmodule 'bootstrap' (https://github.com/gnulib-modules/bootstrap.git) registered for path 'gl-mod/bootstrap'\nSubmodule 'gnulib' (git://git.sv.gnu.org/gnulib.git) registered for path 'gnulib'\nCloning into '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gl-mod/bootstrap'...",
+            "post_context": "fatal: index-pack failed\nfatal: clone of 'https://github.com/gnulib-modules/bootstrap.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gl-mod/bootstrap' failed\nFailed to clone 'gl-mod/bootstrap'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'gnulib'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 372,
+            "repeat_count": 0,
+            "start": 366,
+            "end": 379,
+            "text": "fatal: Unable to read current working directory: No such file or directory",
+            "pre_context": "Submodule 'gnulib' (git://git.sv.gnu.org/gnulib.git) registered for path 'gnulib'\nCloning into '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gl-mod/bootstrap'...\nfatal: unable to open /tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/.git/modules/bootstrap/objects/pack/tmp_pack_dhZRc8: No such file or directory\nfatal: index-pack failed\nfatal: clone of 'https://github.com/gnulib-modules/bootstrap.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gl-mod/bootstrap' failed\nFailed to clone 'gl-mod/bootstrap'. Retry scheduled",
+            "post_context": "Failed to clone 'gnulib'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'gl-mod/bootstrap' a second time, aborting\n==> [2022-01-10-11:16:12.185272] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir/spack.yaml\n==> [2022-01-10-11:16:12.265834] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir'\n==> [2022-01-10-11:16:12.567431] [TOOLCHAIN] MATCH Gcc"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 374,
+            "repeat_count": 0,
+            "start": 368,
+            "end": 381,
+            "text": "fatal: Unable to read current working directory: No such file or directory",
+            "pre_context": "fatal: unable to open /tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/.git/modules/bootstrap/objects/pack/tmp_pack_dhZRc8: No such file or directory\nfatal: index-pack failed\nfatal: clone of 'https://github.com/gnulib-modules/bootstrap.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/gl-mod/bootstrap' failed\nFailed to clone 'gl-mod/bootstrap'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'gnulib'. Retry scheduled",
+            "post_context": "Failed to clone 'gl-mod/bootstrap' a second time, aborting\n==> [2022-01-10-11:16:12.185272] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir/spack.yaml\n==> [2022-01-10-11:16:12.265834] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/libnrm/spack_env_dir'\n==> [2022-01-10-11:16:12.567431] [TOOLCHAIN] MATCH Gcc\n==> [2022-01-10-11:16:12.573089] Adding compiler bin/ paths: /p/vast1/koparasy/BUILD/head/spack/lib/spack/env /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/case-insensitive /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/gcc\n==> [2022-01-10-11:16:12.731762] A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 308,
+            "repeat_count": 0,
+            "start": 302,
+            "end": 315,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.14.1-ys5e257sfigz7tfdf32efyt6hodipujm/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 390,
+            "repeat_count": 0,
+            "start": 384,
+            "end": 397,
+            "text": "==> [2022-01-10-11:16:29.776090] Error: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/libtool' already exists",
+            "pre_context": "==> [2022-01-10-11:16:24.865126] FailedDownloadError: Failed to fetch file from URL: https://mirror.spack.io/libtool/libtool-develop.tar.gz\n==> [2022-01-10-11:16:24.865408] Cloning git repository: https://git.savannah.gnu.org/git/libtool.git on branch master\n==> [2022-01-10-11:16:24.898398] '/usr/tce/bin/git' '--version'\n==> [2022-01-10-11:16:24.904596] '/usr/tce/bin/git' '-c' 'advice.detachedHead=false' '--version'\n==> [2022-01-10-11:16:24.909996] '/usr/tce/bin/git' '-c' 'advice.detachedHead=false' '--version'\n==> [2022-01-10-11:16:24.915406] '/usr/tce/bin/git' '-c' 'advice.detachedHead=false' 'clone' '--branch' 'master' '--single-branch' '--depth' '1' 'https://git.savannah.gnu.org/git/libtool.git'",
+            "post_context": "\n/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/package.py:1386, in do_fetch:\n       1383\n       1384        self.stage.create()\n       1385        err_msg = None if not self.manual_download else self.download_instr\n  >>   1386        start_time = time.time()"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 430,
+            "repeat_count": 0,
+            "start": 424,
+            "end": 434,
+            "text": "==> [2022-01-10-11:16:29.776491] Flagging libtool-develop-rjwvj5bjbl5ulafxfc6z3s7v6b2dqhfe as failed: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/libtool' already exists",
+            "pre_context": "    self.clone(commit=self.commit, branch=self.branch, tag=self.tag)\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/fetch_strategy.py\", line 982, in clone\n    shutil.move(repo_name, dest)\n  File \"/usr/tce/packages/python/python-3.7.2/lib/python3.7/shutil.py\", line 561, in move\n    raise Error(\"Destination path '%s' already exists\" % real_dst)\nshutil.Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/libtool' already exists",
+            "post_context": "==> [2022-01-10-11:16:30.469570] Skip view update, this environment does not maintain a view\n==> [2022-01-10-11:16:30.471775] ChildError: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/libtool' already exists\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 432,
+            "repeat_count": 0,
+            "start": 426,
+            "end": 434,
+            "text": "==> [2022-01-10-11:16:30.471775] ChildError: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/libtool' already exists",
+            "pre_context": "    shutil.move(repo_name, dest)\n  File \"/usr/tce/packages/python/python-3.7.2/lib/python3.7/shutil.py\", line 561, in move\n    raise Error(\"Destination path '%s' already exists\" % real_dst)\nshutil.Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/libtool' already exists\n==> [2022-01-10-11:16:29.776491] Flagging libtool-develop-rjwvj5bjbl5ulafxfc6z3s7v6b2dqhfe as failed: Error: Destination path '/var/tmp/koparasy/spack-stage/spack-stage-libtool-develop-lg6rvdjjsw5mrjaaqb3q2tnbif4l2izj/spack-src/libtool' already exists\n==> [2022-01-10-11:16:30.469570] Skip view update, this environment does not maintain a view",
+            "post_context": ""
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 308,
+            "repeat_count": 0,
+            "start": 302,
+            "end": 315,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.16.2-m6zldy74imye5tf2ufxlyeqesw7vmjsr/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 308,
+            "repeat_count": 0,
+            "start": 302,
+            "end": 315,
+            "text": ">> 20    configure: error: Autoconf 2.65 or better is required.",
+            "pre_context": "     14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.15.1-fypmfwhpb62hqpz2e4dy24w7bwd4acqx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 295,
+            "repeat_count": 0,
+            "start": 289,
+            "end": 302,
+            "text": ">> 124    make[1]: *** [tests/wrapper.in] Error 126",
+            "pre_context": "     120    chmod +x bin/autoupdate.tmp\n     121    chmod a-w bin/autoupdate.tmp\n     122    mv bin/autoupdate.tmp bin/autoupdate\n  >> 123    /bin/sh: bin/autom4te: /p/vast1/koparasy/BUILD/spack_cluster_instal\n            ler/quartz/libnrm/spack_env_dir/l: bad interpreter: No such file or\n             directory",
+            "post_context": "     125    make[1]: *** Waiting for unfinished jobs....\n     126    chmod +x bin/ifnames.tmp\n     127    chmod a-w bin/ifnames.tmp\n     128    mv bin/ifnames.tmp bin/ifnames\n     129    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            utoconf-2.71-k6lscehd54by4wkfxljy3giy5jkdhmo6/spack-src/spack-build"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 303,
+            "repeat_count": 0,
+            "start": 297,
+            "end": 310,
+            "text": ">> 130    make: *** [all] Error 2",
+            "pre_context": "     126    chmod +x bin/ifnames.tmp\n     127    chmod a-w bin/ifnames.tmp\n     128    mv bin/ifnames.tmp bin/ifnames\n     129    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            utoconf-2.71-k6lscehd54by4wkfxljy3giy5jkdhmo6/spack-src/spack-build\n            '",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-autoconf-2.71-k6lscehd54by4wkfxljy3giy5jkdhmo6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

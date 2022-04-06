@@ -1,0 +1,12 @@
+numba==0.53
+requests
+matplotlib
+gensim
+nltk
+pandas
+scipy
+scikit-learn
+riverapi
+PyGithub
+creme
+git+https://github.com/vsoch/online_ml_custom.git@main

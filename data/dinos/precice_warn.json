@@ -1,0 +1,122 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpkg.h",
+            "source_line_no": "9",
+            "line_no": 673,
+            "repeat_count": 0,
+            "start": 667,
+            "end": 680,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpkg.h:96:33: warning: neste",
+            "pre_context": "==> [2022-01-12-19:21:15.590060] hdf5: Building hdf5-1.10.8-cihb4cwpw2swjs6nvufrdi3hqeldbhvh [CMakePackage]\n==> [2022-01-12-19:23:16.361124] Error: ProcessError: Command exited with status 2:\n    'make' '-j4'\n\n9 errors found in build log:\n     4079    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             d extern declaration of 'dlopen' [-Wnested-externs]\n     4080       96 | #define H5PL_OPEN_DLIB(S)       dlopen(S, RTLD_LAZY | RTLD\n             _LOCAL)\n     4081          |                                 ^~~~~~\n     4082    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6\n             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLint.c:310:27: note: in expa"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpkg.h",
+            "source_line_no": "1",
+            "line_no": 726,
+            "repeat_count": 0,
+            "start": 720,
+            "end": 733,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpkg.h:102:33: warning: nest",
+            "pre_context": "             f5-1.10.8-4phczhp77it6wmejvejbb5wiwcowjnhy/spack-src/src/H5PLint.c\n             :28:\n\n     ...\n\n     4164    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             ed extern declaration of 'dlclose' [-Wnested-externs]\n     4165      102 | #define H5PL_CLOSE_LIB(H)       dlclose(H)\n     4166          |                                 ^~~~~~~\n     4167    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6\n             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLint.c:372:5: note: in expan\n             sion of macro 'H5PL_CLOSE_LIB'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpkg.h",
+            "source_line_no": "9",
+            "line_no": 827,
+            "repeat_count": 0,
+            "start": 821,
+            "end": 834,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpkg.h:96:33: warning: impli",
+            "pre_context": "             f5-1.10.8-4phczhp77it6wmejvejbb5wiwcowjnhy/spack-src/src/H5PLint.c\n             :30:\n     4180    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6\n             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLint.c: In function 'H5PL__o\n             pen':\n     4181    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             cit declaration of function 'dlopen'; did you mean 'popen'? [-Wimp\n             licit-function-declaration]\n     4182       96 | #define H5PL_OPEN_DLIB(S)       dlopen(S, RTLD_LAZY | RTLD\n             _LOCAL)\n     4183          |                                 ^~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpkg.h",
+            "source_line_no": "9",
+            "line_no": 837,
+            "repeat_count": 0,
+            "start": 831,
+            "end": 844,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpkg.h:96:33: warning: neste",
+            "pre_context": "             _LOCAL)\n     4183          |                                 ^~~~~~\n\n     ...\n\n     4187    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             d extern declaration of 'dlopen' [-Wnested-externs]\n     4188       96 | #define H5PL_OPEN_DLIB(S)       dlopen(S, RTLD_LAZY | RTLD\n             _LOCAL)\n     4189          |                                 ^~~~~~\n     4190    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6\n             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLint.c:310:27: note: in expa"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5private.h",
+            "source_line_no": "1",
+            "line_no": 804,
+            "repeat_count": 0,
+            "start": 798,
+            "end": 811,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5private.h:1158:22: warning: i",
+            "pre_context": "             /\n     4062          |     ^~~\n     4063    In file included from /var/tmp/koparasy/spack-stage/spack-stage-hd\n             f5-1.10.8-4phczhp77it6wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.\n             c:38:\n     4064    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             mplicit declaration of function 'opendir'; did you mean 'HDopendir\n             '? [-Wimplicit-function-declaration]\n     4065     1158 | #define HDopendir(S) opendir(S)\n     4066          |                      ^~~~~~~\n\n     ..."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.c",
+            "source_line_no": "6",
+            "line_no": 813,
+            "repeat_count": 0,
+            "start": 807,
+            "end": 820,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.c:642:24: warning: ass",
+            "pre_context": "     4065     1158 | #define HDopendir(S) opendir(S)\n     4066          |                      ^~~~~~~\n\n     ...\n\n     4092    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             ignment to 'struct dirent *' from 'int' makes pointer from integer\n              without a cast [-Wint-conversion]\n     4093      642 |     while (NULL != (dp = HDreaddir(dirp))) {\n     4094          |                        ^\n     4095    In file included from /usr/include/string.h:633,\n     4096                     from /var/tmp/koparasy/spack-stage/spack-stage-hd"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5private.h",
+            "source_line_no": "7",
+            "line_no": 842,
+            "repeat_count": 0,
+            "start": 836,
+            "end": 849,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5private.h:704:23: warning: ne",
+            "pre_context": "             f5-1.10.8-4phczhp77it6wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.\n             c:38:\n\n     ...\n\n     4111    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             sted extern declaration of 'closedir' [-Wnested-externs]\n     4112      704 | #define HDclosedir(D) closedir(D)\n     4113          |                       ^~~~~~~~\n     4114    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6\n             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.c:687:13: note: in exp\n             ansion of macro 'HDclosedir'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5private.h",
+            "source_line_no": "1",
+            "line_no": 1084,
+            "repeat_count": 0,
+            "start": 1078,
+            "end": 1091,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5private.h:1158:22: warning: i",
+            "pre_context": "             /\n     4193          |     ^~~\n     4194    In file included from /var/tmp/koparasy/spack-stage/spack-stage-hd\n             f5-1.10.8-4phczhp77it6wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.\n             c:38:\n     4195    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             mplicit declaration of function 'opendir'; did you mean 'HDopendir\n             '? [-Wimplicit-function-declaration]\n     4196     1158 | #define HDopendir(S) opendir(S)\n     4197          |                      ^~~~~~~\n\n     ..."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.c",
+            "source_line_no": "6",
+            "line_no": 1093,
+            "repeat_count": 0,
+            "start": 1087,
+            "end": 1100,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.c:642:24: warning: ass",
+            "pre_context": "     4196     1158 | #define HDopendir(S) opendir(S)\n     4197          |                      ^~~~~~~\n\n     ...\n\n     4223    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             ignment to 'struct dirent *' from 'int' makes pointer from integer\n              without a cast [-Wint-conversion]\n     4224      642 |     while (NULL != (dp = HDreaddir(dirp))) {\n     4225          |                        ^\n     4226    In file included from /usr/include/string.h:633,\n     4227                     from /var/tmp/koparasy/spack-stage/spack-stage-hd"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             wmejvejbb5wiwcowjnhy/spack-src/src/H5private.h",
+            "source_line_no": "7",
+            "line_no": 1122,
+            "repeat_count": 0,
+            "start": 1116,
+            "end": 1129,
+            "text": "wmejvejbb5wiwcowjnhy/spack-src/src/H5private.h:704:23: warning: ne",
+            "pre_context": "             f5-1.10.8-4phczhp77it6wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.\n             c:38:\n\n     ...\n\n     4242    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6",
+            "post_context": "             sted extern declaration of 'closedir' [-Wnested-externs]\n     4243      704 | #define HDclosedir(D) closedir(D)\n     4244          |                       ^~~~~~~~\n     4245    /var/tmp/koparasy/spack-stage/spack-stage-hdf5-1.10.8-4phczhp77it6\n             wmejvejbb5wiwcowjnhy/spack-src/src/H5PLpath.c:687:13: note: in exp\n             ansion of macro 'HDclosedir'"
+      }
+]

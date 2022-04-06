@@ -1,0 +1,590 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 855,
+            "repeat_count": 0,
+            "start": 849,
+            "end": 862,
+            "text": "redhat-linux/9/ld: final link failed: nonrepresentable section on",
+            "pre_context": "     17118    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-\n              redhat-linux/9/ld: mca/topo/treematch/.libs/libmca_topo_treematch\n              .a(tm_verbose.o): relocation R_X86_64_32 against `.rodata.str1.1'\n               can not be used when making a shared object; recompile with -fPI\n              C\n  >> 17119    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-",
+            "post_context": "               output\n  >> 17120    collect2: error: ld returned 1 exit status\n  >> 17121    make[2]: *** [libmpi.la] Error 1\n     17122    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-src/ompi'\n  >> 17123    make[1]: *** [all-recursive] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 857,
+            "repeat_count": 0,
+            "start": 851,
+            "end": 864,
+            "text": ">> 17120    collect2: error: ld returned 1 exit status",
+            "pre_context": "              .a(tm_verbose.o): relocation R_X86_64_32 against `.rodata.str1.1'\n               can not be used when making a shared object; recompile with -fPI\n              C\n  >> 17119    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-\n              redhat-linux/9/ld: final link failed: nonrepresentable section on\n               output",
+            "post_context": "  >> 17121    make[2]: *** [libmpi.la] Error 1\n     17122    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-src/ompi'\n  >> 17123    make[1]: *** [all-recursive] Error 1\n     17124    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-src/ompi'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 858,
+            "repeat_count": 0,
+            "start": 852,
+            "end": 865,
+            "text": ">> 17121    make[2]: *** [libmpi.la] Error 1",
+            "pre_context": "               can not be used when making a shared object; recompile with -fPI\n              C\n  >> 17119    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-\n              redhat-linux/9/ld: final link failed: nonrepresentable section on\n               output\n  >> 17120    collect2: error: ld returned 1 exit status",
+            "post_context": "     17122    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-src/ompi'\n  >> 17123    make[1]: *** [all-recursive] Error 1\n     17124    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-src/ompi'\n  >> 17125    make: *** [all-recursive] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 861,
+            "repeat_count": 0,
+            "start": 855,
+            "end": 868,
+            "text": ">> 17123    make[1]: *** [all-recursive] Error 1",
+            "pre_context": "              redhat-linux/9/ld: final link failed: nonrepresentable section on\n               output\n  >> 17120    collect2: error: ld returned 1 exit status\n  >> 17121    make[2]: *** [libmpi.la] Error 1\n     17122    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-src/ompi'",
+            "post_context": "     17124    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-src/ompi'\n  >> 17125    make: *** [all-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 864,
+            "repeat_count": 0,
+            "start": 858,
+            "end": 871,
+            "text": ">> 17125    make: *** [all-recursive] Error 1",
+            "pre_context": "  >> 17121    make[2]: *** [libmpi.la] Error 1\n     17122    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-src/ompi'\n  >> 17123    make[1]: *** [all-recursive] Error 1\n     17124    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-src/ompi'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openmpi-master-c5ledhyn6rlsqusljjqnwaty2feeh334/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 610,
+            "repeat_count": 0,
+            "start": 604,
+            "end": 617,
+            "text": "ktkv7s/etc/openmpi-mca-params.conf': No such file or directory",
+            "pre_context": "              rasy/BUILD/spack_cluster_installer/quartz/openmpi/spack_env_dir/l\n              inux-rhel7-broadwell/gcc-9.3.1/openmpi-1.2.4-kvhqocti2rfhee7fvx62\n              pg2g57ktkv7s/etc/openmpi-mca-params.conf\n  >> 12701    /usr/bin/install: cannot create regular file '/p/vast1/koparasy/B\n              UILD/spack_cluster_installer/quartz/openmpi/spack_env_dir/linux-r\n              hel7-broadwell/gcc-9.3.1/openmpi-1.2.4-kvhqocti2rfhee7fvx62pg2g57",
+            "post_context": "  >> 12702    make[3]: *** [install-data-local] Error 1\n     12703    make[3]: *** Waiting for unfinished jobs....\n     12704    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal/et\n              c'\n  >> 12705    make[2]: *** [install-am] Error 2"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 611,
+            "repeat_count": 0,
+            "start": 605,
+            "end": 618,
+            "text": ">> 12702    make[3]: *** [install-data-local] Error 1",
+            "pre_context": "              inux-rhel7-broadwell/gcc-9.3.1/openmpi-1.2.4-kvhqocti2rfhee7fvx62\n              pg2g57ktkv7s/etc/openmpi-mca-params.conf\n  >> 12701    /usr/bin/install: cannot create regular file '/p/vast1/koparasy/B\n              UILD/spack_cluster_installer/quartz/openmpi/spack_env_dir/linux-r\n              hel7-broadwell/gcc-9.3.1/openmpi-1.2.4-kvhqocti2rfhee7fvx62pg2g57\n              ktkv7s/etc/openmpi-mca-params.conf': No such file or directory",
+            "post_context": "     12703    make[3]: *** Waiting for unfinished jobs....\n     12704    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal/et\n              c'\n  >> 12705    make[2]: *** [install-am] Error 2\n     12706    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 616,
+            "repeat_count": 0,
+            "start": 610,
+            "end": 623,
+            "text": ">> 12705    make[2]: *** [install-am] Error 2",
+            "pre_context": "              ktkv7s/etc/openmpi-mca-params.conf': No such file or directory\n  >> 12702    make[3]: *** [install-data-local] Error 1\n     12703    make[3]: *** Waiting for unfinished jobs....\n     12704    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal/et\n              c'",
+            "post_context": "     12706    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal/et\n              c'\n  >> 12707    make[1]: *** [install-recursive] Error 1\n     12708    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 620,
+            "repeat_count": 0,
+            "start": 614,
+            "end": 627,
+            "text": ">> 12707    make[1]: *** [install-recursive] Error 1",
+            "pre_context": "              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal/et\n              c'\n  >> 12705    make[2]: *** [install-am] Error 2\n     12706    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal/et\n              c'",
+            "post_context": "     12708    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal'\n  >> 12709    make: *** [install-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 623,
+            "repeat_count": 0,
+            "start": 617,
+            "end": 630,
+            "text": ">> 12709    make: *** [install-recursive] Error 1",
+            "pre_context": "     12706    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal/et\n              c'\n  >> 12707    make[1]: *** [install-recursive] Error 1\n     12708    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-src/opal'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openmpi-1.2.4-o4aotgcite2gis4wn7sbf2xulj4cjrkr/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 594,
+            "repeat_count": 0,
+            "start": 588,
+            "end": 601,
+            "text": ">> 2174     configure: error: no BPatch.h found; check path for Dyninst packa",
+            "pre_context": "     2168     checking whether linking with -ldl works... yes\n     2169     checking whether RTLD_DEFAULT is declared... yes\n     2170     checking whether RTLD_NEXT is declared... yes\n     2171     checking BPatch.h usability... no\n     2172     checking BPatch.h presence... no\n     2173     checking for BPatch.h... no",
+            "post_context": "              ge first...\n     2175     checking for tau_instrumentor... no\n  >> 2176     configure: error: no tau_instrumentor found; check path for PDToo\n              lkit first...\n     2177     configure: we are configuring inside Open MPI; presetting cache t\n              o skip MPI related tests"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 597,
+            "repeat_count": 0,
+            "start": 591,
+            "end": 604,
+            "text": ">> 2176     configure: error: no tau_instrumentor found; check path for PDToo",
+            "pre_context": "     2171     checking BPatch.h usability... no\n     2172     checking BPatch.h presence... no\n     2173     checking for BPatch.h... no\n  >> 2174     configure: error: no BPatch.h found; check path for Dyninst packa\n              ge first...\n     2175     checking for tau_instrumentor... no",
+            "post_context": "              lkit first...\n     2177     configure: we are configuring inside Open MPI; presetting cache t\n              o skip MPI related tests\n     2178     checking for mpicc... (cached) /p/vast1/koparasy/BUILD/head/spack\n              /lib/spack/env/gcc/gcc\n     2179     checking for mpicxx... (cached) /p/vast1/koparasy/BUILD/head/spac"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 617,
+            "repeat_count": 0,
+            "start": 611,
+            "end": 624,
+            "text": ">> 2196     configure: error: MPI Correctness Checking support cannot be buil",
+            "pre_context": "     2190     checking for PMPI_Win_unlock... (cached) yes\n     2191     checking for MPI_Register_datarep... (cached) yes\n     2192     checking for PMPI_File_read_ordered... (cached) yes\n     2193     checking for PMPI_File_read_ordered_begin... (cached) yes\n     2194     checking for PMPI_File_write_ordered... (cached) yes\n     2195     checking for PMPI_File_write_ordered_begin... (cached) yes",
+            "post_context": "              t inside Open MPI\n     2197     checking math.h usability... yes\n     2198     checking math.h presence... yes\n     2199     checking for math.h... yes\n     2200     checking whether we need to link -lm to get math functions... no\n     2201     checking f2c.h usability... no"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 626,
+            "repeat_count": 0,
+            "start": 620,
+            "end": 633,
+            "text": ">> 2204     configure: error: no f2c.h found; check path for CLAPACK package",
+            "pre_context": "     2198     checking math.h presence... yes\n     2199     checking for math.h... yes\n     2200     checking whether we need to link -lm to get math functions... no\n     2201     checking f2c.h usability... no\n     2202     checking f2c.h presence... no\n     2203     checking for f2c.h... no",
+            "post_context": "              first...\n     2205     checking for C++ runtime library... -lstdc++\n     2206     checking for the pthreads library -lpthreads... no\n     2207     checking whether pthreads work without any flags... yes\n     2208     checking for joinable pthread attribute... PTHREAD_CREATE_JOINABL\n              E"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 645,
+            "repeat_count": 0,
+            "start": 639,
+            "end": 652,
+            "text": ">> 2226     configure: error: no jvmti.h found; check path for JVMTI package",
+            "pre_context": "     2220     checking omp.h presence... yes\n     2221     checking for omp.h... yes\n     2222     checking whether we can build shared libraries... yes\n     2223     checking jvmti.h usability... no\n     2224     checking jvmti.h presence... no\n     2225     checking for jvmti.h... no",
+            "post_context": "              first...\n     2227     checking papi.h usability... yes\n     2228     checking papi.h presence... yes\n     2229     checking for papi.h... yes\n     2230     checking whether linking with -lpapi works... yes\n     2231     checking whether PAPI version >= 3... yes"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 662,
+            "repeat_count": 0,
+            "start": 656,
+            "end": 669,
+            "text": ">> 2256     configure: error: no cuda.h found; check path for CUDA Toolkit fi",
+            "pre_context": "     2250     checking for sched.h... yes\n     2251     checking for sched_getcpu... yes\n     2252     checking whether sched_getcpu works... yes\n     2253     checking cuda.h usability... no\n     2254     checking cuda.h presence... no\n     2255     checking for cuda.h... no",
+            "post_context": "              rst...\n     2257     checking cuda_runtime_api.h usability... no\n     2258     checking cuda_runtime_api.h presence... no\n     2259     checking for cuda_runtime_api.h... no\n  >> 2260     configure: error: no cuda_runtime_api.h found; check path for CUD\n              A Toolkit first..."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 667,
+            "repeat_count": 0,
+            "start": 661,
+            "end": 674,
+            "text": ">> 2260     configure: error: no cuda_runtime_api.h found; check path for CUD",
+            "pre_context": "     2255     checking for cuda.h... no\n  >> 2256     configure: error: no cuda.h found; check path for CUDA Toolkit fi\n              rst...\n     2257     checking cuda_runtime_api.h usability... no\n     2258     checking cuda_runtime_api.h presence... no\n     2259     checking for cuda_runtime_api.h... no",
+            "post_context": "              A Toolkit first...\n     2261     checking cupti.h usability... no\n     2262     checking cupti.h presence... no\n     2263     checking for cupti.h... no\n  >> 2264     configure: error: no cupti.h found; check path for CUPTI package\n              first..."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 672,
+            "repeat_count": 0,
+            "start": 666,
+            "end": 679,
+            "text": ">> 2264     configure: error: no cupti.h found; check path for CUPTI package",
+            "pre_context": "     2259     checking for cuda_runtime_api.h... no\n  >> 2260     configure: error: no cuda_runtime_api.h found; check path for CUD\n              A Toolkit first...\n     2261     checking cupti.h usability... no\n     2262     checking cupti.h presence... no\n     2263     checking for cupti.h... no",
+            "post_context": "              first...\n     2265     checking for dlfcn.h... (cached) yes\n     2266     checking whether linking with -ldl works... yes\n     2267     checking whether RTLD_DEFAULT is declared... (cached) yes\n     2268     checking whether RTLD_NEXT is declared... (cached) yes\n     2269     checking ctool/ctool.h usability... no"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 681,
+            "repeat_count": 0,
+            "start": 675,
+            "end": 688,
+            "text": ">> 2272     configure: error: no ctool/ctool.h found; check path for CTool pa",
+            "pre_context": "     2266     checking whether linking with -ldl works... yes\n     2267     checking whether RTLD_DEFAULT is declared... (cached) yes\n     2268     checking whether RTLD_NEXT is declared... (cached) yes\n     2269     checking ctool/ctool.h usability... no\n     2270     checking ctool/ctool.h presence... no\n     2271     checking for ctool/ctool.h... no",
+            "post_context": "              ckage first...\n     2273     checking for LIBC's pathname... /lib64/libc.so.6\n     2274     checking for fork... yes\n     2275     checking for execl... yes\n     2276     checking for execle... yes\n     2277     checking for execlp... yes"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 700,
+            "repeat_count": 0,
+            "start": 694,
+            "end": 707,
+            "text": ">> 2406     configure: error: no vtf3.h found; check path for VTF3 package fi",
+            "pre_context": "     2401     checking for mpic++... /p/vast1/koparasy/BUILD/head/spack/lib/spa\n              ck/env/gcc/g++\n     2402     checking for OpenMP flag of C++ compiler... -fopenmp\n     2403     checking vtf3.h usability... no\n     2404     checking vtf3.h presence... no\n     2405     checking for vtf3.h... no",
+            "post_context": "              rst...\n     2407     checking zlib.h usability... yes\n     2408     checking zlib.h presence... yes\n     2409     checking for zlib.h... yes\n     2410     checking whether linking with -lm works... yes\n     2411     checking whether we need to link -lm to get math functions... no"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 719,
+            "repeat_count": 0,
+            "start": 713,
+            "end": 726,
+            "text": ">> 18543    vt_metric_papi.c:263:3: error: too many arguments to function 'PA",
+            "pre_context": "     18539    In file included from vt_metric_papi.c:22:\n     18540    /usr/include/papi.h:1060:29: note: expected 'char *' but argument\n               is of type 'int'\n     18541     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro\n              r message */\n     18542          |                       ~~~~~~^~~",
+            "post_context": "              PI_perror'\n     18544      263 |   PAPI_perror(errcode, errstring, PAPI_MAX_STR_LEN);\n     18545          |   ^~~~~~~~~~~\n     18546    In file included from vt_metric_papi.c:22:\n     18547    /usr/include/papi.h:1060:11: note: declared here\n     18548     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 739,
+            "repeat_count": 0,
+            "start": 733,
+            "end": 746,
+            "text": ">> 18560    vt_metric_papi.c:277:3: error: too many arguments to function 'PA",
+            "pre_context": "     18556    In file included from vt_metric_papi.c:22:\n     18557    /usr/include/papi.h:1060:29: note: expected 'char *' but argument\n               is of type 'int'\n     18558     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro\n              r message */\n     18559          |                       ~~~~~~^~~",
+            "post_context": "              PI_perror'\n     18561      277 |   PAPI_perror(errcode, errstring, PAPI_MAX_STR_LEN);\n     18562          |   ^~~~~~~~~~~\n     18563    In file included from vt_metric_papi.c:22:\n     18564    /usr/include/papi.h:1060:11: note: declared here\n     18565     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 748,
+            "repeat_count": 0,
+            "start": 742,
+            "end": 755,
+            "text": ">> 18567    make[5]: *** [vt_metric_papi.lo] Error 1",
+            "pre_context": "     18562          |   ^~~~~~~~~~~\n     18563    In file included from vt_metric_papi.c:22:\n     18564    /usr/include/papi.h:1060:11: note: declared here\n     18565     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro\n              r message */\n     18566          |           ^~~~~~~~~~~",
+            "post_context": "     18568    make[5]: *** Waiting for unfinished jobs....\n     18569    libtool: compile:  /p/vast1/koparasy/BUILD/head/spack/lib/spack/e\n              nv/gcc/gcc -DHAVE_CONFIG_H -I. -I/var/tmp/koparasy/spack-stage/sp\n              ack-stage-openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-sr\n              c/ompi/contrib/vt/vt/vtlib -I.. -I/var/tmp/koparasy/spack-stage/s\n              pack-stage-openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-s"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 816,
+            "repeat_count": 0,
+            "start": 810,
+            "end": 823,
+            "text": ">> 18576    make[4]: *** [all-recursive] Error 1",
+            "pre_context": "              g -pthread -MT vt_iowrap.lo -MD -MP -MF .deps/vt_iowrap.Tpo -c vt\n              _iowrap.c -o vt_iowrap.o >/dev/null 2>&1\n     18574    mv -f .deps/vt_iowrap.Tpo .deps/vt_iowrap.Plo\n     18575    make[5]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt/vt/vtlib'",
+            "post_context": "     18577    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt/vt'\n  >> 18578    make[3]: *** [all] Error 2\n     18579    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 820,
+            "repeat_count": 0,
+            "start": 814,
+            "end": 827,
+            "text": ">> 18578    make[3]: *** [all] Error 2",
+            "pre_context": "              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt/vt/vtlib'\n  >> 18576    make[4]: *** [all-recursive] Error 1\n     18577    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt/vt'",
+            "post_context": "     18579    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt/vt'\n  >> 18580    make[2]: *** [all-recursive] Error 1\n     18581    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 824,
+            "repeat_count": 0,
+            "start": 818,
+            "end": 831,
+            "text": ">> 18580    make[2]: *** [all-recursive] Error 1",
+            "pre_context": "              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt/vt'\n  >> 18578    make[3]: *** [all] Error 2\n     18579    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt/vt'",
+            "post_context": "     18581    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt'\n  >> 18582    make[1]: *** [all-recursive] Error 1\n     18583    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 828,
+            "repeat_count": 0,
+            "start": 822,
+            "end": 835,
+            "text": ">> 18582    make[1]: *** [all-recursive] Error 1",
+            "pre_context": "              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt/vt'\n  >> 18580    make[2]: *** [all-recursive] Error 1\n     18581    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt'",
+            "post_context": "     18583    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi'\n  >> 18584    make: *** [all-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 831,
+            "repeat_count": 0,
+            "start": 825,
+            "end": 838,
+            "text": ">> 18584    make: *** [all-recursive] Error 1",
+            "pre_context": "     18581    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi/co\n              ntrib/vt'\n  >> 18582    make[1]: *** [all-recursive] Error 1\n     18583    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-src/ompi'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openmpi-1.5.5-y4dgqkk5dzbznuk2dcizui3meclk2t7w/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 594,
+            "repeat_count": 0,
+            "start": 588,
+            "end": 601,
+            "text": ">> 2141     configure: error: no vtf3.h found; check path for VTF3 package fi",
+            "pre_context": "     2135     checking dynamic linker characteristics... GNU/Linux ld.so\n     2136     checking how to hardcode library paths into programs... immediate\n     2137     checking for OpenMP flag of C++ compiler... -fopenmp\n     2138     checking vtf3.h usability... no\n     2139     checking vtf3.h presence... no\n     2140     checking for vtf3.h... no",
+            "post_context": "              rst...\n     2142     checking zlib.h usability... yes\n     2143     checking zlib.h presence... yes\n     2144     checking for zlib.h... yes\n     2145     checking whether linking with -lm works... yes\n     2146     checking whether we need to link -lm to get math functions... no"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 611,
+            "repeat_count": 0,
+            "start": 605,
+            "end": 618,
+            "text": ">> 2205     configure: error: no BPatch.h found; check path for Dyninst packa",
+            "pre_context": "     2199     checking whether linking with -ldl works... yes\n     2200     checking whether RTLD_DEFAULT is declared... yes\n     2201     checking whether RTLD_NEXT is declared... yes\n     2202     checking BPatch.h usability... no\n     2203     checking BPatch.h presence... no\n     2204     checking for BPatch.h... no",
+            "post_context": "              ge first...\n     2206     configure: we are configuring inside Open MPI; presetting cache t\n              o skip MPI related tests\n     2207     checking for mpicc... (cached) /p/vast1/koparasy/BUILD/head/spack\n              /lib/spack/env/gcc/gcc\n     2208     checking for mpicxx... (cached) /p/vast1/koparasy/BUILD/head/spac"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 631,
+            "repeat_count": 0,
+            "start": 625,
+            "end": 638,
+            "text": ">> 2220     configure: error: no f2c.h found; check path for CLAPACK package",
+            "pre_context": "     2214     checking math.h presence... yes\n     2215     checking for math.h... yes\n     2216     checking whether we need to link -lm to get math functions... no\n     2217     checking f2c.h usability... no\n     2218     checking f2c.h presence... no\n     2219     checking for f2c.h... no",
+            "post_context": "              first...\n  >> 2221     configure: error: MPI Correctness Checking support cannot be buil\n              t inside Open MPI\n     2222     checking for the pthreads library -lpthreads... no\n     2223     checking whether pthreads work without any flags... yes\n     2224     checking for joinable pthread attribute... PTHREAD_CREATE_JOINABL"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 633,
+            "repeat_count": 0,
+            "start": 627,
+            "end": 640,
+            "text": ">> 2221     configure: error: MPI Correctness Checking support cannot be buil",
+            "pre_context": "     2216     checking whether we need to link -lm to get math functions... no\n     2217     checking f2c.h usability... no\n     2218     checking f2c.h presence... no\n     2219     checking for f2c.h... no\n  >> 2220     configure: error: no f2c.h found; check path for CLAPACK package\n              first...",
+            "post_context": "              t inside Open MPI\n     2222     checking for the pthreads library -lpthreads... no\n     2223     checking whether pthreads work without any flags... yes\n     2224     checking for joinable pthread attribute... PTHREAD_CREATE_JOINABL\n              E\n     2225     checking if more special flags are required for pthreads... no"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 652,
+            "repeat_count": 0,
+            "start": 646,
+            "end": 659,
+            "text": ">> 2242     configure: error: no jvmti.h found; check path for JVMTI package",
+            "pre_context": "     2236     checking omp.h presence... yes\n     2237     checking for omp.h... yes\n     2238     checking whether we can build shared libraries... yes\n     2239     checking jvmti.h usability... no\n     2240     checking jvmti.h presence... no\n     2241     checking for jvmti.h... no",
+            "post_context": "              first...\n     2243     configure: selected timer: TIMER_CYCLE_COUNTER\n     2244     configure: global timer: no\n     2245     checking papi.h usability... yes\n     2246     checking papi.h presence... yes\n     2247     checking for papi.h... yes"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 669,
+            "repeat_count": 0,
+            "start": 663,
+            "end": 676,
+            "text": ">> 2273     configure: error: no ctool/ctool.h found; check path for CTool pa",
+            "pre_context": "     2267     checking whether linking with -ldl works... yes\n     2268     checking whether RTLD_DEFAULT is declared... (cached) yes\n     2269     checking whether RTLD_NEXT is declared... (cached) yes\n     2270     checking ctool/ctool.h usability... no\n     2271     checking ctool/ctool.h presence... no\n     2272     checking for ctool/ctool.h... no",
+            "post_context": "              ckage first...\n     2274     checking for LIBC's pathname... /lib64/libc.so.6\n     2275     checking for fork... yes\n     2276     checking for execl... yes\n     2277     checking for execle... yes\n     2278     checking for execlp... yes"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 688,
+            "repeat_count": 0,
+            "start": 682,
+            "end": 695,
+            "text": ">> 17820    vt_metric_papi.c:262:3: error: too many arguments to function 'PA",
+            "pre_context": "     17816    In file included from vt_metric_papi.c:23:\n     17817    /usr/include/papi.h:1060:29: note: expected 'char *' but argument\n               is of type 'int'\n     17818     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro\n              r message */\n     17819          |                       ~~~~~~^~~",
+            "post_context": "              PI_perror'\n     17821      262 |   PAPI_perror(errcode, errstring, PAPI_MAX_STR_LEN);\n     17822          |   ^~~~~~~~~~~\n     17823    In file included from vt_metric_papi.c:23:\n     17824    /usr/include/papi.h:1060:11: note: declared here\n     17825     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 708,
+            "repeat_count": 0,
+            "start": 702,
+            "end": 715,
+            "text": ">> 17837    vt_metric_papi.c:276:3: error: too many arguments to function 'PA",
+            "pre_context": "     17833    In file included from vt_metric_papi.c:23:\n     17834    /usr/include/papi.h:1060:29: note: expected 'char *' but argument\n               is of type 'int'\n     17835     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro\n              r message */\n     17836          |                       ~~~~~~^~~",
+            "post_context": "              PI_perror'\n     17838      276 |   PAPI_perror(errcode, errstring, PAPI_MAX_STR_LEN);\n     17839          |   ^~~~~~~~~~~\n     17840    In file included from vt_metric_papi.c:23:\n     17841    /usr/include/papi.h:1060:11: note: declared here\n     17842     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 717,
+            "repeat_count": 0,
+            "start": 711,
+            "end": 724,
+            "text": ">> 17844    make[5]: *** [vt_metric_papi.lo] Error 1",
+            "pre_context": "     17839          |   ^~~~~~~~~~~\n     17840    In file included from vt_metric_papi.c:23:\n     17841    /usr/include/papi.h:1060:11: note: declared here\n     17842     1060 |    void   PAPI_perror(char *msg ); /**< Print a PAPI erro\n              r message */\n     17843          |           ^~~~~~~~~~~",
+            "post_context": "     17845    make[5]: *** Waiting for unfinished jobs....\n     17846    libtool: compile:  /p/vast1/koparasy/BUILD/head/spack/lib/spack/e\n              nv/gcc/gcc -DHAVE_CONFIG_H -I. -I/var/tmp/koparasy/spack-stage/sp\n              ack-stage-openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-sr\n              c/ompi/contrib/vt/vt/vtlib -I.. -I/var/tmp/koparasy/spack-stage/s\n              pack-stage-openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-s"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 761,
+            "repeat_count": 0,
+            "start": 755,
+            "end": 768,
+            "text": ">> 17853    make[4]: *** [all-recursive] Error 1",
+            "pre_context": "     17849    mv -f .deps/vt_rusage.Tpo .deps/vt_rusage.Plo\n     17850    mv -f .deps/rfg_filter.Tpo .deps/rfg_filter.Plo\n     17851    mv -f .deps/vt_iowrap.Tpo .deps/vt_iowrap.Plo\n     17852    make[5]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt/vt/vtlib'",
+            "post_context": "     17854    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt/vt'\n  >> 17855    make[3]: *** [all] Error 2\n     17856    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 765,
+            "repeat_count": 0,
+            "start": 759,
+            "end": 772,
+            "text": ">> 17855    make[3]: *** [all] Error 2",
+            "pre_context": "              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt/vt/vtlib'\n  >> 17853    make[4]: *** [all-recursive] Error 1\n     17854    make[4]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt/vt'",
+            "post_context": "     17856    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt/vt'\n  >> 17857    make[2]: *** [all-recursive] Error 1\n     17858    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 769,
+            "repeat_count": 0,
+            "start": 763,
+            "end": 776,
+            "text": ">> 17857    make[2]: *** [all-recursive] Error 1",
+            "pre_context": "              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt/vt'\n  >> 17855    make[3]: *** [all] Error 2\n     17856    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt/vt'",
+            "post_context": "     17858    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt'\n  >> 17859    make[1]: *** [all-recursive] Error 1\n     17860    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 773,
+            "repeat_count": 0,
+            "start": 767,
+            "end": 780,
+            "text": ">> 17859    make[1]: *** [all-recursive] Error 1",
+            "pre_context": "              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt/vt'\n  >> 17857    make[2]: *** [all-recursive] Error 1\n     17858    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt'",
+            "post_context": "     17860    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi'\n  >> 17861    make: *** [all-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 776,
+            "repeat_count": 0,
+            "start": 770,
+            "end": 783,
+            "text": ">> 17861    make: *** [all-recursive] Error 1",
+            "pre_context": "     17858    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi/co\n              ntrib/vt'\n  >> 17859    make[1]: *** [all-recursive] Error 1\n     17860    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage\n              -openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-src/ompi'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openmpi-1.5.1-bbtmek57tqdx2fs2exhngxbvggyz4nh7/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

@@ -1,0 +1,58 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 734,
+            "repeat_count": 0,
+            "start": 728,
+            "end": 741,
+            "text": ">> 514    make[3]: *** [install-data-local] Error 1",
+            "pre_context": "     508     /usr/bin/install -c -m 644 ./html/right-insensitive.png\n     509     /usr/bin/install -c -m 644 ./html/right.png\n     510     /usr/bin/install -c -m 644 ./html/style.css\n     511     /usr/bin/install -c -m 644 ./html/up-insensitive.png\n     512     /usr/bin/install -c -m 644 ./html/up.png\n     513    ImportError: No module named site",
+            "post_context": "     515    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs/refe\n            rence'\n  >> 516    make[2]: *** [install-am] Error 2\n     517    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs/refe"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 738,
+            "repeat_count": 0,
+            "start": 732,
+            "end": 745,
+            "text": ">> 516    make[2]: *** [install-am] Error 2",
+            "pre_context": "     512     /usr/bin/install -c -m 644 ./html/up.png\n     513    ImportError: No module named site\n  >> 514    make[3]: *** [install-data-local] Error 1\n     515    make[3]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs/refe\n            rence'",
+            "post_context": "     517    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs/refe\n            rence'\n  >> 518    make[1]: *** [install-recursive] Error 1\n     519    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs'"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 742,
+            "repeat_count": 0,
+            "start": 736,
+            "end": 749,
+            "text": ">> 518    make[1]: *** [install-recursive] Error 1",
+            "pre_context": "            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs/refe\n            rence'\n  >> 516    make[2]: *** [install-am] Error 2\n     517    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs/refe\n            rence'",
+            "post_context": "     519    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs'\n  >> 520    make: *** [install-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 745,
+            "repeat_count": 0,
+            "start": 739,
+            "end": 752,
+            "text": ">> 520    make: *** [install-recursive] Error 1",
+            "pre_context": "     517    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs/refe\n            rence'\n  >> 518    make[1]: *** [install-recursive] Error 1\n     519    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-l\n            ibcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-src/docs'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libcroco-0.6.13-logwijdncylp432yn63bn6fb65bgnymk/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

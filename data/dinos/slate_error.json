@@ -1,0 +1,800 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 644,
+            "repeat_count": 0,
+            "start": 638,
+            "end": 651,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-5eitknpintq4rc65jhfesnm6assofqfi/spack-buil\n             d-5eitknp'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 645,
+            "repeat_count": 0,
+            "start": 639,
+            "end": 652,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-5eitknpintq4rc65jhfesnm6assofqfi/spack-buil\n             d-5eitknp'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-5eitknpintq4rc65jhfesnm6assofqfi/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 649,
+            "repeat_count": 0,
+            "start": 643,
+            "end": 656,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-5eitknpintq4rc65jhfesnm6assofqfi/spack-buil\n             d-5eitknp'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-5eitknpintq4rc65jhfesnm6assofqfi/spack-buil\n             d-5eitknp'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 653,
+            "repeat_count": 0,
+            "start": 647,
+            "end": 660,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-5eitknpintq4rc65jhfesnm6assofqfi/spack-buil\n             d-5eitknp'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-5eitknpintq4rc65jhfesnm6assofqfi/spack-buil\n             d-5eitknp'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-5eitknpintq4rc65jhfesnm6assofqfi/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 548,
+            "repeat_count": 0,
+            "start": 542,
+            "end": 555,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-rqzwrowxk66ifhqztnoktqpzp36zpgpv/spack-buil\n             d-rqzwrow'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 549,
+            "repeat_count": 0,
+            "start": 543,
+            "end": 556,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-rqzwrowxk66ifhqztnoktqpzp36zpgpv/spack-buil\n             d-rqzwrow'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-rqzwrowxk66ifhqztnoktqpzp36zpgpv/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 553,
+            "repeat_count": 0,
+            "start": 547,
+            "end": 560,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-rqzwrowxk66ifhqztnoktqpzp36zpgpv/spack-buil\n             d-rqzwrow'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-rqzwrowxk66ifhqztnoktqpzp36zpgpv/spack-buil\n             d-rqzwrow'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 557,
+            "repeat_count": 0,
+            "start": 551,
+            "end": 564,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-rqzwrowxk66ifhqztnoktqpzp36zpgpv/spack-buil\n             d-rqzwrow'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-rqzwrowxk66ifhqztnoktqpzp36zpgpv/spack-buil\n             d-rqzwrow'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-rqzwrowxk66ifhqztnoktqpzp36zpgpv/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 530,
+            "repeat_count": 0,
+            "start": 524,
+            "end": 537,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-mwho4eutsfmutjmordejdzlsoax4q5ip/spack-buil\n             d-mwho4eu'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 531,
+            "repeat_count": 0,
+            "start": 525,
+            "end": 538,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-mwho4eutsfmutjmordejdzlsoax4q5ip/spack-buil\n             d-mwho4eu'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-mwho4eutsfmutjmordejdzlsoax4q5ip/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 535,
+            "repeat_count": 0,
+            "start": 529,
+            "end": 542,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-mwho4eutsfmutjmordejdzlsoax4q5ip/spack-buil\n             d-mwho4eu'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-mwho4eutsfmutjmordejdzlsoax4q5ip/spack-buil\n             d-mwho4eu'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 539,
+            "repeat_count": 0,
+            "start": 533,
+            "end": 546,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-mwho4eutsfmutjmordejdzlsoax4q5ip/spack-buil\n             d-mwho4eu'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-mwho4eutsfmutjmordejdzlsoax4q5ip/spack-buil\n             d-mwho4eu'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-mwho4eutsfmutjmordejdzlsoax4q5ip/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 530,
+            "repeat_count": 0,
+            "start": 524,
+            "end": 537,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-g4ekqetpoklm534nzqjhhccayc6abkzk/spack-buil\n             d-g4ekqet'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 531,
+            "repeat_count": 0,
+            "start": 525,
+            "end": 538,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-g4ekqetpoklm534nzqjhhccayc6abkzk/spack-buil\n             d-g4ekqet'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-g4ekqetpoklm534nzqjhhccayc6abkzk/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 535,
+            "repeat_count": 0,
+            "start": 529,
+            "end": 542,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-g4ekqetpoklm534nzqjhhccayc6abkzk/spack-buil\n             d-g4ekqet'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-g4ekqetpoklm534nzqjhhccayc6abkzk/spack-buil\n             d-g4ekqet'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 539,
+            "repeat_count": 0,
+            "start": 533,
+            "end": 546,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-g4ekqetpoklm534nzqjhhccayc6abkzk/spack-buil\n             d-g4ekqet'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-g4ekqetpoklm534nzqjhhccayc6abkzk/spack-buil\n             d-g4ekqet'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-g4ekqetpoklm534nzqjhhccayc6abkzk/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 530,
+            "repeat_count": 0,
+            "start": 524,
+            "end": 537,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-dezz6wzmyohr3tugw3htxmlrkd2idnip/spack-buil\n             d-dezz6wz'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 531,
+            "repeat_count": 0,
+            "start": 525,
+            "end": 538,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-dezz6wzmyohr3tugw3htxmlrkd2idnip/spack-buil\n             d-dezz6wz'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-dezz6wzmyohr3tugw3htxmlrkd2idnip/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 535,
+            "repeat_count": 0,
+            "start": 529,
+            "end": 542,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-dezz6wzmyohr3tugw3htxmlrkd2idnip/spack-buil\n             d-dezz6wz'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-dezz6wzmyohr3tugw3htxmlrkd2idnip/spack-buil\n             d-dezz6wz'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 539,
+            "repeat_count": 0,
+            "start": 533,
+            "end": 546,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-dezz6wzmyohr3tugw3htxmlrkd2idnip/spack-buil\n             d-dezz6wz'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-dezz6wzmyohr3tugw3htxmlrkd2idnip/spack-buil\n             d-dezz6wz'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-dezz6wzmyohr3tugw3htxmlrkd2idnip/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 530,
+            "repeat_count": 0,
+            "start": 524,
+            "end": 537,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-yb3boy3o64hitkv3pxwdi76uebd2wc3k/spack-buil\n             d-yb3boy3'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 531,
+            "repeat_count": 0,
+            "start": 525,
+            "end": 538,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-yb3boy3o64hitkv3pxwdi76uebd2wc3k/spack-buil\n             d-yb3boy3'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-yb3boy3o64hitkv3pxwdi76uebd2wc3k/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 535,
+            "repeat_count": 0,
+            "start": 529,
+            "end": 542,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-yb3boy3o64hitkv3pxwdi76uebd2wc3k/spack-buil\n             d-yb3boy3'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-yb3boy3o64hitkv3pxwdi76uebd2wc3k/spack-buil\n             d-yb3boy3'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 539,
+            "repeat_count": 0,
+            "start": 533,
+            "end": 546,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-yb3boy3o64hitkv3pxwdi76uebd2wc3k/spack-buil\n             d-yb3boy3'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-yb3boy3o64hitkv3pxwdi76uebd2wc3k/spack-buil\n             d-yb3boy3'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-yb3boy3o64hitkv3pxwdi76uebd2wc3k/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 272,
+            "repeat_count": 0,
+            "start": 266,
+            "end": 279,
+            "text": ">> 809    configure: error: 'mxm/api/mxm_api.h or libmxm library not found. D",
+            "pre_context": "     803    checking for knem_io.h... no\n     804    configure: RUNNING CONFIGURE FOR ch3:nemesis:mxm\n     805    checking mxm/api/mxm_api.h usability... no\n     806    checking mxm/api/mxm_api.h presence... no\n     807    checking for mxm/api/mxm_api.h... no\n     808    checking for mxm_get_version in -lmxm... no",
+            "post_context": "            id you specify --with-mxm= or --with-mxm-include= or --with-mxm-lib\n            =?'\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-mpich-3.1.4-hhpzie7xda5zkaehetum3jkpglwqqya2/spack-build-out.txt\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 545,
+            "repeat_count": 0,
+            "start": 539,
+            "end": 552,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-igahd3qpnhsz4uqjxsfebmtk37pluebe/spack-buil\n             d-igahd3q'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 546,
+            "repeat_count": 0,
+            "start": 540,
+            "end": 553,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-igahd3qpnhsz4uqjxsfebmtk37pluebe/spack-buil\n             d-igahd3q'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-igahd3qpnhsz4uqjxsfebmtk37pluebe/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 550,
+            "repeat_count": 0,
+            "start": 544,
+            "end": 557,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-igahd3qpnhsz4uqjxsfebmtk37pluebe/spack-buil\n             d-igahd3q'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-igahd3qpnhsz4uqjxsfebmtk37pluebe/spack-buil\n             d-igahd3q'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 554,
+            "repeat_count": 0,
+            "start": 548,
+            "end": 561,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-igahd3qpnhsz4uqjxsfebmtk37pluebe/spack-buil\n             d-igahd3q'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-igahd3qpnhsz4uqjxsfebmtk37pluebe/spack-buil\n             d-igahd3q'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-igahd3qpnhsz4uqjxsfebmtk37pluebe/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 644,
+            "repeat_count": 0,
+            "start": 638,
+            "end": 651,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pkskdsfuuww3iurbabbslgvy7wlg7chw/spack-buil\n             d-pkskdsf'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 645,
+            "repeat_count": 0,
+            "start": 639,
+            "end": 652,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pkskdsfuuww3iurbabbslgvy7wlg7chw/spack-buil\n             d-pkskdsf'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pkskdsfuuww3iurbabbslgvy7wlg7chw/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 649,
+            "repeat_count": 0,
+            "start": 643,
+            "end": 656,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pkskdsfuuww3iurbabbslgvy7wlg7chw/spack-buil\n             d-pkskdsf'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pkskdsfuuww3iurbabbslgvy7wlg7chw/spack-buil\n             d-pkskdsf'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 653,
+            "repeat_count": 0,
+            "start": 647,
+            "end": 660,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-pkskdsfuuww3iurbabbslgvy7wlg7chw/spack-buil\n             d-pkskdsf'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pkskdsfuuww3iurbabbslgvy7wlg7chw/spack-buil\n             d-pkskdsf'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-pkskdsfuuww3iurbabbslgvy7wlg7chw/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 581,
+            "repeat_count": 0,
+            "start": 575,
+            "end": 588,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-m6j2txlnpdqvcdoowztenyzrb2ydbsys/spack-buil\n             d-m6j2txl'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 582,
+            "repeat_count": 0,
+            "start": 576,
+            "end": 589,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-m6j2txlnpdqvcdoowztenyzrb2ydbsys/spack-buil\n             d-m6j2txl'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-m6j2txlnpdqvcdoowztenyzrb2ydbsys/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 586,
+            "repeat_count": 0,
+            "start": 580,
+            "end": 593,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-m6j2txlnpdqvcdoowztenyzrb2ydbsys/spack-buil\n             d-m6j2txl'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-m6j2txlnpdqvcdoowztenyzrb2ydbsys/spack-buil\n             d-m6j2txl'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 590,
+            "repeat_count": 0,
+            "start": 584,
+            "end": 597,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-m6j2txlnpdqvcdoowztenyzrb2ydbsys/spack-buil\n             d-m6j2txl'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-m6j2txlnpdqvcdoowztenyzrb2ydbsys/spack-buil\n             d-m6j2txl'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-m6j2txlnpdqvcdoowztenyzrb2ydbsys/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 641,
+            "repeat_count": 0,
+            "start": 635,
+            "end": 648,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-2h6peoq5gnaic2akwdn54fvfaqedtnq7/spack-buil\n             d-2h6peoq'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 642,
+            "repeat_count": 0,
+            "start": 636,
+            "end": 649,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-2h6peoq5gnaic2akwdn54fvfaqedtnq7/spack-buil\n             d-2h6peoq'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-2h6peoq5gnaic2akwdn54fvfaqedtnq7/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 646,
+            "repeat_count": 0,
+            "start": 640,
+            "end": 653,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-2h6peoq5gnaic2akwdn54fvfaqedtnq7/spack-buil\n             d-2h6peoq'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-2h6peoq5gnaic2akwdn54fvfaqedtnq7/spack-buil\n             d-2h6peoq'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 650,
+            "repeat_count": 0,
+            "start": 644,
+            "end": 657,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-2h6peoq5gnaic2akwdn54fvfaqedtnq7/spack-buil\n             d-2h6peoq'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-2h6peoq5gnaic2akwdn54fvfaqedtnq7/spack-buil\n             d-2h6peoq'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-2h6peoq5gnaic2akwdn54fvfaqedtnq7/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 581,
+            "repeat_count": 0,
+            "start": 575,
+            "end": 588,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pl3bu7e6ncsbde4ihcbfhqz3aj72pcg7/spack-buil\n             d-pl3bu7e'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 582,
+            "repeat_count": 0,
+            "start": 576,
+            "end": 589,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pl3bu7e6ncsbde4ihcbfhqz3aj72pcg7/spack-buil\n             d-pl3bu7e'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pl3bu7e6ncsbde4ihcbfhqz3aj72pcg7/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 586,
+            "repeat_count": 0,
+            "start": 580,
+            "end": 593,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pl3bu7e6ncsbde4ihcbfhqz3aj72pcg7/spack-buil\n             d-pl3bu7e'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pl3bu7e6ncsbde4ihcbfhqz3aj72pcg7/spack-buil\n             d-pl3bu7e'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 590,
+            "repeat_count": 0,
+            "start": 584,
+            "end": 597,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-pl3bu7e6ncsbde4ihcbfhqz3aj72pcg7/spack-buil\n             d-pl3bu7e'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-pl3bu7e6ncsbde4ihcbfhqz3aj72pcg7/spack-buil\n             d-pl3bu7e'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-pl3bu7e6ncsbde4ihcbfhqz3aj72pcg7/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 530,
+            "repeat_count": 0,
+            "start": 524,
+            "end": 537,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-23vrjnlkwraeplwf5jgn5qnxjgd2l2u6/spack-buil\n             d-23vrjnl'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 531,
+            "repeat_count": 0,
+            "start": 525,
+            "end": 538,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-23vrjnlkwraeplwf5jgn5qnxjgd2l2u6/spack-buil\n             d-23vrjnl'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-23vrjnlkwraeplwf5jgn5qnxjgd2l2u6/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 535,
+            "repeat_count": 0,
+            "start": 529,
+            "end": 542,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-23vrjnlkwraeplwf5jgn5qnxjgd2l2u6/spack-buil\n             d-23vrjnl'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-23vrjnlkwraeplwf5jgn5qnxjgd2l2u6/spack-buil\n             d-23vrjnl'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 539,
+            "repeat_count": 0,
+            "start": 533,
+            "end": 546,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-23vrjnlkwraeplwf5jgn5qnxjgd2l2u6/spack-buil\n             d-23vrjnl'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-23vrjnlkwraeplwf5jgn5qnxjgd2l2u6/spack-buil\n             d-23vrjnl'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-23vrjnlkwraeplwf5jgn5qnxjgd2l2u6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 718,
+            "repeat_count": 0,
+            "start": 712,
+            "end": 725,
+            "text": ">> 3748    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3746    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3747    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3749    make[2]: *** [lib/libscalapack.so] Error 1\n     3750    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-fduh5ztc6g6gtkgmlxxjf46sa45szdk3/spack-buil\n             d-fduh5zt'\n  >> 3751    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3752    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 719,
+            "repeat_count": 0,
+            "start": 713,
+            "end": 726,
+            "text": ">> 3749    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3747    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3748    collect2: error: ld returned 1 exit status",
+            "post_context": "     3750    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-fduh5ztc6g6gtkgmlxxjf46sa45szdk3/spack-buil\n             d-fduh5zt'\n  >> 3751    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3752    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-fduh5ztc6g6gtkgmlxxjf46sa45szdk3/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 723,
+            "repeat_count": 0,
+            "start": 717,
+            "end": 730,
+            "text": ">> 3751    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3748    collect2: error: ld returned 1 exit status\n  >> 3749    make[2]: *** [lib/libscalapack.so] Error 1\n     3750    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-fduh5ztc6g6gtkgmlxxjf46sa45szdk3/spack-buil\n             d-fduh5zt'",
+            "post_context": "     3752    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-fduh5ztc6g6gtkgmlxxjf46sa45szdk3/spack-buil\n             d-fduh5zt'\n  >> 3753    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 727,
+            "repeat_count": 0,
+            "start": 721,
+            "end": 734,
+            "text": ">> 3753    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-fduh5ztc6g6gtkgmlxxjf46sa45szdk3/spack-buil\n             d-fduh5zt'\n  >> 3751    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3752    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-fduh5ztc6g6gtkgmlxxjf46sa45szdk3/spack-buil\n             d-fduh5zt'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-fduh5ztc6g6gtkgmlxxjf46sa45szdk3/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 581,
+            "repeat_count": 0,
+            "start": 575,
+            "end": 588,
+            "text": ">> 3517    collect2: error: ld returned 1 exit status",
+            "pre_context": "     3515    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here",
+            "post_context": "  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-n6zfi6aia6sebs5gtcswhrz3b5rah532/spack-buil\n             d-n6zfi6a'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 582,
+            "repeat_count": 0,
+            "start": 576,
+            "end": 589,
+            "text": ">> 3518    make[2]: *** [lib/libscalapack.so] Error 1",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/scalapack.dir/SRC/pzheevr.f.o: in fun\n             ction `cmpim2_':\n     3516    pzheevr.f:(.text+0x90): multiple definition of `cmpim2_'; CMakeFil\n             es/scalapack.dir/SRC/pssyevr.f.o:pssyevr.f:(.text+0x90): first def\n             ined here\n  >> 3517    collect2: error: ld returned 1 exit status",
+            "post_context": "     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-n6zfi6aia6sebs5gtcswhrz3b5rah532/spack-buil\n             d-n6zfi6a'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-n6zfi6aia6sebs5gtcswhrz3b5rah532/spack-buil"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 586,
+            "repeat_count": 0,
+            "start": 580,
+            "end": 593,
+            "text": ">> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2",
+            "pre_context": "             ined here\n  >> 3517    collect2: error: ld returned 1 exit status\n  >> 3518    make[2]: *** [lib/libscalapack.so] Error 1\n     3519    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-n6zfi6aia6sebs5gtcswhrz3b5rah532/spack-buil\n             d-n6zfi6a'",
+            "post_context": "     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-n6zfi6aia6sebs5gtcswhrz3b5rah532/spack-buil\n             d-n6zfi6a'\n  >> 3522    make: *** [all] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 590,
+            "repeat_count": 0,
+            "start": 584,
+            "end": 597,
+            "text": ">> 3522    make: *** [all] Error 2",
+            "pre_context": "             netlib-scalapack-2.0.1-n6zfi6aia6sebs5gtcswhrz3b5rah532/spack-buil\n             d-n6zfi6a'\n  >> 3520    make[1]: *** [CMakeFiles/scalapack.dir/all] Error 2\n     3521    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             netlib-scalapack-2.0.1-n6zfi6aia6sebs5gtcswhrz3b5rah532/spack-buil\n             d-n6zfi6a'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-netlib-scalapack-2.0.1-n6zfi6aia6sebs5gtcswhrz3b5rah532/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

@@ -1,0 +1,746 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1236,
+            "repeat_count": 0,
+            "start": 1230,
+            "end": 1243,
+            "text": ">> 26     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            a/spack-src/config/BuildSystem/config/setCompilers.py:1907)\n     24     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.14.4-p3bszjq3vvgtjt3jx43uckytn6on5kf\n            a/spack-src/config/BuildSystem/config/setCompilers.py:1914)\n     25                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     27                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     28                   =====================================================\n            ==========================\n     29"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1272,
+            "repeat_count": 0,
+            "start": 1266,
+            "end": 1279,
+            "text": ">> 230    ***** WARNING: You have a version of GNU make older than 4.0. It wi",
+            "pre_context": "            ytn6on5kfa/spack-src/config/BuildSystem/config/package.py:957)\n     228    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.14.4-p3bszjq3vvgtjt3jx43uckytn6on5kfa/s\n            pack-src/config/BuildSystem/config/packages/make.py:96)\n     229                  =====================================================\n            ==========================",
+            "post_context": "            ll work,\n     231                        but may not support all the parallel testing op\n            tions. You can install the\n     232                        latest GNU make with your package manager, such\n             as brew or macports, or use\n     233                        the --download-make option to get the latest GN"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1231,
+            "repeat_count": 0,
+            "start": 1225,
+            "end": 1238,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           pack-src/config/BuildSystem/config/setCompilers.py:1589)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.7.5-v72xrs4ld66vcyljis56cslsqwc45erm/s\n           pack-src/config/BuildSystem/config/setCompilers.py:1596)\n     24                    ====================================================\n           ===========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                    ====================================================\n           ===========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1235,
+            "repeat_count": 0,
+            "start": 1229,
+            "end": 1242,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1725)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.13.5-t3lo5tpcjwnrm3wmvpmjxoejmkcgks7m/\n           spack-src/config/BuildSystem/config/setCompilers.py:1732)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     457    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 868,
+            "repeat_count": 0,
+            "start": 862,
+            "end": 875,
+            "text": "457    par_mgr.c:5523:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     451       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     452          |    ^~~~~~~~~~~~~~~~~~\n  >> 453    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     454       25 |    dSOLVEstruct_t dslu_solve;\n     455          |    ^~~~~~~~~~~~~~\n     456    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     458     5523 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     459          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     451    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 860,
+            "repeat_count": 0,
+            "start": 854,
+            "end": 867,
+            "text": "451    par_mgr.c:5394:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     445       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     446          |    ^~~~~~~~~~~~~~~~~~\n  >> 447    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     448       25 |    dSOLVEstruct_t dslu_solve;\n     449          |    ^~~~~~~~~~~~~~\n     450    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     452     5394 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     453          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     455    superlu.c",
+            "source_line_no": "9",
+            "line_no": 872,
+            "repeat_count": 0,
+            "start": 866,
+            "end": 879,
+            "text": "455    superlu.c:96:4: warning: implicit declaration of function 'ScalePer",
+            "pre_context": "     449       29 |    ScalePermstruct_t dslu_ScalePermstruct;\n     450          |    ^~~~~~~~~~~~~~~~~\n  >> 451    superlu.c:30:4: error: unknown type name 'SOLVEstruct_t'\n     452       30 |    SOLVEstruct_t dslu_solve;\n     453          |    ^~~~~~~~~~~~~\n     454    superlu.c: In function 'hypre_SLUDistSetup':",
+            "post_context": "            mstructInit'; did you mean 'dScalePermstructInit'? [-Wimplicit-func\n            tion-declaration]\n     456       96 |    ScalePermstructInit(global_num_rows, global_num_rows, &(\n            dslu_data->dslu_ScalePermstruct));\n     457          |    ^~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     468    superlu.c",
+            "source_line_no": "1",
+            "line_no": 865,
+            "repeat_count": 0,
+            "start": 859,
+            "end": 872,
+            "text": "468    superlu.c:116:4: warning: implicit declaration of function 'dScaleP",
+            "pre_context": "     462       29 |    dScalePermstruct_t dslu_ScalePermstruct;\n     463          |    ^~~~~~~~~~~~~~~~~~\n  >> 464    superlu.c:30:4: error: unknown type name 'dSOLVEstruct_t'\n     465       30 |    dSOLVEstruct_t dslu_solve;\n     466          |    ^~~~~~~~~~~~~~\n     467    superlu.c: In function 'hypre_SLUDistSetup':",
+            "post_context": "            ermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fun\n            ction-declaration]\n     469      116 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     470          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     468    superlu.c",
+            "source_line_no": "1",
+            "line_no": 866,
+            "repeat_count": 0,
+            "start": 860,
+            "end": 873,
+            "text": "468    superlu.c:116:4: warning: implicit declaration of function 'dScaleP",
+            "pre_context": "     462       29 |    dScalePermstruct_t dslu_ScalePermstruct;\n     463          |    ^~~~~~~~~~~~~~~~~~\n  >> 464    superlu.c:30:4: error: unknown type name 'dSOLVEstruct_t'\n     465       30 |    dSOLVEstruct_t dslu_solve;\n     466          |    ^~~~~~~~~~~~~~\n     467    superlu.c: In function 'hypre_SLUDistSetup':",
+            "post_context": "            ermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fun\n            ction-declaration]\n     469      116 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     470          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1227,
+            "repeat_count": 0,
+            "start": 1221,
+            "end": 1234,
+            "text": ">> 25     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            r/spack-src/config/BuildSystem/config/setCompilers.py:1715)\n     23     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.12.0-eri7hgjvk2gtzaqcod3u7iw6zkszhuc\n            r/spack-src/config/BuildSystem/config/setCompilers.py:1722)\n     24                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     26                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     27                   =====================================================\n            ==========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1263,
+            "repeat_count": 0,
+            "start": 1257,
+            "end": 1270,
+            "text": ">> 219    ***** WARNING: You have an older version of Gnu make, it will work,",
+            "pre_context": "            ack-src/config/BuildSystem/config/programs.py:71)\n     217    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.12.0-eri7hgjvk2gtzaqcod3u7iw6zkszhucr/s\n            pack-src/config/BuildSystem/config/packages/make.py:87)\n     218                    ===================================================\n            ============================",
+            "post_context": "     220                          but may not support all the parallel testing\n            options. You can install the\n     221                          latest Gnu make with your package manager, su\n            ch as brew or macports, or use\n     222                          the --download-make option to get the latest\n            Gnu make warning message *****"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1185,
+            "repeat_count": 0,
+            "start": 1179,
+            "end": 1192,
+            "text": ">> 25     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            esoh6v/spack-src/config/PETSc/options/languages.py:27)\n     23     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.16.2-6x53hfueoy5mzfnpgj7ddb6nogesoh6\n            v/spack-src/config/BuildSystem/config/setCompilers.py:2101)\n     24                   =====================================================\n            ========================================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     26                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     27                   =====================================================\n            ========================================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1221,
+            "repeat_count": 0,
+            "start": 1215,
+            "end": 1228,
+            "text": ">> 234    ***** WARNING: You have a version of GNU make older than 4.0. It wi",
+            "pre_context": "            6nogesoh6v/spack-src/config/BuildSystem/config/package.py:998)\n     232    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.16.2-6x53hfueoy5mzfnpgj7ddb6nogesoh6v/s\n            pack-src/config/BuildSystem/config/packages/make.py:96)\n     233                  =====================================================\n            ========================================",
+            "post_context": "            ll work,\n     235                        but may not support all the parallel testing op\n            tions. You can install the\n     236                        latest GNU make with your package manager, such\n             as brew or macports, or use\n     237                        the --download-make option to get the latest GN"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1236,
+            "repeat_count": 0,
+            "start": 1230,
+            "end": 1243,
+            "text": ">> 26     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            t/spack-src/config/BuildSystem/config/setCompilers.py:1878)\n     24     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.14.2-52rpoltxya67trlq3agshcfwqf2az7d\n            t/spack-src/config/BuildSystem/config/setCompilers.py:1885)\n     25                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     27                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     28                   =====================================================\n            ==========================\n     29"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1272,
+            "repeat_count": 0,
+            "start": 1266,
+            "end": 1279,
+            "text": ">> 229    ***** WARNING: You have a version of GNU make older than 4.0. It wi",
+            "pre_context": "            fwqf2az7dt/spack-src/config/BuildSystem/config/package.py:957)\n     227    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.14.2-52rpoltxya67trlq3agshcfwqf2az7dt/s\n            pack-src/config/BuildSystem/config/packages/make.py:96)\n     228                  =====================================================\n            ==========================",
+            "post_context": "            ll work,\n     230                        but may not support all the parallel testing op\n            tions. You can install the\n     231                        latest GNU make with your package manager, such\n             as brew or macports, or use\n     232                        the --download-make option to get the latest GN"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1228,
+            "repeat_count": 0,
+            "start": 1222,
+            "end": 1235,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           pack-src/config/BuildSystem/config/setCompilers.py:1612)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.8.0-ja6jjaio3bcr5vqehi2z4ittmosyknb4/s\n           pack-src/config/BuildSystem/config/setCompilers.py:1619)\n     24                    ====================================================\n           ===========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                    ====================================================\n           ===========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     451    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 855,
+            "repeat_count": 0,
+            "start": 849,
+            "end": 862,
+            "text": "451    par_mgr.c:5394:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     445       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     446          |    ^~~~~~~~~~~~~~~~~~\n  >> 447    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     448       25 |    dSOLVEstruct_t dslu_solve;\n     449          |    ^~~~~~~~~~~~~~\n     450    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     452     5394 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     453          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     443    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 861,
+            "repeat_count": 0,
+            "start": 855,
+            "end": 868,
+            "text": "443    par_mgr.c:5439:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     437       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     438          |    ^~~~~~~~~~~~~~~~~~\n  >> 439    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     440       25 |    dSOLVEstruct_t dslu_solve;\n     441          |    ^~~~~~~~~~~~~~\n     442    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     444     5439 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     445          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     456    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 865,
+            "repeat_count": 0,
+            "start": 859,
+            "end": 872,
+            "text": "456    par_mgr.c:5523:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     450       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     451          |    ^~~~~~~~~~~~~~~~~~\n  >> 452    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     453       25 |    dSOLVEstruct_t dslu_solve;\n     454          |    ^~~~~~~~~~~~~~\n     455    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     457     5523 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     458          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     450    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 854,
+            "repeat_count": 0,
+            "start": 848,
+            "end": 861,
+            "text": "450    par_mgr.c:5404:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     444       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     445          |    ^~~~~~~~~~~~~~~~~~\n  >> 446    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     447       25 |    dSOLVEstruct_t dslu_solve;\n     448          |    ^~~~~~~~~~~~~~\n     449    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     451     5404 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     452          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1227,
+            "repeat_count": 0,
+            "start": 1221,
+            "end": 1234,
+            "text": ">> 25     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            5/spack-src/config/BuildSystem/config/setCompilers.py:1725)\n     23     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.13.4-26bx6p4lhrimcknqs5w662xzrdufx5i\n            5/spack-src/config/BuildSystem/config/setCompilers.py:1732)\n     24                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     26                        use ./configure F77=$F77 if you really want to u\n            se that value ******\n     27                   =====================================================\n            ==========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1263,
+            "repeat_count": 0,
+            "start": 1257,
+            "end": 1270,
+            "text": ">> 221    ***** WARNING: You have an older version of Gnu make, it will work,",
+            "pre_context": "            ack-src/config/BuildSystem/config/programs.py:71)\n     219    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.13.4-26bx6p4lhrimcknqs5w662xzrdufx5i5/s\n            pack-src/config/BuildSystem/config/packages/make.py:87)\n     220                    ===================================================\n            ============================",
+            "post_context": "     222                        but may not support all the parallel testing op\n            tions. You can install the\n     223                        latest Gnu make with your package manager, such\n             as brew or macports, or use\n     224                        the --download-make option to get the latest Gn\n            u make *****"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1185,
+            "repeat_count": 0,
+            "start": 1179,
+            "end": 1192,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1700)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.12.5-kkc6e5hy4abakwm3uqlrvvmnk64ztdvc/\n           spack-src/config/BuildSystem/config/setCompilers.py:1707)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     443    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 861,
+            "repeat_count": 0,
+            "start": 855,
+            "end": 868,
+            "text": "443    par_mgr.c:5439:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     437       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     438          |    ^~~~~~~~~~~~~~~~~~\n  >> 439    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     440       25 |    dSOLVEstruct_t dslu_solve;\n     441          |    ^~~~~~~~~~~~~~\n     442    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     444     5439 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     445          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     455    superlu.c",
+            "source_line_no": "9",
+            "line_no": 872,
+            "repeat_count": 0,
+            "start": 866,
+            "end": 879,
+            "text": "455    superlu.c:96:4: warning: implicit declaration of function 'ScalePer",
+            "pre_context": "     449       29 |    ScalePermstruct_t dslu_ScalePermstruct;\n     450          |    ^~~~~~~~~~~~~~~~~\n  >> 451    superlu.c:30:4: error: unknown type name 'SOLVEstruct_t'\n     452       30 |    SOLVEstruct_t dslu_solve;\n     453          |    ^~~~~~~~~~~~~\n     454    superlu.c: In function 'hypre_SLUDistSetup':",
+            "post_context": "            mstructInit'; did you mean 'dScalePermstructInit'? [-Wimplicit-func\n            tion-declaration]\n     456       96 |    ScalePermstructInit(global_num_rows, global_num_rows, &(\n            dslu_data->dslu_ScalePermstruct));\n     457          |    ^~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1229,
+            "repeat_count": 0,
+            "start": 1223,
+            "end": 1236,
+            "text": ">> 24    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1650)\n     22    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.11.2-n6g472qqncyytjooc2vtaje2wdeqvipg/\n           spack-src/config/BuildSystem/config/setCompilers.py:1657)\n     23                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     25                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     26                  ======================================================\n           =========================\n     27"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1230,
+            "repeat_count": 0,
+            "start": 1224,
+            "end": 1237,
+            "text": ">> 25     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            u/spack-src/config/BuildSystem/config/setCompilers.py:1725)\n     23     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.13.2-hv3fahlnrvjgi5oy6u3lddd653gdxxs\n            u/spack-src/config/BuildSystem/config/setCompilers.py:1732)\n     24                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     26                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     27                   =====================================================\n            ==========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1266,
+            "repeat_count": 0,
+            "start": 1260,
+            "end": 1273,
+            "text": ">> 221    ***** WARNING: You have an older version of Gnu make, it will work,",
+            "pre_context": "            ack-src/config/BuildSystem/config/programs.py:71)\n     219    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.13.2-hv3fahlnrvjgi5oy6u3lddd653gdxxsu/s\n            pack-src/config/BuildSystem/config/packages/make.py:87)\n     220                    ===================================================\n            ============================",
+            "post_context": "     222                          but may not support all the parallel testing\n            options. You can install the\n     223                          latest Gnu make with your package manager, su\n            ch as brew or macports, or use\n     224                          the --download-make option to get the latest\n            Gnu make *****"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     442    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 861,
+            "repeat_count": 0,
+            "start": 855,
+            "end": 868,
+            "text": "442    par_mgr.c:5439:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     436       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     437          |    ^~~~~~~~~~~~~~~~~~\n  >> 438    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     439       25 |    dSOLVEstruct_t dslu_solve;\n     440          |    ^~~~~~~~~~~~~~\n     441    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     443     5439 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     444          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1235,
+            "repeat_count": 0,
+            "start": 1229,
+            "end": 1242,
+            "text": ">> 25     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            k/spack-src/config/BuildSystem/config/setCompilers.py:1726)\n     23     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.13.6-zk4xcdlyf254h77r5jrongn7upvkiaz\n            k/spack-src/config/BuildSystem/config/setCompilers.py:1733)\n     24                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     26                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     27                   =====================================================\n            ==========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1271,
+            "repeat_count": 0,
+            "start": 1265,
+            "end": 1278,
+            "text": ">> 221    ***** WARNING: You have an older version of Gnu make, it will work,",
+            "pre_context": "            ack-src/config/BuildSystem/config/programs.py:71)\n     219    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.13.6-zk4xcdlyf254h77r5jrongn7upvkiazk/s\n            pack-src/config/BuildSystem/config/packages/make.py:87)\n     220                    ===================================================\n            ============================",
+            "post_context": "     222                          but may not support all the parallel testing\n            options. You can install the\n     223                          latest Gnu make with your package manager, su\n            ch as brew or macports, or use\n     224                          the --download-make option to get the latest\n            Gnu make *****"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     451    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 865,
+            "repeat_count": 0,
+            "start": 859,
+            "end": 872,
+            "text": "451    par_mgr.c:5394:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "            sr_mv -I./../distributed_matrix -I./../matrix_matrix -I./../IJ_mv -\n            I./../parcsr_block_mv -I/p/vast1/koparasy/BUILD/spack_cluster_insta\n            ller/quartz/petsc/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/sup\n            erlu-dist-5.1.2-h52nwp4bpegolpuwpgxwdulqd5z52d2r/include          -\n            c par_mgr_setup.c\n     450    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     452     5394 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n\n     ..."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     456    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 872,
+            "repeat_count": 0,
+            "start": 866,
+            "end": 879,
+            "text": "456    par_mgr.c:5523:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     450       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     451          |    ^~~~~~~~~~~~~~~~~~\n  >> 452    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     453       25 |    dSOLVEstruct_t dslu_solve;\n     454          |    ^~~~~~~~~~~~~~\n     455    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     457     5523 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     458          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1228,
+            "repeat_count": 0,
+            "start": 1222,
+            "end": 1235,
+            "text": ">> 26     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            4/spack-src/config/BuildSystem/config/setCompilers.py:1878)\n     24     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.14.0-d6uwnr4bwfikwzbhkaaowim6d3n7q2l\n            4/spack-src/config/BuildSystem/config/setCompilers.py:1885)\n     25                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     27                        use ./configure F77=$F77 if you really want to u\n            se that value ******\n     28                   =====================================================\n            ==========================\n     29"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1264,
+            "repeat_count": 0,
+            "start": 1258,
+            "end": 1271,
+            "text": ">> 229    ***** WARNING: You have a version of GNU make older than 4.0. It wi",
+            "pre_context": "            m6d3n7q2l4/spack-src/config/BuildSystem/config/package.py:953)\n     227    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.14.0-d6uwnr4bwfikwzbhkaaowim6d3n7q2l4/s\n            pack-src/config/BuildSystem/config/packages/make.py:96)\n     228                  =====================================================\n            ==========================",
+            "post_context": "            ll work,\n     230                      but may not support all the parallel testing opti\n            ons. You can install the\n     231                      latest GNU make with your package manager, such a\n            s brew or macports, or use\n     232                      the --download-make option to get the latest GNU"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     450    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 869,
+            "repeat_count": 0,
+            "start": 863,
+            "end": 876,
+            "text": "450    par_mgr.c:5404:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "            sr_mv -I./../distributed_matrix -I./../matrix_matrix -I./../IJ_mv -\n            I./../parcsr_block_mv -I/p/vast1/koparasy/BUILD/spack_cluster_insta\n            ller/quartz/petsc/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/sup\n            erlu-dist-5.1.2-h52nwp4bpegolpuwpgxwdulqd5z52d2r/include          -\n            c par_mgr_setup.c\n     449    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     451     5404 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n\n     ..."
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     449    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 863,
+            "repeat_count": 0,
+            "start": 857,
+            "end": 870,
+            "text": "449    par_mgr.c:5404:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     443       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     444          |    ^~~~~~~~~~~~~~~~~~\n  >> 445    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     446       25 |    dSOLVEstruct_t dslu_solve;\n     447          |    ^~~~~~~~~~~~~~\n     448    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     450     5404 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     451          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     451    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 863,
+            "repeat_count": 0,
+            "start": 857,
+            "end": 870,
+            "text": "451    par_mgr.c:5404:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     445       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     446          |    ^~~~~~~~~~~~~~~~~~\n  >> 447    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     448       25 |    dSOLVEstruct_t dslu_solve;\n     449          |    ^~~~~~~~~~~~~~\n     450    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     452     5404 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     453          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1233,
+            "repeat_count": 0,
+            "start": 1227,
+            "end": 1240,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1724)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.12.4-m67mxfdjngljptg2amvpt45nitfvr2wl/\n           spack-src/config/BuildSystem/config/setCompilers.py:1731)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1232,
+            "repeat_count": 0,
+            "start": 1226,
+            "end": 1239,
+            "text": ">> 25     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            z/spack-src/config/BuildSystem/config/setCompilers.py:1725)\n     23     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.13.4-sjep77xxhwdevhoicjra7sazg3s36hu\n            z/spack-src/config/BuildSystem/config/setCompilers.py:1732)\n     24                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     26                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     27                   =====================================================\n            ==========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1268,
+            "repeat_count": 0,
+            "start": 1262,
+            "end": 1275,
+            "text": ">> 221    ***** WARNING: You have an older version of Gnu make, it will work,",
+            "pre_context": "            ack-src/config/BuildSystem/config/programs.py:71)\n     219    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.13.4-sjep77xxhwdevhoicjra7sazg3s36huz/s\n            pack-src/config/BuildSystem/config/packages/make.py:87)\n     220                    ===================================================\n            ============================",
+            "post_context": "     222                          but may not support all the parallel testing\n            options. You can install the\n     223                          latest Gnu make with your package manager, su\n            ch as brew or macports, or use\n     224                          the --download-make option to get the latest\n            Gnu make *****"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1231,
+            "repeat_count": 0,
+            "start": 1225,
+            "end": 1238,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           pack-src/config/BuildSystem/config/setCompilers.py:1592)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.7.2-dqp7k5qx3byv6nxbvqodoq4kmajspk4c/s\n           pack-src/config/BuildSystem/config/setCompilers.py:1599)\n     24                    ====================================================\n           ===========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                    ====================================================\n           ===========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1227,
+            "repeat_count": 0,
+            "start": 1221,
+            "end": 1234,
+            "text": ">> 25     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            b/spack-src/config/BuildSystem/config/setCompilers.py:1724)\n     23     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.12.3-m2y4r5mc3b555hexjxavisjqhidwaat\n            b/spack-src/config/BuildSystem/config/setCompilers.py:1731)\n     24                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     26                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     27                   =====================================================\n            ==========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1263,
+            "repeat_count": 0,
+            "start": 1257,
+            "end": 1270,
+            "text": ">> 219    ***** WARNING: You have an older version of Gnu make, it will work,",
+            "pre_context": "            ack-src/config/BuildSystem/config/programs.py:71)\n     217    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.12.3-m2y4r5mc3b555hexjxavisjqhidwaatb/s\n            pack-src/config/BuildSystem/config/packages/make.py:87)\n     218                    ===================================================\n            ============================",
+            "post_context": "     220                          but may not support all the parallel testing\n            options. You can install the\n     221                          latest Gnu make with your package manager, su\n            ch as brew or macports, or use\n     222                          the --download-make option to get the latest\n            Gnu make warning message *****"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1232,
+            "repeat_count": 0,
+            "start": 1226,
+            "end": 1239,
+            "text": ">> 26     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            2/spack-src/config/BuildSystem/config/setCompilers.py:1907)\n     24     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.14.5-er2biompgs3tn5ppvvhblpxoulrptsx\n            2/spack-src/config/BuildSystem/config/setCompilers.py:1914)\n     25                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     27                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     28                   =====================================================\n            ==========================\n     29"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1268,
+            "repeat_count": 0,
+            "start": 1262,
+            "end": 1275,
+            "text": ">> 230    ***** WARNING: You have a version of GNU make older than 4.0. It wi",
+            "pre_context": "            xoulrptsx2/spack-src/config/BuildSystem/config/package.py:957)\n     228    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.14.5-er2biompgs3tn5ppvvhblpxoulrptsx2/s\n            pack-src/config/BuildSystem/config/packages/make.py:96)\n     229                  =====================================================\n            ==========================",
+            "post_context": "            ll work,\n     231                        but may not support all the parallel testing op\n            tions. You can install the\n     232                        latest GNU make with your package manager, such\n             as brew or macports, or use\n     233                        the --download-make option to get the latest GN"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1231,
+            "repeat_count": 0,
+            "start": 1225,
+            "end": 1238,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           pack-src/config/BuildSystem/config/setCompilers.py:1616)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.9.1-757jxtpd43tngx32dqfs54pf6zajdlp5/s\n           pack-src/config/BuildSystem/config/setCompilers.py:1623)\n     24                    ====================================================\n           ===========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                    ====================================================\n           ===========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     456    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 862,
+            "repeat_count": 0,
+            "start": 856,
+            "end": 869,
+            "text": "456    par_mgr.c:5399:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     450       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     451          |    ^~~~~~~~~~~~~~~~~~\n  >> 452    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     453       25 |    dSOLVEstruct_t dslu_solve;\n     454          |    ^~~~~~~~~~~~~~\n     455    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     457     5399 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     458          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1235,
+            "repeat_count": 0,
+            "start": 1229,
+            "end": 1242,
+            "text": ">> 25     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            h/spack-src/config/BuildSystem/config/setCompilers.py:1694)\n     23     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.13.0-s3eozwebd7muyxzz5nud7wtlzuqfnyn\n            h/spack-src/config/BuildSystem/config/setCompilers.py:1701)\n     24                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     26                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     27                   =====================================================\n            ==========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1271,
+            "repeat_count": 0,
+            "start": 1265,
+            "end": 1278,
+            "text": ">> 221    ***** WARNING: You have an older version of Gnu make, it will work,",
+            "pre_context": "            ack-src/config/BuildSystem/config/programs.py:71)\n     219    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.13.0-s3eozwebd7muyxzz5nud7wtlzuqfnynh/s\n            pack-src/config/BuildSystem/config/packages/make.py:87)\n     220                    ===================================================\n            ============================",
+            "post_context": "     222                          but may not support all the parallel testing\n            options. You can install the\n     223                          latest Gnu make with your package manager, su\n            ch as brew or macports, or use\n     224                          the --download-make option to get the latest\n            Gnu make *****"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1188,
+            "repeat_count": 0,
+            "start": 1182,
+            "end": 1195,
+            "text": ">> 26     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            6/spack-src/config/BuildSystem/config/setCompilers.py:1878)\n     24     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.14.3-zzarvg3w3cqugr3nk65nwrtgrind5qk\n            6/spack-src/config/BuildSystem/config/setCompilers.py:1885)\n     25                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     27                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     28                   =====================================================\n            ==========================\n     29"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1224,
+            "repeat_count": 0,
+            "start": 1218,
+            "end": 1231,
+            "text": ">> 229    ***** WARNING: You have a version of GNU make older than 4.0. It wi",
+            "pre_context": "            tgrind5qk6/spack-src/config/BuildSystem/config/package.py:957)\n     227    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.14.3-zzarvg3w3cqugr3nk65nwrtgrind5qk6/s\n            pack-src/config/BuildSystem/config/packages/make.py:96)\n     228                  =====================================================\n            ==========================",
+            "post_context": "            ll work,\n     230                        but may not support all the parallel testing op\n            tions. You can install the\n     231                        latest GNU make with your package manager, such\n             as brew or macports, or use\n     232                        the --download-make option to get the latest GN"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     443    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 861,
+            "repeat_count": 0,
+            "start": 855,
+            "end": 868,
+            "text": "443    par_mgr.c:5439:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "     437       24 |    dScalePermstruct_t dslu_ScalePermstruct;\n     438          |    ^~~~~~~~~~~~~~~~~~\n  >> 439    dsuperlu.h:25:4: error: unknown type name 'dSOLVEstruct_t'\n     440       25 |    dSOLVEstruct_t dslu_solve;\n     441          |    ^~~~~~~~~~~~~~\n     442    par_mgr.c: In function 'hypre_MGRDirectSolverSetup':",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     444     5439 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n     445          |    ^~~~~~~~~~~~~~~~~~~~\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "     450    par_mgr.c",
+            "source_line_no": "5",
+            "line_no": 871,
+            "repeat_count": 0,
+            "start": 865,
+            "end": 878,
+            "text": "450    par_mgr.c:5404:4: warning: implicit declaration of function 'dScale",
+            "pre_context": "            ultivector -I./../utilities -I./../krylov -I./../seq_mv -I./../parc\n            sr_mv -I./../distributed_matrix -I./../matrix_matrix -I./../IJ_mv -\n            I./../parcsr_block_mv -I/p/vast1/koparasy/BUILD/spack_cluster_insta\n            ller/quartz/petsc/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/sup\n            erlu-dist-5.2.2-b7ykzxaaetfsptvr5mmszuk4lwqhxgfk/include          -\n            c par_mgr_setup.c",
+            "post_context": "            PermstructInit'; did you mean 'ScalePermstructInit'? [-Wimplicit-fu\n            nction-declaration]\n     451     5404 |    dScalePermstructInit(global_num_rows, global_num_rows, &\n            (dslu_data->dslu_ScalePermstruct));\n\n     ..."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1232,
+            "repeat_count": 0,
+            "start": 1226,
+            "end": 1239,
+            "text": ">> 25     ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/s",
+            "pre_context": "            s/spack-src/config/BuildSystem/config/setCompilers.py:1724)\n     23     TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/s\n            pack-stage/spack-stage-petsc-3.12.3-bo6kaarxjr5iqnapjv4dgs5vz4rvic5\n            s/spack-src/config/BuildSystem/config/setCompilers.py:1731)\n     24                   =====================================================\n            ==========================",
+            "post_context": "            pack/env/gcc/gfortran) found in environment variables - ignoring\n     26                          use ./configure F77=$F77 if you really want to\n             use that value ******\n     27                   =====================================================\n            ==========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1268,
+            "repeat_count": 0,
+            "start": 1262,
+            "end": 1275,
+            "text": ">> 219    ***** WARNING: You have an older version of Gnu make, it will work,",
+            "pre_context": "            ack-src/config/BuildSystem/config/programs.py:71)\n     217    TESTING: configureMake from config.packages.make(/tmp/koparasy/spac\n            k-stage/spack-stage-petsc-3.12.3-bo6kaarxjr5iqnapjv4dgs5vz4rvic5s/s\n            pack-src/config/BuildSystem/config/packages/make.py:87)\n     218                    ===================================================\n            ============================",
+            "post_context": "     220                          but may not support all the parallel testing\n            options. You can install the\n     221                          latest Gnu make with your package manager, su\n            ch as brew or macports, or use\n     222                          the --download-make option to get the latest\n            Gnu make warning message *****"
+      }
+]

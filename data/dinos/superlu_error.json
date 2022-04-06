@@ -1,0 +1,296 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 325,
+            "repeat_count": 0,
+            "start": 319,
+            "end": 332,
+            "text": "==> [2022-01-14-20:49:50.893247] Error: OSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'",
+            "pre_context": "==> [2022-01-14-20:49:41.845631] superlu: Building superlu-5.3.0-4rsk4zgdoui5nzx4hrnmwui4756gmih2 [CMakePackage]\n==> [2022-01-14-20:49:50.828256] FileNotFoundError: [Errno 2] No such file or directory: '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/superlu/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/superlu-5.3.0-4rsk4zgdoui5nzx4hrnmwui4756gmih2/.spack/repos'\n==> [2022-01-14-20:49:50.829676] Installing /var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-out.txt to /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/superlu/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/superlu-5.3.0-4rsk4zgdoui5nzx4hrnmwui4756gmih2/.spack/spack-build-out.txt\n==> [2022-01-14-20:49:50.841460] Installing /var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-02-build-out.txt to /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/superlu/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/superlu-5.3.0-4rsk4zgdoui5nzx4hrnmwui4756gmih2/.spack/spack-build-02-build-out.txt\n==> [2022-01-14-20:49:50.853978] Installing /var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-03-install-out.txt to /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/superlu/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/superlu-5.3.0-4rsk4zgdoui5nzx4hrnmwui4756gmih2/.spack/spack-build-03-install-out.txt\n==> [2022-01-14-20:49:50.873655] Installing /var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt to /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/superlu/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/superlu-5.3.0-4rsk4zgdoui5nzx4hrnmwui4756gmih2/.spack/spack-build-env.txt",
+            "post_context": "\n/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py:1051, in _setup_pkg_and_run:\n       1048        tb_string = traceback.format_exc()\n       1049\n       1050        # build up some context from the offending package so we can\n  >>   1051        # show that, too."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 354,
+            "repeat_count": 0,
+            "start": 348,
+            "end": 359,
+            "text": "OSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'",
+            "pre_context": "  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/installer.py\", line 561, in log\n    fs.install(pkg.env_mods_path, pkg.install_env_path)\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/llnl/util/filesystem.py\", line 410, in install\n    copy(src, dest, _permissions=True)\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/llnl/util/filesystem.py\", line 376, in copy\n    raise IOError(\"No such file or directory: '{0}'\".format(src))",
+            "post_context": "==> [2022-01-14-20:49:50.893653] Flagging superlu-5.3.0-4rsk4zgdoui5nzx4hrnmwui4756gmih2 as failed: OSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'\n==> [2022-01-14-20:50:19.830519] Skip view update, this environment does not maintain a view\n==> [2022-01-14-20:50:19.832123] ChildError: OSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 355,
+            "repeat_count": 0,
+            "start": 349,
+            "end": 359,
+            "text": "==> [2022-01-14-20:49:50.893653] Flagging superlu-5.3.0-4rsk4zgdoui5nzx4hrnmwui4756gmih2 as failed: OSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'",
+            "pre_context": "    fs.install(pkg.env_mods_path, pkg.install_env_path)\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/llnl/util/filesystem.py\", line 410, in install\n    copy(src, dest, _permissions=True)\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/llnl/util/filesystem.py\", line 376, in copy\n    raise IOError(\"No such file or directory: '{0}'\".format(src))\nOSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'",
+            "post_context": "==> [2022-01-14-20:50:19.830519] Skip view update, this environment does not maintain a view\n==> [2022-01-14-20:50:19.832123] ChildError: OSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 357,
+            "repeat_count": 0,
+            "start": 351,
+            "end": 359,
+            "text": "==> [2022-01-14-20:50:19.832123] ChildError: OSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'",
+            "pre_context": "    copy(src, dest, _permissions=True)\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/llnl/util/filesystem.py\", line 376, in copy\n    raise IOError(\"No such file or directory: '{0}'\".format(src))\nOSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'\n==> [2022-01-14-20:49:50.893653] Flagging superlu-5.3.0-4rsk4zgdoui5nzx4hrnmwui4756gmih2 as failed: OSError: No such file or directory: '/var/tmp/koparasy/spack-stage/spack-stage-superlu-5.3.0-vqyw64z32h7tjdatmuxo7if4hblxq4zz/spack-build-env-mods.txt'\n==> [2022-01-14-20:50:19.830519] Skip view update, this environment does not maintain a view",
+            "post_context": ""
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 536,
+            "repeat_count": 0,
+            "start": 530,
+            "end": 543,
+            "text": ">> 7435    make[2]: *** [../../libopenblas_haswell-r0.3.3.a] Error 1",
+            "pre_context": "             tzm.o DEPRECATED/stzrqf.o DEPRECATED/zgegs.o  DEPRECATED/zgegv.o\n             DEPRECATED/zgelsx.o DEPRECATED/zgeqpf.o DEPRECATED/zggsvd.o DEPREC\n             ATED/zggsvp.o DEPRECATED/zlahrd.o DEPRECATED/zlatzm.o DEPRECATED/z\n             tzrqf.o\n     7433    x86_64: invalid option -- 'r'\n     7434    x86_64: Try `x86_64 --help' for more information.",
+            "post_context": "     7436    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.3-53kqrzzzhjjweyah6hnxlyravxbmhx5s/spack-src/lapack-n\n             etlib/SRC'\n  >> 7437    make[1]: *** [lapacklib] Error 2\n     7438    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.3-53kqrzzzhjjweyah6hnxlyravxbmhx5s/spack-src/lapack-n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 540,
+            "repeat_count": 0,
+            "start": 534,
+            "end": 547,
+            "text": ">> 7437    make[1]: *** [lapacklib] Error 2",
+            "pre_context": "     7433    x86_64: invalid option -- 'r'\n     7434    x86_64: Try `x86_64 --help' for more information.\n  >> 7435    make[2]: *** [../../libopenblas_haswell-r0.3.3.a] Error 1\n     7436    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.3-53kqrzzzhjjweyah6hnxlyravxbmhx5s/spack-src/lapack-n\n             etlib/SRC'",
+            "post_context": "     7438    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.3-53kqrzzzhjjweyah6hnxlyravxbmhx5s/spack-src/lapack-n\n             etlib'\n  >> 7439    make: *** [netlib] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 544,
+            "repeat_count": 0,
+            "start": 538,
+            "end": 551,
+            "text": ">> 7439    make: *** [netlib] Error 2",
+            "pre_context": "             openblas-0.3.3-53kqrzzzhjjweyah6hnxlyravxbmhx5s/spack-src/lapack-n\n             etlib/SRC'\n  >> 7437    make[1]: *** [lapacklib] Error 2\n     7438    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.3-53kqrzzzhjjweyah6hnxlyravxbmhx5s/spack-src/lapack-n\n             etlib'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openblas-0.3.3-53kqrzzzhjjweyah6hnxlyravxbmhx5s/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 535,
+            "repeat_count": 0,
+            "start": 529,
+            "end": 542,
+            "text": ">> 7438    make[2]: *** [../../libopenblas_haswell-r0.3.2.a] Error 1",
+            "pre_context": "             tzm.o DEPRECATED/stzrqf.o DEPRECATED/zgegs.o  DEPRECATED/zgegv.o\n             DEPRECATED/zgelsx.o DEPRECATED/zgeqpf.o DEPRECATED/zggsvd.o DEPREC\n             ATED/zggsvp.o DEPRECATED/zlahrd.o DEPRECATED/zlatzm.o DEPRECATED/z\n             tzrqf.o\n     7436    x86_64: invalid option -- 'r'\n     7437    x86_64: Try `x86_64 --help' for more information.",
+            "post_context": "     7439    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.2-f4la75juydogspt7wxwmpkf5uzmiozti/spack-src/lapack-n\n             etlib/SRC'\n  >> 7440    make[1]: *** [lapacklib] Error 2\n     7441    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.2-f4la75juydogspt7wxwmpkf5uzmiozti/spack-src/lapack-n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 539,
+            "repeat_count": 0,
+            "start": 533,
+            "end": 546,
+            "text": ">> 7440    make[1]: *** [lapacklib] Error 2",
+            "pre_context": "     7436    x86_64: invalid option -- 'r'\n     7437    x86_64: Try `x86_64 --help' for more information.\n  >> 7438    make[2]: *** [../../libopenblas_haswell-r0.3.2.a] Error 1\n     7439    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.2-f4la75juydogspt7wxwmpkf5uzmiozti/spack-src/lapack-n\n             etlib/SRC'",
+            "post_context": "     7441    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.2-f4la75juydogspt7wxwmpkf5uzmiozti/spack-src/lapack-n\n             etlib'\n  >> 7442    make: *** [netlib] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 543,
+            "repeat_count": 0,
+            "start": 537,
+            "end": 550,
+            "text": ">> 7442    make: *** [netlib] Error 2",
+            "pre_context": "             openblas-0.3.2-f4la75juydogspt7wxwmpkf5uzmiozti/spack-src/lapack-n\n             etlib/SRC'\n  >> 7440    make[1]: *** [lapacklib] Error 2\n     7441    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.2-f4la75juydogspt7wxwmpkf5uzmiozti/spack-src/lapack-n\n             etlib'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openblas-0.3.2-f4la75juydogspt7wxwmpkf5uzmiozti/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 535,
+            "repeat_count": 0,
+            "start": 529,
+            "end": 542,
+            "text": ">> 7438    make[2]: *** [../../libopenblas_haswell-r0.3.1.a] Error 1",
+            "pre_context": "             tzm.o DEPRECATED/stzrqf.o DEPRECATED/zgegs.o  DEPRECATED/zgegv.o\n             DEPRECATED/zgelsx.o DEPRECATED/zgeqpf.o DEPRECATED/zggsvd.o DEPREC\n             ATED/zggsvp.o DEPRECATED/zlahrd.o DEPRECATED/zlatzm.o DEPRECATED/z\n             tzrqf.o\n     7436    x86_64: invalid option -- 'r'\n     7437    x86_64: Try `x86_64 --help' for more information.",
+            "post_context": "     7439    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.1-uwit2xndk7bodu6mce3bedsea6hh72we/spack-src/lapack-n\n             etlib/SRC'\n  >> 7440    make[1]: *** [lapacklib] Error 2\n     7441    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.1-uwit2xndk7bodu6mce3bedsea6hh72we/spack-src/lapack-n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 539,
+            "repeat_count": 0,
+            "start": 533,
+            "end": 546,
+            "text": ">> 7440    make[1]: *** [lapacklib] Error 2",
+            "pre_context": "     7436    x86_64: invalid option -- 'r'\n     7437    x86_64: Try `x86_64 --help' for more information.\n  >> 7438    make[2]: *** [../../libopenblas_haswell-r0.3.1.a] Error 1\n     7439    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.1-uwit2xndk7bodu6mce3bedsea6hh72we/spack-src/lapack-n\n             etlib/SRC'",
+            "post_context": "     7441    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.1-uwit2xndk7bodu6mce3bedsea6hh72we/spack-src/lapack-n\n             etlib'\n  >> 7442    make: *** [netlib] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 543,
+            "repeat_count": 0,
+            "start": 537,
+            "end": 550,
+            "text": ">> 7442    make: *** [netlib] Error 2",
+            "pre_context": "             openblas-0.3.1-uwit2xndk7bodu6mce3bedsea6hh72we/spack-src/lapack-n\n             etlib/SRC'\n  >> 7440    make[1]: *** [lapacklib] Error 2\n     7441    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.1-uwit2xndk7bodu6mce3bedsea6hh72we/spack-src/lapack-n\n             etlib'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openblas-0.3.1-uwit2xndk7bodu6mce3bedsea6hh72we/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 124,
+            "repeat_count": 0,
+            "start": 118,
+            "end": 131,
+            "text": "es-6.2-lzkvih6i6e7orod2mcjemp44xlsprkiv/lib/libtinfo.so.6: error a",
+            "pre_context": "             edhat-linux/9/ld: CMakeFiles/ccmake.dir/CursesDialog/ccmake.cxx.o:\n              undefined reference to symbol 'cbreak@@@@NCURSES6_TINFO_5.0.1999102\n             3'\n  >> 1895    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: /p/vast1/koparasy/BUILD/spack_cluster_installer/\n             quartz/superlu/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/ncurs",
+            "post_context": "             dding symbols: DSO missing from command line\n  >> 1896    collect2: error: ld returned 1 exit status\n  >> 1897    make[2]: *** [bin/ccmake] Error 1\n  >> 1898    make[1]: *** [Source/CMakeFiles/ccmake.dir/all] Error 2\n     1899    make[1]: *** Waiting for unfinished jobs....\n     1900    [ 90%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 126,
+            "repeat_count": 0,
+            "start": 120,
+            "end": 133,
+            "text": ">> 1896    collect2: error: ld returned 1 exit status",
+            "pre_context": "             3'\n  >> 1895    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: /p/vast1/koparasy/BUILD/spack_cluster_installer/\n             quartz/superlu/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/ncurs\n             es-6.2-lzkvih6i6e7orod2mcjemp44xlsprkiv/lib/libtinfo.so.6: error a\n             dding symbols: DSO missing from command line",
+            "post_context": "  >> 1897    make[2]: *** [bin/ccmake] Error 1\n  >> 1898    make[1]: *** [Source/CMakeFiles/ccmake.dir/all] Error 2\n     1899    make[1]: *** Waiting for unfinished jobs....\n     1900    [ 90%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm\n             CPackTGZGenerator.cxx.o\n     1901    [ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cm"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 127,
+            "repeat_count": 0,
+            "start": 121,
+            "end": 134,
+            "text": ">> 1897    make[2]: *** [bin/ccmake] Error 1",
+            "pre_context": "  >> 1895    /usr/tce/packages/gcc/gcc-9.3.1/rh/usr/bin/../libexec/gcc/x86_64-r\n             edhat-linux/9/ld: /p/vast1/koparasy/BUILD/spack_cluster_installer/\n             quartz/superlu/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/ncurs\n             es-6.2-lzkvih6i6e7orod2mcjemp44xlsprkiv/lib/libtinfo.so.6: error a\n             dding symbols: DSO missing from command line\n  >> 1896    collect2: error: ld returned 1 exit status",
+            "post_context": "  >> 1898    make[1]: *** [Source/CMakeFiles/ccmake.dir/all] Error 2\n     1899    make[1]: *** Waiting for unfinished jobs....\n     1900    [ 90%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm\n             CPackTGZGenerator.cxx.o\n     1901    [ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cm\n             CTestConfigureCommand.cxx.o"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 128,
+            "repeat_count": 0,
+            "start": 122,
+            "end": 135,
+            "text": ">> 1898    make[1]: *** [Source/CMakeFiles/ccmake.dir/all] Error 2",
+            "pre_context": "             edhat-linux/9/ld: /p/vast1/koparasy/BUILD/spack_cluster_installer/\n             quartz/superlu/spack_env_dir/linux-rhel7-broadwell/gcc-9.3.1/ncurs\n             es-6.2-lzkvih6i6e7orod2mcjemp44xlsprkiv/lib/libtinfo.so.6: error a\n             dding symbols: DSO missing from command line\n  >> 1896    collect2: error: ld returned 1 exit status\n  >> 1897    make[2]: *** [bin/ccmake] Error 1",
+            "post_context": "     1899    make[1]: *** Waiting for unfinished jobs....\n     1900    [ 90%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cm\n             CPackTGZGenerator.cxx.o\n     1901    [ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cm\n             CTestConfigureCommand.cxx.o\n     1902    Linking CXX executable runcompilecommands"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 151,
+            "repeat_count": 0,
+            "start": 145,
+            "end": 158,
+            "text": ">> 1965    make: *** [all] Error 2",
+            "pre_context": "     1961    [ 99%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cm\n             CTestGIT.cxx.o\n     1962    [ 99%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cm\n             CTestHG.cxx.o\n     1963    Linking CXX static library libCTestLib.a\n     1964    [ 99%] Built target CTestLib",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-cmake-2.8.10.2-nvmtypwdaxe3ci3vhmsdqq26ytvdqeqj/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 534,
+            "repeat_count": 0,
+            "start": 528,
+            "end": 541,
+            "text": ">> 7431    make[2]: *** [../../libopenblas_haswell-r0.3.0.dev.a] Error 1",
+            "pre_context": "             /slatzm.o DEPRECATED/stzrqf.o DEPRECATED/zgegs.o  DEPRECATED/zgegv\n             .o  DEPRECATED/zgelsx.o DEPRECATED/zgeqpf.o DEPRECATED/zggsvd.o DE\n             PRECATED/zggsvp.o DEPRECATED/zlahrd.o DEPRECATED/zlatzm.o DEPRECAT\n             ED/ztzrqf.o\n     7429    x86_64: invalid option -- 'r'\n     7430    x86_64: Try `x86_64 --help' for more information.",
+            "post_context": "     7432    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.0-o4aewiuhknll3v2p7elbdxbf7pmi7shi/spack-src/lapack-n\n             etlib/SRC'\n  >> 7433    make[1]: *** [lapacklib] Error 2\n     7434    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.0-o4aewiuhknll3v2p7elbdxbf7pmi7shi/spack-src/lapack-n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 538,
+            "repeat_count": 0,
+            "start": 532,
+            "end": 545,
+            "text": ">> 7433    make[1]: *** [lapacklib] Error 2",
+            "pre_context": "     7429    x86_64: invalid option -- 'r'\n     7430    x86_64: Try `x86_64 --help' for more information.\n  >> 7431    make[2]: *** [../../libopenblas_haswell-r0.3.0.dev.a] Error 1\n     7432    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.0-o4aewiuhknll3v2p7elbdxbf7pmi7shi/spack-src/lapack-n\n             etlib/SRC'",
+            "post_context": "     7434    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.0-o4aewiuhknll3v2p7elbdxbf7pmi7shi/spack-src/lapack-n\n             etlib'\n  >> 7435    make: *** [netlib] Error 2\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 542,
+            "repeat_count": 0,
+            "start": 536,
+            "end": 549,
+            "text": ">> 7435    make: *** [netlib] Error 2",
+            "pre_context": "             openblas-0.3.0-o4aewiuhknll3v2p7elbdxbf7pmi7shi/spack-src/lapack-n\n             etlib/SRC'\n  >> 7433    make[1]: *** [lapacklib] Error 2\n     7434    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-\n             openblas-0.3.0-o4aewiuhknll3v2p7elbdxbf7pmi7shi/spack-src/lapack-n\n             etlib'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-openblas-0.3.0-o4aewiuhknll3v2p7elbdxbf7pmi7shi/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

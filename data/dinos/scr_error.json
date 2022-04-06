@@ -1,0 +1,30 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1126,
+            "repeat_count": 0,
+            "start": 1120,
+            "end": 1133,
+            "text": ">> 82    configure: error: slurm is not in specified location!",
+            "pre_context": "     76    checking whether stripping libraries is possible... yes\n     77    checking if libtool supports shared libraries... yes\n     78    checking whether to build shared libraries... yes\n     79    checking whether to build static libraries... no\n     80    checking for inline... inline\n     81    checking for slurm installation...",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libyogrt-1.22-4tdnhxu4iroipaxgypeqzulj3vjeocs6/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1126,
+            "repeat_count": 0,
+            "start": 1120,
+            "end": 1133,
+            "text": ">> 83    configure: error: slurm is not in specified location!",
+            "pre_context": "     77    checking whether stripping libraries is possible... yes\n     78    checking if libtool supports shared libraries... yes\n     79    checking whether to build shared libraries... yes\n     80    checking whether to build static libraries... no\n     81    checking for inline... inline\n     82    checking for slurm installation...",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libyogrt-1.21-xejdgmmqciikv3if3id4snijktkkrwmr/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]

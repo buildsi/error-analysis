@@ -1,0 +1,176 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1170,
+            "repeat_count": 0,
+            "start": 1164,
+            "end": 1177,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1725)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.13.2-i2hip2f34bmcm3hrf4fnxpw2wyjvwa4e/\n           spack-src/config/BuildSystem/config/setCompilers.py:1732)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1170,
+            "repeat_count": 0,
+            "start": 1164,
+            "end": 1177,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1725)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.13.3-vdqkw3tkuf5rx73n6gos2iefj6h7k7ff/\n           spack-src/config/BuildSystem/config/setCompilers.py:1732)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1171,
+            "repeat_count": 0,
+            "start": 1165,
+            "end": 1178,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1724)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.12.4-uitch266zb2dqq4kadqazwsgtph573dw/\n           spack-src/config/BuildSystem/config/setCompilers.py:1731)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1170,
+            "repeat_count": 0,
+            "start": 1164,
+            "end": 1177,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1720)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.13.1-5cldabzhe6ttdzi3hr5k5kb37x56yivm/\n           spack-src/config/BuildSystem/config/setCompilers.py:1727)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1170,
+            "repeat_count": 0,
+            "start": 1164,
+            "end": 1177,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1724)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.12.3-ilamscxutto226wajrc5lsobbhqldhfr/\n           spack-src/config/BuildSystem/config/setCompilers.py:1731)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             rlu_dist.c",
+            "source_line_no": "1",
+            "line_no": 1446,
+            "repeat_count": 0,
+            "start": 1440,
+            "end": 1453,
+            "text": "rlu_dist.c:175:41: warning: passing argument 1 of 'PStatPrint' fro",
+            "pre_context": "             ing not a structure or union\n     2529      175 |   if (lu->options.PrintStat) PStatPrint(&lu->options, &sta\n             t, &lu->grid);      /* Print the statistics. */\n     2530          |                  ^\n     2531    /tmp/koparasy/spack-stage/spack-stage-petsc-3.6.4-fpqq6a63tcbvka53\n             bkcn5jm3usxqvqxp/spack-src/src/mat/impls/aij/mpi/superlu_dist/supe",
+            "post_context": "             m incompatible pointer type [-Wincompatible-pointer-types]\n     2532      175 |   if (lu->options.PrintStat) PStatPrint(&lu->options, &sta\n             t, &lu->grid);      /* Print the statistics. */\n     2533          |                                         ^~~~~~~~~~~~\n     2534          |                                         |\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             rlu_dist.c",
+            "source_line_no": "2",
+            "line_no": 1564,
+            "repeat_count": 0,
+            "start": 1558,
+            "end": 1571,
+            "text": "rlu_dist.c:252:41: warning: passing argument 1 of 'PStatPrint' fro",
+            "pre_context": "             ing not a structure or union\n     2724      252 |   if (lu->options.PrintStat) PStatPrint(&lu->options, &sta\n             t, &lu->grid); /* Print the statistics. */\n     2725          |                  ^\n     2726    /tmp/koparasy/spack-stage/spack-stage-petsc-3.6.4-fpqq6a63tcbvka53\n             bkcn5jm3usxqvqxp/spack-src/src/mat/impls/aij/mpi/superlu_dist/supe",
+            "post_context": "             m incompatible pointer type [-Wincompatible-pointer-types]\n     2727      252 |   if (lu->options.PrintStat) PStatPrint(&lu->options, &sta\n             t, &lu->grid); /* Print the statistics. */\n     2728          |                                         ^~~~~~~~~~~~\n     2729          |                                         |\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             rlu_dist.c",
+            "source_line_no": "4",
+            "line_no": 1669,
+            "repeat_count": 0,
+            "start": 1663,
+            "end": 1676,
+            "text": "rlu_dist.c:432:16: warning: passing argument 1 of 'PStatPrint' fro",
+            "pre_context": "             rlu_dist.c:431:18: error: request for member 'PrintStat' in someth\n             ing not a structure or union\n     2891      431 |   if (lu->options.PrintStat) {\n     2892          |                  ^\n     2893    /tmp/koparasy/spack-stage/spack-stage-petsc-3.6.4-fpqq6a63tcbvka53\n             bkcn5jm3usxqvqxp/spack-src/src/mat/impls/aij/mpi/superlu_dist/supe",
+            "post_context": "             m incompatible pointer type [-Wincompatible-pointer-types]\n     2894      432 |     PStatPrint(&lu->options, &stat, &lu->grid);  /* Print\n             the statistics. */\n     2895          |                ^~~~~~~~~~~~\n     2896          |                |\n     2897          |                int *"
+      },
+      {
+            "phase": "N/A",
+            "source_file": "             rlu_dist.c",
+            "source_line_no": "5",
+            "line_no": 1759,
+            "repeat_count": 0,
+            "start": 1753,
+            "end": 1766,
+            "text": "rlu_dist.c:525:28: warning: passing argument 1 of 'set_default_opt",
+            "pre_context": "             c-9.3.1/openmpi-4.1.2-jav4wqudjcg7dsjv2bfmiftfzddznkg3/include\n             -MMD -MP /tmp/koparasy/spack-stage/spack-stage-petsc-3.6.4-fpqq6a6\n             3tcbvka53bkcn5jm3usxqvqxp/spack-src/src/dm/impls/da/daindex.c -o a\n             rch-linux2-c-opt/obj/src/dm/impls/da/daindex.o\n     2932    /tmp/koparasy/spack-stage/spack-stage-petsc-3.6.4-fpqq6a63tcbvka53\n             bkcn5jm3usxqvqxp/spack-src/src/mat/impls/aij/mpi/superlu_dist/supe",
+            "post_context": "             ions_dist' from incompatible pointer type [-Wincompatible-pointer-\n             types]\n     2933      525 |   set_default_options_dist(&options);\n\n     ...\n"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1170,
+            "repeat_count": 0,
+            "start": 1164,
+            "end": 1177,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1725)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.13.5-y4q47ighffiuchhw32ywgt7v32hhz5e6/\n           spack-src/config/BuildSystem/config/setCompilers.py:1732)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1170,
+            "repeat_count": 0,
+            "start": 1164,
+            "end": 1177,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1700)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.12.5-apnm5m2qirxyphtksdhdfujfuq5sfzdv/\n           spack-src/config/BuildSystem/config/setCompilers.py:1707)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1171,
+            "repeat_count": 0,
+            "start": 1165,
+            "end": 1178,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1725)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.13.4-mfbgkhnx6ntooxzj4sxr45ir6juittly/\n           spack-src/config/BuildSystem/config/setCompilers.py:1732)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 1170,
+            "repeat_count": 0,
+            "start": 1164,
+            "end": 1177,
+            "text": ">> 25    ***** WARNING: F77 (set to /p/vast1/koparasy/BUILD/head/spack/lib/sp",
+            "pre_context": "           spack-src/config/BuildSystem/config/setCompilers.py:1694)\n     23    TESTING: resetEnvCompilers from config.setCompilers(/tmp/koparasy/sp\n           ack-stage/spack-stage-petsc-3.13.0-crzolijfyb6trmgo5mmqfvrlyl3sxi4b/\n           spack-src/config/BuildSystem/config/setCompilers.py:1701)\n     24                  ======================================================\n           =========================",
+            "post_context": "           ack/env/gcc/gfortran) found in environment variables - ignoring\n     26                         use ./configure F77=$F77 if you really want to\n           use that value ******\n     27                  ======================================================\n           =========================\n     28"
+      }
+]

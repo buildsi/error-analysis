@@ -1,0 +1,170 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 465,
+            "repeat_count": 0,
+            "start": 459,
+            "end": 472,
+            "text": "b35dswblncaquev7ou/spack-src/configure: line 14916: syntax error ne",
+            "pre_context": "     161    checking for numa.h... yes\n     162    checking numaif.h usability... yes\n     163    checking numaif.h presence... yes\n     164    checking for numaif.h... yes\n     165    checking for mbind in -lnuma... yes\n  >> 166    /var/tmp/koparasy/spack-stage/spack-stage-aml-master-jo3jc7p7m273we",
+            "post_context": "            ar unexpected token `HWLOC,hwloc'\n     167    /var/tmp/koparasy/spack-stage/spack-stage-aml-master-jo3jc7p7m273we\n            b35dswblncaquev7ou/spack-src/configure: line 14916: `PKG_HAVE_WITH_\n            MODULES(HWLOC,hwloc >= 2.1,,)'\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 372,
+            "repeat_count": 0,
+            "start": 366,
+            "end": 379,
+            "text": ">> 922    make[2]: *** [build-docs] Error 1",
+            "pre_context": "     917    sphinx-build -b html -a . ./build-sphinx\n     918    Running Sphinx v1.1.3\n     919\n     920    Extension error:\n     921    Could not import extension breathe (exception: No module named brea\n            the)",
+            "post_context": "     923    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-olyu476lvf72dun4wlzdvidcbhuhhscm/spack-src/doc'\n  >> 924    make[1]: *** [install-am] Error 2\n     925    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-olyu476lvf72dun4wlzdvidcbhuhhscm/spack-src/doc'\n  >> 926    make: *** [install-recursive] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 375,
+            "repeat_count": 0,
+            "start": 369,
+            "end": 382,
+            "text": ">> 924    make[1]: *** [install-am] Error 2",
+            "pre_context": "     920    Extension error:\n     921    Could not import extension breathe (exception: No module named brea\n            the)\n  >> 922    make[2]: *** [build-docs] Error 1\n     923    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-olyu476lvf72dun4wlzdvidcbhuhhscm/spack-src/doc'",
+            "post_context": "     925    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-olyu476lvf72dun4wlzdvidcbhuhhscm/spack-src/doc'\n  >> 926    make: *** [install-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-aml-0.1.0-olyu476lvf72dun4wlzdvidcbhuhhscm/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 378,
+            "repeat_count": 0,
+            "start": 372,
+            "end": 385,
+            "text": ">> 926    make: *** [install-recursive] Error 1",
+            "pre_context": "  >> 922    make[2]: *** [build-docs] Error 1\n     923    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-olyu476lvf72dun4wlzdvidcbhuhhscm/spack-src/doc'\n  >> 924    make[1]: *** [install-am] Error 2\n     925    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-olyu476lvf72dun4wlzdvidcbhuhhscm/spack-src/doc'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-aml-0.1.0-olyu476lvf72dun4wlzdvidcbhuhhscm/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 372,
+            "repeat_count": 0,
+            "start": 366,
+            "end": 379,
+            "text": ">> 922    make[2]: *** [build-docs] Error 1",
+            "pre_context": "     917    sphinx-build -b html -a . ./build-sphinx\n     918    Running Sphinx v1.1.3\n     919\n     920    Extension error:\n     921    Could not import extension breathe (exception: No module named brea\n            the)",
+            "post_context": "     923    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-6z3tdpm5iovqyo6ioqyv4mq63g5yuwys/spack-src/doc'\n  >> 924    make[1]: *** [install-am] Error 2\n     925    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-6z3tdpm5iovqyo6ioqyv4mq63g5yuwys/spack-src/doc'\n  >> 926    make: *** [install-recursive] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 375,
+            "repeat_count": 0,
+            "start": 369,
+            "end": 382,
+            "text": ">> 924    make[1]: *** [install-am] Error 2",
+            "pre_context": "     920    Extension error:\n     921    Could not import extension breathe (exception: No module named brea\n            the)\n  >> 922    make[2]: *** [build-docs] Error 1\n     923    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-6z3tdpm5iovqyo6ioqyv4mq63g5yuwys/spack-src/doc'",
+            "post_context": "     925    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-6z3tdpm5iovqyo6ioqyv4mq63g5yuwys/spack-src/doc'\n  >> 926    make: *** [install-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-aml-0.1.0-6z3tdpm5iovqyo6ioqyv4mq63g5yuwys/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 378,
+            "repeat_count": 0,
+            "start": 372,
+            "end": 385,
+            "text": ">> 926    make: *** [install-recursive] Error 1",
+            "pre_context": "  >> 922    make[2]: *** [build-docs] Error 1\n     923    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-6z3tdpm5iovqyo6ioqyv4mq63g5yuwys/spack-src/doc'\n  >> 924    make[1]: *** [install-am] Error 2\n     925    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-6z3tdpm5iovqyo6ioqyv4mq63g5yuwys/spack-src/doc'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-aml-0.1.0-6z3tdpm5iovqyo6ioqyv4mq63g5yuwys/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 465,
+            "repeat_count": 0,
+            "start": 459,
+            "end": 472,
+            "text": "23f77diuoau7sratws/spack-src/configure: line 14916: syntax error ne",
+            "pre_context": "     161    checking for numa.h... yes\n     162    checking numaif.h usability... yes\n     163    checking numaif.h presence... yes\n     164    checking for numaif.h... yes\n     165    checking for mbind in -lnuma... yes\n  >> 166    /var/tmp/koparasy/spack-stage/spack-stage-aml-master-7tvkcbxwiomczw",
+            "post_context": "            ar unexpected token `HWLOC,hwloc'\n     167    /var/tmp/koparasy/spack-stage/spack-stage-aml-master-7tvkcbxwiomczw\n            23f77diuoau7sratws/spack-src/configure: line 14916: `PKG_HAVE_WITH_\n            MODULES(HWLOC,hwloc >= 2.1,,)'\n\nSee build log for details:"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 372,
+            "repeat_count": 0,
+            "start": 366,
+            "end": 379,
+            "text": ">> 922    make[2]: *** [build-docs] Error 1",
+            "pre_context": "     917    sphinx-build -b html -a . ./build-sphinx\n     918    Running Sphinx v1.1.3\n     919\n     920    Extension error:\n     921    Could not import extension breathe (exception: No module named brea\n            the)",
+            "post_context": "     923    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-u5e4t57dtd3twptnqxappltulfxxsbzl/spack-src/doc'\n  >> 924    make[1]: *** [install-am] Error 2\n     925    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-u5e4t57dtd3twptnqxappltulfxxsbzl/spack-src/doc'\n  >> 926    make: *** [install-recursive] Error 1"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 375,
+            "repeat_count": 0,
+            "start": 369,
+            "end": 382,
+            "text": ">> 924    make[1]: *** [install-am] Error 2",
+            "pre_context": "     920    Extension error:\n     921    Could not import extension breathe (exception: No module named brea\n            the)\n  >> 922    make[2]: *** [build-docs] Error 1\n     923    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-u5e4t57dtd3twptnqxappltulfxxsbzl/spack-src/doc'",
+            "post_context": "     925    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-u5e4t57dtd3twptnqxappltulfxxsbzl/spack-src/doc'\n  >> 926    make: *** [install-recursive] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-aml-0.1.0-u5e4t57dtd3twptnqxappltulfxxsbzl/spack-build-out.txt"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 378,
+            "repeat_count": 0,
+            "start": 372,
+            "end": 385,
+            "text": ">> 926    make: *** [install-recursive] Error 1",
+            "pre_context": "  >> 922    make[2]: *** [build-docs] Error 1\n     923    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-u5e4t57dtd3twptnqxappltulfxxsbzl/spack-src/doc'\n  >> 924    make[1]: *** [install-am] Error 2\n     925    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-a\n            ml-0.1.0-u5e4t57dtd3twptnqxappltulfxxsbzl/spack-src/doc'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-aml-0.1.0-u5e4t57dtd3twptnqxappltulfxxsbzl/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 465,
+            "repeat_count": 0,
+            "start": 459,
+            "end": 472,
+            "text": "4wxisovtexshc34yts/spack-src/configure: line 14916: syntax error ne",
+            "pre_context": "     161    checking for numa.h... yes\n     162    checking numaif.h usability... yes\n     163    checking numaif.h presence... yes\n     164    checking for numaif.h... yes\n     165    checking for mbind in -lnuma... yes\n  >> 166    /var/tmp/koparasy/spack-stage/spack-stage-aml-master-4n77vebtxtg725",
+            "post_context": "            ar unexpected token `HWLOC,hwloc'\n     167    /var/tmp/koparasy/spack-stage/spack-stage-aml-master-4n77vebtxtg725\n            4wxisovtexshc34yts/spack-src/configure: line 14916: `PKG_HAVE_WITH_\n            MODULES(HWLOC,hwloc >= 2.1,,)'\n\nSee build log for details:"
+      }
+]

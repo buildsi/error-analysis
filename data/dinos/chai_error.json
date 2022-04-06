@@ -1,0 +1,618 @@
+[
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 393,
+            "repeat_count": 0,
+            "start": 387,
+            "end": 400,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-lhanu7csm5stze6b\n           2f3zchun6m723t5n/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-lhanu7csm5stze6b2\n           f3zchun6m723t5n/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 405,
+            "repeat_count": 0,
+            "start": 399,
+            "end": 412,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-lhanu7csm5stze6b2f3zchun6m723t5n/spack-build-lhanu7c'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-lhanu7csm5stze6b2f3zchun6m723t5n/spack-build-lhanu7c'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-lhanu7csm5stze6b2f3zchun6m723t5n/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 300,
+            "repeat_count": 0,
+            "start": 294,
+            "end": 307,
+            "text": "error: could not lock config file /tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/.git/modules/src/umpire/tpl/camp/config: No such file or directory",
+            "pre_context": "Submodule 'blt' (https://github.com/LLNL/blt.git) registered for path 'blt'\nSubmodule 'src/umpire/tpl/camp' (https://github.com/LLNL/camp.git) registered for path 'src/umpire/tpl/camp'\nSubmodule 'src/umpire/tpl/conduit' (https://github.com/LLNL/conduit.git) registered for path 'src/umpire/tpl/conduit'\nCloning into '/tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/.radiuss-ci'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/blt'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/src/umpire/tpl/camp'...",
+            "post_context": "fatal: could not set 'core.repositoryformatversion' to '0'\nfatal: clone of 'https://github.com/LLNL/camp.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/src/umpire/tpl/camp' failed\nFailed to clone 'src/umpire/tpl/camp'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'src/umpire/tpl/conduit'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 304,
+            "repeat_count": 0,
+            "start": 298,
+            "end": 311,
+            "text": "fatal: Unable to read current working directory: No such file or directory",
+            "pre_context": "Cloning into '/tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/blt'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/src/umpire/tpl/camp'...\nerror: could not lock config file /tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/.git/modules/src/umpire/tpl/camp/config: No such file or directory\nfatal: could not set 'core.repositoryformatversion' to '0'\nfatal: clone of 'https://github.com/LLNL/camp.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/src/umpire/tpl/camp' failed\nFailed to clone 'src/umpire/tpl/camp'. Retry scheduled",
+            "post_context": "Failed to clone 'src/umpire/tpl/conduit'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'src/umpire/tpl/camp' a second time, aborting\n==> [2022-01-10-11:36:40.454135] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/chai/spack_env_dir/spack.yaml\n==> [2022-01-10-11:36:40.616536] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/chai/spack_env_dir'\n==> [2022-01-10-11:36:40.953989] [TOOLCHAIN] MATCH Gcc"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 306,
+            "repeat_count": 0,
+            "start": 300,
+            "end": 313,
+            "text": "fatal: Unable to read current working directory: No such file or directory",
+            "pre_context": "error: could not lock config file /tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/.git/modules/src/umpire/tpl/camp/config: No such file or directory\nfatal: could not set 'core.repositoryformatversion' to '0'\nfatal: clone of 'https://github.com/LLNL/camp.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-umpire-4.1.0-y2lpmvwc6g74eqvowoj6knm56mok5kga/spack-src/src/umpire/tpl/camp' failed\nFailed to clone 'src/umpire/tpl/camp'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'src/umpire/tpl/conduit'. Retry scheduled",
+            "post_context": "Failed to clone 'src/umpire/tpl/camp' a second time, aborting\n==> [2022-01-10-11:36:40.454135] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/chai/spack_env_dir/spack.yaml\n==> [2022-01-10-11:36:40.616536] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/chai/spack_env_dir'\n==> [2022-01-10-11:36:40.953989] [TOOLCHAIN] MATCH Gcc\n==> [2022-01-10-11:36:40.959466] Adding compiler bin/ paths: /p/vast1/koparasy/BUILD/head/spack/lib/spack/env /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/case-insensitive /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/gcc\n==> [2022-01-10-11:36:41.009821] A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 375,
+            "repeat_count": 0,
+            "start": 369,
+            "end": 382,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-yaaznitp42yedy5v\n           i42v3wtzrq5lf6jf/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-yaaznitp42yedy5vi\n           42v3wtzrq5lf6jf/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 387,
+            "repeat_count": 0,
+            "start": 381,
+            "end": 394,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-yaaznitp42yedy5vi42v3wtzrq5lf6jf/spack-build-yaaznit'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-yaaznitp42yedy5vi42v3wtzrq5lf6jf/spack-build-yaaznit'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-yaaznitp42yedy5vi42v3wtzrq5lf6jf/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 393,
+            "repeat_count": 0,
+            "start": 387,
+            "end": 400,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-e7m4uolyzm326gd2\n           62cvjobh7u2ihy2p/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-e7m4uolyzm326gd26\n           2cvjobh7u2ihy2p/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 405,
+            "repeat_count": 0,
+            "start": 399,
+            "end": 412,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-e7m4uolyzm326gd262cvjobh7u2ihy2p/spack-build-e7m4uol'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-e7m4uolyzm326gd262cvjobh7u2ihy2p/spack-build-e7m4uol'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-e7m4uolyzm326gd262cvjobh7u2ihy2p/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 421,
+            "repeat_count": 0,
+            "start": 415,
+            "end": 428,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-kav3sksunxkf4i3m\n           76apvgo3urdqsnnw/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-kav3sksunxkf4i3m7\n           6apvgo3urdqsnnw/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 433,
+            "repeat_count": 0,
+            "start": 427,
+            "end": 440,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-kav3sksunxkf4i3m76apvgo3urdqsnnw/spack-build-kav3sks'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-kav3sksunxkf4i3m76apvgo3urdqsnnw/spack-build-kav3sks'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-kav3sksunxkf4i3m76apvgo3urdqsnnw/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 393,
+            "repeat_count": 0,
+            "start": 387,
+            "end": 400,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-4rtmhnfy33yekcfh\n           odiibyakdxcka4x4/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-4rtmhnfy33yekcfho\n           diibyakdxcka4x4/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 405,
+            "repeat_count": 0,
+            "start": 399,
+            "end": 412,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-4rtmhnfy33yekcfhodiibyakdxcka4x4/spack-build-4rtmhnf'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-4rtmhnfy33yekcfhodiibyakdxcka4x4/spack-build-4rtmhnf'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-4rtmhnfy33yekcfhodiibyakdxcka4x4/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 294,
+            "repeat_count": 0,
+            "start": 288,
+            "end": 301,
+            "text": "fatal: unable to open /tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/.git/modules/src/umpire/tpl/conduit/objects/pack/tmp_pack_FlXbEw: No such file or directory",
+            "pre_context": "Cloning into 'Umpire'...\nSubmodule 'blt' (https://github.com/LLNL/blt.git) registered for path 'blt'\nSubmodule 'src/umpire/tpl/conduit' (https://github.com/LLNL/conduit.git) registered for path 'src/umpire/tpl/conduit'\nSubmodule 'src/umpire/tpl/cxxopts' (https://github.com/LLNL/cxxopts.git) registered for path 'src/umpire/tpl/cxxopts'\nCloning into '/tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/blt'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/src/umpire/tpl/conduit'...",
+            "post_context": "fatal: index-pack failed\nfatal: clone of 'https://github.com/LLNL/conduit.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/src/umpire/tpl/conduit' failed\nFailed to clone 'src/umpire/tpl/conduit'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'src/umpire/tpl/cxxopts'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 298,
+            "repeat_count": 0,
+            "start": 292,
+            "end": 305,
+            "text": "fatal: Unable to read current working directory: No such file or directory",
+            "pre_context": "Cloning into '/tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/blt'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/src/umpire/tpl/conduit'...\nfatal: unable to open /tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/.git/modules/src/umpire/tpl/conduit/objects/pack/tmp_pack_FlXbEw: No such file or directory\nfatal: index-pack failed\nfatal: clone of 'https://github.com/LLNL/conduit.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/src/umpire/tpl/conduit' failed\nFailed to clone 'src/umpire/tpl/conduit'. Retry scheduled",
+            "post_context": "Failed to clone 'src/umpire/tpl/cxxopts'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'src/umpire/tpl/conduit' a second time, aborting\n==> [2022-01-10-11:36:44.773089] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/chai/spack_env_dir/spack.yaml\n==> [2022-01-10-11:36:44.917047] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/chai/spack_env_dir'\n==> [2022-01-10-11:36:45.196354] [TOOLCHAIN] MATCH Gcc"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 300,
+            "repeat_count": 0,
+            "start": 294,
+            "end": 307,
+            "text": "fatal: Unable to read current working directory: No such file or directory",
+            "pre_context": "fatal: unable to open /tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/.git/modules/src/umpire/tpl/conduit/objects/pack/tmp_pack_FlXbEw: No such file or directory\nfatal: index-pack failed\nfatal: clone of 'https://github.com/LLNL/conduit.git' into submodule path '/tmp/koparasy/spack-stage/spack-stage-umpire-1.0.1-asp3uvbiqajbdyp5nbds6bxcauu5mklw/spack-src/src/umpire/tpl/conduit' failed\nFailed to clone 'src/umpire/tpl/conduit'. Retry scheduled\nfatal: Unable to read current working directory: No such file or directory\nFailed to clone 'src/umpire/tpl/cxxopts'. Retry scheduled",
+            "post_context": "Failed to clone 'src/umpire/tpl/conduit' a second time, aborting\n==> [2022-01-10-11:36:44.773089] Reading config file /p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/chai/spack_env_dir/spack.yaml\n==> [2022-01-10-11:36:44.917047] Using environment '/p/vast1/koparasy/BUILD/spack_cluster_installer/quartz/chai/spack_env_dir'\n==> [2022-01-10-11:36:45.196354] [TOOLCHAIN] MATCH Gcc\n==> [2022-01-10-11:36:45.201113] Adding compiler bin/ paths: /p/vast1/koparasy/BUILD/head/spack/lib/spack/env /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/case-insensitive /p/vast1/koparasy/BUILD/head/spack/lib/spack/env/gcc\n==> [2022-01-10-11:36:45.255026] A dependency has updated CPATH, this may lead pkg-config to assume that the package is part of the system includes and omit it when invoked with '--cflags'."
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 385,
+            "repeat_count": 0,
+            "start": 379,
+            "end": 392,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-lhanu7csm5stze6b\n           2f3zchun6m723t5n/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-lhanu7csm5stze6b2\n           f3zchun6m723t5n/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 397,
+            "repeat_count": 0,
+            "start": 391,
+            "end": 404,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-lhanu7csm5stze6b2f3zchun6m723t5n/spack-build-lhanu7c'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-lhanu7csm5stze6b2f3zchun6m723t5n/spack-build-lhanu7c'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-lhanu7csm5stze6b2f3zchun6m723t5n/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 384,
+            "repeat_count": 0,
+            "start": 378,
+            "end": 391,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-wtutf5xkm6x54twd\n           5kcwfkkzzglcoh72/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-wtutf5xkm6x54twd5\n           kcwfkkzzglcoh72/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 396,
+            "repeat_count": 0,
+            "start": 390,
+            "end": 403,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-wtutf5xkm6x54twd5kcwfkkzzglcoh72/spack-build-wtutf5x'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-wtutf5xkm6x54twd5kcwfkkzzglcoh72/spack-build-wtutf5x'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-wtutf5xkm6x54twd5kcwfkkzzglcoh72/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 384,
+            "repeat_count": 0,
+            "start": 378,
+            "end": 391,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-etij5ph6mqqnyleq\n           u3ow5yvurgiijawx/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-etij5ph6mqqnylequ\n           3ow5yvurgiijawx/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 396,
+            "repeat_count": 0,
+            "start": 390,
+            "end": 403,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-etij5ph6mqqnylequ3ow5yvurgiijawx/spack-build-etij5ph'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-etij5ph6mqqnylequ3ow5yvurgiijawx/spack-build-etij5ph'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-etij5ph6mqqnylequ3ow5yvurgiijawx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 379,
+            "repeat_count": 0,
+            "start": 373,
+            "end": 386,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-2st5oq3h2l4ofdye\n           veakm2rdwwn24pvq/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-2st5oq3h2l4ofdyev\n           eakm2rdwwn24pvq/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 391,
+            "repeat_count": 0,
+            "start": 385,
+            "end": 398,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-2st5oq3h2l4ofdyeveakm2rdwwn24pvq/spack-build-2st5oq3'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-2st5oq3h2l4ofdyeveakm2rdwwn24pvq/spack-build-2st5oq3'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-2st5oq3h2l4ofdyeveakm2rdwwn24pvq/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 384,
+            "repeat_count": 0,
+            "start": 378,
+            "end": 391,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-afply6q5r5ihrglz\n           5e3rc23qxyh7gvcd/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-afply6q5r5ihrglz5\n           e3rc23qxyh7gvcd/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 396,
+            "repeat_count": 0,
+            "start": 390,
+            "end": 403,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-afply6q5r5ihrglz5e3rc23qxyh7gvcd/spack-build-afply6q'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-afply6q5r5ihrglz5e3rc23qxyh7gvcd/spack-build-afply6q'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-afply6q5r5ihrglz5e3rc23qxyh7gvcd/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 379,
+            "repeat_count": 0,
+            "start": 373,
+            "end": 386,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-4rtmhnfy33yekcfh\n           odiibyakdxcka4x4/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-4rtmhnfy33yekcfho\n           diibyakdxcka4x4/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 391,
+            "repeat_count": 0,
+            "start": 385,
+            "end": 398,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-4rtmhnfy33yekcfhodiibyakdxcka4x4/spack-build-4rtmhnf'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-4rtmhnfy33yekcfhodiibyakdxcka4x4/spack-build-4rtmhnf'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-4rtmhnfy33yekcfhodiibyakdxcka4x4/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 409,
+            "repeat_count": 0,
+            "start": 403,
+            "end": 416,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-da6reptur6ejyvtw\n           c2utewr536ttjfob/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-da6reptur6ejyvtwc\n           2utewr536ttjfob/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 421,
+            "repeat_count": 0,
+            "start": 415,
+            "end": 428,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-da6reptur6ejyvtwc2utewr536ttjfob/spack-build-da6rept'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-da6reptur6ejyvtwc2utewr536ttjfob/spack-build-da6rept'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-da6reptur6ejyvtwc2utewr536ttjfob/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 389,
+            "repeat_count": 0,
+            "start": 383,
+            "end": 396,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-yaaznitp42yedy5v\n           i42v3wtzrq5lf6jf/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-yaaznitp42yedy5vi\n           42v3wtzrq5lf6jf/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 401,
+            "repeat_count": 0,
+            "start": 395,
+            "end": 408,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-yaaznitp42yedy5vi42v3wtzrq5lf6jf/spack-build-yaaznit'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-yaaznitp42yedy5vi42v3wtzrq5lf6jf/spack-build-yaaznit'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-yaaznitp42yedy5vi42v3wtzrq5lf6jf/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 386,
+            "repeat_count": 0,
+            "start": 380,
+            "end": 393,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-hbgysjxlitk2lnfx\n           hs2cd57l6hadal2n/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-hbgysjxlitk2lnfxh\n           s2cd57l6hadal2n/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 398,
+            "repeat_count": 0,
+            "start": 392,
+            "end": 405,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-hbgysjxlitk2lnfxhs2cd57l6hadal2n/spack-build-hbgysjx'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-hbgysjxlitk2lnfxhs2cd57l6hadal2n/spack-build-hbgysjx'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-hbgysjxlitk2lnfxhs2cd57l6hadal2n/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 388,
+            "repeat_count": 0,
+            "start": 382,
+            "end": 395,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-ktnuaec2aulxtt3q\n           lecwq46swt6k65ed/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-ktnuaec2aulxtt3ql\n           ecwq46swt6k65ed/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 400,
+            "repeat_count": 0,
+            "start": 394,
+            "end": 407,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-ktnuaec2aulxtt3qlecwq46swt6k65ed/spack-build-ktnuaec'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-ktnuaec2aulxtt3qlecwq46swt6k65ed/spack-build-ktnuaec'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-ktnuaec2aulxtt3qlecwq46swt6k65ed/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 388,
+            "repeat_count": 0,
+            "start": 382,
+            "end": 395,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-7addpkzkgtn3o3pl\n           6bytqvawjryykfy5/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-7addpkzkgtn3o3pl6\n           bytqvawjryykfy5/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 400,
+            "repeat_count": 0,
+            "start": 394,
+            "end": 407,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-7addpkzkgtn3o3pl6bytqvawjryykfy5/spack-build-7addpkz'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-7addpkzkgtn3o3pl6bytqvawjryykfy5/spack-build-7addpkz'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-7addpkzkgtn3o3pl6bytqvawjryykfy5/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 417,
+            "repeat_count": 0,
+            "start": 411,
+            "end": 424,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-kx5fu4nzjdmcdljc\n           eqtqviksxd7g626q/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-kx5fu4nzjdmcdljce\n           qtqviksxd7g626q/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 429,
+            "repeat_count": 0,
+            "start": 423,
+            "end": 436,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-kx5fu4nzjdmcdljceqtqviksxd7g626q/spack-build-kx5fu4n'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-kx5fu4nzjdmcdljceqtqviksxd7g626q/spack-build-kx5fu4n'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-kx5fu4nzjdmcdljceqtqviksxd7g626q/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 385,
+            "repeat_count": 0,
+            "start": 379,
+            "end": 392,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-lhanu7csm5stze6b\n           2f3zchun6m723t5n/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-lhanu7csm5stze6b2\n           f3zchun6m723t5n/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 397,
+            "repeat_count": 0,
+            "start": 391,
+            "end": 404,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-lhanu7csm5stze6b2f3zchun6m723t5n/spack-build-lhanu7c'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-lhanu7csm5stze6b2f3zchun6m723t5n/spack-build-lhanu7c'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-lhanu7csm5stze6b2f3zchun6m723t5n/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 388,
+            "repeat_count": 0,
+            "start": 382,
+            "end": 395,
+            "text": "atal error: gtest/gtest.h: No such file or directory",
+            "pre_context": "           .o -MF CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o.\n           d -o CMakeFiles/managed_array_tests.dir/managed_array_tests.cpp.o -c\n            /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-e7m4uolyzm326gd2\n           62cvjobh7u2ihy2p/spack-src/src/tests/managed_array_tests.cpp\n  >> 69    /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-e7m4uolyzm326gd26\n           2cvjobh7u2ihy2p/spack-src/src/tests/managed_array_tests.cpp:43:25: f",
+            "post_context": "     70     #include \"gtest/gtest.h\"\n     71                             ^\n     72    compilation terminated.\n  >> 73    make[2]: *** [src/tests/CMakeFiles/managed_array_tests.dir/managed_a\n           rray_tests.cpp.o] Error 1\n     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch"
+      },
+      {
+            "phase": "N/A",
+            "source_file": [
+                  null
+            ],
+            "source_line_no": 0,
+            "line_no": 400,
+            "repeat_count": 0,
+            "start": 394,
+            "end": 407,
+            "text": ">> 77    make: *** [all] Error 2",
+            "pre_context": "     74    make[2]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-e7m4uolyzm326gd262cvjobh7u2ihy2p/spack-build-e7m4uol'\n  >> 75    make[1]: *** [src/tests/CMakeFiles/managed_array_tests.dir/all] Erro\n           r 2\n     76    make[1]: Leaving directory `/tmp/koparasy/spack-stage/spack-stage-ch\n           ai-1.0-e7m4uolyzm326gd262cvjobh7u2ihy2p/spack-build-e7m4uol'",
+            "post_context": "\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-chai-1.0-e7m4uolyzm326gd262cvjobh7u2ihy2p/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+      }
+]
