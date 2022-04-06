@@ -10,3 +10,4 @@ riverapi
 PyGithub
 creme
 git+https://github.com/vsoch/online_ml_custom.git@main
+pyaml

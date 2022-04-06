@@ -1,9 +1,5 @@
 [
-    "match call memberlistsgetmemberlisttype__lambda stdunique_ptrmemberlist",
-    "match call memberlistsgetmemberlisttype__lambda stdunique_ptrmemberlist",
-    "match call memberlistsgetmemberlisttype__lambda stdunique_ptrmemberlist",
-    "match call memberlistsgetmemberlisttype__lambda stdunique_ptrmemberlist",
-    "match call memberlistsgetmemberlisttype__lambda stdunique_ptrmemberlist",
-    "match call memberlistsgetmemberlisttype__lambda stdunique_ptrmemberlist",
-    "match call memberlistsgetmemberlisttype__lambda stdunique_ptrmemberlist"
+    "match operator operand typ",
+    "match operator operand typ",
+    "match operator operand typ"
 ]

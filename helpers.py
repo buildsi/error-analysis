@@ -3,6 +3,7 @@ from nltk.stem import PorterStemmer
 from nltk.tokenize import word_tokenize
 from glob import glob
 import json
+import yaml
 import re
 import os
 
@@ -22,26 +23,21 @@ def read_json(filename):
     return content
 
 
+def read_yaml(filename):
+    with open(filename, 'r') as fd:
+        content = yaml.safe_load(fd)
+    return content
+
 def read_errors(datadir):
     errors = []
-    for filename in glob(os.path.join(datadir, "errors*.json")):
-        errors += read_json(filename)
-    print("Found %s spack-monitor errors!" % len(errors))
 
-    # Figure out last id
-    ids = [e["id"] for e in errors]
-    ids.sort()
-    newid = ids[-1] + 1
-
-    # Add in dinos errors
+    # Add in dinos errors, use the spec hash as the id
     dinodir = os.path.join(datadir, "dinos")
     if os.path.exists(dinodir):
         for filename in glob(os.path.join(dinodir, "*error.json")):
             entries = read_json(filename)
             for entry in entries:
-                entry["id"] = newid
                 entry["label"] = "dinos-error"
-                newid += 1
                 errors.append(entry)
 
     print("Found a total of %s errors" % len(errors))

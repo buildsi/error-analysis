@@ -12,9 +12,11 @@ import argparse
 import sys
 import os
 import pickle
+import json
 
 sys.path.insert(0, os.getcwd())
-from helpers import process_text, write_json, read_errors
+from helpers import process_text, write_json, read_errors, read_yaml
+here = os.path.dirname(os.path.abspath(__file__))
 
 # Note that knn.py here isn't used, we use this common module
 # so that we can later import into spack monitor and install the same class
@@ -48,7 +50,6 @@ class ModelBuilder:
         for i, entry in enumerate(self.errors):
             print("%s of %s" % (i, len(self.errors)), end="\r")
 
-            # NOTE if you change this, also change in 2.spack-issues-match.py
             # Pre, text, and post
             raw = entry.get("text")
             if not raw:
@@ -65,8 +66,17 @@ class ModelBuilder:
             # Skip single words!
             if not tokens or not sentence.strip() or len(tokens) == 1:
                 continue
-            yield sentence, entry["id"]
+            yield sentence, entry["hash"]
 
+    def load_spec(self, uid):
+        """
+        Load the spec from data/spec_file
+        """
+        spec_file = os.path.join(here, "data", "spec_files", "%s.yaml" % uid)
+        if not os.path.exists(spec_file):
+            sys.exit("%s does not exist!" % spec_file)
+        return read_yaml(spec_file)
+        
     def dbstream(
         self, model_name="dbstream-errors", save_prefix="dbstream", iterations=5
     ):
@@ -101,6 +111,10 @@ class ModelBuilder:
         clusters = {}
         assigned = {}
         for sentence, uid in self.iter_sentences():
+
+            # Harshitha - here is an example of loading the spec
+            spec = self.load_spec(uid)
+            # print(json.dumps(spec, indent=4))
             res = model.predict_one(x=sentence)
             if res not in clusters:
                 clusters[res] = []

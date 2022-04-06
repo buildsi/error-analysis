@@ -34,6 +34,10 @@ in the repository (minus the specs so far!)
 
 ### Online ML
 
+Note that pre-processing of dinos (raw) data was done via [1.data.py](1.data.py)
+and you don't need to run it again! It basically flattened the original errors data and added the hash
+at the same level.
+
 The script [2.online-ml.py](2.online-ml.py) will generate the clusters in [data/clusters](data/clusters).
 The default number of iterations is 5 but you can specify a custom value:
 
