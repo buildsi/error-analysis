@@ -1,7 +1,14 @@
 /*
-    DEMO STYLE
     https://bootstrapious.com/p/bootstrap-sidebar
 */
+
+
+/* Buttons */
+
+.right-button {
+  float: right;
+  margin-right: 5px;
+}
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 body {

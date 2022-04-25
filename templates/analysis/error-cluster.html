@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{% set active_page = "error-cluster" %}
+
+{% block title %}Error Cluster {{ cluster_id }}{% endblock %}
+{% block head %}        
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-coy.min.css" rel="stylesheet" type="text/css">
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+
+<div class="row">
+  <div class="col-md-4">
+    <h1 class="cap">Error Cluster {{ cluster_id }}</h1>
+     <p><strong>{{ specs | length }}</strong> specs are assigned to this cluster!</p>
+  </div>
+  <div class="col-md-8">
+    <a href="/analysis/features/{{ cluster_id }}" type="button" class="btn btn-primary right-button">View Features</a>
+    <a type="button" class="btn btn-primary right-button">Find Similar Working</a>
+  </div>
+</div>
+
+<div class="row"><div class="col-md-12">
+<div class="accordion" id="accordionSpecs">
+{% for spec_hash, spec in specs.items() %}<div class="accordion-item">
+    <h2 class="accordion-header" id="heading-{{ spec_hash }}">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ spec_hash }}" aria-expanded="true" aria-controls="collapse-{{ spec_hash }}">
+        <strong style="margin-right:5px">Spec #{{ loop.index }}</strong> {{ spec_hash }}
+      </button>
+    </h2>
+    <div id="collapse-{{ spec_hash }}" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionSpecs">
+      <div class="accordion-body">
+       <pre><code class="language-javascript">
+        {{ spec }}
+       </code></pre>
+      </div>
+    </div>
+  </div>
+{% endfor %}
+</div>
+</div></div> <!-- end row/col-->
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+{% endblock %}

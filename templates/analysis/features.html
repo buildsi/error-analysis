@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% set active_page = "features" %}
+
+{% block title %}Features for Cluster {{ cluster_id }}{% endblock %}
+{% block head %}
+{{ super() }}
+
+{% endblock %}
+
+{% block page_content %}
+
+<div class="row">
+  <div class="col-md-4">
+    <h1 class="cap">Features for Cluster {{ cluster_id }}</h1>
+     {% if not features %}<p>This cluster does not have any features.</p>{% endif %}
+  </div>
+  <div class="col-md-8">
+    <a href="/analysis/errors/{{ cluster_id }}" type="button" class="btn btn-primary right-button">Back to Specs</a>
+    <a type="button" class="btn btn-primary right-button">Find Similar Working</a>
+  </div>
+</div>
+
+<div class="row"><div class="col-md-12">
+  <div style="height:700px"><canvas id="features"></canvas></div>
+</div></div> <!-- end row/col-->
+
+{% endblock %}
+
+{% block scripts %}
+{{ super() }}
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script>
+function make_plot() {
+var data = {
+  labels: [{% for feature in features %}"{{ feature[0] }}"{% if loop.last %}{% else %},{% endif %}{% endfor %}],
+  datasets: [{
+    label: "Features for Cluster {{ cluster_id }}",
+    backgroundColor: "rgba(15, 58, 128, 0.47)",
+    borderColor: "rgb(4, 69, 174)",
+    borderWidth: 2,
+    hoverBackgroundColor: "rgb(15, 58, 128)",
+    hoverBorderColor: "rgb(102, 16, 242)",
+    data: [{% for feature in features %}{{ feature[1]}}{% if loop.last %}{% else %},{% endif %}{% endfor %}],
+  }]
+};
+
+var option = {
+  scales: {
+    yAxes: [{
+      stacked: true,
+      gridLines: {
+        display: true,
+        color: "rgba(15, 58, 128, 0.2)"
+      }
+    }],
+    xAxes: [{
+      gridLines: {
+        display: false
+      },
+      ticks: {
+        autoSkip: false
+      }
+    }]
+  }
+};
+
+Chart.Bar('features', {
+  options: option,
+  data: data,
+  options: {
+        responsive: true,
+        maintainAspectRatio: false
+    }
+});
+}
+
+make_plot()
+</script>
+{% endblock %}

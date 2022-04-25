@@ -37,6 +37,10 @@ async def load_app_data(request: Request, call_next):
         request.app.error_clusters = load_errors_lookup(root)
     if not hasattr(request.app, "spec_errors"):
         request.app.spec_errors = load_errors_specs_lookup(root)
+
+    # Save the app root and app directory root (here)
+    app.here = here
+    app.root = root
     return await call_next(request)
 
 
