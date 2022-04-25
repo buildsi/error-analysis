@@ -26,13 +26,38 @@ for db_file in dbs:
     # Create a final output folder for the package
     errors = []
     for entry in err:
-        data = entry['snippet']
-        data['hash'] = entry['hash']        
+        data = entry["snippet"]
+        data["hash"] = entry["hash"]
         errors.append(data)
-    
+
         # Ensure that the spec exists
-        spec_file = os.path.join(here, "data", "spec_files", "%s.yaml" % data['hash'])
+        spec_file = os.path.join(here, "data", "spec_files", "%s.yaml" % data["hash"])
         if not os.path.exists(spec_file):
             missing.add(spec_file)
 
     write_json(errors, outfile)
+
+# Create a lookup of errors to clusters
+clusters_dir = os.path.join(here, "data", "clusters", "dbstream")
+clusters = os.listdir(clusters_dir)
+error_lookup = {}
+
+for cluster_file in clusters:
+    cluster_data = read_json(os.path.join(clusters_dir, cluster_file))
+
+    # Skip files that are error-assignments
+    if "assignments" in cluster_file:
+        continue
+    cluster_id = int(cluster_file.replace(".json", "").split("-")[-1])
+    for e in cluster_data:
+        if e not in error_lookup:
+            error_lookup[e] = set()
+        error_lookup[e].add(cluster_id)
+
+# Now ensure we have lists to save to file
+for e in error_lookup:
+    error_lookup[e] = list(error_lookup[e])
+    assert len(error_lookup[e]) == 1
+    error_lookup[e] = error_lookup[e][0]
+outfile = os.path.join(clusters_dir, "cluster-assignments.json")
+write_json(error_lookup, outfile)

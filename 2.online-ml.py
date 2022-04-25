@@ -16,6 +16,7 @@ import json
 
 sys.path.insert(0, os.getcwd())
 from helpers import process_text, write_json, read_errors, read_yaml
+
 here = os.path.dirname(os.path.abspath(__file__))
 
 # Note that knn.py here isn't used, we use this common module
@@ -76,7 +77,7 @@ class ModelBuilder:
         if not os.path.exists(spec_file):
             sys.exit("%s does not exist!" % spec_file)
         return read_yaml(spec_file)
-        
+
     def dbstream(
         self, model_name="dbstream-errors", save_prefix="dbstream", iterations=5
     ):

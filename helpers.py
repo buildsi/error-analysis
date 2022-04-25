@@ -24,9 +24,10 @@ def read_json(filename):
 
 
 def read_yaml(filename):
-    with open(filename, 'r') as fd:
+    with open(filename, "r") as fd:
         content = yaml.safe_load(fd)
     return content
+
 
 def read_errors(datadir):
     errors = []

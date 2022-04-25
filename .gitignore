@@ -2,3 +2,6 @@ river
 env
 .env
 __pycache__
+data/dbs
+data/raw
+*.tar.gz
