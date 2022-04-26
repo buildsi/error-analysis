@@ -31,7 +31,7 @@ for db_file in dbs:
     for entry in err:
 
         # Don't add working
-        if entry['hash'] in working:
+        if entry["hash"] in working:
             continue
 
         data = entry["snippet"]
@@ -39,8 +39,10 @@ for db_file in dbs:
         errors.append(data)
 
         # Ensure that the spec exists
-        spec_file = os.path.join(here, "data", "spec_files", "errors", "%s.yaml" % data["hash"])
-        if not os.path.exists(spec_file) and entry['hash'] not in working:
+        spec_file = os.path.join(
+            here, "data", "spec_files", "errors", "%s.yaml" % data["hash"]
+        )
+        if not os.path.exists(spec_file) and entry["hash"] not in working:
             missing.add(spec_file)
 
     write_json(errors, outfile)

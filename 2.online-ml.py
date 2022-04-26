@@ -40,7 +40,7 @@ def get_parser():
 
 
 class ModelBuilder:
-    def __init__(self, errors, host="http://127.0.0.1:8000", prefix=None, datadir=None):
+    def __init__(self, errors, datadir=None):
         self.errors = errors
         self.datadir = datadir
 
@@ -73,7 +73,7 @@ class ModelBuilder:
         """
         Load the spec from data/spec_file
         """
-        spec_file = os.path.join(here, "data", "spec_files", "%s.yaml" % uid)
+        spec_file = os.path.join(here, "data", "spec_files", "errors", "%s.yaml" % uid)
         if not os.path.exists(spec_file):
             sys.exit("%s does not exist!" % spec_file)
         return read_yaml(spec_file)
