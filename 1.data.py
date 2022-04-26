@@ -19,6 +19,9 @@ dbs = os.listdir(dbs_dir)
 # keep track of spec files we are missing
 missing = set()
 
+# These specs are flagged as errors but are actually working
+working = ["lubcgxksdy3npuwvhy5fxofjv22rb3jj", "bz4tymh27xpo2weaw23uyrxwzy7rryll"]
+
 # This will basically squash dinos error files into a single flat list of dict
 for db_file in dbs:
     outfile = os.path.join(out_dir, db_file)
@@ -26,16 +29,23 @@ for db_file in dbs:
     # Create a final output folder for the package
     errors = []
     for entry in err:
+
+        # Don't add working
+        if entry['hash'] in working:
+            continue
+
         data = entry["snippet"]
         data["hash"] = entry["hash"]
         errors.append(data)
 
         # Ensure that the spec exists
-        spec_file = os.path.join(here, "data", "spec_files", "%s.yaml" % data["hash"])
-        if not os.path.exists(spec_file):
+        spec_file = os.path.join(here, "data", "spec_files", "errors", "%s.yaml" % data["hash"])
+        if not os.path.exists(spec_file) and entry['hash'] not in working:
             missing.add(spec_file)
 
     write_json(errors, outfile)
+
+assert not missing
 
 # Create a lookup of errors to clusters
 clusters_dir = os.path.join(here, "data", "clusters", "dbstream")
