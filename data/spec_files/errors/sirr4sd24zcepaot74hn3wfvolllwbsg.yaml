@@ -1,0 +1,50 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: pdt
+    version: '3.21'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: intel
+      version: 2021.5.0
+    namespace: builtin
+    parameters:
+      pic: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: c7dgjy3nxg2epf3yiqdvo5i3ipj2my5m
+    full_hash: sirr4sd24zcepaot74hn3wfvolllwbsg
+    build_hash: c7dgjy3nxg2epf3yiqdvo5i3ipj2my5m

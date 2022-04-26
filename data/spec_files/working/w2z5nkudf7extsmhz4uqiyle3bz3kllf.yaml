@@ -1,0 +1,645 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: hwloc
+    version: 2.4.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      cairo: false
+      cuda: false
+      gl: false
+      libudev: false
+      libxml2: true
+      netloc: false
+      nvml: false
+      opencl: false
+      pci: true
+      rocm: false
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libpciaccess
+      build_hash: oy5vt2vdxzy6y2eknkbnsdzb644o56ov
+      type:
+      - build
+      - link
+    - name: libxml2
+      build_hash: vqncm2ins35jcms2daqddzgr22zjv5ka
+      type:
+      - build
+      - link
+    - name: ncurses
+      build_hash: pvtiow3odheepy66ptwipuu5agtamzwy
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: v7vpvxzhitpkjrxsodcvubigyron6mcr
+      type:
+      - build
+    hash: g534ucy773457kuvc63iupx7hgnsnvo5
+    full_hash: w2z5nkudf7extsmhz4uqiyle3bz3kllf
+    build_hash: bzjz2if7wcxwkyen4i6aalx2u5336oub
+  - name: libpciaccess
+    version: '0.16'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libtool
+      build_hash: 6gr6urw3cwblbcuanbkknqlgmepxqyij
+      type:
+      - build
+    - name: pkgconf
+      build_hash: v7vpvxzhitpkjrxsodcvubigyron6mcr
+      type:
+      - build
+    - name: util-macros
+      build_hash: bblirinergy2gjywzhgkmdc4i3lculim
+      type:
+      - build
+    hash: vzl6zgp77qxeq626txpjxbnkglqogi7e
+    full_hash: qgugxxspwuvesyt4qshcz7sn3weq4el3
+    build_hash: oy5vt2vdxzy6y2eknkbnsdzb644o56ov
+  - name: libtool
+    version: 2.4.6
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: m4
+      build_hash: cb5vnxfvyv5dmftduyoizal6774k3yvi
+      type:
+      - build
+    hash: joplni6emozntblti5pzerzvojll6pqe
+    full_hash: aecmydnxl4m3kwovzncn7xqzkvccqw72
+    build_hash: 6gr6urw3cwblbcuanbkknqlgmepxqyij
+  - name: m4
+    version: 1.4.19
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      patches:
+      - 9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573
+      - bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89
+      sigsegv: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    patches:
+    - bfdffa7c2eb01021d5849b36972c069693654ad826c1a20b53534009a4ec7a89
+    - 9dc5fbd0d5cb1037ab1e6d0ecc74a30df218d0a94bdd5a02759a97f62daca573
+    dependencies:
+    - name: libsigsegv
+      build_hash: j7pe7kfjplasbiyd2d52tflt47lrh6c3
+      type:
+      - build
+      - link
+    hash: ccgudp4j2osdrsu5gaphozxhjg5uhseb
+    full_hash: qfbx7phnffc3ypzpafswduqqcf3n2nqu
+    build_hash: cb5vnxfvyv5dmftduyoizal6774k3yvi
+  - name: libsigsegv
+    version: '2.13'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: j7pe7kfjplasbiyd2d52tflt47lrh6c3
+    full_hash: tvhh2dcbun2o7y7vq5dwi5vsv5spwpwp
+    build_hash: j7pe7kfjplasbiyd2d52tflt47lrh6c3
+  - name: pkgconf
+    version: 1.8.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: v7vpvxzhitpkjrxsodcvubigyron6mcr
+    full_hash: ohcgbwiqpwbboe7noizqg4kfijo5v2sn
+    build_hash: v7vpvxzhitpkjrxsodcvubigyron6mcr
+  - name: util-macros
+    version: 1.19.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: bblirinergy2gjywzhgkmdc4i3lculim
+    full_hash: hz7n7fq3ymjrcce4zbyy6mi2u7wjxzoz
+    build_hash: bblirinergy2gjywzhgkmdc4i3lculim
+  - name: libxml2
+    version: 2.9.12
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      python: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libiconv
+      build_hash: hamxpxun6u7v6saacxwcrcqsss6ryqnw
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: v7vpvxzhitpkjrxsodcvubigyron6mcr
+      type:
+      - build
+    - name: xz
+      build_hash: yvwhkdrtgg3kh743ynms4z6iooovtqfa
+      type:
+      - build
+      - link
+    - name: zlib
+      build_hash: a7thdm74x3qwlevfhg6n65zltldnc3qa
+      type:
+      - build
+      - link
+    hash: gjqyjvg5fcsgwrwwsvmoz5e34rny3hxs
+    full_hash: avakiiqyiqy2dgez5qdl6yx6fabsyzfc
+    build_hash: vqncm2ins35jcms2daqddzgr22zjv5ka
+  - name: libiconv
+    version: '1.16'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      libs:
+      - shared
+      - static
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: hamxpxun6u7v6saacxwcrcqsss6ryqnw
+    full_hash: no24d22m7hjigzwuszk2fs7lqwgs64az
+    build_hash: hamxpxun6u7v6saacxwcrcqsss6ryqnw
+  - name: xz
+    version: 5.2.5
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      libs:
+      - shared
+      - static
+      pic: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: yvwhkdrtgg3kh743ynms4z6iooovtqfa
+    full_hash: fz2tnyntkkvgscv233bhvq3yfwailvaa
+    build_hash: yvwhkdrtgg3kh743ynms4z6iooovtqfa
+  - name: zlib
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      optimize: true
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: a7thdm74x3qwlevfhg6n65zltldnc3qa
+    full_hash: ql6fcvw2teldn7q5u5hvmdr3vvunqake
+    build_hash: a7thdm74x3qwlevfhg6n65zltldnc3qa
+  - name: ncurses
+    version: '6.2'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: oneapi
+      version: 2022.0.0
+    namespace: builtin
+    parameters:
+      abi: none
+      symlinks: false
+      termlib: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: pkgconf
+      build_hash: v7vpvxzhitpkjrxsodcvubigyron6mcr
+      type:
+      - build
+    hash: zkp7oh2ry3acnugw7x7wpeuiy4gs6rk3
+    full_hash: tfmvxkas6t23rrz2ay3p6euamuzgfl2x
+    build_hash: pvtiow3odheepy66ptwipuu5agtamzwy

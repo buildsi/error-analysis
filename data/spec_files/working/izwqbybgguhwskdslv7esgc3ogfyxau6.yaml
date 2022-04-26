@@ -1,0 +1,52 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: lz4
+    version: 1.9.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 8.3.1
+    namespace: builtin
+    parameters:
+      libs:
+      - shared
+      - static
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: epwkqqqf3bkao5ho5uehywx6u2deezrq
+    full_hash: izwqbybgguhwskdslv7esgc3ogfyxau6
+    build_hash: epwkqqqf3bkao5ho5uehywx6u2deezrq
