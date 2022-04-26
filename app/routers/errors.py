@@ -13,7 +13,7 @@ def load_spec(root, digest):
     """
     Given a spec id, load from the data directory
     """
-    spec_file = os.path.join(root, "data", "spec_files", "%s.yaml" % digest)
+    spec_file = os.path.join(root, "data", "spec_files", "errors", "%s.yaml" % digest)
     if os.path.exists(spec_file):
         with open(spec_file, "r") as fd:
             content = yaml.safe_load(fd.read())
