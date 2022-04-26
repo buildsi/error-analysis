@@ -1,0 +1,100 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: ant
+    version: 1.10.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: openjdk
+      build_hash: y2zlggspy6cooyiy5m6unmublaq4jxbg
+      type:
+      - build
+      - link
+    hash: a4vm4jcwlf67g6foorh44bk7xjkwnsih
+    full_hash: n4odxo3p7ufuofmzxetycyhii5n5lsjg
+    build_hash: vtnxpskurl4bfzwvjywok5o7nesbl7ew
+  - name: openjdk
+    version: 11.0.12_7
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: y2zlggspy6cooyiy5m6unmublaq4jxbg
+    full_hash: ttpq6yp4spwbj3vsyivatwogiytbftos
+    build_hash: y2zlggspy6cooyiy5m6unmublaq4jxbg

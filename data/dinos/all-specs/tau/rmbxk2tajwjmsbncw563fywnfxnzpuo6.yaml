@@ -1,0 +1,53 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: otf2
+    version: 2.1.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: intel
+      version: 2021.5.0
+    namespace: builtin
+    parameters:
+      patches:
+      - 7e56d93b8ffe636cd7f298c7aa959a64ab5c8b3013e02320f71c2bbac5dd0653
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    patches:
+    - 7e56d93b8ffe636cd7f298c7aa959a64ab5c8b3013e02320f71c2bbac5dd0653
+    hash: lum342z4c7ro7x3n4yvxynimjoa76vuh
+    full_hash: rmbxk2tajwjmsbncw563fywnfxnzpuo6
+    build_hash: lum342z4c7ro7x3n4yvxynimjoa76vuh

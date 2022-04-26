@@ -1,0 +1,215 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: json-c
+    version: '0.15'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      build_type: RelWithDebInfo
+      ipo: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: cmake
+      build_hash: yt73fr4xqy7dkpkvoz32n2zs6eexr4k2
+      type:
+      - build
+    hash: htcooavb3jkkqbmogn3vtnh6chqjmick
+    full_hash: mni5qydggxojhr7qo3yltawgiylwjc3x
+    build_hash: z7pghptytxuen44jq35dcm5udual2dzv
+  - name: cmake
+    version: 3.6.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      build_type: Release
+      doc: false
+      ncurses: true
+      openssl: false
+      ownlibs: true
+      patches:
+      - 7c14b1146c5cb61f81a6751e8ed990f7a08886dca99384b007bbeb1f488dfda4
+      qt: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    patches:
+    - 7c14b1146c5cb61f81a6751e8ed990f7a08886dca99384b007bbeb1f488dfda4
+    dependencies:
+    - name: ncurses
+      build_hash: rcpiwecwpv2af67bs5rmhfbtu2mnhhq7
+      type:
+      - build
+      - link
+    hash: puxxs45c5ozvtrhazdcrtcmayfxfzm7a
+    full_hash: 3femx4nujgaxoj2a7r663y5fk2fmfieo
+    build_hash: yt73fr4xqy7dkpkvoz32n2zs6eexr4k2
+  - name: ncurses
+    version: '6.2'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      abi: none
+      symlinks: false
+      termlib: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: pkgconf
+      build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+      type:
+      - build
+    hash: uuhm7btwbe7kdl2jay7sifi247dex5f4
+    full_hash: vpefovpylpgijyqhqxrfqh2fhtnh52bh
+    build_hash: rcpiwecwpv2af67bs5rmhfbtu2mnhhq7
+  - name: pkgconf
+    version: 1.8.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+    full_hash: lx2o6qois7ilxmf3asv43h6r6jtai4uu
+    build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4

@@ -1,0 +1,99 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: util-linux-uuid
+    version: 2.36.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: pkgconf
+      build_hash: zfla4p42rw2ivzkuxqjnjcq2uis22n6r
+      type:
+      - build
+    hash: jdinmdga7getrpzcbrfbvf4ind6mt3zu
+    full_hash: crqcfevyxomvmdwctmfu2bxf5ke2u3bg
+    build_hash: l46phcqpcswtnuj5xbt36j75qhj3hqd5
+  - name: pkgconf
+    version: 1.8.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 4.9.3
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: zfla4p42rw2ivzkuxqjnjcq2uis22n6r
+    full_hash: q6y6hyqzb7uby6vevqkmzmodwstcesof
+    build_hash: zfla4p42rw2ivzkuxqjnjcq2uis22n6r

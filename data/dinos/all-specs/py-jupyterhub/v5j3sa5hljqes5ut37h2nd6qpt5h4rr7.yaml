@@ -1,0 +1,6899 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: py-jupyterhub
+    version: 1.4.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-alembic
+      build_hash: sug7sp36vxhmjqmrnnsynjyexx3owjxb
+      type:
+      - build
+      - run
+    - name: py-async-generator
+      build_hash: d34jpettjzncxbu7oooz5iig74tcxeds
+      type:
+      - build
+      - run
+    - name: py-certipy
+      build_hash: r2zon4oagchhwxf7saaj2hniz54oudoe
+      type:
+      - build
+      - run
+    - name: py-entrypoints
+      build_hash: nhv7g77obbxbrcvkj7rpevkyhjzcxflg
+      type:
+      - build
+      - run
+    - name: py-jinja2
+      build_hash: 433snsfnnxyvxmbgbz63snv6hzxyhmzd
+      type:
+      - build
+      - run
+    - name: py-jupyter-telemetry
+      build_hash: xgskrhioslwmcwoa3d5k4d6ljeugkjct
+      type:
+      - build
+      - run
+    - name: py-mako
+      build_hash: ovpiya6p5wd5abx7eesqzbc6kgjcnfi7
+      type:
+      - build
+      - run
+    - name: py-notebook
+      build_hash: eo5ynrln4tquf3xzfk3frg6po74mswat
+      type:
+      - build
+      - run
+    - name: py-oauthlib
+      build_hash: cc4awn4l47wpjy2phekc6oapxpisrhdh
+      type:
+      - build
+      - run
+    - name: py-pamela
+      build_hash: lvu3sqjwsbmg7erz7vktb4ikqrf26iyu
+      type:
+      - build
+      - run
+    - name: py-prometheus-client
+      build_hash: v3bgmlmytdbyzasars7adb7vzdmi6ye3
+      type:
+      - build
+      - run
+    - name: py-python-dateutil
+      build_hash: s3fts65ve2wzg5nckbb2nh676bvuenny
+      type:
+      - build
+      - run
+    - name: py-requests
+      build_hash: slluhmmrimtvieizwyls7mdw2oi73k2v
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: py-sqlalchemy
+      build_hash: ghgfskkcnw6qyxrtyjmjsov4v3pepd2z
+      type:
+      - build
+      - run
+    - name: py-tornado
+      build_hash: 25n5gtejqxlhsimqle3izljcqhryr3t2
+      type:
+      - build
+      - run
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 52rbhpqvztdcjxxt3umhzjfvg2cs5ywz
+    full_hash: v5j3sa5hljqes5ut37h2nd6qpt5h4rr7
+    build_hash: 3c4kyzz2w6uhwswxb6njvrwhbf6fd5oa
+  - name: py-alembic
+    version: 1.5.5
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-mako
+      build_hash: ovpiya6p5wd5abx7eesqzbc6kgjcnfi7
+      type:
+      - build
+      - run
+    - name: py-python-dateutil
+      build_hash: s3fts65ve2wzg5nckbb2nh676bvuenny
+      type:
+      - build
+      - run
+    - name: py-python-editor
+      build_hash: 4xbseppmu5igtmevnwwatvsxp5s7mpk5
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-sqlalchemy
+      build_hash: ghgfskkcnw6qyxrtyjmjsov4v3pepd2z
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: evarse3njh72422jdu2mg3rsgf4n4yd3
+    full_hash: dg2ncurq36xw2jw74uwrdfqrabyjxoi3
+    build_hash: sug7sp36vxhmjqmrnnsynjyexx3owjxb
+  - name: py-mako
+    version: 1.1.5
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-markupsafe
+      build_hash: ytmdko672dovhyjfaqsptebd2cjwi3pk
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - link
+      - run
+    hash: ltugcuekvylxgcratvdogj3wbndpidbg
+    full_hash: cdtreu7acubkmhtyhpdgbkdiqpahw3eb
+    build_hash: ovpiya6p5wd5abx7eesqzbc6kgjcnfi7
+  - name: py-markupsafe
+    version: 2.0.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: lmqg6tckvfewyzkspvwthmujwirltpsu
+    full_hash: g7g5qk6mft2dlnvhljcapzrrwpnjmdos
+    build_hash: ytmdko672dovhyjfaqsptebd2cjwi3pk
+  - name: py-setuptools
+    version: 59.4.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: kp7b2bp5iy7z52xjsktnbtken5f75ozp
+    full_hash: wm4js4z56muf3y24twbgptm5fwkbrmdx
+    build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+  - name: python
+    version: 3.8.12
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      bz2: true
+      ctypes: true
+      dbm: true
+      debug: false
+      libxml2: true
+      lzma: true
+      nis: false
+      optimizations: false
+      patches:
+      - 0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87
+      - 4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768
+      - f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4
+      pic: true
+      pyexpat: true
+      pythoncmd: true
+      readline: true
+      shared: true
+      sqlite3: true
+      ssl: true
+      tix: false
+      tkinter: false
+      ucs4: false
+      uuid: true
+      zlib: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    patches:
+    - 0d98e93189bc278fbc37a50ed7f183bd8aaf249a8e1670a465f0db6bb4f8cf87
+    - f2fd060afc4b4618fe8104c4c5d771f36dc55b1db5a4623785a4ea707ec72fb4
+    - 4c2457325f2b608b1b6a2c63087df8c26e07db3e3d493caf36a56f0ecf6fb768
+    dependencies:
+    - name: bzip2
+      build_hash: ewtrd57rqsid76s3s2imdcuxaowxdp3o
+      type:
+      - build
+      - link
+    - name: expat
+      build_hash: uj4m7z6rj7vwl6mosft4br2pj673d7ba
+      type:
+      - build
+      - link
+    - name: gdbm
+      build_hash: chqkclvnaqe4uohezbfyv7x7ygy45pu5
+      type:
+      - build
+      - link
+    - name: gettext
+      build_hash: s6enn27cmltfqhq3j43mppuafuzyhata
+      type:
+      - build
+      - link
+    - name: libffi
+      build_hash: vk3asw2bshoxfj5yl2aaidufocnjaac4
+      type:
+      - build
+      - link
+    - name: ncurses
+      build_hash: xpr7goeplu4zyhaofrobitmvhkgdk7f4
+      type:
+      - build
+      - link
+    - name: openssl
+      build_hash: 75g3ndm4ixytafyqzc7iqp5ufirlxe4w
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+      type:
+      - build
+    - name: readline
+      build_hash: kcj5fp2nh5w5mypqvlojagzn7gtasscs
+      type:
+      - build
+      - link
+    - name: sqlite
+      build_hash: juxlmndun43t5np6a3c3vl6saqaizcyk
+      type:
+      - build
+      - link
+    - name: util-linux-uuid
+      build_hash: 4kfj5j67a2fz3a5fhrstz5uexklmkg72
+      type:
+      - build
+      - link
+    - name: xz
+      build_hash: yevfusqxrrtbt556h3qw3myrzjg3vrwd
+      type:
+      - build
+      - link
+    - name: zlib
+      build_hash: 2t4gmjvg5mp5nac5bm53araaum3glppz
+      type:
+      - build
+      - link
+    hash: j6qk7hjrqt56ajj76r7ibnkhzd52of2l
+    full_hash: zq6ku5weq2g2lnidc7o5wtbfqu64d3ld
+    build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+  - name: bzip2
+    version: 1.0.8
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      debug: false
+      pic: false
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: diffutils
+      build_hash: 6oewd5ksv2kb5jaqdjudcrfrzaxzrgt4
+      type:
+      - build
+    hash: l7l5i4jyuidxajzyyrezmzdooymwav4o
+    full_hash: qowg6thk3ik2tcznfv6xbbma3b2i5ysa
+    build_hash: ewtrd57rqsid76s3s2imdcuxaowxdp3o
+  - name: diffutils
+    version: '3.8'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libiconv
+      build_hash: myrq5coqve63qpjpujiqerxqynuye4jx
+      type:
+      - build
+      - link
+    hash: sq34wwbqpp7hnigo5pjnldyt4ce5qwzn
+    full_hash: axxtojsxuzpfib44pwh47rf2fkxwvgbg
+    build_hash: 6oewd5ksv2kb5jaqdjudcrfrzaxzrgt4
+  - name: libiconv
+    version: '1.16'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      libs:
+      - shared
+      - static
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: myrq5coqve63qpjpujiqerxqynuye4jx
+    full_hash: ieozlcr4tjznj6ftqopzyezixvkndosi
+    build_hash: myrq5coqve63qpjpujiqerxqynuye4jx
+  - name: expat
+    version: 2.4.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      libbsd: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libbsd
+      build_hash: 7w44jhfw6osrd2tigxhp6rxpe3xqj4b7
+      type:
+      - build
+      - link
+    hash: wergaawawvaekf7jb4yzfmh4zit4oogn
+    full_hash: izx2fxqiucmvufw4beqiowgg3oawmvgh
+    build_hash: uj4m7z6rj7vwl6mosft4br2pj673d7ba
+  - name: libbsd
+    version: 0.11.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libmd
+      build_hash: ljvgh6c7awl2l2pptypwwha27epve6wg
+      type:
+      - build
+      - link
+    hash: rdxfklhdbnujned4lyfsqd44yyylikdg
+    full_hash: im5bvm6mhmc4jmjfcazxsftq5muslopv
+    build_hash: 7w44jhfw6osrd2tigxhp6rxpe3xqj4b7
+  - name: libmd
+    version: 1.0.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: ljvgh6c7awl2l2pptypwwha27epve6wg
+    full_hash: x4yjpvlmachecyb4t2ea6xnbnrlyqtpc
+    build_hash: ljvgh6c7awl2l2pptypwwha27epve6wg
+  - name: gdbm
+    version: '1.19'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: readline
+      build_hash: kcj5fp2nh5w5mypqvlojagzn7gtasscs
+      type:
+      - build
+      - link
+    hash: 4d52qxmng7kskulgllwu3jihf5l5in6d
+    full_hash: afuoxdxiyxklqerxoslipt7rsdiw4ko2
+    build_hash: chqkclvnaqe4uohezbfyv7x7ygy45pu5
+  - name: readline
+    version: '8.1'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: ncurses
+      build_hash: xpr7goeplu4zyhaofrobitmvhkgdk7f4
+      type:
+      - build
+      - link
+    hash: d4nbd7nl3a2xk2bxe2wdd6r2xtfjgbfu
+    full_hash: wdm5jik24oqvqh63olfzbu6qgerrwms3
+    build_hash: kcj5fp2nh5w5mypqvlojagzn7gtasscs
+  - name: ncurses
+    version: '6.2'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      abi: none
+      symlinks: false
+      termlib: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: pkgconf
+      build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+      type:
+      - build
+    hash: ubg5zspcend5ohfllyej2jgz23bha5mk
+    full_hash: lzkvih6i6e7orod2mcjemp44xlsprkiv
+    build_hash: xpr7goeplu4zyhaofrobitmvhkgdk7f4
+  - name: pkgconf
+    version: 1.8.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+    full_hash: lx2o6qois7ilxmf3asv43h6r6jtai4uu
+    build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+  - name: gettext
+    version: '0.21'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      bzip2: true
+      curses: true
+      git: true
+      libunistring: false
+      libxml2: true
+      tar: true
+      xz: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: bzip2
+      build_hash: ewtrd57rqsid76s3s2imdcuxaowxdp3o
+      type:
+      - build
+      - link
+    - name: libiconv
+      build_hash: myrq5coqve63qpjpujiqerxqynuye4jx
+      type:
+      - build
+      - link
+    - name: libxml2
+      build_hash: plfalmm3tacgdbrqefyqhah7hmobfdli
+      type:
+      - build
+      - link
+    - name: ncurses
+      build_hash: xpr7goeplu4zyhaofrobitmvhkgdk7f4
+      type:
+      - build
+      - link
+    - name: tar
+      build_hash: hmimvs6w6obbxfy36icsyp5qqm7kyilq
+      type:
+      - build
+      - link
+    - name: xz
+      build_hash: yevfusqxrrtbt556h3qw3myrzjg3vrwd
+      type:
+      - build
+      - link
+      - run
+    hash: gtach7yomvcz7ozrh32jx5x244xpm7hy
+    full_hash: rmp2ot22zlmrpsfzfgvp67k4zf76ouow
+    build_hash: s6enn27cmltfqhq3j43mppuafuzyhata
+  - name: libxml2
+    version: 2.9.12
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      python: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libiconv
+      build_hash: myrq5coqve63qpjpujiqerxqynuye4jx
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+      type:
+      - build
+    - name: xz
+      build_hash: yevfusqxrrtbt556h3qw3myrzjg3vrwd
+      type:
+      - build
+      - link
+    - name: zlib
+      build_hash: 2t4gmjvg5mp5nac5bm53araaum3glppz
+      type:
+      - build
+      - link
+    hash: h5b2suk47zqj3spwcdictcdrcz4g6uk7
+    full_hash: wcyrhcnains74jiingoqlbacourcw4ro
+    build_hash: plfalmm3tacgdbrqefyqhah7hmobfdli
+  - name: xz
+    version: 5.2.5
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      libs:
+      - shared
+      - static
+      pic: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: yevfusqxrrtbt556h3qw3myrzjg3vrwd
+    full_hash: 4la6jco5eiauc3a5kdulso4vmb2jb4a5
+    build_hash: yevfusqxrrtbt556h3qw3myrzjg3vrwd
+  - name: zlib
+    version: 1.2.11
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      optimize: true
+      pic: true
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: 2t4gmjvg5mp5nac5bm53araaum3glppz
+    full_hash: dtzzlwcy6jw7hjm7z2aip4eyed2rizzu
+    build_hash: 2t4gmjvg5mp5nac5bm53araaum3glppz
+  - name: tar
+    version: '1.34'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libiconv
+      build_hash: myrq5coqve63qpjpujiqerxqynuye4jx
+      type:
+      - build
+      - link
+    hash: tnhqz2kfov5r4p3ffry5vu4wtre64sz3
+    full_hash: uvb65ncfnp5qnbps2xvvz4ot4yos6dxw
+    build_hash: hmimvs6w6obbxfy36icsyp5qqm7kyilq
+  - name: libffi
+    version: '3.3'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      patches:
+      - 26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    patches:
+    - 26f26c6f29a7ce9bf370ad3ab2610f99365b4bdd7b82e7c31df41a3370d685c0
+    hash: vk3asw2bshoxfj5yl2aaidufocnjaac4
+    full_hash: 6oh6eftpkmaznxhak56ytgvpo42rwuqn
+    build_hash: vk3asw2bshoxfj5yl2aaidufocnjaac4
+  - name: openssl
+    version: 1.1.1l
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      certs: system
+      docs: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: perl
+      build_hash: cwttyrmjg6b4csd6gdg5uzxlbdtzeq5d
+      type:
+      - build
+    - name: zlib
+      build_hash: 2t4gmjvg5mp5nac5bm53araaum3glppz
+      type:
+      - build
+      - link
+    hash: hd5xbft44fczpt37u4wfh7i4xd5qirod
+    full_hash: qsqn3r6uvgnlv4ifseuu6n5c7piycazm
+    build_hash: 75g3ndm4ixytafyqzc7iqp5ufirlxe4w
+  - name: perl
+    version: 5.34.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cpanm: true
+      shared: true
+      threads: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: berkeley-db
+      build_hash: d53jou3muw5h4xpzjcmntmifegaxy5km
+      type:
+      - build
+      - link
+    - name: bzip2
+      build_hash: ewtrd57rqsid76s3s2imdcuxaowxdp3o
+      type:
+      - build
+      - link
+    - name: gdbm
+      build_hash: chqkclvnaqe4uohezbfyv7x7ygy45pu5
+      type:
+      - build
+      - link
+    - name: zlib
+      build_hash: 2t4gmjvg5mp5nac5bm53araaum3glppz
+      type:
+      - build
+      - link
+    hash: dyc3itk2jfam4gzmjffkfsag737az6c6
+    full_hash: ckgajbqo3vvzzzss77nsrakjguguxlax
+    build_hash: cwttyrmjg6b4csd6gdg5uzxlbdtzeq5d
+  - name: berkeley-db
+    version: 18.1.40
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cxx: true
+      docs: false
+      patches:
+      - b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522
+      stl: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    patches:
+    - b231fcc4d5cff05e5c3a4814f6a5af0e9a966428dc2176540d2c05aff41de522
+    hash: d53jou3muw5h4xpzjcmntmifegaxy5km
+    full_hash: o2iysailoh4rex7debvamtng6giblqqn
+    build_hash: d53jou3muw5h4xpzjcmntmifegaxy5km
+  - name: sqlite
+    version: 3.36.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      column_metadata: true
+      fts: true
+      functions: false
+      rtree: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: readline
+      build_hash: kcj5fp2nh5w5mypqvlojagzn7gtasscs
+      type:
+      - build
+      - link
+    - name: zlib
+      build_hash: 2t4gmjvg5mp5nac5bm53araaum3glppz
+      type:
+      - build
+      - link
+    hash: vdtfe4oxiwkhrgf5h5abzn2n2umkvac4
+    full_hash: mh2tkyc6i6x6iys5r6zv47j4ugvr2yxa
+    build_hash: juxlmndun43t5np6a3c3vl6saqaizcyk
+  - name: util-linux-uuid
+    version: 2.36.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: pkgconf
+      build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+      type:
+      - build
+    hash: njgeogqlmw6hyqk7mueqs7u3fwfzrf7d
+    full_hash: o4jqvuglblbb7dkralp2hktnlmjhoan5
+    build_hash: 4kfj5j67a2fz3a5fhrstz5uexklmkg72
+  - name: py-python-dateutil
+    version: 2.8.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-setuptools-scm
+      build_hash: bwonjixwrrzcgy65arp45npspjosuuv5
+      type:
+      - build
+    - name: py-six
+      build_hash: oxbtt55cb4dscy2ooavueqk2mnovfwmu
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: z3jz5wxrqr5wjjs4p2vgafsruzfwyovl
+    full_hash: vmvzsmlszmxakizop5koi6pp5y4zcejq
+    build_hash: s3fts65ve2wzg5nckbb2nh676bvuenny
+  - name: py-setuptools-scm
+    version: 6.3.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      toml: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-packaging
+      build_hash: lhadspnd7ag5b2gykdj4ycnlyg6clhsu
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: py-tomli
+      build_hash: k3qkiyj5d5ba7xjc7tvzk7npntfvsu3s
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: z4x2aooxki2tuoion56m6urcy2euo3yk
+    full_hash: scrwheapbetcaa3sdewscv5qyc5wabh4
+    build_hash: bwonjixwrrzcgy65arp45npspjosuuv5
+  - name: py-packaging
+    version: '21.3'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-pyparsing
+      build_hash: sqn2wc6d7gcxr4dj23uadd3xcbw3rcol
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: wix5i7wnweepvumzfv3r6ysah7pgd2do
+    full_hash: q3so6jkz3zo5i3osc35pvgk4n6dvtz2v
+    build_hash: lhadspnd7ag5b2gykdj4ycnlyg6clhsu
+  - name: py-pyparsing
+    version: 3.0.6
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 4sby4qeq22p6gg6coxmiejqu4ppt3eow
+    full_hash: ln4nnhzmgis46wtkb75nfj4l7afceluv
+    build_hash: sqn2wc6d7gcxr4dj23uadd3xcbw3rcol
+  - name: py-tomli
+    version: 1.2.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-pip
+      build_hash: o4a2nvddqv7yqabcpzbpcujnel5sf63l
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 34prlwu3pcba4nfn63jcp73cypi3wlxb
+    full_hash: w2ktmg5dnqye4oo5eqqihznnd7n3tkxv
+    build_hash: k3qkiyj5d5ba7xjc7tvzk7npntfvsu3s
+  - name: py-pip
+    version: 21.1.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: z5xjahixkg6po3yipovverasniyzcywf
+    full_hash: omu2pqpq4hf772r7d7mehzkhdxra6f6v
+    build_hash: o4a2nvddqv7yqabcpzbpcujnel5sf63l
+  - name: py-six
+    version: 1.16.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: tf2vxmgt62gotfrn37alxyxucmd5yz6u
+    full_hash: cbpu4ohjxixf4oqcvobnu55proeog6kx
+    build_hash: oxbtt55cb4dscy2ooavueqk2mnovfwmu
+  - name: py-python-editor
+    version: 1.0.4
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: rau3der5zycdudw5tfnlfn4u2w4v33cl
+    full_hash: b4df26rvk744xmgsy2ajciznl4rnjxlj
+    build_hash: 4xbseppmu5igtmevnwwatvsxp5s7mpk5
+  - name: py-sqlalchemy
+    version: 1.4.20
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      backend:
+      - none
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-greenlet
+      build_hash: s6ncm4qo4rcxi7scopwo3uabv6mdpqmc
+      type:
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 2qfn2nqulnwrgsaklexgjl5md62rggb2
+    full_hash: oh7pwokr5qyai2dlvmardjkh4vluzcle
+    build_hash: ghgfskkcnw6qyxrtyjmjsov4v3pepd2z
+  - name: py-greenlet
+    version: 1.1.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - link
+      - run
+    hash: zlauiw42dvx7h6quunsogfkeekicfuj2
+    full_hash: g645x556qulhd2s6ba5dl6ydxpxgy5ri
+    build_hash: s6ncm4qo4rcxi7scopwo3uabv6mdpqmc
+  - name: py-async-generator
+    version: '1.10'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - link
+      - run
+    hash: stpknpdt42qknhthlldjhezbwtry4fzd
+    full_hash: odm7hquklmbrgryqdcktqfq75rngamgx
+    build_hash: d34jpettjzncxbu7oooz5iig74tcxeds
+  - name: py-certipy
+    version: 0.1.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-pyopenssl
+      build_hash: dzgqyvqqxcwfh3hj2u7onvgf4zysbx6c
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: wtdmmvdqil6bhwrmhfbpibldd2vt5g5g
+    full_hash: tjbdbl2p4kdanewbi6u4x6j3yr4zwq3c
+    build_hash: r2zon4oagchhwxf7saaj2hniz54oudoe
+  - name: py-pyopenssl
+    version: 19.0.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-cryptography
+      build_hash: mvn222v4l333ad7lgyorzlk3j2ngrjtv
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-six
+      build_hash: oxbtt55cb4dscy2ooavueqk2mnovfwmu
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: txbxu5rzq4mgynhm2nti6xwpehcsbrl4
+    full_hash: nitj2wstgbjemcxsvsfahdgyzbjqfzvn
+    build_hash: dzgqyvqqxcwfh3hj2u7onvgf4zysbx6c
+  - name: py-cryptography
+    version: 3.4.8
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: openssl
+      build_hash: 75g3ndm4ixytafyqzc7iqp5ufirlxe4w
+      type:
+      - build
+      - link
+    - name: py-cffi
+      build_hash: xsbfgv5jqkc3rdbhbriil6ie4kkeiifs
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-setuptools-rust
+      build_hash: g453bfuqlphurijvt27txeabdhogpbk7
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: fs7pjkfmivl6od36spk663xh6ryxtm35
+    full_hash: u65j4jhmmjagcdh5czx7gmk3w3xffxkp
+    build_hash: mvn222v4l333ad7lgyorzlk3j2ngrjtv
+  - name: py-cffi
+    version: 1.15.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libffi
+      build_hash: vk3asw2bshoxfj5yl2aaidufocnjaac4
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+      type:
+      - build
+    - name: py-pycparser
+      build_hash: 23dfxpbtdto7mrze6rhjhgfecbbmjrqc
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: s6yjetv4cvpjacrn6fvyumsrsnap36xc
+    full_hash: 5nnveoo6asgbep656eq326sjrrhykcww
+    build_hash: xsbfgv5jqkc3rdbhbriil6ie4kkeiifs
+  - name: py-pycparser
+    version: '2.20'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: yzuycwjq2eoy7fprnkxtmstayagwwtmh
+    full_hash: rbrsnqjwgi5l6vpprk7eyuywkdo6io62
+    build_hash: 23dfxpbtdto7mrze6rhjhgfecbbmjrqc
+  - name: py-setuptools-rust
+    version: 0.12.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-semantic-version
+      build_hash: ugltldo2ffeakmyzaz3f25ufxezg3ex7
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-setuptools-scm
+      build_hash: bwonjixwrrzcgy65arp45npspjosuuv5
+      type:
+      - build
+    - name: py-toml
+      build_hash: nt4ejumcpmqqw57ljh62kik36spbzhuy
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    - name: rust
+      build_hash: dkqzkc3vpakj554rchcggjlffsnnsj6r
+      type:
+      - run
+    hash: m5vmro6rsgg7pqbulukb7xvmvwwovpby
+    full_hash: xqai5uxzfmhrapy7wcwyvpvcwicj5ypm
+    build_hash: g453bfuqlphurijvt27txeabdhogpbk7
+  - name: py-semantic-version
+    version: 2.8.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: r3gtrq5s4dg4ems5rsy7hnieokkclk6c
+    full_hash: 7wbn4uf3zizimbqibuhso5bakv77yty7
+    build_hash: ugltldo2ffeakmyzaz3f25ufxezg3ex7
+  - name: py-toml
+    version: 0.10.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: ek5nnerajc42mwscedgzdr3jmtwhdzwi
+    full_hash: snkjhhus4qc7id7yfclhoisvjosegstg
+    build_hash: nt4ejumcpmqqw57ljh62kik36spbzhuy
+  - name: rust
+    version: 1.51.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      analysis: true
+      clippy: true
+      extra_targets:
+      - none
+      rls: false
+      rustfmt: true
+      src: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: cmake
+      build_hash: pmgl3toeznbet7ojioroszjvocap7zdz
+      type:
+      - build
+    - name: gmake
+      build_hash: 6dwx7oao2tby3fyidv35yk7riqafrst3
+      type:
+      - build
+    - name: libgit2
+      build_hash: d7izzbcwvruqbxhern4f6tbhkylzwger
+      type:
+      - build
+      - link
+    - name: libssh2
+      build_hash: oaxxlggkdmfspm4q7zh3lyxzaq4kwcmb
+      type:
+      - build
+      - link
+    - name: ninja
+      build_hash: 23q3kmcefqz6sr553i7ixrg6zfpxmhmx
+      type:
+      - build
+    - name: openssl
+      build_hash: 75g3ndm4ixytafyqzc7iqp5ufirlxe4w
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+    hash: tf6lwosehdoh37xc4dikxy4apdtm6m2t
+    full_hash: kukj5nimm4sjsuby6kt5nsslcxz5z23j
+    build_hash: dkqzkc3vpakj554rchcggjlffsnnsj6r
+  - name: cmake
+    version: 3.22.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      build_type: Release
+      doc: false
+      ncurses: true
+      openssl: true
+      ownlibs: true
+      qt: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: ncurses
+      build_hash: xpr7goeplu4zyhaofrobitmvhkgdk7f4
+      type:
+      - build
+      - link
+    - name: openssl
+      build_hash: 75g3ndm4ixytafyqzc7iqp5ufirlxe4w
+      type:
+      - build
+      - link
+    hash: am2yqo66pzxwjxeafb7mr3qdihqvn3ox
+    full_hash: tt6pxxmh2ebmry4a3an3zbvco4xg6yk6
+    build_hash: pmgl3toeznbet7ojioroszjvocap7zdz
+  - name: gmake
+    version: '4.3'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      guile: false
+      nls: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: gettext
+      build_hash: s6enn27cmltfqhq3j43mppuafuzyhata
+      type:
+      - build
+      - link
+    - name: texinfo
+      build_hash: g3k66zweeoe6aknfqfeoagsxssydlhah
+      type:
+      - build
+    hash: xxtqmktkkhebagvxrsa6r4x45vhft2xb
+    full_hash: 53eonra7f5kgqmc5i6hmvnlki5mpnchr
+    build_hash: 6dwx7oao2tby3fyidv35yk7riqafrst3
+  - name: texinfo
+    version: '6.5'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      patches:
+      - 12f6edb0c6b270b8c8dba2ce17998c580db01182d871ee32b7b6e4129bd1d23a
+      - 1732115f651cff98989cb0215d8f64da5e0f7911ebf0c13b064920f088f2ffe1
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    patches:
+    - 1732115f651cff98989cb0215d8f64da5e0f7911ebf0c13b064920f088f2ffe1
+    - 12f6edb0c6b270b8c8dba2ce17998c580db01182d871ee32b7b6e4129bd1d23a
+    dependencies:
+    - name: perl
+      build_hash: cwttyrmjg6b4csd6gdg5uzxlbdtzeq5d
+      type:
+      - build
+      - link
+    hash: voa5v4imnqqarfyjjk6mnny7e35nk4z4
+    full_hash: wrfzt4yit34knx4yrhutk7pv2d7zhcsd
+    build_hash: g3k66zweeoe6aknfqfeoagsxssydlhah
+  - name: libgit2
+    version: 1.1.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      build_type: RelWithDebInfo
+      curl: false
+      https: system
+      ipo: false
+      ssh: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: cmake
+      build_hash: pmgl3toeznbet7ojioroszjvocap7zdz
+      type:
+      - build
+    - name: libssh2
+      build_hash: oaxxlggkdmfspm4q7zh3lyxzaq4kwcmb
+      type:
+      - build
+      - link
+    - name: openssl
+      build_hash: 75g3ndm4ixytafyqzc7iqp5ufirlxe4w
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+      type:
+      - build
+    hash: zk6cmz6qtn5i7gpyp7m2f5ngo2xmrzkb
+    full_hash: yq2yto3dwlez6d5qtnhmrlrl2e4rffjn
+    build_hash: d7izzbcwvruqbxhern4f6tbhkylzwger
+  - name: libssh2
+    version: 1.10.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      build_type: RelWithDebInfo
+      crypto: openssl
+      ipo: false
+      shared: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: cmake
+      build_hash: pmgl3toeznbet7ojioroszjvocap7zdz
+      type:
+      - build
+    - name: openssl
+      build_hash: 75g3ndm4ixytafyqzc7iqp5ufirlxe4w
+      type:
+      - build
+      - link
+    - name: xz
+      build_hash: yevfusqxrrtbt556h3qw3myrzjg3vrwd
+      type:
+      - build
+      - link
+    - name: zlib
+      build_hash: 2t4gmjvg5mp5nac5bm53araaum3glppz
+      type:
+      - build
+      - link
+    hash: zsp2dq55qtdvrbregmqfets55mcryv33
+    full_hash: pjcp7aztrq2lqv7hx5vc4gjd3dthrn7x
+    build_hash: oaxxlggkdmfspm4q7zh3lyxzaq4kwcmb
+  - name: ninja
+    version: 1.10.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+    hash: nnvi4aokiuvg4tui2bkdndbku2t2zdz4
+    full_hash: 43ppgxun5exk24zw6c5l4r2qcvpmzk6q
+    build_hash: 23q3kmcefqz6sr553i7ixrg6zfpxmhmx
+  - name: py-entrypoints
+    version: 0.2.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: npyl5wlwmw4zdnra4ltmgvokh6owue6n
+    full_hash: upb6dycc6rzcvxcszkvuc6oxoihqkrqk
+    build_hash: nhv7g77obbxbrcvkj7rpevkyhjzcxflg
+  - name: py-jinja2
+    version: 2.11.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      i18n: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-markupsafe
+      build_hash: ytmdko672dovhyjfaqsptebd2cjwi3pk
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: znkqtng35rrrvr7ynsxf23fkpahbfhem
+    full_hash: xh7ikh3wjk7befqtyvnlkdumwuw3v37f
+    build_hash: 433snsfnnxyvxmbgbz63snv6hzxyhmzd
+  - name: py-jupyter-telemetry
+    version: 0.1.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-jsonschema
+      build_hash: nt6asfcrcjzbmbn6eero4dkpjgi7oggr
+      type:
+      - build
+      - run
+    - name: py-python-json-logger
+      build_hash: xqd5rembw47rpzo6rncqh2quvxx6hrth
+      type:
+      - build
+      - run
+    - name: py-ruamel-yaml
+      build_hash: lxxpwamubbw2aawgpywbttcvqugvmydw
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: guzpw63ao2msdex7c2hs3zc5g2swgqvs
+    full_hash: j2ldprsb4uszy7smp3ejhbstojno6xkf
+    build_hash: xgskrhioslwmcwoa3d5k4d6ljeugkjct
+  - name: py-jsonschema
+    version: 3.2.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-attrs
+      build_hash: b5yip4jkagya5ixlpbnkjl2fxpq7xzgj
+      type:
+      - build
+      - run
+    - name: py-pyrsistent
+      build_hash: tvezc2ecihowylbfysu6fv73al5zqa6t
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: py-setuptools-scm
+      build_hash: bwonjixwrrzcgy65arp45npspjosuuv5
+      type:
+      - build
+    - name: py-six
+      build_hash: oxbtt55cb4dscy2ooavueqk2mnovfwmu
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: gehecnpowyszo4tryqddmums36z4suwl
+    full_hash: 5jkrubzi52dsmnu4veiqijzo2g5brrjf
+    build_hash: nt6asfcrcjzbmbn6eero4dkpjgi7oggr
+  - name: py-attrs
+    version: 21.2.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: h2kexvq3bkdurfckiul6ysx5yq3fm7ra
+    full_hash: w3xo7wn5wbfdiwljleb4y6ojjqvy4y4t
+    build_hash: b5yip4jkagya5ixlpbnkjl2fxpq7xzgj
+  - name: py-pyrsistent
+    version: 0.18.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - link
+      - run
+    hash: f2zc3qcmgamfxe4x2f6obipsgc7cdtjs
+    full_hash: 6clhhycgwbttd2b4nxvp2xegjouh62fx
+    build_hash: tvezc2ecihowylbfysu6fv73al5zqa6t
+  - name: py-python-json-logger
+    version: 0.1.11
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - link
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: tzto6egnj4ra42z2dhnolke234itdzi4
+    full_hash: qurwulrgpztpuzeni5xelec24f4sdwr4
+    build_hash: xqd5rembw47rpzo6rncqh2quvxx6hrth
+  - name: py-ruamel-yaml
+    version: 0.17.16
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-ruamel-yaml-clib
+      build_hash: b7iysrhznt2wl3awzu76keqtbbqioylg
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 6y4p5rs5yk43psozqrl4yygoaor7w7g5
+    full_hash: nwisirympfsri4kzx72vwpn6p66rvggo
+    build_hash: lxxpwamubbw2aawgpywbttcvqugvmydw
+  - name: py-ruamel-yaml-clib
+    version: 0.2.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - link
+      - run
+    hash: odsjbpgryq6cjhhehoamqyw5njjhlhlw
+    full_hash: a5fcof33uevo2b5mav32hz2r7flirmvv
+    build_hash: b7iysrhznt2wl3awzu76keqtbbqioylg
+  - name: py-traitlets
+    version: 5.1.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 4rg5oayulbyxi7nvcj653yi55l3ingmg
+    full_hash: c3h7se5wmnwyfd6g7r5vpmywggsjybqr
+    build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+  - name: py-notebook
+    version: 6.0.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-ipykernel
+      build_hash: icmgqh4cssa2sf5k64k23bwe44rnj4bp
+      type:
+      - build
+      - run
+    - name: py-ipython-genutils
+      build_hash: lig5seeopw3jhe6qdddxu3ed3uloxxyr
+      type:
+      - build
+      - run
+    - name: py-jinja2
+      build_hash: 433snsfnnxyvxmbgbz63snv6hzxyhmzd
+      type:
+      - build
+      - run
+    - name: py-jupyter-client
+      build_hash: yx376eypprtwolwxxncxw3v3ytorlbdm
+      type:
+      - build
+      - run
+    - name: py-jupyter-core
+      build_hash: xp67mixuqsw5kvawjtczzjkx7itr36xv
+      type:
+      - build
+      - run
+    - name: py-nbconvert
+      build_hash: ek3ldwwfjatcbh7zyoksibndvy6qoimu
+      type:
+      - build
+      - run
+    - name: py-nbformat
+      build_hash: yn6z5fsktwyrimowkp6tqykauy6crmwo
+      type:
+      - build
+      - run
+    - name: py-prometheus-client
+      build_hash: v3bgmlmytdbyzasars7adb7vzdmi6ye3
+      type:
+      - build
+      - run
+    - name: py-pyzmq
+      build_hash: qdswb27bjnnvcae4s6hmxhrhldt5many
+      type:
+      - build
+      - run
+    - name: py-send2trash
+      build_hash: i3sudvbfpj47eudvo4ijjwrbjsmo42mx
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: py-terminado
+      build_hash: wt5ncvwiiyvcfrvzjd5wbzqrdt4pgeht
+      type:
+      - build
+      - run
+    - name: py-tornado
+      build_hash: 25n5gtejqxlhsimqle3izljcqhryr3t2
+      type:
+      - build
+      - run
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: la7tsp4kxnpbyhp4eevpdkbgdsb6nsfk
+    full_hash: td6dozvtgxu2xe5xcpg2ns4i4ivrtvb2
+    build_hash: eo5ynrln4tquf3xzfk3frg6po74mswat
+  - name: py-ipykernel
+    version: 6.4.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-debugpy
+      build_hash: qq3gyqnsopyrquqmai2gbu2jz4w2wziy
+      type:
+      - build
+      - run
+    - name: py-ipython
+      build_hash: y5ptgofyf3ftl324jjehgexkmgogwzej
+      type:
+      - build
+      - run
+    - name: py-ipython-genutils
+      build_hash: lig5seeopw3jhe6qdddxu3ed3uloxxyr
+      type:
+      - build
+      - run
+    - name: py-jupyter-client
+      build_hash: yx376eypprtwolwxxncxw3v3ytorlbdm
+      type:
+      - build
+      - run
+    - name: py-matplotlib-inline
+      build_hash: lsh7xoeklcdaubczulj3qcvr7g7qgsax
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-tornado
+      build_hash: 25n5gtejqxlhsimqle3izljcqhryr3t2
+      type:
+      - build
+      - run
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: opgmbln2nc5lbvcdop24occ6gvtoe3wn
+    full_hash: 5wrtal73rylzdj5ca4ljtz63wklhom6g
+    build_hash: icmgqh4cssa2sf5k64k23bwe44rnj4bp
+  - name: py-debugpy
+    version: 1.5.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - link
+      - run
+    hash: sgufofb5et73ouukslzaac4gpr4vj43z
+    full_hash: ndhzwhvop7x63zqc4nlqilndgme45bca
+    build_hash: qq3gyqnsopyrquqmai2gbu2jz4w2wziy
+  - name: py-ipython
+    version: 7.28.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-backcall
+      build_hash: iy2jd5djzatgfeg4tqkpnzmjarj6cemv
+      type:
+      - build
+      - run
+    - name: py-decorator
+      build_hash: 6se27cow76qwj33nau64e42atbaqovyu
+      type:
+      - build
+      - run
+    - name: py-jedi
+      build_hash: ijbvmbqo2ksrbay4ebcpvki4ev3oqq2a
+      type:
+      - build
+      - run
+    - name: py-matplotlib-inline
+      build_hash: lsh7xoeklcdaubczulj3qcvr7g7qgsax
+      type:
+      - build
+      - run
+    - name: py-pexpect
+      build_hash: fmhveprgrkn5lgexvrkcus7dfd5heifg
+      type:
+      - build
+      - run
+    - name: py-pickleshare
+      build_hash: 4noxjwo2e55aut2h53pdcptixcknuwkl
+      type:
+      - build
+      - run
+    - name: py-prompt-toolkit
+      build_hash: zn7wlyr4webtqnxg27pulddgaeocpty5
+      type:
+      - build
+      - run
+    - name: py-pygments
+      build_hash: 2kuvdtaxfxdetbbzbyri2loeqpxtkvtd
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - run
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: aaftb75cldzhtd2u3whgesy4lkg2xtit
+    full_hash: n6utythuutd2reasvkqitoqaztmhxyk3
+    build_hash: y5ptgofyf3ftl324jjehgexkmgogwzej
+  - name: py-backcall
+    version: 0.2.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: veri4bcbihf7mjfewys57nj4zj6edwqd
+    full_hash: ww4kjmqzerileho5eqmavcqpye6qxrqw
+    build_hash: iy2jd5djzatgfeg4tqkpnzmjarj6cemv
+  - name: py-decorator
+    version: 5.1.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: hsy3ewwlwl6s7rlrg5zk67yltyq6x3pb
+    full_hash: 5tays4p6wrpnm5r34bklts4ajxmh5reh
+    build_hash: 6se27cow76qwj33nau64e42atbaqovyu
+  - name: py-jedi
+    version: 0.18.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-parso
+      build_hash: rnzntesp7u4qbtwwqjs2b26w3volush3
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 4kz2zgcnvy5ci7ykmgs5pr2nhxsftc2a
+    full_hash: 3dwco5zatl7xfyqsm667n42p7zznbssz
+    build_hash: ijbvmbqo2ksrbay4ebcpvki4ev3oqq2a
+  - name: py-parso
+    version: 0.8.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 4g7dwapbschsrl62gtlviwmo4l3rfp4u
+    full_hash: ce2xuueiuiq447mnltajrm5yzv3q46up
+    build_hash: rnzntesp7u4qbtwwqjs2b26w3volush3
+  - name: py-matplotlib-inline
+    version: 0.1.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: swfefsyiris6rm27h5evzyb5cgwbtncr
+    full_hash: 6lkiggwxfgkx5c6hiabzq7so4uhoywnt
+    build_hash: lsh7xoeklcdaubczulj3qcvr7g7qgsax
+  - name: py-pexpect
+    version: 4.8.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-ptyprocess
+      build_hash: ba74usw3puvuzf6syhbnl5himxlc6r2l
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: iatjm2fsqmuzbpkdexecgzfvmcrwle6k
+    full_hash: atimnq6m4yq3tqpc57nrk7hjujm6ywrs
+    build_hash: fmhveprgrkn5lgexvrkcus7dfd5heifg
+  - name: py-ptyprocess
+    version: 0.7.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 4apneodoxj5odbctlo2jn655j5mgbx7j
+    full_hash: vpngqggdhyzebhmp2k2bwx2duvnkgc6e
+    build_hash: ba74usw3puvuzf6syhbnl5himxlc6r2l
+  - name: py-pickleshare
+    version: 0.7.5
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: epjg3dztnj7j6xkzumcz2u3xzyct3kx5
+    full_hash: yrl6izzgfdmk5vp7vesgs4duoa2d2p5n
+    build_hash: 4noxjwo2e55aut2h53pdcptixcknuwkl
+  - name: py-prompt-toolkit
+    version: 3.0.24
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-wcwidth
+      build_hash: 674jgkrohgfnve4j6765kxj37h3dua3m
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: ylxo3qggyouuy45rk2jrkgi5qzntinq5
+    full_hash: qi3yyamsjkhnwytc2eeia54nu6o6ny2y
+    build_hash: zn7wlyr4webtqnxg27pulddgaeocpty5
+  - name: py-wcwidth
+    version: 0.2.5
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: ozmpohjxhbyouclzlrcw4r2jrn7os6y7
+    full_hash: b34tb5mumnhccb6ee7r3jmagd3ii4xox
+    build_hash: 674jgkrohgfnve4j6765kxj37h3dua3m
+  - name: py-pygments
+    version: 2.10.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 7m3qrd4xrxghhyq5wa4arsagrap3jobo
+    full_hash: c2wbbh7prcwbkuyistgbbuln5cdov3dm
+    build_hash: 2kuvdtaxfxdetbbzbyri2loeqpxtkvtd
+  - name: py-ipython-genutils
+    version: 0.2.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - link
+      - run
+    hash: ocbdkepgu4xff3wodwlwypoaej2tvfkd
+    full_hash: ueturgiquarsojvyny5ngijbrddqavga
+    build_hash: lig5seeopw3jhe6qdddxu3ed3uloxxyr
+  - name: py-jupyter-client
+    version: 7.0.6
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-entrypoints
+      build_hash: nhv7g77obbxbrcvkj7rpevkyhjzcxflg
+      type:
+      - build
+      - run
+    - name: py-jupyter-core
+      build_hash: xp67mixuqsw5kvawjtczzjkx7itr36xv
+      type:
+      - build
+      - run
+    - name: py-nest-asyncio
+      build_hash: eaxr2fblhq4yvprdzja72g3ppdgmjv2b
+      type:
+      - build
+      - run
+    - name: py-python-dateutil
+      build_hash: s3fts65ve2wzg5nckbb2nh676bvuenny
+      type:
+      - build
+      - run
+    - name: py-pyzmq
+      build_hash: qdswb27bjnnvcae4s6hmxhrhldt5many
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: py-tornado
+      build_hash: 25n5gtejqxlhsimqle3izljcqhryr3t2
+      type:
+      - build
+      - run
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: v7m7jklp4m3cmxs2csk526ph3x5nlwft
+    full_hash: kuwrhloeqrpghi35pt32zzjim6wvxhu4
+    build_hash: yx376eypprtwolwxxncxw3v3ytorlbdm
+  - name: py-jupyter-core
+    version: 4.7.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: w4uslbktnokq46n64yia7ses4r74blq2
+    full_hash: xzemt5j7yuqejsb35rx7dkxhxoikqvli
+    build_hash: xp67mixuqsw5kvawjtczzjkx7itr36xv
+  - name: py-nest-asyncio
+    version: 1.5.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-setuptools-scm
+      build_hash: bwonjixwrrzcgy65arp45npspjosuuv5
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: xxo2mr3vo7nhxwhgdqrur243xv5dfybp
+    full_hash: wocewoikgxcvyez6ucdykyqklpae3egm
+    build_hash: eaxr2fblhq4yvprdzja72g3ppdgmjv2b
+  - name: py-pyzmq
+    version: 22.3.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libzmq
+      build_hash: biqphyzcsh5mf53fv4ywfohrk3tee7ej
+      type:
+      - build
+      - run
+    - name: py-cffi
+      build_hash: xsbfgv5jqkc3rdbhbriil6ie4kkeiifs
+      type:
+      - build
+      - run
+    - name: py-cython
+      build_hash: 67ulqo3jmmhcntogdmiuvhtruowr6fhj
+      type:
+      - build
+    - name: py-gevent
+      build_hash: gyhi37uwbvlbxn6kl2trmzafeqwzq4jd
+      type:
+      - build
+      - run
+    - name: py-py
+      build_hash: 7ft6c43oopv6cswahy7xaxyuzz2jwmgp
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: albngi55wownntnfgx2cwjlfcpt52nx3
+    full_hash: bsj5pow3vqht7qrjlobuguq5u3iyvhxa
+    build_hash: qdswb27bjnnvcae4s6hmxhrhldt5many
+  - name: libzmq
+    version: 4.3.4
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      drafts: false
+      libsodium: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: docbook-xml
+      build_hash: e4w3w7dtswi4ak6l2kkkxvaxthhjlga5
+      type:
+      - build
+    - name: docbook-xsl
+      build_hash: 4z3hnsni7ldhzdv5pgc5lde5cvj67bsf
+      type:
+      - build
+    - name: libbsd
+      build_hash: 7w44jhfw6osrd2tigxhp6rxpe3xqj4b7
+      type:
+      - link
+    - name: libsodium
+      build_hash: yirwv7aah6blznk46hhdur7oxq5gnmd5
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: sxjkth2pruty6z4hxebtvnr6inu2nkg4
+      type:
+      - build
+    hash: b4mmewnldjisf74za6hkfxmzbf7s7x7t
+    full_hash: h35z4jbrkzirtsj6xhoass7ntrtfcvbh
+    build_hash: biqphyzcsh5mf53fv4ywfohrk3tee7ej
+  - name: docbook-xml
+    version: '4.5'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libxml2
+      build_hash: plfalmm3tacgdbrqefyqhah7hmobfdli
+      type:
+      - build
+    hash: xwtzb2vb2jq4yrhubf7lvmldggv5k3zt
+    full_hash: gth4pbi7n5ktzuaai7fbvzs6rvum7bic
+    build_hash: e4w3w7dtswi4ak6l2kkkxvaxthhjlga5
+  - name: docbook-xsl
+    version: 1.79.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      patches:
+      - a92c39715c54949ba9369add1809527b8f155b7e2a2b2e30cb4b39ee715f2e30
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    patches:
+    - a92c39715c54949ba9369add1809527b8f155b7e2a2b2e30cb4b39ee715f2e30
+    dependencies:
+    - name: docbook-xml
+      build_hash: e4w3w7dtswi4ak6l2kkkxvaxthhjlga5
+      type:
+      - build
+      - link
+    - name: libxml2
+      build_hash: plfalmm3tacgdbrqefyqhah7hmobfdli
+      type:
+      - build
+    hash: ry3zaygqe3fj6q6uwwtnarg66mze7mxr
+    full_hash: yavyq5gl4z2s5txqke5atsbnd47nllzy
+    build_hash: 4z3hnsni7ldhzdv5pgc5lde5cvj67bsf
+  - name: libsodium
+    version: 1.0.18
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: yirwv7aah6blznk46hhdur7oxq5gnmd5
+    full_hash: 5avv62blm2evirshy725xj4ubpimrhuj
+    build_hash: yirwv7aah6blznk46hhdur7oxq5gnmd5
+  - name: py-cython
+    version: 3.0.0a9
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - link
+      - run
+    hash: eazjok62by2gigd3nethbqe2r23d4ykh
+    full_hash: 3li7f536y7lby2oqarex6fshngcl5g6i
+    build_hash: 67ulqo3jmmhcntogdmiuvhtruowr6fhj
+  - name: py-gevent
+    version: 21.8.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-cffi
+      build_hash: xsbfgv5jqkc3rdbhbriil6ie4kkeiifs
+      type:
+      - build
+      - run
+    - name: py-cython
+      build_hash: 67ulqo3jmmhcntogdmiuvhtruowr6fhj
+      type:
+      - build
+    - name: py-greenlet
+      build_hash: s6ncm4qo4rcxi7scopwo3uabv6mdpqmc
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: py-zope-event
+      build_hash: xf767znrpfgrmwccubtut7jlvicvamjo
+      type:
+      - build
+      - run
+    - name: py-zope-interface
+      build_hash: 36zfg7vhrp22spe6btteqkspveuhqtj2
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: goba33a4gxsuvr32cvzstcfmqlbygxop
+    full_hash: gfzux2ncboupobcbfub7itjsyowbmk7l
+    build_hash: gyhi37uwbvlbxn6kl2trmzafeqwzq4jd
+  - name: py-zope-event
+    version: 4.5.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: klavnhbmoccw5wvpmk6cezueue6adq2o
+    full_hash: hsfgk5kqctnbbjcyctuji4b44egoe2za
+    build_hash: xf767znrpfgrmwccubtut7jlvicvamjo
+  - name: py-zope-interface
+    version: 5.4.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: ffjgc66m2ijwmcg55aexoon625wds7sn
+    full_hash: enkfpvsx26n74m72dhoql7dtqyjyfmv7
+    build_hash: 36zfg7vhrp22spe6btteqkspveuhqtj2
+  - name: py-py
+    version: 1.11.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-setuptools-scm
+      build_hash: bwonjixwrrzcgy65arp45npspjosuuv5
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: adehcajql5rjv4r7lt2on5xyyk6ehf5y
+    full_hash: 4lhoo7ijjrvdhuji5kvx3ry6ndcvd5h6
+    build_hash: 7ft6c43oopv6cswahy7xaxyuzz2jwmgp
+  - name: py-tornado
+    version: '6.1'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: bkhiv5ztw4sui4pc3x3xgdbh2e6p4pjr
+    full_hash: 46eitqlzd53g7rlmzfd652o2w6s4znnw
+    build_hash: 25n5gtejqxlhsimqle3izljcqhryr3t2
+  - name: py-nbconvert
+    version: 6.3.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      serve: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-bleach
+      build_hash: amgld5rmuorefwym6kfpopdxfs6jqz6y
+      type:
+      - build
+      - run
+    - name: py-defusedxml
+      build_hash: qxwbbndqgx3lgq7dovpdospsce2kql5u
+      type:
+      - build
+      - run
+    - name: py-entrypoints
+      build_hash: nhv7g77obbxbrcvkj7rpevkyhjzcxflg
+      type:
+      - build
+      - run
+    - name: py-jinja2
+      build_hash: 433snsfnnxyvxmbgbz63snv6hzxyhmzd
+      type:
+      - build
+      - run
+    - name: py-jupyter-core
+      build_hash: xp67mixuqsw5kvawjtczzjkx7itr36xv
+      type:
+      - build
+      - run
+    - name: py-jupyterlab-pygments
+      build_hash: soqw72tz7k3a5icsv5sn6wsw4nrvdn27
+      type:
+      - build
+      - run
+    - name: py-mistune
+      build_hash: 4af6iqxcvjhxzv5a27oqbimzs2h265qi
+      type:
+      - build
+      - run
+    - name: py-nbclient
+      build_hash: c3xidjrjfkcw2s4767ilvee7lah4ynlc
+      type:
+      - build
+      - run
+    - name: py-nbformat
+      build_hash: yn6z5fsktwyrimowkp6tqykauy6crmwo
+      type:
+      - build
+      - run
+    - name: py-pandocfilters
+      build_hash: bcaq7owa5x24gw2fbv2nttyjnysbal2g
+      type:
+      - build
+      - run
+    - name: py-pygments
+      build_hash: 2kuvdtaxfxdetbbzbyri2loeqpxtkvtd
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: py-testpath
+      build_hash: 47huwxrgmo2ludcf7okhix4ty4um724r
+      type:
+      - build
+      - run
+    - name: py-tornado
+      build_hash: 25n5gtejqxlhsimqle3izljcqhryr3t2
+      type:
+      - build
+      - run
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 66l2ado7ffsx64mnbhmgfpz6kbqte6qc
+    full_hash: k2nvonhiag3ezrf73qci4uucfwocdahe
+    build_hash: ek3ldwwfjatcbh7zyoksibndvy6qoimu
+  - name: py-bleach
+    version: 4.1.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-packaging
+      build_hash: lhadspnd7ag5b2gykdj4ycnlyg6clhsu
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+      - run
+    - name: py-six
+      build_hash: oxbtt55cb4dscy2ooavueqk2mnovfwmu
+      type:
+      - build
+      - run
+    - name: py-webencodings
+      build_hash: vj7cdix55nlyduiubukze4xo7rpnhu5z
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: qkftqs2rh7m3y7x65tq5xbg2tgh7thej
+    full_hash: diqegm5sxys72lukerupivnubkzvnjrj
+    build_hash: amgld5rmuorefwym6kfpopdxfs6jqz6y
+  - name: py-webencodings
+    version: 0.5.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: ljegkxr4v3sld3m6gesvlcewaak4h22n
+    full_hash: caozmzqiq2htic5vnviesaf7m6fu4ur5
+    build_hash: vj7cdix55nlyduiubukze4xo7rpnhu5z
+  - name: py-defusedxml
+    version: 0.7.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: ycgvbonr526ftean54435dkiimk7yzyn
+    full_hash: mii5ev72nmozbotfp7h3a5i4iznawdi3
+    build_hash: qxwbbndqgx3lgq7dovpdospsce2kql5u
+  - name: py-jupyterlab-pygments
+    version: 0.1.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-pygments
+      build_hash: 2kuvdtaxfxdetbbzbyri2loeqpxtkvtd
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: ievu32xt4rrl44m36h4wjbn7kn7pkzra
+    full_hash: 73dmspfc5tnyqbdpybl6pgwtibzu7hfq
+    build_hash: soqw72tz7k3a5icsv5sn6wsw4nrvdn27
+  - name: py-mistune
+    version: 0.8.4
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: q7nsvknz7zywfyakln5tcb3ze54ginzi
+    full_hash: 6ejhfh3sqazv5huw63ret3mf46ijq2m7
+    build_hash: 4af6iqxcvjhxzv5a27oqbimzs2h265qi
+  - name: py-nbclient
+    version: 0.5.5
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-jupyter-client
+      build_hash: yx376eypprtwolwxxncxw3v3ytorlbdm
+      type:
+      - build
+      - run
+    - name: py-nbformat
+      build_hash: yn6z5fsktwyrimowkp6tqykauy6crmwo
+      type:
+      - build
+      - run
+    - name: py-nest-asyncio
+      build_hash: eaxr2fblhq4yvprdzja72g3ppdgmjv2b
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: vth7biy3356c6hepdbrly5vt2lohgbqw
+    full_hash: tairkekdn74iydb43l5lywzdcychkujp
+    build_hash: c3xidjrjfkcw2s4767ilvee7lah4ynlc
+  - name: py-nbformat
+    version: 5.1.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-ipython-genutils
+      build_hash: lig5seeopw3jhe6qdddxu3ed3uloxxyr
+      type:
+      - build
+      - run
+    - name: py-jsonschema
+      build_hash: nt6asfcrcjzbmbn6eero4dkpjgi7oggr
+      type:
+      - build
+      - run
+    - name: py-jupyter-core
+      build_hash: xp67mixuqsw5kvawjtczzjkx7itr36xv
+      type:
+      - build
+      - run
+    - name: py-traitlets
+      build_hash: xbg7uauovpjytctulobw3hrb33qopmq5
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 2vkoyzgx4pthoj6ugmgwuaq34ytzilto
+    full_hash: bb5psrzl44zwcyrpkkh4vl672353e6mu
+    build_hash: yn6z5fsktwyrimowkp6tqykauy6crmwo
+  - name: py-pandocfilters
+    version: 1.5.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 2t2uwjjcgv33a45xswbddkeuxwhixt7f
+    full_hash: wjq2g72muxj6xsqhwkhraxwld3h6gfbw
+    build_hash: bcaq7owa5x24gw2fbv2nttyjnysbal2g
+  - name: py-testpath
+    version: 0.5.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: cgvcxdroieqvhset6dqflt6uvj6kkyoj
+    full_hash: bj3fj7c2ejgoyah5oxynevvjbpbrs3qo
+    build_hash: 47huwxrgmo2ludcf7okhix4ty4um724r
+  - name: py-prometheus-client
+    version: 0.12.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      twisted: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: kyjc536cc4xkl45nybzqawrao6nejmth
+    full_hash: wacdcpyggbhmy54dtmqdapxo64ypo4v4
+    build_hash: v3bgmlmytdbyzasars7adb7vzdmi6ye3
+  - name: py-send2trash
+    version: 1.8.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: dl4f2lobjv4s2oq3fthccjuh5mv7uwt4
+    full_hash: qdmhzmzbofquk5q3lhummffgzwlijwkk
+    build_hash: i3sudvbfpj47eudvo4ijjwrbjsmo42mx
+  - name: py-terminado
+    version: 0.12.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-ptyprocess
+      build_hash: ba74usw3puvuzf6syhbnl5himxlc6r2l
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: py-tornado
+      build_hash: 25n5gtejqxlhsimqle3izljcqhryr3t2
+      type:
+      - build
+      - run
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: l37u4qpx3ewef2ee3xkrwjszmrkdjogz
+    full_hash: lmkdfb2qd2bwuqqxtsok3f6krol2ygcm
+    build_hash: wt5ncvwiiyvcfrvzjd5wbzqrdt4pgeht
+  - name: py-oauthlib
+    version: 3.1.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      extras: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-blinker
+      build_hash: nxgggmryy2c73642sf53wpnpmedlftsw
+      type:
+      - build
+      - run
+    - name: py-cryptography
+      build_hash: mvn222v4l333ad7lgyorzlk3j2ngrjtv
+      type:
+      - build
+      - run
+    - name: py-pyjwt
+      build_hash: eh2o3ykn2sq4ama3cmj3rzg33q7f45c2
+      type:
+      - build
+      - run
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: tekgbb2vjrhso4k4p4z3oiyf6ik5ma3q
+    full_hash: 4lkloq6fibzjbupi4mtucdx2mrk6aeql
+    build_hash: cc4awn4l47wpjy2phekc6oapxpisrhdh
+  - name: py-blinker
+    version: '1.4'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: j5426ale6agvu27tnyehg3mqevwrjpdr
+    full_hash: rwpgvztmbftqqyn2ysgxz2dsvshwm3ik
+    build_hash: nxgggmryy2c73642sf53wpnpmedlftsw
+  - name: py-pyjwt
+    version: 2.1.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      crypto: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: rjaebsm7nsbgyy6glbqco2gg3hlgrcfp
+    full_hash: ezukvukzr2wtp5rakkxoqsqmzayxnitt
+    build_hash: eh2o3ykn2sq4ama3cmj3rzg33q7f45c2
+  - name: py-pamela
+    version: 1.0.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: ysqyaonwn5vuwzpsydvixmfgqqmluy67
+    full_hash: 65nvs4pnhfyabkgghm2hivtqf454cqrd
+    build_hash: lvu3sqjwsbmg7erz7vktb4ikqrf26iyu
+  - name: py-requests
+    version: 2.11.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      socks: false
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: py-setuptools
+      build_hash: 3f5knaqlmrucryvn3y3pomgdtafsudxf
+      type:
+      - build
+    - name: python
+      build_hash: c7ozzyqnbxp7s7fanamveibp6u7uuj6u
+      type:
+      - build
+      - run
+    hash: 4xwlequxyghgh2b6jorbw7a56q4rr3nc
+    full_hash: 677i4az6j3srrfs4fvn5gzhyqet4tuhu
+    build_hash: slluhmmrimtvieizwyls7mdw2oi73k2v

@@ -1,0 +1,49 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: libpthread-stubs
+    version: '0.4'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 9.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: sk6bfafg7tbnr6icpfxpg7klvqez4xfn
+    full_hash: k4qxhyr3b3tfw5dfmmwx3dsbe4wywwsc
+    build_hash: sk6bfafg7tbnr6icpfxpg7klvqez4xfn

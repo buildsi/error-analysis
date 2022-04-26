@@ -1,0 +1,152 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: swig
+    version: 4.0.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 8.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: pcre
+      build_hash: zs4bjs2ofxjsv7oiojnrnsnn75xmvm23
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: ms7kliulkiewynpbdafzbp3y4pwgvofu
+      type:
+      - build
+    hash: ukvsx4mfd6auxyvs4cejee3bdevcagc7
+    full_hash: iexlahj7llz3cqj5hn7kyi5ntyweidw4
+    build_hash: ur2xn74aswaxi2epzambtp4czit4vchv
+  - name: pcre
+    version: '8.44'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 8.3.1
+    namespace: builtin
+    parameters:
+      jit: false
+      multibyte: true
+      utf: true
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: zs4bjs2ofxjsv7oiojnrnsnn75xmvm23
+    full_hash: lhalomjsawyivrc2srb5hrxxd5bscjge
+    build_hash: zs4bjs2ofxjsv7oiojnrnsnn75xmvm23
+  - name: pkgconf
+    version: 1.8.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 8.3.1
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: ms7kliulkiewynpbdafzbp3y4pwgvofu
+    full_hash: rm3to3zxnij5tytarc47h7vfk3lg3hul
+    build_hash: ms7kliulkiewynpbdafzbp3y4pwgvofu

@@ -1,0 +1,586 @@
+spec:
+  _meta:
+    version: 2
+  nodes:
+  - name: xcb-util
+    version: 0.4.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libxcb
+      build_hash: yc5k6e3wdhot5wzpxxkm5akwxi2khjas
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: yhrjqvhf3tag5dxewkdsq4foegebweu5
+      type:
+      - build
+    hash: uunuumor3oljeuodl66fkqtecng6fwyn
+    full_hash: vcarytgvfn3dflla6uhnvmahyq6rx7q5
+    build_hash: rrjih3ryx55tororj5bvbpnyt4u47chs
+  - name: libxcb
+    version: '1.14'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libpthread-stubs
+      build_hash: jn6hcejfmyeknk2tygpkvk55tmh7jhvy
+      type:
+      - build
+      - link
+    - name: libxau
+      build_hash: n3lgqvjfhypoxternymuy5berafsjc53
+      type:
+      - build
+      - link
+    - name: libxdmcp
+      build_hash: o2mehr2tckjqhha2qsjv3ull4nyktffc
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: yhrjqvhf3tag5dxewkdsq4foegebweu5
+      type:
+      - build
+    - name: util-macros
+      build_hash: yywa6u5bziefrewqzz53muixuki3dhqh
+      type:
+      - build
+    - name: xcb-proto
+      build_hash: 5c2chprxkcfx4wbolausuzqj2ekyvjlv
+      type:
+      - build
+      - link
+    hash: bvkmjgexqr7xoz4ysy33u7ggeqkn7xvz
+    full_hash: zwxry5e6dlfvn3zuahz2s3x5o56ejvrz
+    build_hash: yc5k6e3wdhot5wzpxxkm5akwxi2khjas
+  - name: libpthread-stubs
+    version: '0.4'
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: jn6hcejfmyeknk2tygpkvk55tmh7jhvy
+    full_hash: sqsicotzbm2kqdu46phfvi5mwfsoqvxu
+    build_hash: jn6hcejfmyeknk2tygpkvk55tmh7jhvy
+  - name: libxau
+    version: 1.0.8
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: pkgconf
+      build_hash: yhrjqvhf3tag5dxewkdsq4foegebweu5
+      type:
+      - build
+    - name: util-macros
+      build_hash: yywa6u5bziefrewqzz53muixuki3dhqh
+      type:
+      - build
+    - name: xproto
+      build_hash: yrymiewn7kmhmhn7jru6unt3tnhoylbr
+      type:
+      - build
+      - link
+    hash: gbzkxbzbipmwt2dzkg2u6nkbrzygbgbi
+    full_hash: zrkmdcgmg463fso6scb6ldjr4yojxvxv
+    build_hash: n3lgqvjfhypoxternymuy5berafsjc53
+  - name: pkgconf
+    version: 1.8.0
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: yhrjqvhf3tag5dxewkdsq4foegebweu5
+    full_hash: v34tdweqjc6kgw5gbpuqrcsqcivlbjbd
+    build_hash: yhrjqvhf3tag5dxewkdsq4foegebweu5
+  - name: util-macros
+    version: 1.19.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: yywa6u5bziefrewqzz53muixuki3dhqh
+    full_hash: 2laaqx7yd7uekn3dprpprtthczkk2c3n
+    build_hash: yywa6u5bziefrewqzz53muixuki3dhqh
+  - name: xproto
+    version: 7.0.31
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: pkgconf
+      build_hash: yhrjqvhf3tag5dxewkdsq4foegebweu5
+      type:
+      - build
+    - name: util-macros
+      build_hash: yywa6u5bziefrewqzz53muixuki3dhqh
+      type:
+      - build
+    hash: e3sn5w3xqzmv6qdzdcq457yqps7gvz3k
+    full_hash: nnxszyh36ff6pa4ixe4hzui5vnb3pjnw
+    build_hash: yrymiewn7kmhmhn7jru6unt3tnhoylbr
+  - name: libxdmcp
+    version: 1.1.2
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libbsd
+      build_hash: fl4c6bclaof7bs5rpq6ofv5hwejev3mg
+      type:
+      - build
+      - link
+    - name: pkgconf
+      build_hash: yhrjqvhf3tag5dxewkdsq4foegebweu5
+      type:
+      - build
+    - name: util-macros
+      build_hash: yywa6u5bziefrewqzz53muixuki3dhqh
+      type:
+      - build
+    - name: xproto
+      build_hash: yrymiewn7kmhmhn7jru6unt3tnhoylbr
+      type:
+      - build
+      - link
+    hash: km25crhivruscgjp64starxbogejp3hr
+    full_hash: 3x54hai62utaye7vlynzqbtg35lwunpw
+    build_hash: o2mehr2tckjqhha2qsjv3ull4nyktffc
+  - name: libbsd
+    version: 0.11.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    dependencies:
+    - name: libmd
+      build_hash: 45dc3yt4wcjskkgrsgtxw5vtsuxvbwng
+      type:
+      - build
+      - link
+    hash: pue4ghtvutpwj2mlfbptcs342zzdey2t
+    full_hash: 4hhlf2n6gfw3uqimddcgt22ivik6potd
+    build_hash: fl4c6bclaof7bs5rpq6ofv5hwejev3mg
+  - name: libmd
+    version: 1.0.3
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: 45dc3yt4wcjskkgrsgtxw5vtsuxvbwng
+    full_hash: zecuoi2mqoopvppivejjy7tbshp5ejir
+    build_hash: 45dc3yt4wcjskkgrsgtxw5vtsuxvbwng
+  - name: xcb-proto
+    version: 1.14.1
+    arch:
+      platform: linux
+      platform_os: rhel7
+      target:
+        name: broadwell
+        vendor: GenuineIntel
+        features:
+        - adx
+        - aes
+        - avx
+        - avx2
+        - bmi1
+        - bmi2
+        - f16c
+        - fma
+        - mmx
+        - movbe
+        - pclmulqdq
+        - popcnt
+        - rdrand
+        - rdseed
+        - sse
+        - sse2
+        - sse4_1
+        - sse4_2
+        - ssse3
+        generation: 0
+        parents:
+        - haswell
+    compiler:
+      name: gcc
+      version: 7.3.0
+    namespace: builtin
+    parameters:
+      cflags: []
+      cppflags: []
+      cxxflags: []
+      fflags: []
+      ldflags: []
+      ldlibs: []
+    hash: 5c2chprxkcfx4wbolausuzqj2ekyvjlv
+    full_hash: 2jiqr77rlmg24ti4wyaumbsduhekkmsg
+    build_hash: 5c2chprxkcfx4wbolausuzqj2ekyvjlv
