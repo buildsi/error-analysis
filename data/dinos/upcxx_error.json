@@ -6350,21 +6350,6 @@
             null
         ],
         "source_line_no": 0,
-        "line_no": 797,
-        "repeat_count": 0,
-        "start": 791,
-        "end": 804,
-        "text": "fatal: unable to open /tmp/koparasy/spack-stage/spack-stage-mpich-develop-agndehefm76rcskkivkmu5xj2lrcbxnf/spack-src/.git/modules/modules/hwloc/objects/pack/tmp_pack_SsTe8I: No such file or directory",
-        "pre_context": "Submodule 'modules/izem' (https://github.com/pmodels/izem) registered for path 'modules/izem'\nSubmodule 'modules/json-c' (https://github.com/pmodels/json-c) registered for path 'modules/json-c'\nSubmodule 'modules/libfabric' (https://github.com/pmodels/libfabric) registered for path 'modules/libfabric'\nSubmodule 'modules/ucx' (https://github.com/pmodels/ucx) registered for path 'modules/ucx'\nSubmodule 'modules/yaksa' (https://github.com/pmodels/yaksa) registered for path 'modules/yaksa'\nCloning into '/tmp/koparasy/spack-stage/spack-stage-mpich-develop-agndehefm76rcskkivkmu5xj2lrcbxnf/spack-src/modules/hwloc'...",
-        "post_context": "fatal: index-pack failed\nfatal: clone of 'https://github.com/pmodels/hwloc' into submodule path '/tmp/koparasy/spack-stage/spack-stage-mpich-develop-agndehefm76rcskkivkmu5xj2lrcbxnf/spack-src/modules/hwloc' failed\nFailed to clone 'modules/hwloc'. Retry scheduled\nCloning into '/tmp/koparasy/spack-stage/spack-stage-mpich-develop-agndehefm76rcskkivkmu5xj2lrcbxnf/spack-src/modules/izem'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-mpich-develop-agndehefm76rcskkivkmu5xj2lrcbxnf/spack-src/modules/json-c'...\nCloning into '/tmp/koparasy/spack-stage/spack-stage-mpich-develop-agndehefm76rcskkivkmu5xj2lrcbxnf/spack-src/modules/libfabric'...",
-        "hash": "lubcgxksdy3npuwvhy5fxofjv22rb3jj"
-    },
-    {
-        "phase": "N/A",
-        "source_file": [
-            null
-        ],
-        "source_line_no": 0,
         "line_no": 1102,
         "repeat_count": 0,
         "start": 1096,

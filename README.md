@@ -11,6 +11,21 @@ Right now we have a basic set of errors, and we will need to get specs (the feat
 this repo too. @vsoch will wait to see a spec from Dinos set and then ensure the spack
 monitor ones are exported to be the same.
 
+## Classification Plan
+
+We are planning the following workflow:
+
+ - start with errors (in [data/errors*.json](data/) and [data/dinos](data/dinos))
+ - cluster with dbstream (clusters in [data/clusters/dbstream/](data/clusters/dbstream/))
+ - extract features for specs (both success and failed)
+ - for an error cluster (associated with one or more failed specs and summary of features) find most similar specs that were successful (based on features)
+ - see if the diff makes sense and we can give actionable advice.
+
+```
+error -> cluster -> failed specs from cluster -> features for failed specs -> find similar working specs -> spack diff
+```
+
+
 ## Usage
 
 ```bash
@@ -31,11 +46,17 @@ $ pip install -e .
 For now we are using already downloaded data from spack monitor instances, provided
 in the repository (minus the specs so far!)
 
-### Online ML
+### Data Preprocessing
 
 Note that pre-processing of dinos (raw) data was done via [1.data.py](1.data.py)
-and you don't need to run it again! It basically flattened the original errors data and added the hash
-at the same level, and created an errors lookup for the web application.
+
+**Important** there are two specs in the 'errors database' that had error messages but actually were successful installs by
+spack. We have filtered them out in [1.data.py](1.data.py). These errors would not have been parsed by spack monitor.
+After you run this, you should have data/errors*.json files with all errors. We will be using these
+files for the model building, discussed next.
+
+
+### Online ML
 
 The script [2.online-ml.py](2.online-ml.py) will generate the clusters in [data/clusters](data/clusters).
 The default number of iterations is 5 but you can specify a custom value:
@@ -44,21 +65,6 @@ The default number of iterations is 5 but you can specify a custom value:
 $ python 2.online-ml.py --iter 5
 ```
 
-## Classification Plan
-
-**Harshitha please add notes here!** It would be good to know where each data is stored.
-
-We are planning the following workflow:
-
- - start with errors (in [data/errors*.json](data/) and [data/dinos](data/dinos))
- - cluster with dbstream (clusters in [data/clusters/dbstream/](data/clusters/dbstream/))
- - extract features for specs (both success and failed) (we need specs added to the repository)
- - for an error (associated with a failed spec) find most similar specs that were successful
- - do a diff to see if we can give actionable advice
-
-```
-error -> cluster -> failed specs from cluster -> features for failed specs -> find similar working specs -> spack diff
-```
 
 ## Web Interface
 
