@@ -4,7 +4,12 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 import logging
-from .library.helpers import load_errors_lookup, load_errors_specs_lookup, load_good_specs, openfile
+from .library.helpers import (
+    load_errors_lookup,
+    load_errors_specs_lookup,
+    load_good_specs,
+    openfile,
+)
 from app.routers import errors
 
 

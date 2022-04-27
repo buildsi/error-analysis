@@ -43,16 +43,29 @@
 <div class="row">
   <div class="col-md-12">
    <h2>Overlapping Working and Error Spec Features</h2>
+   {% if overlap %}
    <p>This shows overlapping features for error cluster {{ cluster_id }} and the closest working spec {{ good_spec_uid }}</p>
-   <div style="height:700px"><canvas id="comparison"></canvas></div>
+   <div style="height:700px"><canvas id="comparison"></canvas></div>{% else %}
+    <p class="alert alert-info">There are no overlapping, non-zero features on either side.</p>
+   {% endif %}
 
    {% if good_not_error %}
-   <h2>Good features not present in error cluster features</h2>
+   <h2>Good features not present in error {% if comptype =="cluster"%}cluster{% endif %} features</h2>
    <p>The following features are present in the working spec (at a non-zero value) and not in the error cluster</p>
    <ul>
      {% for k, v in good_not_error.items() %}<li><strong>{{ k }}</strong>: {{ v }}</li>
     {% endfor %}</ul>
    {% endif %}
+
+   {% if error_not_good %}
+   <hr>
+   <h2>Error features not present in good features</h2>
+   <p>The following features are present for the error case but not the working case.r</p>
+   <ul>
+     {% for k, v in error_not_good.items() %}<li><strong>{{ k }}</strong>: {{ v }}</li>
+    {% endfor %}</ul>
+   {% endif %}
+
   </div>
 </div>
 {% endblock %}
@@ -61,6 +74,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
 <script>
+{% if overlap %}
 function make_plot() {
 var data = {
   labels: [{% for feature in overlap %}"{{ feature[0] }}"{% if loop.last %}{% else %},{% endif %}{% endfor %}],
@@ -114,6 +128,6 @@ Chart.Bar('comparison', {
 });
 }
 
-make_plot()
+make_plot(){% endif %}
 </script>
 {% endblock %}

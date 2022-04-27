@@ -69,6 +69,7 @@ def find_single_nearest_good_spec(root, error_spec_features, cluster_id, good_sp
     feat_normalized = np.nan_to_num(
         feat_weight_df.to_numpy() / feat_weight_df.to_numpy().sum(axis=1)
     )
+
     # Weight the features of error spec
     feat_weighted = feat_df.to_numpy() * feat_normalized
 
@@ -77,9 +78,16 @@ def find_single_nearest_good_spec(root, error_spec_features, cluster_id, good_sp
     good_spec_score = np.matmul(good_specs.to_numpy(), np.transpose(feat_weighted))
     good_spec_features = good_specs.iloc[np.argmax(good_spec_score)].to_dict()
     good_spec_uid = good_specs.iloc[np.argmax(good_spec_score)].name
+    bad_spec_features = pd.DataFrame(feat_weighted[0])
+    bad_spec_features.index = feat_weight_df.columns
 
     # Return the uid for the closest good spec and the score
-    return good_spec_features, good_spec_uid, np.max(good_spec_score)
+    return (
+        good_spec_features,
+        bad_spec_features.to_dict()[0],
+        good_spec_uid,
+        np.max(good_spec_score),
+    )
 
 
 def find_cluster_nearest_good_spec(feat_weights, good_specs):

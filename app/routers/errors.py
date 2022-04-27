@@ -28,7 +28,14 @@ def find_similar_working_specs(request: Request, error_spec_hash: str, cluster_i
         request.app.root, error_spec_hash, spectype="errors"
     )
     error_spec_features = dict.fromkeys(error_spec_features, 1)
-    good_spec_features, good_spec_uid, score = find_single_nearest_good_spec(
+
+    # Here we replace error_spec_features with the normalized / scaled version
+    (
+        good_spec_features,
+        error_spec_features,
+        good_spec_uid,
+        score,
+    ) = find_single_nearest_good_spec(
         request.app.root, error_spec_features, cluster_id, request.app.good_specs
     )
     return spec_comparison_view(
@@ -85,6 +92,7 @@ def spec_comparison_view(
     # In the error spec but not the good spec
     # Features will overlap, but having a value == 0 is akin to not present
     error_not_good = {}
+
     for feat, value in error_spec_features.items():
         if feat in good_spec_features:
             good_value = good_spec_features[feat]
@@ -109,8 +117,9 @@ def spec_comparison_view(
             "request": request,
             "cluster_id": cluster_id,
             "overlap": overlap,
-            "good_spec": json.dumps(good_spec),
+            "good_spec": json.dumps(good_spec, indent=4),
             "good_spec_uid": good_spec_uid,
+            "error_not_good": error_not_good,
             "good_not_error": good_not_error,
             "comptype": comptype,
         },
