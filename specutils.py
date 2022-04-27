@@ -1,3 +1,6 @@
+import os
+import json
+
 def get_features_from_spec(spec):
     spec_feat_list = set()
     nodes = spec["spec"]["nodes"]
@@ -35,3 +38,16 @@ def get_features_from_spec(spec):
 
         spec_feat_list.update(node_feat)
     return spec_feat_list
+
+
+def get_cluster_data():
+    cluster_assign_fname = "error-assignments.json"
+    data_dir = os.path.join(
+        os.getcwd(), "data", "clusters", "dbstream", cluster_assign_fname
+    )
+
+    with open(data_dir) as json_file:
+        cluster_data = json.load(json_file)
+    return cluster_data
+
+

@@ -78,6 +78,13 @@ And the error clusters:
 $ python 4.tfidf-feat.py
 ```
 
+Find the closest good spec for error specs:
+
+
+```bash
+$ python 5.find-good-spec.py
+```
+
 
 ## Web Interface
 
