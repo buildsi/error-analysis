@@ -1,8 +1,0 @@
-[
-    "bzip2#1.0.8",
-    "gcc@7.3.0",
-    "diffutils#3.8",
-    "gcc",
-    "broadwell",
-    "libiconv#1.16"
-]

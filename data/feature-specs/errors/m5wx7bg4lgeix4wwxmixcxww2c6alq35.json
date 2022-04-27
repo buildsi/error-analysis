@@ -1,8 +1,0 @@
-[
-    "ncurses#6.2",
-    "oneapi@2022.0.0",
-    "oneapi",
-    "libedit#3.1-20210216",
-    "pkgconf#1.8.0",
-    "broadwell"
-]

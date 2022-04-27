@@ -1,0 +1,9 @@
+[
+    "gcc",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "gcc@9.3.1",
+    "mpark-variant#1.4.0",
+    "cmake#3.4.0",
+    "ncurses#6.2"
+]

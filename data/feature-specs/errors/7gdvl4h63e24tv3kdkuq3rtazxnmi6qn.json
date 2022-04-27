@@ -1,0 +1,6 @@
+[
+    "libunwind#1.4.0",
+    "gcc",
+    "broadwell",
+    "gcc@6.1.0"
+]

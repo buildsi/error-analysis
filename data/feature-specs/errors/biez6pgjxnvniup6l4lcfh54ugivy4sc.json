@@ -1,9 +1,0 @@
-[
-    "ncurses#6.2",
-    "gcc@9.3.1",
-    "zsh#5.1.1",
-    "gcc",
-    "pkgconf#1.8.0",
-    "pcre#8.44",
-    "broadwell"
-]

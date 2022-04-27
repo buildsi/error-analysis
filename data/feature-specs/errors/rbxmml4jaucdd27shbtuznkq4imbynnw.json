@@ -1,0 +1,22 @@
+[
+    "gcc",
+    "zlib#1.2.11",
+    "libpciaccess#0.16",
+    "util-macros#1.19.3",
+    "libtool#2.4.6",
+    "broadwell",
+    "ncurses#6.2",
+    "pkgconf#1.8.0",
+    "m4#1.4.19",
+    "libxml2#2.9.12",
+    "libsigsegv#2.13",
+    "gcc@9.3.1",
+    "mpich#3.4.1",
+    "libiconv#1.16",
+    "papyrus#1.0.2",
+    "cmake#3.4.3",
+    "findutils#4.8.0",
+    "libfabric#1.14.0",
+    "hwloc#2.6.0",
+    "xz#5.2.5"
+]

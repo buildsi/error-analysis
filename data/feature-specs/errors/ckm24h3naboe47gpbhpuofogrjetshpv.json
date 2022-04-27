@@ -1,0 +1,6 @@
+[
+    "oneapi@2022.0.0",
+    "libunwind#1.1",
+    "broadwell",
+    "oneapi"
+]

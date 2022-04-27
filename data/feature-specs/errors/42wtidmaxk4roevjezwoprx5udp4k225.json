@@ -1,6 +1,6 @@
 [
+    "gcc",
     "gcc@9.3.1",
     "broadwell",
-    "pdt#3.19",
-    "gcc"
+    "pdt#3.19"
 ]

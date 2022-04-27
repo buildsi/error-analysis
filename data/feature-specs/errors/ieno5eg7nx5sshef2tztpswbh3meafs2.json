@@ -1,0 +1,9 @@
+[
+    "gcc",
+    "json-c#0.15",
+    "cmake#2.8.10.2",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "gcc@9.3.1",
+    "ncurses#6.2"
+]

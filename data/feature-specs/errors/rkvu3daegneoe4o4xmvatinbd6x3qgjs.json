@@ -1,6 +1,0 @@
-[
-    "zstd#develop",
-    "broadwell",
-    "gcc",
-    "gcc@9.3.1"
-]

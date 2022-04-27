@@ -1,6 +1,0 @@
-[
-    "coreutils#8.32",
-    "broadwell",
-    "gcc",
-    "gcc@9.3.1"
-]

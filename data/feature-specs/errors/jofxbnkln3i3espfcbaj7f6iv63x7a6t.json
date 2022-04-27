@@ -1,0 +1,19 @@
+[
+    "gcc",
+    "zlib#1.2.11",
+    "libpciaccess#0.16",
+    "libtool#2.4.6",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "hwloc#2.6.0",
+    "m4#1.4.19",
+    "libsigsegv#2.13",
+    "util-macros#1.19.3",
+    "variorum#0.2.0",
+    "libxml2#2.9.12",
+    "gcc@9.3.1",
+    "cmake#3.5.0",
+    "xz#5.2.5",
+    "libiconv#1.16",
+    "ncurses#6.2"
+]

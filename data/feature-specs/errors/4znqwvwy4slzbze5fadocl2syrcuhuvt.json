@@ -1,7 +1,0 @@
-[
-    "libbsd#0.11.3",
-    "gcc",
-    "libmd#1.0.3",
-    "gcc@4.9.3",
-    "broadwell"
-]

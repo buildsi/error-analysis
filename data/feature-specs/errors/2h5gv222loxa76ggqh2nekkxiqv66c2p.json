@@ -1,8 +1,0 @@
-[
-    "gcc@9.3.1",
-    "swig#1.3.40",
-    "pcre#8.39",
-    "gcc",
-    "pkgconf#1.8.0",
-    "broadwell"
-]

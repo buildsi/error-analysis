@@ -1,0 +1,16 @@
+[
+    "gcc",
+    "tar#1.34",
+    "zlib#1.2.11",
+    "gettext#0.21",
+    "pkgconf#1.8.0",
+    "gcc@7.3.0",
+    "broadwell",
+    "libxml2#2.9.12",
+    "xz#5.2.5",
+    "diffutils#3.8",
+    "ncurses#6.2",
+    "bzip2#1.0.8",
+    "libiconv#1.16",
+    "binutils#2.23.2"
+]

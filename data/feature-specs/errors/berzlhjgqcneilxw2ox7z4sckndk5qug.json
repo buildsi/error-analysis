@@ -1,8 +1,0 @@
-[
-    "gcc@9.3.1",
-    "libaio#0.3.110",
-    "lvm2#2.03.14",
-    "gcc",
-    "pkgconf#1.8.0",
-    "broadwell"
-]

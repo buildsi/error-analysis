@@ -1,7 +1,0 @@
-[
-    "ncurses#6.2",
-    "intel",
-    "intel@2021.5.0",
-    "pkgconf#1.8.0",
-    "broadwell"
-]

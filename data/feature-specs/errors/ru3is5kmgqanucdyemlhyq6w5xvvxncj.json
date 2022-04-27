@@ -1,8 +1,0 @@
-[
-    "gcc@6.1.0",
-    "xproto#7.0.31",
-    "gcc",
-    "pkgconf#1.8.0",
-    "broadwell",
-    "util-macros#1.19.3"
-]
