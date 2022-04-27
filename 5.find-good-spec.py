@@ -7,14 +7,14 @@ from specutils import get_cluster_data
 
 good_specs = pd.DataFrame()
 
+
 def get_features_from_file(feat_file):
     """
     Given a spec feature file return the features.
     """
     feats = read_json(feat_file)
-    feats_dict = dict.fromkeys(feats , 1)
+    feats_dict = dict.fromkeys(feats, 1)
     return feats_dict
-    #return read_json(feature_file)
 
 
 def get_features(spec_dir, uid):
@@ -22,11 +22,12 @@ def get_features(spec_dir, uid):
     Given a spec feature directory and an id read from the spec feature file
     and return the featues.
     """
-    feature_file = os.path.join(spec_dir, "%s.json" %uid)
+    feature_file = os.path.join(spec_dir, "%s.json" % uid)
     if not os.path.exists(feature_file):
         sys.exit("%s does not exist." % feature_file)
 
     return get_features_from_file(feature_file)
+
 
 def get_feature_weights(cluster_id):
     """
@@ -36,9 +37,10 @@ def get_feature_weights(cluster_id):
     cluster_meta = os.path.join(cluster_dir, "cluster-feats-%s.json" % cluster_id)
 
     if not os.path.exists(cluster_meta):
-        sys.exit('%s file does not exist.', cluster_meta)
+        sys.exit("%s file does not exist.", cluster_meta)
 
     return read_json(cluster_meta)
+
 
 def get_all_good_specs():
     """
@@ -54,11 +56,11 @@ def get_all_good_specs():
             spec_feats = get_features_from_file(spec_file)
             spec_hash = os.path.splitext(filename)[0]
             spec_feats["uid"] = spec_hash
-            #print(spec_hash)
+            # print(spec_hash)
             good_spec_data.append(spec_feats)
-    
+
     return good_spec_data
- 
+
 
 def find_nearest_good_spec(uid, cluster):
     """
@@ -71,7 +73,7 @@ def find_nearest_good_spec(uid, cluster):
     # 2. Get the tfidf weights for the corresponding cluster.
     # 3. Use tfidf weights to scale the features.
     # 4. Find the closest good spec.
-    feat = get_features(err_spec_dir, uid) 
+    feat = get_features(err_spec_dir, uid)
     feat_weights = get_feature_weights(cluster)
 
     feat_df = pd.DataFrame(feat, index=[0])
@@ -81,7 +83,7 @@ def find_nearest_good_spec(uid, cluster):
     global good_specs
     if good_specs.empty:
         good_spec_data = get_all_good_specs()
-        good_specs = pd.DataFrame.from_dict(good_spec_data).fillna(0).set_index('uid')
+        good_specs = pd.DataFrame.from_dict(good_spec_data).fillna(0).set_index("uid")
 
     # Populate missing features
     all_cols = set(good_specs.columns)
@@ -92,7 +94,9 @@ def find_nearest_good_spec(uid, cluster):
     feat_df = feat_df.reindex(all_cols, axis="columns", fill_value=0)
 
     # Normalize the weights
-    feat_normalized = np.nan_to_num(feat_weight_df.to_numpy() / feat_weight_df.to_numpy().sum(axis=1))
+    feat_normalized = np.nan_to_num(
+        feat_weight_df.to_numpy() / feat_weight_df.to_numpy().sum(axis=1)
+    )
     # Weight the features of error spec
     feat_weighted = feat_df.to_numpy() * feat_normalized
 
@@ -110,7 +114,7 @@ def main():
     # Get the nearest good spec for each spec that is in the cluster database.
     for id, cluster in cluster_data.items():
         good_spec, score = find_nearest_good_spec(id, cluster)
-        print(id, " cluster #", cluster, " closest good spec: " , good_spec, score)
+        print(id, " cluster #", cluster, " closest good spec: ", good_spec, score)
 
 
 if __name__ == "__main__":

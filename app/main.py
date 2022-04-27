@@ -4,8 +4,9 @@ from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
 
 import logging
-from .library.helpers import *
+from .library.helpers import load_errors_lookup, load_errors_specs_lookup, load_good_specs, openfile
 from app.routers import errors
+
 
 from app.core.logging import init_loggers
 import os
@@ -37,6 +38,8 @@ async def load_app_data(request: Request, call_next):
         request.app.error_clusters = load_errors_lookup(root)
     if not hasattr(request.app, "spec_errors"):
         request.app.spec_errors = load_errors_specs_lookup(root)
+    if not hasattr(request.app, "good_specs"):
+        request.app.good_specs = load_good_specs(root)
 
     # Save the app root and app directory root (here)
     app.here = here
