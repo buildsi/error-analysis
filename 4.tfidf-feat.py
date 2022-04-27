@@ -5,7 +5,7 @@ import math
 import operator
 from helpers import read_yaml, write_json
 import pandas as pd
-from specutils import get_features_from_spec
+from specutils import get_features_from_spec, get_cluster_data
 
 
 def get_spec(uid):
@@ -15,17 +15,6 @@ def get_spec(uid):
     if not os.path.exists(spec_file):
         sys.exit("%s does not exist." % spec_file)
     return read_yaml(spec_file)
-
-
-def get_cluster_data():
-    cluster_assign_fname = "error-assignments.json"
-    data_dir = os.path.join(
-        os.getcwd(), "data", "clusters", "dbstream", cluster_assign_fname
-    )
-
-    with open(data_dir) as json_file:
-        cluster_data = json.load(json_file)
-    return cluster_data
 
 
 def tfidf(freq_table, cluster_id, num_clusters):
