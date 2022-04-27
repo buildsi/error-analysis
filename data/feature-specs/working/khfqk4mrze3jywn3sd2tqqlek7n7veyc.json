@@ -1,0 +1,6 @@
+[
+    "gcc@9.3.1",
+    "libevent#2.0.21",
+    "broadwell",
+    "gcc"
+]

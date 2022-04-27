@@ -1,0 +1,17 @@
+[
+    "gcc@9.3.1",
+    "bzip2#1.0.6",
+    "zlib#1.2.11",
+    "diffutils#3.8",
+    "xz#5.2.5",
+    "lzo#2.10",
+    "lz4#1.9.3",
+    "mbedtls#2.27.0",
+    "zstd#1.5.0",
+    "gcc",
+    "libxml2#2.9.12",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "libarchive#3.5.1",
+    "libiconv#1.16"
+]

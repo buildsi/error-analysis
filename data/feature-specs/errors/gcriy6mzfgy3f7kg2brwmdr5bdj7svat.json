@@ -1,0 +1,15 @@
+[
+    "ncurses#6.2",
+    "bzip2#1.0.8",
+    "zlib#1.2.11",
+    "gcc@7.3.0",
+    "tar#1.34",
+    "diffutils#3.8",
+    "xz#5.2.5",
+    "gettext#0.21",
+    "gcc",
+    "libxml2#2.9.12",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "libiconv#1.16"
+]

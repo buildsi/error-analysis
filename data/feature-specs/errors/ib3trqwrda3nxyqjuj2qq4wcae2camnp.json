@@ -1,0 +1,7 @@
+[
+    "gcc@8.3.1",
+    "diffutils#3.8",
+    "gcc",
+    "broadwell",
+    "libiconv#1.16"
+]

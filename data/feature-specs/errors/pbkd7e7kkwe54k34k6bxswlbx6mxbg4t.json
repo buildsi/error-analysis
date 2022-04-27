@@ -1,0 +1,8 @@
+[
+    "zlib#1.2.11",
+    "cubew#4.5",
+    "intel",
+    "intel@2021.5.0",
+    "pkgconf#1.8.0",
+    "broadwell"
+]

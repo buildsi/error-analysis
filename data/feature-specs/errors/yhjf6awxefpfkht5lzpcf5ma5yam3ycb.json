@@ -1,0 +1,8 @@
+[
+    "oneapi",
+    "oneapi@2022.0.0",
+    "broadwell",
+    "pcre#8.44",
+    "pkgconf#1.8.0",
+    "swig#4.0.2"
+]

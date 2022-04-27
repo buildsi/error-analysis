@@ -1,0 +1,10 @@
+[
+    "gcc@9.3.1",
+    "ncurses#6.2",
+    "readline#8.1",
+    "zlib#1.2.8",
+    "sqlite#3.36.0",
+    "gcc",
+    "pkgconf#1.8.0",
+    "broadwell"
+]

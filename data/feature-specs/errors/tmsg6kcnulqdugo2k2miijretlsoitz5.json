@@ -1,0 +1,8 @@
+[
+    "util-macros#1.19.3",
+    "gcc@6.1.0",
+    "gcc",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "xextproto#7.3.0"
+]

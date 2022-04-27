@@ -1,0 +1,6 @@
+[
+    "libpthread-stubs#0.4",
+    "broadwell",
+    "gcc@8.3.1",
+    "gcc"
+]

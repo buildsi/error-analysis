@@ -1,0 +1,7 @@
+[
+    "zlib#1.2.11",
+    "oneapi",
+    "oneapi@2022.0.0",
+    "libpng#1.6.37",
+    "broadwell"
+]

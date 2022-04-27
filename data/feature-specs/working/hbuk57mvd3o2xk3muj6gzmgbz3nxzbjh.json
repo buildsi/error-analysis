@@ -1,0 +1,6 @@
+[
+    "broadwell",
+    "findutils#4.8.0",
+    "gcc",
+    "gcc@7.3.0"
+]

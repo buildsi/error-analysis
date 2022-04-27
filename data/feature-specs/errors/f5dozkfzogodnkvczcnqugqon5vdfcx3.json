@@ -1,0 +1,6 @@
+[
+    "oneapi",
+    "libpthread-stubs#0.4",
+    "broadwell",
+    "oneapi@2022.0.0"
+]

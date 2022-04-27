@@ -1,0 +1,6 @@
+[
+    "gcc@6.1.0",
+    "broadwell",
+    "gcc",
+    "pkgconf#1.8.0"
+]

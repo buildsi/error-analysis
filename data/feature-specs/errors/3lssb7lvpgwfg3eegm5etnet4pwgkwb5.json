@@ -1,0 +1,8 @@
+[
+    "oneapi",
+    "oneapi@2022.0.0",
+    "inputproto#2.3.2",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "util-macros#1.19.3"
+]
