@@ -1,0 +1,9 @@
+[
+    "gcc",
+    "gcc@6.1.0",
+    "cmake#3.4.3",
+    "pkgconf#1.8.0",
+    "rocm-smi-lib#3.8.0",
+    "broadwell",
+    "ncurses#6.2"
+]

@@ -1,8 +1,0 @@
-[
-    "gcc@8.3.1",
-    "inputproto#2.3.2",
-    "gcc",
-    "pkgconf#1.8.0",
-    "broadwell",
-    "util-macros#1.19.3"
-]

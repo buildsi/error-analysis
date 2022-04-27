@@ -1,9 +1,0 @@
-[
-    "pixman#0.40.0",
-    "zlib#1.2.11",
-    "gcc@7.3.0",
-    "gcc",
-    "libpng#1.6.37",
-    "pkgconf#1.8.0",
-    "broadwell"
-]

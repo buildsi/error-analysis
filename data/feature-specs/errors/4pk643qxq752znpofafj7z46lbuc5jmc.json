@@ -1,0 +1,20 @@
+[
+    "gcc",
+    "openssl#1.1.1l",
+    "perl#5.34.0",
+    "libiconv#1.16",
+    "zlib#1.2.11",
+    "mercury#master",
+    "diffutils#3.8",
+    "readline#8.1",
+    "cmake#3.19.8",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "libfabric#1.14.0",
+    "gdbm#1.19",
+    "berkeley-db#18.1.40",
+    "gcc@9.3.1",
+    "bzip2#1.0.8",
+    "boost#1.68.0",
+    "ncurses#6.2"
+]

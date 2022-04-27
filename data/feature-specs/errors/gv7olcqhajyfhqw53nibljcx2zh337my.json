@@ -1,0 +1,16 @@
+[
+    "gcc",
+    "docbook-xml#4.5",
+    "zlib#1.2.11",
+    "docbook-xsl#1.79.2",
+    "libbsd#0.11.3",
+    "pkgconf#1.8.0",
+    "libmd#1.0.3",
+    "libsodium#1.0.18",
+    "broadwell",
+    "libxml2#2.9.12",
+    "gcc@4.9.3",
+    "xz#5.2.5",
+    "libiconv#1.16",
+    "libzmq#master"
+]

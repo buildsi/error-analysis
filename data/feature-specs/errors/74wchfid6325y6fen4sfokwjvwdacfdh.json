@@ -1,0 +1,9 @@
+[
+    "gcc",
+    "umap#0.0.4",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "gcc@9.3.1",
+    "ncurses#6.2",
+    "cmake#3.1.0"
+]

@@ -1,6 +1,0 @@
-[
-    "broadwell",
-    "gcc@8.3.1",
-    "libsigsegv#2.13",
-    "gcc"
-]

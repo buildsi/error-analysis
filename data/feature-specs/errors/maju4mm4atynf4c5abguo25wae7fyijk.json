@@ -1,0 +1,15 @@
+[
+    "gcc",
+    "perl#5.22.3",
+    "diffutils#3.8",
+    "readline#8.1",
+    "pkgconf#1.8.0",
+    "gdbm#1.14.1",
+    "broadwell",
+    "zlib#1.2.8",
+    "berkeley-db#18.1.40",
+    "gcc@9.3.1",
+    "bzip2#1.0.8",
+    "libiconv#1.16",
+    "ncurses#6.2"
+]

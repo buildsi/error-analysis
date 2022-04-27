@@ -1,9 +1,0 @@
-[
-    "rocm-cmake#3.8.0",
-    "ncurses#6.2",
-    "cmake#3.4.3",
-    "gcc@6.1.0",
-    "gcc",
-    "pkgconf#1.8.0",
-    "broadwell"
-]

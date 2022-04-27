@@ -1,0 +1,17 @@
+[
+    "mpich#3.1.4",
+    "gcc",
+    "libpciaccess#0.16",
+    "findutils#4.8.0",
+    "m4#1.4.17",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "libxml2#2.9.12",
+    "libsigsegv#2.13",
+    "util-macros#1.19.3",
+    "xz#5.2.5",
+    "gcc@9.3.1",
+    "libtool#2.4.6",
+    "libiconv#1.16",
+    "zlib#1.2.8"
+]

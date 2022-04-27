@@ -1,8 +1,0 @@
-[
-    "gcc@9.3.1",
-    "libsigsegv#2.13",
-    "gcc",
-    "libtool#2.4.6",
-    "broadwell",
-    "m4#1.4.17"
-]

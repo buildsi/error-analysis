@@ -1,7 +1,0 @@
-[
-    "gcc@8.3.1",
-    "zlib#1.2.11",
-    "gcc",
-    "broadwell",
-    "libpng#1.2.57"
-]

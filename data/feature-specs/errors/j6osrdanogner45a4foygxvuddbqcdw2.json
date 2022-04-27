@@ -1,0 +1,10 @@
+[
+    "gcc",
+    "zlib#1.2.11",
+    "diffutils#3.8",
+    "boost#1.41.0",
+    "broadwell",
+    "gcc@9.3.1",
+    "bzip2#1.0.8",
+    "libiconv#1.16"
+]

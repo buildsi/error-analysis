@@ -1,0 +1,23 @@
+[
+    "gcc",
+    "zlib#1.2.11",
+    "libpciaccess#0.16",
+    "libfabric#1.6.2",
+    "util-macros#1.19.3",
+    "libtool#2.4.6",
+    "intel-oneapi-tbb#2021.5.0",
+    "broadwell",
+    "intel-oneapi-mkl#2022.0.1",
+    "mpich#3.2.1",
+    "ncurses#6.2",
+    "cmake#3.5.0",
+    "pkgconf#1.8.0",
+    "m4#1.4.19",
+    "libxml2#2.9.12",
+    "libsigsegv#2.13",
+    "gcc@9.3.1",
+    "libiconv#1.16",
+    "findutils#4.8.0",
+    "xz#5.2.5",
+    "tasmanian#5.0"
+]

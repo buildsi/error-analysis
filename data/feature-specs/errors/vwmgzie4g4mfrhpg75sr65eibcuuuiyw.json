@@ -1,8 +1,0 @@
-[
-    "util-macros#1.19.3",
-    "oneapi",
-    "oneapi@2022.0.0",
-    "pkgconf#1.8.0",
-    "broadwell",
-    "xextproto#7.3.0"
-]

@@ -1,0 +1,6 @@
+[
+    "gcc",
+    "papi#5.5.0",
+    "broadwell",
+    "gcc@6.1.0"
+]

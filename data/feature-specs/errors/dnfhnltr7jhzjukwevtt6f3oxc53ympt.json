@@ -1,9 +1,0 @@
-[
-    "ncurses#6.2",
-    "readline#8.1",
-    "gcc@6.1.0",
-    "gcc",
-    "pkgconf#1.8.0",
-    "gdbm#1.19",
-    "broadwell"
-]

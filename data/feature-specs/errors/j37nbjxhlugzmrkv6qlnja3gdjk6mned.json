@@ -1,8 +1,0 @@
-[
-    "ncurses#6.2",
-    "cmake#3.5.0",
-    "gcc",
-    "pkgconf#1.8.0",
-    "gcc@4.9.3",
-    "broadwell"
-]

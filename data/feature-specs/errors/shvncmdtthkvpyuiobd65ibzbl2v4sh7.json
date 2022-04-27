@@ -1,0 +1,21 @@
+[
+    "gcc",
+    "zlib#1.2.11",
+    "libtool#2.4.6",
+    "autoconf#2.69",
+    "numactl#2.0.14",
+    "broadwell",
+    "diffutils#3.8",
+    "ncurses#6.2",
+    "bzip2#1.0.8",
+    "perl#5.28.0",
+    "m4#1.4.17",
+    "pkgconf#1.8.0",
+    "automake#1.16.3",
+    "libsigsegv#2.13",
+    "gcc@9.3.1",
+    "libiconv#1.16",
+    "readline#8.1",
+    "gdbm#1.14.1",
+    "berkeley-db#18.1.40"
+]

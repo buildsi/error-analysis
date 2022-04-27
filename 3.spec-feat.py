@@ -24,7 +24,7 @@ def main():
 
     # Generate features for both working and errors
     for spectype in ["working", "errors"]:
-        spec_dir = os.path.join(os.getcwd(), "data", "spec_files", "working")
+        spec_dir = os.path.join(os.getcwd(), "data", "spec_files", spectype)
         generate_features(spec_dir, spectype)
 
 
