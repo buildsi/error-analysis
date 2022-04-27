@@ -1,6 +1,7 @@
 import os
 import json
 
+
 def get_features_from_spec(spec):
     spec_feat_list = set()
     nodes = spec["spec"]["nodes"]
@@ -49,5 +50,3 @@ def get_cluster_data():
     with open(data_dir) as json_file:
         cluster_data = json.load(json_file)
     return cluster_data
-
-

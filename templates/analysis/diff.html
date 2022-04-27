@@ -1,0 +1,119 @@
+{% extends "base.html" %}
+{% set active_page = "error-cluster" %}
+
+{% block title %}Closest Good Spec for Error Cluster {{ cluster_id }}{% endblock %}
+{% block head %}        
+<link href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/themes/prism-coy.min.css" rel="stylesheet" type="text/css">
+{{ super() }}
+
+
+{% endblock %}
+
+{% block page_content %}
+
+<div class="row">
+  <div class="col-md-4">
+    <h4 class="cap">Closest Good Spec for {% if comptype == 'cluster' %}Error Cluster {{ cluster_id }}{% else %}Error{% endif %}</h4>
+     <p><strong>{{ good_spec_uid }}</strong></p>
+  </div>
+  <div class="col-md-8">
+    <a href="/analysis/features/{{ cluster_id }}" type="button" class="btn btn-primary right-button">View Error Features</a>
+    <a href="/analysis/errors/{{ cluster_id }}" type="button" class="btn btn-primary right-button">Specs for Related Error Cluster</a>
+  </div>
+</div>
+
+<div class="row"><div class="col-md-12" style="padding-bottom:30px">
+<div class="accordion" id="accordionSpecs">
+<div class="accordion-item">
+    <h2 class="accordion-header" id="heading-{{ good_spec_uid }}">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ good_spec_uid }}" aria-expanded="true" aria-controls="collapse-{{ good_spec_uid }}">
+        <strong style="margin-right:5px">Top Matching Good Spec </strong> {{ good_spec_uid }}
+      </button>
+    </h2>
+    <div id="collapse-{{ good_spec_uid }}" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionSpecs">
+      <div class="accordion-body">
+       <pre><code class="language-javascript">
+        {{ good_spec }}
+       </code></pre>
+      </div>
+    </div>
+  </div>
+</div>
+</div></div> <!-- end row/col-->
+<div class="row">
+  <div class="col-md-12">
+   <h2>Overlapping Working and Error Spec Features</h2>
+   <p>This shows overlapping features for error cluster {{ cluster_id }} and the closest working spec {{ good_spec_uid }}</p>
+   <div style="height:700px"><canvas id="comparison"></canvas></div>
+
+   {% if good_not_error %}
+   <h2>Good features not present in error cluster features</h2>
+   <p>The following features are present in the working spec (at a non-zero value) and not in the error cluster</p>
+   <ul>
+     {% for k, v in good_not_error.items() %}<li><strong>{{ k }}</strong>: {{ v }}</li>
+    {% endfor %}</ul>
+   {% endif %}
+  </div>
+</div>
+{% endblock %}
+{% block scripts %}
+{{ super() }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.min.js"></script>
+<script>
+function make_plot() {
+var data = {
+  labels: [{% for feature in overlap %}"{{ feature[0] }}"{% if loop.last %}{% else %},{% endif %}{% endfor %}],
+  datasets: [{
+    label: "Features for Error Cluster {{ cluster_id }}",
+    backgroundColor: "rgba(255,99,132,0.2)",
+    borderColor: "rgba(255,99,132,1)",
+    borderWidth: 2,
+    hoverBackgroundColor: "rgba(255,99,132,0.4)",
+    hoverBorderColor: "rgba(255,99,132,1)",
+    data: [{% for feature in overlap %}{{ feature[1].error }}{% if loop.last %}{% else %},{% endif %}{% endfor %}],
+  },
+  {
+    label: "Features for Working Spec",
+    backgroundColor: "rgba(15, 58, 128, 0.47)",
+    borderColor: "rgb(4, 69, 174)",
+    borderWidth: 2,
+    hoverBackgroundColor: "rgb(15, 58, 128)",
+    hoverBorderColor: "rgb(102, 16, 242)",
+    data: [{% for feature in overlap %}{{ feature[1].good_value }}{% if loop.last %}{% else %},{% endif %}{% endfor %}],
+  }]
+};
+
+var option = {
+  scales: {
+    yAxes: [{
+      stacked: true,
+      gridLines: {
+        display: true,
+        color: "rgba(15, 58, 128, 0.2)"
+      }
+    }],
+    xAxes: [{
+      gridLines: {
+        display: false
+      },
+      ticks: {
+        autoSkip: false
+      }
+    }]
+  }
+};
+
+Chart.Bar('comparison', {
+  options: option,
+  data: data,
+  options: {
+        responsive: true,
+        maintainAspectRatio: false
+    }
+});
+}
+
+make_plot()
+</script>
+{% endblock %}

@@ -107,6 +107,12 @@ You can also use the Makefile:
 $ make
 ```
 
+Note that since we need to load a lot of data to the app on startup, it might
+take a few seconds (you should open your browser to [http://127.0.0.1:5000](http://127.0.0.1:5000)
+to trigger the first load). After this load most pages will be realtively quick because
+we have the data loaded, with the exception of showing an entire page of error specs,
+the reason because we have to load those on demand.
+
 ## License
 
 Spack is distributed under the terms of both the MIT license and the
