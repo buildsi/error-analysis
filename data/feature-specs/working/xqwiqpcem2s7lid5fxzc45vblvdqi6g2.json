@@ -1,0 +1,8 @@
+[
+    "gcc@7.3.0",
+    "renderproto#0.11.1",
+    "gcc",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "util-macros#1.19.3"
+]

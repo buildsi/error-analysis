@@ -1,0 +1,23 @@
+[
+    "bzip2#1.0.6",
+    "zlib#1.2.11",
+    "readline#8.1",
+    "broadwell",
+    "perl-lwp-mediatypes#6.02",
+    "perl-uri#1.72",
+    "perl-test-needs#0.002005",
+    "perl-encode-locale#1.05",
+    "pkgconf#1.8.0",
+    "gcc@8.3.1",
+    "perl#5.34.0",
+    "berkeley-db#18.1.40",
+    "gcc",
+    "perl-try-tiny#0.28",
+    "perl-io-html#1.001",
+    "perl-http-message#6.13",
+    "libiconv#1.16",
+    "ncurses#6.2",
+    "diffutils#3.8",
+    "perl-http-date#6.02",
+    "gdbm#1.19"
+]

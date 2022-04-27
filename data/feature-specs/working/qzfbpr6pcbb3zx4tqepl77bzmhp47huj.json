@@ -1,0 +1,10 @@
+[
+    "gcc@9.3.1",
+    "zlib#1.2.8",
+    "xz#5.2.5",
+    "libxml2#2.9.12",
+    "gcc",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "libiconv#1.16"
+]

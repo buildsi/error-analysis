@@ -1,0 +1,19 @@
+[
+    "variorum#0.4.0",
+    "gcc@9.3.1",
+    "cmake#3.6.0",
+    "ncurses#6.2",
+    "m4#1.4.19",
+    "libsigsegv#2.13",
+    "zlib#1.2.11",
+    "xz#5.2.5",
+    "hwloc#2.0.1",
+    "gcc",
+    "libxml2#2.9.12",
+    "pkgconf#1.8.0",
+    "libtool#2.4.6",
+    "broadwell",
+    "libpciaccess#0.16",
+    "util-macros#1.19.3",
+    "libiconv#1.16"
+]

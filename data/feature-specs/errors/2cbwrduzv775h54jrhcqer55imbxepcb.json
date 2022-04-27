@@ -1,0 +1,18 @@
+[
+    "gcc@9.3.1",
+    "bzip2#1.0.8",
+    "perl#5.31.7",
+    "libsigsegv#2.13",
+    "ncurses#6.2",
+    "zlib#1.2.11",
+    "readline#8.1",
+    "diffutils#3.8",
+    "autoconf#2.69",
+    "berkeley-db#18.1.40",
+    "gcc",
+    "pkgconf#1.8.0",
+    "gdbm#1.19",
+    "broadwell",
+    "m4#1.4.17",
+    "libiconv#1.16"
+]

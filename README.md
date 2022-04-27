@@ -65,6 +65,19 @@ The default number of iterations is 5 but you can specify a custom value:
 $ python 2.online-ml.py --iter 5
 ```
 
+Then generate features for the working clusters:
+
+```bash
+$ python 3.spec-feat.py
+```
+
+And the error clusters:
+
+
+```bash
+$ python 4.tfidf-feat.py
+```
+
 
 ## Web Interface
 

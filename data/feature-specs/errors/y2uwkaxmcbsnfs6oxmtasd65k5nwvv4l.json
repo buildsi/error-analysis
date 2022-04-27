@@ -1,0 +1,7 @@
+[
+    "util-linux-uuid#2.36.2",
+    "oneapi",
+    "oneapi@2022.0.0",
+    "pkgconf#1.8.0",
+    "broadwell"
+]

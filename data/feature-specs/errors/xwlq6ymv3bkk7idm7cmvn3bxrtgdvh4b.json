@@ -1,0 +1,7 @@
+[
+    "gcc@9.3.1",
+    "zlib#1.2.11",
+    "gcc",
+    "squashfs#4.4",
+    "broadwell"
+]

@@ -1,0 +1,7 @@
+[
+    "gcc@9.3.1",
+    "gcc",
+    "libunistring#0.9.10",
+    "broadwell",
+    "libiconv#1.16"
+]

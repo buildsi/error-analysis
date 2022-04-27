@@ -1,0 +1,8 @@
+[
+    "intel",
+    "broadwell",
+    "intel@2021.5.0",
+    "pcre#8.44",
+    "pkgconf#1.8.0",
+    "swig#4.0.2"
+]

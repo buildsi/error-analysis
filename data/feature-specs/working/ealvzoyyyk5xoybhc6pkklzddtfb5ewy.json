@@ -1,0 +1,6 @@
+[
+    "gcc@9.3.1",
+    "broadwell",
+    "intel-oneapi-tbb#2021.5.0",
+    "gcc"
+]

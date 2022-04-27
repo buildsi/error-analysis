@@ -1,0 +1,6 @@
+[
+    "libfabric#1.14.0",
+    "broadwell",
+    "gcc",
+    "gcc@7.3.0"
+]

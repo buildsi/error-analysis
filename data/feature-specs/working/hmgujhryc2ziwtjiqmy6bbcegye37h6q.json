@@ -1,0 +1,9 @@
+[
+    "ncurses#6.2",
+    "readline#8.1",
+    "oneapi@2022.0.0",
+    "oneapi",
+    "pkgconf#1.8.0",
+    "gdbm#1.19",
+    "broadwell"
+]

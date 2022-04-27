@@ -1,0 +1,7 @@
+[
+    "oneapi",
+    "diffutils#3.8",
+    "oneapi@2022.0.0",
+    "broadwell",
+    "libiconv#1.16"
+]

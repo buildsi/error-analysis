@@ -1,0 +1,12 @@
+[
+    "gcc@9.3.1",
+    "zlib#1.2.11",
+    "xz#5.2.5",
+    "docbook-xsl#1.79.2",
+    "gcc",
+    "libxml2#2.9.12",
+    "pkgconf#1.8.0",
+    "docbook-xml#4.4",
+    "broadwell",
+    "libiconv#1.16"
+]

@@ -1,0 +1,12 @@
+[
+    "bzip2#1.0.8",
+    "zlib#1.2.11",
+    "gcc@6.1.0",
+    "diffutils#3.8",
+    "gcc",
+    "freetype#2.11.0",
+    "libpng#1.6.37",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "libiconv#1.16"
+]

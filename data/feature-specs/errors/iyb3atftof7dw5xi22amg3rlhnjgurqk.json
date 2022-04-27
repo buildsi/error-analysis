@@ -1,0 +1,6 @@
+[
+    "gcc@9.3.1",
+    "broadwell",
+    "gcc",
+    "util-macros#1.19.3"
+]

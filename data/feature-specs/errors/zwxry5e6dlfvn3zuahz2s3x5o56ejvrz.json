@@ -1,0 +1,15 @@
+[
+    "libxau#1.0.8",
+    "xcb-proto#1.14.1",
+    "gcc@7.3.0",
+    "libxcb#1.14",
+    "libxdmcp#1.1.2",
+    "libbsd#0.11.3",
+    "libpthread-stubs#0.4",
+    "xproto#7.0.31",
+    "gcc",
+    "pkgconf#1.8.0",
+    "libmd#1.0.3",
+    "broadwell",
+    "util-macros#1.19.3"
+]

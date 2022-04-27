@@ -1,0 +1,8 @@
+[
+    "m4#1.4.19",
+    "libsigsegv#2.13",
+    "oneapi",
+    "oneapi@2022.0.0",
+    "libtool#2.4.6",
+    "broadwell"
+]

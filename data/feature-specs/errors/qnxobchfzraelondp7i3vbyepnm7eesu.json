@@ -1,0 +1,6 @@
+[
+    "gcc@6.1.0",
+    "broadwell",
+    "berkeley-db#18.1.40",
+    "gcc"
+]

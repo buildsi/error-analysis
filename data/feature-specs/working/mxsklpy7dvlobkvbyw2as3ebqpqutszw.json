@@ -1,0 +1,6 @@
+[
+    "gcc@6.1.0",
+    "broadwell",
+    "libelf#0.8.13",
+    "gcc"
+]

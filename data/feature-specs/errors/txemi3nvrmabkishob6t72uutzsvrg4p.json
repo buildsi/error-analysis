@@ -1,0 +1,15 @@
+[
+    "gcc@9.3.1",
+    "bzip2#1.0.8",
+    "ncurses#6.2",
+    "zlib#1.2.11",
+    "libfabric#1.14.0",
+    "cmake#3.0.2",
+    "diffutils#3.8",
+    "boost#1.54.0",
+    "gcc",
+    "pkgconf#1.8.0",
+    "broadwell",
+    "mercury#2.0.0",
+    "libiconv#1.16"
+]
