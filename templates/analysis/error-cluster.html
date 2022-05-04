@@ -25,11 +25,11 @@
 <div class="accordion" id="accordionSpecs">
 {% for spec_hash, spec in specs.items() %}<div class="accordion-item">
     <h2 class="accordion-header" id="heading-{{ spec_hash }}">
-      <div class="row"><div class="col-md-10">
+      <div class="row"><div class="col-md-9">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ spec_hash }}" aria-expanded="true" aria-controls="collapse-{{ spec_hash }}">
         <strong style="margin-right:5px">Spec #{{ loop.index }}</strong> {{ spec_hash }}
       </button></div> 
-      <div class="col-md-2"><a href="/analysis/working/single/similar/{{ spec_hash }}/cluster/{{ cluster_id }}" type="button" class="btn btn-primary btn-sm" style="margin-left:50px">Find Similar Working</a></div>
+      <div class="col-md-3"><a href="/analysis/working/single/similar/{{ spec_hash }}/cluster/{{ cluster_id }}" type="button" class="btn btn-primary btn-sm" style="margin-left:50px">Find Similar Working</a><a href="/analysis/working/diff/{{ spec_hash }}/cluster/{{ cluster_id }}" type="button" class="btn btn-primary btn-sm" style="margin-left:50px">Most Similar Working</a></div>
       </div>
     </h2>
     <div id="collapse-{{ spec_hash }}" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionSpecs">

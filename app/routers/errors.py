@@ -1,10 +1,15 @@
 from fastapi import Request, APIRouter
 from fastapi.responses import HTMLResponse
 from fastapi.templating import Jinja2Templates
+import sys
+import os
+import time
+import difflib
 import json
 
 from .helpers import (
     load_spec,
+    get_spec_file,
     load_features,
     find_single_nearest_good_spec,
     find_cluster_nearest_good_spec,
@@ -159,4 +164,46 @@ def view_error(request: Request, cluster_id: int):
     return templates.TemplateResponse(
         "analysis/error-cluster.html",
         context={"request": request, "cluster_id": cluster_id, "specs": specs},
+    )
+
+
+@router.get(
+    "/analysis/working/diff/{error_spec_hash}/cluster/{cluster_id}",
+    response_class=HTMLResponse,
+)
+def spec_diff(request: Request, error_spec_hash: str, cluster_id: int):
+    """
+    Given an error single spec id, find the most similar good spec and do a diff
+    """
+    error_spec_features = load_spec_features(
+        request.app.root, error_spec_hash, spectype="errors"
+    )
+    error_spec_features = dict.fromkeys(error_spec_features, 1)
+
+    # Here we replace error_spec_features with the normalized / scaled version
+    _, _, good_spec_uid, _ = find_single_nearest_good_spec(
+        request.app.root, error_spec_features, cluster_id, request.app.good_specs
+    )
+
+    good_spec_file = get_spec_file(request.app.root, good_spec_uid, spectype="working")
+    bad_spec_file = get_spec_file(request.app.root, error_spec_hash, spectype="errors")
+
+    with open(bad_spec_file, "U") as f:
+        fromlines = f.readlines()
+    with open(good_spec_file, "U") as f:
+        tolines = f.readlines()
+
+    # HTML diff
+    diff = difflib.HtmlDiff().make_file(
+        fromlines, tolines, bad_spec_file, good_spec_file, context=False, numlines=3
+    )
+    print(diff)
+
+    return templates.TemplateResponse(
+        "analysis/jsondiff.html",
+        context={
+            "request": request,
+            "cluster_id": cluster_id,
+            "diff": diff,
+        },
     )
