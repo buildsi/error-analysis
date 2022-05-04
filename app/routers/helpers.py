@@ -16,6 +16,13 @@ def load_spec(root, digest, spectype="errors"):
         return content
 
 
+def get_spec_file(root, digest, spectype="errors"):
+    """
+    Return the path to a spec file
+    """
+    return os.path.join(root, "data", "spec_files", spectype, "%s.yaml" % digest)
+
+
 def load_features(root, cluster_id):
     """
     Given a cluster id, load features for it

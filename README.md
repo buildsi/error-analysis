@@ -113,6 +113,11 @@ to trigger the first load). After this load most pages will be realtively quick 
 we have the data loaded, with the exception of showing an entire page of error specs,
 the reason because we have to load those on demand.
 
+## TODO
+
+- side by side full spec with features able to highlight
+- add error context to top of spec diff page
+
 ## License
 
 Spack is distributed under the terms of both the MIT license and the
