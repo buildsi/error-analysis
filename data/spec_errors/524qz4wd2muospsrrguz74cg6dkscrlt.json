@@ -1,0 +1,3 @@
+[
+    "_UT_inc_lnfc_blk_var1.c -o obj/x86_64-unknown-linux-gnu/src/lapac\n              k/util/app/qutinc/lnfc/flamec/FLA_Apply_Q_UT_inc_lnfc_blk_var1.o\n     11890    ar cr lib/x86_64-unknown-linux-gnu/libflame.a @lib/x86_64-unknown\n              -linux-gnu/libflame.a.in\n  >> 11891    ar: @@lib/x86_64-unknown-linux-gnu/libflame.a.in: No such file or\n              directory\n>> 11892    make: *** [lib/x86_64-unknown-linux-gnu/libflame.a] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amdlibflame-3.1-sfzb6ow47ridbh4nprqcqutlknmz4uba/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+]

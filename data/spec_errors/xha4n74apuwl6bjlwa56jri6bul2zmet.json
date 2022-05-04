@@ -1,0 +1,3 @@
+[
+    "77    checking whether stripping libraries is possible... yes\n     78    checking if libtool supports shared libraries... yes\n     79    checking whether to build shared libraries... yes\n     80    checking whether to build static libraries... no\n     81    checking for inline... inline\n     82    checking for slurm installation...\n>> 83    configure: error: slurm is not in specified location!\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-libyogrt-1.21-xejdgmmqciikv3if3id4snijktkkrwmr/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+]

@@ -7,6 +7,7 @@
 {{ super() }}
 
 <style type="text/css">
+mark {background-color: blue; color: white}
         table.diff {font-family:Courier; border:medium;}
         .diff_header {background-color:#e0e0e0}
         td.diff_header {text-align:right}
@@ -19,5 +20,43 @@
 {% endblock %}
 
 {% block page_content %}
+
+{% if errors %}
+<div class="row"><div class="col-md-12" style="padding-bottom:20px">
+<div class="accordion" id="accordionSpecs">
+<div class="accordion-item">
+    <h2 class="accordion-header" id="heading-{{ good_spec_uid }}">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{{ good_spec_uid }}" aria-expanded="true" aria-controls="collapse-{{ good_spec_uid }}">
+        <strong style="margin-right:5px">View Errors for Spec</strong>
+      </button>
+    </h2>
+    <div id="collapse-{{ good_spec_uid }}" class="accordion-collapse collapse" aria-labelledby="heading" data-bs-parent="#accordionSpecs">
+      <div class="accordion-body">
+       <pre><code class="language-javascript">{% for error in errors %}
+{{ error }}
+{% endfor %}</code></pre>
+      </div>
+    </div>
+  </div>
+</div>
+</div></div> <!-- end row/col-->
+{% endif %}<div id="diff">
 {{ diff | safe }}
+</div>
 {% endblock %}
+{% block scripts %}
+{{ super() }}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.23.0/prism.min.js"></script>
+<script>
+$(document).ready(function(){
+
+{% for feature in features %}
+var text = document.getElementById("diff").innerHTML;
+var re = new RegExp("{{ feature }}" ,"g"); // search for all instances
+var newText = text.replace(re, `<mark>{{ feature }}</mark>`);
+document.getElementById("diff").innerHTML = newText;
+{% endfor %}
+})
+</script>
+{% endblock %}
+

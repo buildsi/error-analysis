@@ -1,0 +1,3 @@
+[
+    "124    checking if more special flags are required for pthreads... no\n     125    checking for cc_r... /p/vast1/koparasy/BUILD/spack/lib/spack/env/gc\n            c/gcc\n     126    checking mxml.h usability... no\n     127    checking mxml.h presence... no\n     128    checking for mxml.h... no\n>> 129    configure: error: The ADIOS libraries for writing cannot be built w\n            ithout the MXML library. Either specify where the MXML library is f\n            ound, or use --disable-write to build ADIOS for reading only.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-adios-1.9.0-neqlyo6qsdfemeyid4fxwqnzyxnhpii7/spack-build-out.txt"
+]

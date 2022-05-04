@@ -1,0 +1,3 @@
+[
+    "-9.3.1/tcl-8.5.19-q7qg42iqtugixovw57jzplu6i3ie2dw5/lib/libtcl8.6.so\n            ... no\n     143    checking for Tcl 8.6 library at /p/vast1/koparasy/BUILD/spack_clust\n            er_installer/quartz/turbine/spack_env_dir/linux-rhel7-broadwell/gcc\n            -9.3.1/tcl-8.5.19-q7qg42iqtugixovw57jzplu6i3ie2dw5/lib/libtcl8.6.a.\n            .. no\n>> 144    configure: error: could not find libtcl!\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-turbine-master-6j4pmqg7c7ewmwavjw6jed6hn3m4qugw/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+]

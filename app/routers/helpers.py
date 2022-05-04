@@ -16,6 +16,17 @@ def load_spec(root, digest, spectype="errors"):
         return content
 
 
+def load_spec_errors(root, digest):
+    """
+    Load complete (pre, text, and post) errors listing
+    """
+    spec_file = os.path.join(root, "data", "spec_errors", "%s.json" % digest)
+    if os.path.exists(spec_file):
+        with open(spec_file, "r") as fd:
+            content = json.loads(fd.read())
+        return content
+
+
 def get_spec_file(root, digest, spectype="errors"):
     """
     Return the path to a spec file

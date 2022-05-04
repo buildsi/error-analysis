@@ -4,10 +4,12 @@ from fastapi.templating import Jinja2Templates
 
 import difflib
 import json
+import re
 
 from .helpers import (
     load_spec,
     get_spec_file,
+    load_spec_errors,
     load_features,
     find_single_nearest_good_spec,
     find_cluster_nearest_good_spec,
@@ -177,11 +179,19 @@ def spec_diff(request: Request, error_spec_hash: str, cluster_id: int):
         request.app.root, error_spec_hash, spectype="errors"
     )
     error_spec_features = dict.fromkeys(error_spec_features, 1)
+    # Parse the feature so we can highlight on the
 
     # Here we replace error_spec_features with the normalized / scaled version
     _, _, good_spec_uid, _ = find_single_nearest_good_spec(
         request.app.root, error_spec_features, cluster_id, request.app.good_specs
     )
+
+    # Parse the feature so we can highlight on the page
+    feature_names = list(error_spec_features.keys())
+    error_spec_features = []
+    for feature_name in feature_names:
+        parts = [x for x in re.split("(#|@)", feature_name) if x not in ["#", "@"]]
+        error_spec_features += parts
 
     good_spec_file = get_spec_file(request.app.root, good_spec_uid, spectype="working")
     bad_spec_file = get_spec_file(request.app.root, error_spec_hash, spectype="errors")
@@ -195,13 +205,13 @@ def spec_diff(request: Request, error_spec_hash: str, cluster_id: int):
     diff = difflib.HtmlDiff().make_file(
         fromlines, tolines, bad_spec_file, good_spec_file, context=False, numlines=3
     )
-    print(diff)
-
     return templates.TemplateResponse(
         "analysis/jsondiff.html",
         context={
             "request": request,
             "cluster_id": cluster_id,
+            "errors": load_spec_errors(request.app.root, error_spec_hash),
             "diff": diff,
+            "features": set(error_spec_features),
         },
     )

@@ -1,0 +1,3 @@
+[
+    "517      \"/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-6acrxkb7igct2t\n            at7lighhxcmyaxgbtd/spack-build-6acrxkb/mod_files\".\n     518    Call Stack (most recent call first):\n     519      cmake_install.cmake:42 (include)\n     520\n     521\n>> 522    make: *** [install] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-amrex-20.05-6acrxkb7igct2tat7lighhxcmyaxgbtd/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+]

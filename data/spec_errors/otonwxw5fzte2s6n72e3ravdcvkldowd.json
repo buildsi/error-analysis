@@ -1,0 +1,3 @@
+[
+    "==> [2022-01-16-10:31:39.348960] Error: ProcessError: Command exited with status 2:\n    'make' '-j4' 'V=1'\n\n1 error found in build log:\n     1    ==> [2022-01-16-10:31:39.314501] slurm: Executing phase: 'build'\n     2    ==> [2022-01-16-10:31:39.315812] 'make' '-j4' 'V=1'\n>> 3    make: *** No targets specified and no makefile found.  Stop.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-slurm-21-08-1-1-f36yobyq6alnsljc2io2aoz73dpsenqw/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+]

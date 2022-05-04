@@ -22,6 +22,9 @@ missing = set()
 # These specs are flagged as errors but are actually working
 working = ["lubcgxksdy3npuwvhy5fxofjv22rb3jj", "bz4tymh27xpo2weaw23uyrxwzy7rryll"]
 
+# Also create a lookup of full error messages associated with specs
+spec_errors = {}
+
 # This will basically squash dinos error files into a single flat list of dict
 for db_file in dbs:
     outfile = os.path.join(out_dir, db_file)
@@ -38,6 +41,18 @@ for db_file in dbs:
         data["hash"] = entry["hash"]
         errors.append(data)
 
+        # Add the full error to the lookup
+        if entry["hash"] not in spec_errors:
+            spec_errors[entry["hash"]] = []
+        full_error = (
+            data.get("pre_context", "")
+            + "\n"
+            + data.get("text", "")
+            + "\n"
+            + data.get("post_context", "")
+        ).strip()
+        spec_errors[entry["hash"]].append(full_error)
+
         # Ensure that the spec exists
         spec_file = os.path.join(
             here, "data", "spec_files", "errors", "%s.yaml" % data["hash"]
@@ -48,6 +63,11 @@ for db_file in dbs:
     write_json(errors, outfile)
 
 assert not missing
+
+# Write spec_errors to file
+for spec_hash, errorset in spec_errors.items():
+    spec_errors_file = os.path.join(here, "data", "spec_errors", "%s.json" % spec_hash)
+    write_json(errorset, spec_errors_file)
 
 # Create a lookup of errors to clusters
 clusters_dir = os.path.join(here, "data", "clusters", "dbstream")

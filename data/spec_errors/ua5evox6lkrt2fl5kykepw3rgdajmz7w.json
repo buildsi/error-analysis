@@ -1,0 +1,3 @@
+[
+    "912    fi\n     913    /bin/sh: line 5: 63251 Segmentation fault      (core dumped) LD_LIB\n            RARY_PATH=/tmp/koparasy/spack-stage/spack-stage-python-2.7.13-srfoi\n            aszm2yr27zqrjix6h323c2j3rxx/spack-src/spack-build ./python -E -S -m\n             sysconfig --generate-posix-vars\n     914    generate-posix-vars failed\n>> 915    make: *** [pybuilddir.txt] Error 1\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-python-2.7.13-srfoiaszm2yr27zqrjix6h323c2j3rxx/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+]

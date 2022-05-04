@@ -1,0 +1,3 @@
+[
+    "14    checking for tex... tex\n     15    checking for yacc... yacc\n     16    checking for lex... lex\n     17    checking whether autoconf is installed... yes\n     18    checking whether autoconf works... yes\n     19    checking whether autoconf is recent enough... no\n>> 20    configure: error: Autoconf 2.65 or better is required.\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-automake-1.15-2jjqvry4n4wj63wuauuur5qarnh2l352/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+]

@@ -1,0 +1,3 @@
+[
+    "33    checking whether yytext is a pointer... yes\n     34    checking for ar... ar\n     35    checking the archiver (ar) interface... ar\n     36    checking for readelf... readelf\n     37    checking for nm... nm\n     38    checking for gcc with GNU99 support... no\n>> 39    configure: error: gcc with GNU99 support required\n\nSee build log for details:\n  /var/tmp/koparasy/spack-stage/spack-stage-elfutils-0.170-kjvonamltf5upnxlo7gcutpe7mfy2hta/spack-build-out.txt\n\nTraceback (most recent call last):\n  File \"/p/vast1/koparasy/BUILD/head/spack/lib/spack/spack/build_environment.py\", line 1035, in _setup_pkg_and_run"
+]
