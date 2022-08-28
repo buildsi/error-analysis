@@ -31,7 +31,6 @@ error -> cluster -> failed specs from cluster -> features for failed specs -> fi
 ```bash
 $ python -m venv env
 $ source env/bin/activate
-$ conda install river
 $ pip install -r requirements.txt
 ```
 
@@ -45,6 +44,30 @@ $ pip install -e .
 
 For now we are using already downloaded data from spack monitor instances, provided
 in the repository (minus the specs so far!)
+
+### Interfaces
+
+Here are some quick shots of the interfaces, first home:
+
+![img/home.png](img/home.png)
+
+And selecting a cluster:
+
+![img/cluster.png](img/cluster.png)
+
+Expanding a spec:
+
+![img/spec.png](img/spec.png)
+
+Comparing features:
+
+![img/features.png](img/features.png)
+
+And diffing two specs:
+
+![img/diff.png](img/diff.png)
+
+Red/green shows changes (deletions and additions), and blue highlights are features.
 
 ### Data Preprocessing
 
